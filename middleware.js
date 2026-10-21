@@ -22,7 +22,7 @@ export default async function middleware(req) {
   }
   const url = new URL("/signin.html", req.url);
   url.searchParams.set("next", pathname + search);
-  return Response.redirect(url, 302);
+  return Response.redirect(url.toString(), 302);
 }
 
 export const config = {
