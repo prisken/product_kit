@@ -1,0 +1,388 @@
+{
+  "productId": "everbliss-annuity-insurance-plan",
+  "productName": "EverBliss Annuity Insurance Plan",
+  "productType": "annuity",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "everbliss-annuity-insurance-plan_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Immediate lifetime monthly income",
+      "whatProductOffers": "A whole-life annuity bought with a one-time premium that pays monthly income for the whole Income Period, starting from the 1st monthiversary with a 0-year accumulation period or the 61st monthiversary with a 5-year accumulation period.",
+      "keyFigures": [
+        {
+          "label": "Benefit term",
+          "value": "Whole life",
+          "condition": "per product page"
+        },
+        {
+          "label": "Issue age",
+          "value": "40 to 75",
+          "condition": "age at application"
+        },
+        {
+          "label": "Premium",
+          "value": "One-time single premium",
+          "condition": "per product page"
+        },
+        {
+          "label": "First guaranteed income payment",
+          "value": "1st monthiversary (0-year accumulation) or 61st monthiversary (5-year accumulation)",
+          "condition": "depends on accumulation period chosen"
+        },
+        {
+          "label": "Non-guaranteed income starts",
+          "value": "85th monthiversary",
+          "condition": "if any"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Monthly income comprises guaranteed monthly income, non-guaranteed monthly income (which may be zero) and any extra income.",
+        "Guaranteed monthly income is payable from the first guaranteed payment date to the end of the Income Period; non-guaranteed income is credited at the company's discretion.",
+        "Issue age is restricted to 40-75, so younger clients cannot apply.",
+        "Premium amounts and the income rate are not published on the product page."
+      ],
+      "clientSignalPhrases": [
+        "wants income starting next month",
+        "retiring now, needs cash flow",
+        "has a lump sum to convert",
+        "wants lifetime income, not 10 years",
+        "single premium, no more payments",
+        "age 60, wants monthly payouts",
+        "doesn't want to manage investments",
+        "wants a pension-like cheque",
+        "income for daily expenses",
+        "wants income to start immediately"
+      ],
+      "negativeSignalPhrases": [
+        "needs to start before age 40",
+        "wants capital back on demand",
+        "wants a high non-guaranteed projection"
+      ],
+      "clientProfileFit": [
+        "Retirees aged 40-75 with a lump sum",
+        "Clients wanting immediate income",
+        "Conservative income seekers"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a single premium converts into monthly income that can start from the very first month, with a lifetime benefit term.",
+      "verificationPrompts": [
+        "Confirm the guaranteed monthly income per US$100,000 of single premium.",
+        "Confirm the difference in income between the 0-year and 5-year accumulation periods.",
+        "Confirm the Income Period definition that applies."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Make a one-time premium payment to receive monthly income payments during the Income Period\"",
+        "\"Benefit term: Whole life\" / \"Issue age: age 40 to 75\""
+      ],
+      "notesForReviewer": "Sourced from the AIA product page, not the brochure; income rates and premium bands are not published there."
+    },
+    {
+      "trendId": "everbliss-annuity-insurance-plan_pre_existing_or_chronic_support",
+      "trendCategory": "pre_existing_or_chronic_support",
+      "isNewCategory": false,
+      "trendName": "Cognitive disease extra income",
+      "whatProductOffers": "If the insured is diagnosed with Alzheimer's disease, irreversible organic degenerative brain disorders or Parkinson's disease on or after the 5th policy anniversary, extra income equal to 50% of the guaranteed monthly income is paid for up to 120 months.",
+      "keyFigures": [
+        {
+          "label": "Extra income",
+          "value": "50% of the guaranteed monthly income",
+          "condition": "as at the time the extra income is paid"
+        },
+        {
+          "label": "Maximum duration",
+          "value": "120 months",
+          "condition": "while the insured is alive"
+        },
+        {
+          "label": "Eligibility date",
+          "value": "On or after the 5th policy anniversary",
+          "condition": "diagnosis date"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Diagnosis must be on or after the 5th policy anniversary; earlier diagnoses do not qualify.",
+        "Payment continues only while the insured is alive and is subject to proof of survival on request.",
+        "Extra income is paid as part of the monthly income under the selected Monthly Income Payment Option.",
+        "The definition of the covered conditions is in the policy brochure, which is not in the supplied source."
+      ],
+      "clientSignalPhrases": [
+        "family history of Alzheimer's",
+        "worried about dementia care costs",
+        "diagnosed with Parkinson's",
+        "wants protection for cognitive decline",
+        "mother had dementia",
+        "needs care funding later in life",
+        "wants extra income if diagnosed",
+        "planning for old age care",
+        "wants more than the base income",
+        "health-conscious client"
+      ],
+      "negativeSignalPhrases": [
+        "wants cover for cancer or heart attack",
+        "needs a lump sum for care",
+        "diagnosis before year 5"
+      ],
+      "clientProfileFit": [
+        "Clients with family history of dementia or Parkinson's",
+        "Older retirees",
+        "Clients funding care contingency"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a diagnosis of Alzheimer's, a degenerative brain disorder or Parkinson's after year 5 adds 50% to the monthly income for up to 120 months.",
+      "verificationPrompts": [
+        "Confirm the exact covered condition definitions in the brochure.",
+        "Confirm whether the extra income is paid in addition to any other benefit.",
+        "Confirm the proof-of-survival requirements."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"If the insured is diagnosed with Alzheimer's disease / Irreversible organic degenerative brain disorders or Parkinson's disease on or after the 5th policy anniversary, we will pay extra income for up to 120 months\"",
+        "\"the extra income payable on each month is equivalent to 50% of the guaranteed monthly income\""
+      ],
+      "notesForReviewer": "Condition definitions and exclusions are in the brochure, which was unavailable; source is the web page."
+    },
+    {
+      "trendId": "everbliss-annuity-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Income transfer to a recipient",
+      "whatProductOffers": "From the 5th policy anniversary, the client can direct the monthly income payments to a designated payments recipient for a specified period instead of receiving them personally.",
+      "keyFigures": [
+        {
+          "label": "Start",
+          "value": "5th policy anniversary",
+          "condition": "earliest exercise date"
+        },
+        {
+          "label": "Feature",
+          "value": "Monthly income paid directly to a designated payments recipient",
+          "condition": "for a specified period"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The option redirects income; it does not increase the amount payable.",
+        "The specified period and recipient conditions are in the brochure, not on the product page.",
+        "Payments made to a recipient are deducted from the death benefit if they occur between death and claim approval."
+      ],
+      "clientSignalPhrases": [
+        "wants to support a parent monthly",
+        "paying school fees for a grandchild",
+        "income for a dependent",
+        "wants to gift income, not capital",
+        "children overseas, needs an allowance",
+        "wants to control the payout",
+        "supporting a spouse from the policy",
+        "wants structured gifting",
+        "family maintenance planning",
+        "income to a trust or person"
+      ],
+      "negativeSignalPhrases": [
+        "wants to change the policy owner",
+        "needs a lump sum gift",
+        "wants the income paid to a charity only"
+      ],
+      "clientProfileFit": [
+        "Grandparents funding education",
+        "Clients supporting dependants",
+        "Estate planners structuring income gifts"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, income can be redirected to a chosen recipient from year 5, which turns the policy into a structured monthly gift rather than a personal paycheque.",
+      "verificationPrompts": [
+        "Confirm who can be named as payments recipient.",
+        "Confirm the minimum and maximum specified period.",
+        "Confirm the tax and estate treatment of income paid to a third party."
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Starting from the 5th policy anniversary, enjoy the flexibility of having the monthly income payments of your policy paid directly to your designated payments recipient during a specified period\""
+      ],
+      "notesForReviewer": "Described as first-in-market as of 28 September 2026."
+    },
+    {
+      "trendId": "everbliss-annuity-insurance-plan_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Advance income for life events",
+      "whatProductOffers": "The client can take up to 24 months of guaranteed monthly income in advance when an eligible event, such as a child's or grandchild's marriage, occurs during the Income Period.",
+      "keyFigures": [
+        {
+          "label": "Maximum advance",
+          "value": "24 months of guaranteed monthly income",
+          "condition": "per policy term"
+        },
+        {
+          "label": "Before 5th anniversary",
+          "value": "Up to 12 months",
+          "condition": "if application submitted before the 5th anniversary"
+        },
+        {
+          "label": "From 5th anniversary",
+          "value": "Up to 24 months",
+          "condition": "if application submitted on or after the 5th anniversary"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "A maximum of 24 months of guaranteed monthly income may be advanced over the whole policy term.",
+        "Advanced income is recovered by deducting it from the guaranteed cash value in the death benefit calculation.",
+        "Eligible events are defined in the brochure; only marriage of a child or grandchild is given as an example on the page."
+      ],
+      "clientSignalPhrases": [
+        "wedding coming up, needs cash",
+        "needs a lump sum for a family event",
+        "child getting married",
+        "wants cash without surrendering",
+        "needs money now but income later",
+        "grandchild's wedding",
+        "short-term cash need",
+        "wants an advance on income",
+        "doesn't want to break the policy",
+        "lumpy expense this year"
+      ],
+      "negativeSignalPhrases": [
+        "wants a permanent capital withdrawal",
+        "needs more than 24 months of income",
+        "no eligible event"
+      ],
+      "clientProfileFit": [
+        "Grandparents with a wedding ahead",
+        "Clients with a one-off family expense",
+        "Clients wanting liquidity without surrender"
+      ],
+      "priorityAlignment": [
+        "access",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a family wedding can unlock up to 24 months of guaranteed income in advance, without surrendering the policy.",
+      "verificationPrompts": [
+        "Confirm the full list of eligible events.",
+        "Confirm how the advance is recovered from future income or death benefit.",
+        "Confirm the remaining advance entitlement for the policy."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "premium",
+        "waiting_period"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Receive up to 24 months of guaranteed monthly income in advance when an eligible event (such as your child or grandchild gets married) occurs\""
+      ],
+      "notesForReviewer": "Only one example of an eligible event is published on the page."
+    },
+    {
+      "trendId": "everbliss-annuity-insurance-plan_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death benefit with 105% floor",
+      "whatProductOffers": "On the death of the insured, the beneficiary receives the higher of the guaranteed cash value after deducting unrecovered advanced income, or 105% of the single premium less all guaranteed monthly income and advanced income already paid.",
+      "keyFigures": [
+        {
+          "label": "Death benefit floor",
+          "value": "105% of the single premium paid, less income already paid",
+          "condition": "compared with guaranteed cash value"
+        },
+        {
+          "label": "Additional components",
+          "value": "Non-guaranteed Terminal Dividend (if any) plus accumulated income and interest",
+          "condition": "if applicable"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Income payments made to a payments recipient between the date of death and claim approval are deducted from the death benefit.",
+        "All amounts owed to the company and policy debt are deducted before payment.",
+        "The 105% floor is reduced by guaranteed monthly income and advanced income already paid out.",
+        "No medical underwriting details are published on the product page."
+      ],
+      "clientSignalPhrases": [
+        "wants the capital back for the family",
+        "needs a death benefit, not just income",
+        "worried about dying early",
+        "wants at least the premium returned",
+        "estate planning with an annuity",
+        "wants income now and protection later",
+        "single premium, wants a safety net",
+        "beneficiary is the spouse",
+        "wants a guaranteed floor"
+      ],
+      "negativeSignalPhrases": [
+        "wants a large death benefit multiple",
+        "needs the full premium liquid at all times",
+        "wants a pure protection policy"
+      ],
+      "clientProfileFit": [
+        "Couples where one spouse depends on the income",
+        "Estate planners wanting a capital floor",
+        "Older clients with a lump sum"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the death benefit is at least 105% of the single premium less income already paid, so the family gets a capital floor rather than only the remaining cash value.",
+      "verificationPrompts": [
+        "Confirm the death benefit calculation with the client's actual income start date.",
+        "Confirm how advanced income reduces the death benefit.",
+        "Confirm the Terminal Dividend position at the projected year."
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"the death benefit will include the higher of: (i) the guaranteed cash value after deducting the unrecovered advanced income (if any); and (ii) 105% of the single premium paid less all guaranteed monthly income and advanced income already paid\""
+      ],
+      "notesForReviewer": "Page-level summary only; full death benefit terms are in the policy contract."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "everbliss-annuity-insurance-plan_income_or_lifestyle_support",
+    "bestForOneLiner": "A single-premium whole-life annuity for ages 40-75 that pays monthly income from month one, with extra income for Alzheimer's or Parkinson's and advance income for family events.",
+    "notSuitedWhen": [
+      "The client is under age 40",
+      "The client needs capital liquidity rather than income",
+      "The client wants a large death benefit multiple"
+    ],
+    "gapsInSourceMaterial": [
+      "Brochure and full policy terms",
+      "Guaranteed monthly income rates and premium bands",
+      "Covered condition definitions for the Extra Income Benefit",
+      "Full list of eligible events for Advance Income Benefit",
+      "Promotional 12% premium refund terms"
+    ]
+  }
+}

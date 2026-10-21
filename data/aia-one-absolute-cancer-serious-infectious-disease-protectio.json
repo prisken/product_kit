@@ -1,0 +1,316 @@
+{
+  "productId": "aia-one-absolute-cancer-serious-infectious-disease-protectio",
+  "productName": "AIA One Absolute – Cancer & Serious Infectious Disease Protection",
+  "productType": "severity-based health protection insurance (lump sum)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-one-absolute-cancer-serious-infectious-disease-protectio_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Severity-scored cancer payouts",
+      "whatProductOffers": "Pays a lump sum for cancer and carcinoma-in-situ based on an objective severity score of the medical journey rather than a fixed diagnosis-based payout, with benefits of up to 160% of the Sum Assured.",
+      "keyFigures": [
+        {
+          "label": "Payment basis",
+          "value": "Severity score from a transparent scoring table",
+          "condition": "the table can be checked by the client"
+        },
+        {
+          "label": "Maximum benefit",
+          "value": "Up to 160% of Sum Assured",
+          "condition": "across severity levels"
+        },
+        {
+          "label": "Age at application",
+          "value": "15 days to age 65",
+          "condition": ""
+        },
+        {
+          "label": "Renewal period option",
+          "value": "1 year / 5 years",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The payout depends on the severity score, not on the diagnosis alone.",
+        "The benefit ceiling is 160% of the Sum Assured.",
+        "Waiting periods and underwriting rules are not in the extracted text.",
+        "Cover is for cancer and carcinoma-in-situ only under this trend; other conditions are addressed separately."
+      ],
+      "clientSignalPhrases": [
+        "wants cancer cover that pays by severity",
+        "does not trust named-disease lists",
+        "asked how the score is calculated",
+        "worried about early-stage cancer",
+        "wants carcinoma-in-situ covered",
+        "had a cancer scare in the family",
+        "self-employed with no company medical",
+        "wants a lump sum not a reimbursement",
+        "comparing against a traditional CI plan",
+        "wants cover that lasts to retirement"
+      ],
+      "negativeSignalPhrases": [
+        "wants a guaranteed fixed sum on diagnosis",
+        "needs hospital bills reimbursed",
+        "only buys on the lowest premium",
+        "needs VHIS tax deduction"
+      ],
+      "clientProfileFit": [
+        "Adults 30-55 with family cancer history",
+        "Clients who dislike named-disease definitions",
+        "Self-employed without group medical cover",
+        "Existing CI holders wanting a second layer"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the payout scales with how serious the cancer journey is, up to 160% of the sum assured, instead of one fixed diagnosis payout.",
+      "verificationPrompts": [
+        "Confirm the severity scoring table and point thresholds in the policy contract.",
+        "Confirm the waiting period and any survival period.",
+        "Confirm how carcinoma-in-situ scores under the table.",
+        "Confirm the specified Sum Assured needed for the 20% premium discount."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "lifetime_limit",
+        "ci_coverage",
+        "waiting_period",
+        "renewability",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "AIA has created an innovative, first-in-market cancer protection that determines your claims based on severity.",
+        "provides payments of up to 160% of your Sum Assured based on an objective assessment of the severity of the insured's medical journey for cancer and carcinoma-in-situ",
+        "We calculate claims using our transparent scoring table, which you can check for yourself, giving you a greater sense of certainty about your claim."
+      ],
+      "notesForReviewer": "Brochure extract stops after the Cover at a glance table, so the benefit schedule, waiting period and full exclusions were not visible."
+    },
+    {
+      "trendId": "aia-one-absolute-cancer-serious-infectious-disease-protectio_critical_illness_readiness_infectious",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Serious infectious disease cover",
+      "whatProductOffers": "Extends the lump-sum benefit to serious infectious diseases such as COVID-19 while it remains a Public Health Emergency of International Concern, and to possible future global outbreaks, alongside the cancer cover.",
+      "keyFigures": [
+        {
+          "label": "COVID-19",
+          "value": "Covered",
+          "condition": "while COVID-19 is still a PHEIC according to the WHO"
+        },
+        {
+          "label": "Future outbreaks",
+          "value": "Cover for possible future global outbreaks",
+          "condition": "per the plan wording"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "COVID-19 cover applies only while COVID-19 is still a PHEIC according to the WHO.",
+        "The list of covered infectious diseases and their definitions is not in the extracted text.",
+        "Infectious disease claims are judged against the policy contract, not the marketing examples."
+      ],
+      "clientSignalPhrases": [
+        "worried about the next pandemic",
+        "wants cover for new diseases",
+        "asked about COVID cover",
+        "travels a lot for work",
+        "does not want a fixed disease list",
+        "wants future-proof protection",
+        "has elderly parents at home",
+        "has a trip booked and wants cover",
+        "worried about a new outbreak in the news"
+      ],
+      "negativeSignalPhrases": [
+        "only wants cancer cover",
+        "budget only stretches to a basic hospital plan",
+        "expects cover for any illness with no severity assessment"
+      ],
+      "clientProfileFit": [
+        "Frequent travellers",
+        "Clients who raised COVID concerns",
+        "Households wanting pandemic-proof cover"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan also pays for serious infectious diseases such as COVID-19 and possible future outbreaks, not just cancer.",
+      "verificationPrompts": [
+        "Confirm which infectious diseases remain covered once the PHEIC status ends.",
+        "Confirm whether infectious disease claims use the same severity table.",
+        "Confirm any waiting period specific to infectious diseases."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "We have also added cover for serious infectious diseases, like COVID-19 and even possible future global outbreaks.",
+        "Applicable while COVID-19 is still a PHEIC according to the World Health Organization (WHO)."
+      ],
+      "notesForReviewer": "Only the COVID-19/PHEIC example is quantified in the extract; the full infectious disease list is missing."
+    },
+    {
+      "trendId": "aia-one-absolute-cancer-serious-infectious-disease-protectio_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Tiered premium discounts",
+      "whatProductOffers": "Offers a permanent 20% premium discount above a specified Sum Assured, plus an instant 10% premium discount for the first year for AIA Vitality members.",
+      "keyFigures": [
+        {
+          "label": "Permanent discount",
+          "value": "20%",
+          "condition": "above a specified Sum Assured, standard premiums only"
+        },
+        {
+          "label": "First-year discount",
+          "value": "10%",
+          "condition": "if you join AIA Vitality"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The 20% discount applies to standard premiums only and only above a specified Sum Assured.",
+        "The 10% discount applies to the first policy year only.",
+        "The Sum Assured threshold for the 20% discount is not stated in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "premium is the main blocker",
+        "asked for a discount",
+        "already on AIA Vitality",
+        "wants to keep the premium flat",
+        "healthy and active",
+        "comparing premium with another insurer",
+        "wants a larger sum assured",
+        "asked if the discount is permanent",
+        "wants a quote above the discount threshold"
+      ],
+      "negativeSignalPhrases": [
+        "needs the discount at a small sum assured",
+        "will not join AIA Vitality",
+        "expects a guaranteed level premium for life"
+      ],
+      "clientProfileFit": [
+        "Health-conscious clients already using AIA Vitality",
+        "Buyers taking larger sums assured",
+        "Premium-sensitive professionals"
+      ],
+      "priorityAlignment": [
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the premium drops permanently by 20% above a set sum assured, and the first year is 10% off with AIA Vitality.",
+      "verificationPrompts": [
+        "Confirm the exact Sum Assured threshold for the 20% discount.",
+        "Confirm whether the discount survives a reduction in Sum Assured.",
+        "Confirm whether the discount applies on renewal."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "You can enjoy a permanent 20% premium discount above a specified Sum Assured, and an instant 10% premium discount for the first year if you join AIA Vitality.",
+        "Applicable to the standard premiums of this plan only."
+      ],
+      "notesForReviewer": "The premium table and the Sum Assured threshold are not in the extract."
+    },
+    {
+      "trendId": "aia-one-absolute-cancer-serious-infectious-disease-protectio_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Basic or add-on structure",
+      "whatProductOffers": "Can be taken as a basic plan or an add-on plan, in US$, HK$ or MOP, with a choice of a 1-year or 5-year renewal period.",
+      "keyFigures": [
+        {
+          "label": "Plan type",
+          "value": "Basic plan and add-on plan",
+          "condition": ""
+        },
+        {
+          "label": "Currency",
+          "value": "US$ / HK$ / MOP",
+          "condition": ""
+        },
+        {
+          "label": "Renewal period",
+          "value": "1 year / 5 years",
+          "condition": ""
+        },
+        {
+          "label": "Entry age",
+          "value": "15 days to age 65",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Add-on plan premium payment mode follows the corresponding basic plan.",
+        "Benefit term and premium payment period were cut off in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "wants to add to an existing AIA policy",
+        "needs USD cover",
+        "works overseas",
+        "prefers a 5-year renewal",
+        "building a family plan",
+        "wants to start small and add later",
+        "needs MOP for Macau",
+        "asked if it can be a rider"
+      ],
+      "negativeSignalPhrases": [
+        "wants a single standalone policy only",
+        "wants HKD-only simplicity"
+      ],
+      "clientProfileFit": [
+        "Existing AIA policyholders adding a rider",
+        "Clients paid in USD or MOP",
+        "Parents insuring a newborn"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, it can sit as an add-on to an existing AIA plan, in USD, HKD or MOP, with a one- or five-year renewal option.",
+      "verificationPrompts": [
+        "Confirm which basic plans accept this product as an add-on.",
+        "Confirm whether the 5-year renewal premium is level for the period.",
+        "Confirm the benefit term for each renewal option."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "add_ons"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Plan Type: Basic plan and add-on plan",
+        "Currency: US$/HK$/MOP",
+        "Renewal Period Option: 1 year / 5 years"
+      ],
+      "notesForReviewer": "Cover at a glance table was truncated; benefit term and premium payment period could not be read reliably."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-one-absolute-cancer-serious-infectious-disease-protectio_critical_illness_readiness",
+    "bestForOneLiner": "A severity-scored lump-sum plan for cancer and serious infectious disease that pays up to 160% of the sum assured.",
+    "notSuitedWhen": [
+      "The client wants hospital bills reimbursed rather than a lump sum.",
+      "The client wants a fixed payout on a named diagnosis.",
+      "The client needs VHIS certification or tax deduction.",
+      "The client's budget only supports a very small sum assured."
+    ],
+    "gapsInSourceMaterial": [
+      "Benefit schedule and severity scoring thresholds",
+      "Waiting period and full exclusions",
+      "Premium table and the Sum Assured threshold for the 20% discount",
+      "Full list of covered serious infectious diseases"
+    ]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "productId": "xtra-protect",
+  "productName": "Xtra Protect",
+  "productType": "accident insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "xtra-protect_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "Accident medical bills reimbursed",
+      "whatProductOffers": "Reimburses reasonable and customary accident medical expenses up to HK$/MOP10,000 per accident for treatment incurred within 52 weeks, including hospitalisation, surgery, bone-setting, acupuncture, physiotherapy and chiropractic treatment.",
+      "keyFigures": [
+        {
+          "label": "Accident medical limit",
+          "value": "HK$/MOP10,000",
+          "condition": "Per accident"
+        },
+        {
+          "label": "Acupuncture and bone-setting",
+          "value": "HK$/MOP1,000",
+          "condition": "Per accident, 1 visit per day"
+        },
+        {
+          "label": "Chiropractic and physiotherapy",
+          "value": "HK$/MOP500",
+          "condition": "Per visit, 1 visit per day"
+        },
+        {
+          "label": "Claim window",
+          "value": "52 weeks",
+          "condition": "From date of accident"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Applies to accidents only, not illness.",
+        "Expenses must be reasonable and customary and incurred within 52 weeks of the accident.",
+        "Acupuncture and bone-setting are capped at 1 visit per day; chiropractic and physiotherapy at 1 visit per day.",
+        "No waiting period is stated in the captured text."
+      ],
+      "clientSignalPhrases": [
+        "plays football",
+        "manual job",
+        "no accident cover",
+        "worried about physio costs",
+        "had a sports injury",
+        "needs acupuncture covered",
+        "bone-setting after a fall",
+        "works on site",
+        "rides a motorbike",
+        "asked about accident medical claims"
+      ],
+      "negativeSignalPhrases": [
+        "needs illness or hospital cover",
+        "wants a lump sum only"
+      ],
+      "clientProfileFit": [
+        "Active clients in sports or manual work",
+        "Young adults without accident cover",
+        "Clients wanting accident medical reimbursement on top of life cover"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, accident treatment — including physio, acupuncture and bone-setting — is reimbursed up to HK$/MOP10,000 per accident for a year after the injury.",
+      "verificationPrompts": [
+        "Ask about sports, commuting and job hazards",
+        "Check whether the client already has accident medical cover at work",
+        "Confirm they understand the per-visit caps"
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "outpatient",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "we will reimburse the reasonable and customary medical expenses incurred within 52 weeks from the date of an accident, up to the maximum limit per accident",
+        "including but not limited to hospitalisation, surgery, bone-setting, acupuncture, physiotherapy and chiropractic treatment",
+        "Acupuncture and bone-setting ... 10,000 per accident; 1,000 per accident; 500 per visit"
+      ],
+      "notesForReviewer": "The captured text does not state a waiting period or the full exclusion list."
+    },
+    {
+      "trendId": "xtra-protect_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Monthly payout after disability",
+      "whatProductOffers": "Pays a monthly benefit equal to 1% of the sum assured from the 7th month of continuing total and permanent disability, for up to 100 months, after the disability has persisted for 6 consecutive months.",
+      "keyFigures": [
+        {
+          "label": "Permanent total disability sum assured",
+          "value": "HK$/MOP500,000",
+          "condition": "Plan 1"
+        },
+        {
+          "label": "Monthly benefit",
+          "value": "1% of sum assured",
+          "condition": "From the 7th month"
+        },
+        {
+          "label": "Maximum duration",
+          "value": "100 months",
+          "condition": "While disability continues"
+        },
+        {
+          "label": "Qualifying period",
+          "value": "6 consecutive months",
+          "condition": "Disability must arise within 180 days of the accident"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only total and permanent disability qualifies, not partial or temporary disability.",
+        "The disability must occur within 180 days of the accident and persist for 6 consecutive months.",
+        "No PTD benefit is paid if the Accidental Death & Dismemberment Benefit has been paid for the same accident, and vice versa.",
+        "The sum assured and premium are reduced after a PTD or AD&D payment."
+      ],
+      "clientSignalPhrases": [
+        "sole breadwinner",
+        "no sick leave",
+        "worried about income if injured",
+        "family depends on my salary",
+        "no emergency fund",
+        "wants monthly income not lump sum",
+        "works in construction",
+        "disabled after an accident"
+      ],
+      "negativeSignalPhrases": [
+        "needs cover for illness-related disability",
+        "only wants a death benefit"
+      ],
+      "clientProfileFit": [
+        "Sole earners in higher-risk jobs",
+        "Clients with limited savings",
+        "Families needing income continuity after an accident"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, if an accident leaves them totally and permanently disabled, the plan pays 1% of the HK$/MOP500,000 sum assured monthly for up to 100 months.",
+      "verificationPrompts": [
+        "Confirm the definition of total and permanent disability meets the client's concern",
+        "Ask how long the household could survive without income",
+        "Check whether the client has group disability cover"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "the insured will receive a monthly payment equal to 1% of the sum assured beginning from the 7th month and continuing up to 100 months",
+        "if an accident leaves the insured, totally and permanently disabled within 180 days from the date of an accident, and the insured remains totally and permanently disabled for 6 consecutive months"
+      ],
+      "notesForReviewer": "The captured text does not give the full definition of total and permanent disability."
+    },
+    {
+      "trendId": "xtra-protect_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Accidental death lump sum",
+      "whatProductOffers": "Pays a HK$/MOP500,000 accidental death and dismemberment benefit if a covered injury occurs within 180 consecutive days of the accident, plus a HK$/MOP5,000 compassionate death benefit to the beneficiary.",
+      "keyFigures": [
+        {
+          "label": "Accidental death & dismemberment",
+          "value": "HK$/MOP500,000",
+          "condition": "Plan 1"
+        },
+        {
+          "label": "Compassionate death benefit",
+          "value": "HK$/MOP5,000",
+          "condition": "Lump sum to beneficiary"
+        },
+        {
+          "label": "Injury window",
+          "value": "180 consecutive days",
+          "condition": "From date of accident"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The AD&D benefit requires the injury to occur within 180 consecutive days of the accident.",
+        "The plan covers accidents, not illness.",
+        "The captured text does not make clear whether the Compassionate Death Benefit is accident-only or payable on any death.",
+        "Outstanding amounts owed to AIA are deducted before payment."
+      ],
+      "clientSignalPhrases": [
+        "has young kids",
+        "mortgage to cover",
+        "wants cheap life cover",
+        "worried about funeral costs",
+        "main earner in the family",
+        "no life insurance yet",
+        "parents depend on me",
+        "wants accident death cover"
+      ],
+      "negativeSignalPhrases": [
+        "needs whole-life or illness cover",
+        "wants savings"
+      ],
+      "clientProfileFit": [
+        "Young families with a mortgage",
+        "Breadwinners needing cheap accident cover",
+        "Clients topping up existing life cover"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, an accident that kills or dismembers pays HK$/MOP500,000, with a further HK$/MOP5,000 compassionate death benefit.",
+      "verificationPrompts": [
+        "Confirm the client's dependants and mortgage balance",
+        "Check whether existing life cover already covers accidental death",
+        "Clarify the compassionate death benefit trigger"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Accidental Death & Dismemberment Benefit ... 500,000",
+        "Compassionate Death Benefit 5,000",
+        "If the worst should happen and the insured passes away, we will pay the beneficiary the Compassionate Death Benefit in a lump sum."
+      ],
+      "notesForReviewer": "Trigger for the Compassionate Death Benefit is ambiguous in the captured text."
+    },
+    {
+      "trendId": "xtra-protect_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Low premium accident cover",
+      "whatProductOffers": "Plan 1 costs HK$/MOP2,128 a year or HK$/MOP188 a month, with cover from application age 18 to 65 and a benefit term up to age 76.",
+      "keyFigures": [
+        {
+          "label": "Annual premium",
+          "value": "HK$/MOP2,128",
+          "condition": "Plan 1"
+        },
+        {
+          "label": "Monthly premium",
+          "value": "HK$/MOP188",
+          "condition": "Plan 1"
+        },
+        {
+          "label": "Issue age",
+          "value": "18 to 65",
+          "condition": "At application"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Up to age 76",
+          "condition": "Fixed term"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only Plan 1 appears in the captured premium table.",
+        "The premium shown is for Plan 1 only; other plans and loadings are not captured.",
+        "Cover ends at age 76 and cannot be renewed beyond that.",
+        "The premium excludes any levy collected by the Insurance Authority."
+      ],
+      "clientSignalPhrases": [
+        "budget under 200 a month",
+        "young client first policy",
+        "just wants basic accident cover",
+        "cheap top-up cover",
+        "student budget",
+        "no dependants yet",
+        "wants low commitment",
+        "monthly payment preferred"
+      ],
+      "negativeSignalPhrases": [
+        "wants savings or cash value",
+        "needs medical cover"
+      ],
+      "clientProfileFit": [
+        "Young adults buying a first policy",
+        "Budget-conscious clients wanting a top-up",
+        "Clients who prefer monthly payments"
+      ],
+      "priorityAlignment": [
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the whole accident plan costs HK$/MOP188 a month or HK$/MOP2,128 a year for HK$/MOP500,000 of accident cover.",
+      "verificationPrompts": [
+        "Confirm the client can commit to the annual premium if paying annually",
+        "Check the client's age is within 18 to 65 at application",
+        "Ask whether they need cover past 76"
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Plan 1 2,128 188",
+        "Insured's Age at Application Age 18 - 65",
+        "Benefit Term Up to age 76"
+      ],
+      "notesForReviewer": "Only one plan and one premium point appear in the captured text."
+    },
+    {
+      "trendId": "xtra-protect_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Worldwide emergency assistance",
+      "whatProductOffers": "Provides emergency medical evacuation and repatriation of remains anywhere in the world with a per-life limit of HK$/MOP5,000,000, plus 24-hour worldwide telephone enquiry services, for Hong Kong or Macau permanent residents.",
+      "keyFigures": [
+        {
+          "label": "Emergency evacuation / repatriation",
+          "value": "HK$/MOP5,000,000",
+          "condition": "Per life, across all policies with AIA and AIA Company Limited for the same insured"
+        },
+        {
+          "label": "Assistance line",
+          "value": "24 hours worldwide",
+          "condition": "Telephone enquiry service"
+        },
+        {
+          "label": "Eligibility",
+          "value": "HK or Macau permanent resident",
+          "condition": "Insured"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Available only to permanent residents of Hong Kong or Macau.",
+        "The HK$/MOP5,000,000 limit is shared across all policies held with AIA and AIA Company Limited covering the same insured.",
+        "This is an assistance service, not reimbursement of overseas medical treatment."
+      ],
+      "clientSignalPhrases": [
+        "travels a lot",
+        "works overseas",
+        "worried about evacuation cost",
+        "frequent business trips",
+        "studying abroad",
+        "family overseas",
+        "wants worldwide helpline",
+        "family lives abroad"
+      ],
+      "negativeSignalPhrases": [
+        "never travels",
+        "needs overseas medical treatment cover"
+      ],
+      "clientProfileFit": [
+        "Frequent travellers",
+        "Clients working or studying abroad",
+        "Families with members overseas"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, if something happens abroad, evacuation and repatriation are covered up to HK$/MOP5,000,000 per life with a 24-hour assistance line.",
+      "verificationPrompts": [
+        "Confirm the client's travel frequency and destinations",
+        "Explain the shared per-life limit across AIA policies",
+        "Check whether they need overseas treatment reimbursement separately"
+      ],
+      "comparisonRows": [
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "emergency medical evacuation and repatriation of remains, with per life limit up to HK$/MOP5,000,000 (under all policies held with us and AIA Company Limited covering the same insured)",
+        "24-hour worldwide telephone enquiry services",
+        "If the insured is a permanent resident of Hong Kong or Macau"
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "xtra-protect_hospital_cost_protection",
+    "bestForOneLiner": "A low-cost accident plan paying a lump sum for accidental death or permanent disability and reimbursing accident medical bills up to HK$/MOP10,000 per accident.",
+    "notSuitedWhen": [
+      "Client needs cover for illness rather than accidents",
+      "Client is outside the 18 to 65 application age",
+      "Client needs cover beyond age 76"
+    ],
+    "gapsInSourceMaterial": [
+      "No waiting period or full exclusion list in the captured text",
+      "Only Plan 1 premium and benefit schedule are shown",
+      "Whether the Compassionate Death Benefit is accident-only is not explicit"
+    ]
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "productId": "health-journey-guardian",
+  "productName": "Health Journey Guardian",
+  "productType": "medical insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "health-journey-guardian_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "30 network outpatient visits",
+      "whatProductOffers": "Covers GP and specialist consultations, Chinese medical practitioner consultations, physiotherapy, acupuncture, bonesetting and vaccinations through a medical network, up to 30 visits per policy year.",
+      "keyFigures": [
+        {
+          "label": "Outpatient visits",
+          "value": "30 per policy year",
+          "condition": "Maximum across covered outpatient services"
+        },
+        {
+          "label": "Covered services",
+          "value": "GP, specialist, Chinese medical practitioner, physiotherapy, acupuncture, bonesetting, vaccinations",
+          "condition": "Via the quality medical network"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Network clinics only.",
+        "Visit cap of 30 per policy year.",
+        "Per-service benefit amounts are not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "goes to physio regularly",
+        "sees a Chinese medicine doctor",
+        "wants acupuncture covered",
+        "needs vaccinations",
+        "uses network clinics",
+        "wants no claim forms",
+        "family visits the GP often",
+        "sports injury physio",
+        "wants one card for everything"
+      ],
+      "negativeSignalPhrases": [
+        "needs unlimited visits",
+        "wants to use any clinic",
+        "needs inpatient care"
+      ],
+      "clientProfileFit": [
+        "Clients who use primary care often",
+        "Active clients needing physiotherapy",
+        "Families wanting routine care"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "Given {client_detail}, 30 network visits a year covers the routine GP, physio and Chinese medicine visits they already make.",
+      "verificationPrompts": [
+        "Estimate the client's annual visit frequency",
+        "Confirm the client's preferred network clinic",
+        "Check whether Chinese medicine or physio is the main need"
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "network_access",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"outpatient cover for general practitioner and specialist consultations, Chinese medical practitioner consultations, physiotherapy, acupuncture, bonesetting, vaccinations\"",
+        "\"You will be entitled to a maximum of 30 outpatient visits a year.\""
+      ],
+      "notesForReviewer": "Benefit limits per service type are not in the extracted text."
+    },
+    {
+      "trendId": "health-journey-guardian_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Cancer diagnosis to monitoring",
+      "whatProductOffers": "Pays for cancer-related diagnosis, active treatment including targeted therapy, palliative treatment and monitoring costs, with three plan options.",
+      "keyFigures": [
+        {
+          "label": "Plan options",
+          "value": "3 (ward, semi-private, standard private)",
+          "condition": "Chosen at application"
+        },
+        {
+          "label": "Cancer benefits",
+          "value": "Diagnosis, active treatment including targeted therapy, palliative treatment and monitoring",
+          "condition": "Subject to the plan benefit schedule"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Benefit amounts per plan are not in the extracted text.",
+        "Waiting periods are not stated in the extract.",
+        "The cancer must fall within the policy's covered conditions."
+      ],
+      "clientSignalPhrases": [
+        "family history of cancer",
+        "worried about targeted therapy cost",
+        "wants cancer cover",
+        "had a scare last year",
+        "wants monitoring covered",
+        "needs chemo cover",
+        "wants a private room option",
+        "thinking about semi-private"
+      ],
+      "negativeSignalPhrases": [
+        "wants a critical illness lump sum only",
+        "not interested in hospital cover",
+        "budget too tight for a cancer plan"
+      ],
+      "clientProfileFit": [
+        "Clients with a family cancer history",
+        "People wanting treatment cost cover rather than a lump sum",
+        "Clients choosing room level at outset"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "With {client_detail}, the cancer benefit follows diagnosis through treatment and monitoring instead of stopping at a lump sum.",
+      "verificationPrompts": [
+        "Confirm the client's preferred room level",
+        "Check whether the client expects a lump-sum CI payout",
+        "Confirm the treatment setting (Hong Kong public or private)"
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "room_level",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"covering cancer-related diagnosis, active treatment (including targeted therapy) and palliative treatments, as well as monitoring costs\"",
+        "\"3 plan options, namely ward, semi-private and standard private\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "health-journey-guardian_outpatient_and_followup_rehab",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "At-home rehab and hospice",
+      "whatProductOffers": "Covers rehabilitation treatment for cancer, stroke, heart attack, kidney failure or injuries requiring surgery, and at-home hospice care alongside rehabilitation centre and hospice care.",
+      "keyFigures": [
+        {
+          "label": "Rehabilitation triggers",
+          "value": "Cancer, stroke, heart attack, kidney failure or injuries requiring surgery",
+          "condition": "As listed in the brochure"
+        },
+        {
+          "label": "At-home cover",
+          "value": "Rehabilitation and hospice care at home",
+          "condition": "Market-first claim at brochure date; licensed health workers and registered nurses"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Rehabilitation is limited to the listed conditions.",
+        "At-home services come from licensed health workers and registered nurses.",
+        "Benefit limits are not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "wants to recover at home",
+        "parent needs stroke rehab",
+        "worried about hospice costs",
+        "prefers home care",
+        "has an elderly parent",
+        "wants nurse visits",
+        "post-surgery rehab",
+        "palliative care in mind"
+      ],
+      "negativeSignalPhrases": [
+        "wants hospital treatment only",
+        "no caregiving situation",
+        "needs long-term institutional care"
+      ],
+      "clientProfileFit": [
+        "Clients caring for elderly parents",
+        "People who value home-based recovery",
+        "Families facing a long illness"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "If {client_detail}, at-home rehab and hospice cover keeps care in the place the family prefers.",
+      "verificationPrompts": [
+        "Ask who would provide care at home",
+        "Confirm whether rehab is likely after surgery",
+        "Check the client's expectation on hospice support"
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "annual_limit",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"market-first cover of rehabilitation and hospice care at home on top of rehabilitation centres or hospices\"",
+        "\"rehabilitation treatment for cancer, stroke, heart attack, kidney failure or injuries requiring surgery\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "health-journey-guardian_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Lifetime guaranteed renewal",
+      "whatProductOffers": "Guarantees renewal every year for life, and renewal premiums are not raised because of claims made or changes in health.",
+      "keyFigures": [
+        {
+          "label": "Renewal",
+          "value": "Guaranteed every year for life",
+          "condition": "Premium based on prevailing rates at renewal"
+        },
+        {
+          "label": "Claim-based loading",
+          "value": "None",
+          "condition": "No increase for claims or health changes"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Renewal premium still follows prevailing premium rates, which can change.",
+        "This is not a fixed premium for life.",
+        "First-year premium is in the annual premium table."
+      ],
+      "clientSignalPhrases": [
+        "worried premium jumps after a claim",
+        "had a claim before",
+        "wants guaranteed renewal",
+        "planning long term",
+        "chronic condition developing",
+        "hates re-underwriting",
+        "wants cover for life",
+        "fears being dropped"
+      ],
+      "negativeSignalPhrases": [
+        "wants a level premium",
+        "only needs short-term cover",
+        "highly price sensitive"
+      ],
+      "clientProfileFit": [
+        "Clients planning lifelong cover",
+        "People with developing health risks",
+        "Claim-anxious clients"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, renewal is guaranteed for life and a claim will not push the premium up.",
+      "verificationPrompts": [
+        "Confirm the client's time horizon",
+        "Ask whether the client expects premiums to stay level",
+        "Check whether a prior claim affects their concern"
+      ],
+      "comparisonRows": [
+        "renewability",
+        "premium",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"guarantees that your premium for renewal will not be raised for any claim you have made, or any changes in your health condition\"",
+        "\"You can renew your cover every year for life.\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "health-journey-guardian_outpatient_and_followup_preventive",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "Lifestage check-ups and wellness",
+      "whatProductOffers": "Provides complimentary check-ups every three policy years and reimbursable wellness services after the fifth policy year, including a pre-marital check-up and colonoscopy.",
+      "keyFigures": [
+        {
+          "label": "Complimentary check-up",
+          "value": "Every 3 policy years",
+          "condition": "Under the plan"
+        },
+        {
+          "label": "Wellness services",
+          "value": "Reimbursable after the 5th policy year",
+          "condition": "Includes pre-marital check-up and colonoscopy"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Wellness services apply only after the 5th policy year.",
+        "Scope and amount per service are not stated in the extract.",
+        "Check-ups are fixed at every 3 policy years."
+      ],
+      "clientSignalPhrases": [
+        "wants a health check included",
+        "getting married soon",
+        "due for a colonoscopy",
+        "prevention focused",
+        "wants wellness perks",
+        "health-conscious client",
+        "family history of colorectal issues",
+        "wants screening covered"
+      ],
+      "negativeSignalPhrases": [
+        "only wants treatment cover",
+        "not interested in check-ups",
+        "needs immediate hospital cover"
+      ],
+      "clientProfileFit": [
+        "Prevention-focused clients",
+        "Couples planning marriage",
+        "Clients over 45 due for screening"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "Because {client_detail}, the built-in check-ups and screening benefits add value before any illness appears.",
+      "verificationPrompts": [
+        "Ask when the client's last check-up was",
+        "Check whether a colonoscopy is due",
+        "Confirm interest in the wellness programme"
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "add_ons",
+        "waiting_period"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"enjoy complimentary check-up services every 3 policy years and a series of reimbursable wellness services after the 5th policy year\"",
+        "\"including a pre-marital check-up and colonoscopy\""
+      ],
+      "notesForReviewer": "The extract does not state the dollar value of the check-up or wellness reimbursement."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "health-journey-guardian_outpatient_and_followup",
+    "bestForOneLiner": "A whole-journey medical plan combining 30 network outpatient visits, cancer treatment cover, at-home rehab and hospice care, and lifetime guaranteed renewal.",
+    "notSuitedWhen": [
+      "The client wants a simple hospital-only plan",
+      "The client needs unlimited outpatient visits",
+      "The client refuses network restrictions"
+    ],
+    "gapsInSourceMaterial": [
+      "Annual premium table",
+      "Per-benefit limits by plan option",
+      "Waiting periods and full exclusions"
+    ]
+  }
+}

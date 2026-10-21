@@ -1,0 +1,371 @@
+{
+  "productId": "bonus-power-life-insurance-plan-2-enhanced-protection",
+  "productName": "Bonus Power Life Insurance Plan 2 (Enhanced Protection)",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Reversionary and terminal bonuses",
+      "whatProductOffers": "A participating whole-life plan that declares a non-guaranteed Reversionary Bonus and Terminal Bonus at least once a year starting from the end of the 3rd policy year, with the reversionary bonus becoming a permanent addition to the policy.",
+      "keyFigures": [
+        {
+          "label": "First bonus declaration",
+          "value": "End of 3rd policy year",
+          "condition": "At least once per year thereafter"
+        },
+        {
+          "label": "Reversionary Bonus",
+          "value": "Non-guaranteed, permanent once declared",
+          "condition": "May be cashed out or left to accumulate"
+        },
+        {
+          "label": "Terminal Bonus",
+          "value": "Non-cumulative, non-guaranteed",
+          "condition": "Amount may rise or fall at each declaration"
+        },
+        {
+          "label": "Bonus drivers",
+          "value": "Investment returns and market volatility",
+          "condition": "Among other factors"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Both bonuses are non-guaranteed.",
+        "The Terminal Bonus is non-cumulative and its amount can be greater or lesser than the previous declaration.",
+        "Cash values of bonuses on early surrender or termination are not guaranteed.",
+        "No illustrated bonus scales or IRR appear in the captured text."
+      ],
+      "clientSignalPhrases": [
+        "wants potential upside",
+        "long-term savings",
+        "ok with non-guaranteed",
+        "asked about reversionary bonus",
+        "wants a participating policy",
+        "has a 15-year horizon",
+        "wants bonuses to compound",
+        "comparing whole life savings"
+      ],
+      "negativeSignalPhrases": [
+        "wants fully guaranteed returns",
+        "needs cash in under 3 years"
+      ],
+      "clientProfileFit": [
+        "Long-horizon savers",
+        "Clients comfortable with non-guaranteed returns",
+        "Policyholders wanting protection plus bonus potential"
+      ],
+      "priorityAlignment": [
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, bonuses start being declared at the end of year three, and the reversionary bonus becomes a permanent addition to the policy once declared.",
+      "verificationPrompts": [
+        "Set expectations that both bonuses are non-guaranteed",
+        "Confirm the client's horizon is long enough to see bonus declarations",
+        "Ask how they want reversionary bonuses treated — cashed out or accumulated"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "We will distribute the profit generated from this product group by declaring a non-guaranteed Reversionary Bonus and Terminal Bonus to you at least once per year starting from the end of the 3rd policy year",
+        "Reversionary Bonus: A non-guaranteed bonus, the face value of which forms a permanent addition to your policy once it is declared",
+        "Terminal Bonus: A non-cumulative, non-guaranteed bonus, the amount of which is valid until the next declaration"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Advance payment on specified conditions",
+      "whatProductOffers": "Pays an advance from the sum assured and bonus values if the insured is diagnosed with total and permanent disability, loss of limbs or irrecoverable loss of sight before 65, or Alzheimer's disease, Parkinson's disease or loss of independent existence before 85.",
+      "keyFigures": [
+        {
+          "label": "TPD / limb loss / sight loss",
+          "value": "Before age 65",
+          "condition": "Total and Permanent Disability Benefit"
+        },
+        {
+          "label": "Caring conditions",
+          "value": "Before age 85",
+          "condition": "Alzheimer's, Parkinson's, loss of independent existence"
+        },
+        {
+          "label": "Payment source",
+          "value": "Advance from sum assured and bonus face values",
+          "condition": "Reduces the death benefit"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The Total and Permanent Disability Benefit is subject to underwriting.",
+        "Only the listed conditions qualify; this is not a full critical illness plan.",
+        "Payments are advances from the policy's own sum assured and bonuses, not additional cover.",
+        "The Caring Benefit requires diagnosis before age 85."
+      ],
+      "clientSignalPhrases": [
+        "family history of Parkinson's",
+        "worried about dementia",
+        "wants CI cover inside life plan",
+        "wants early payout on diagnosis",
+        "parent had Alzheimer's",
+        "wants protection if incapacitated",
+        "no separate CI policy",
+        "wants early benefit not a death claim"
+      ],
+      "negativeSignalPhrases": [
+        "needs cover for cancer or heart attack",
+        "wants a standalone CI policy"
+      ],
+      "clientProfileFit": [
+        "Clients with family history of neurodegenerative disease",
+        "Older policyholders planning care",
+        "Buyers wanting condition-triggered liquidity inside a life policy"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a diagnosis of Alzheimer's, Parkinson's or loss of independent existence before 85 triggers an advance payment rather than waiting for a death claim.",
+      "verificationPrompts": [
+        "Ask about family history of Alzheimer's or Parkinson's",
+        "Confirm the client understands the payment is an advance, not extra cover",
+        "Check whether a standalone CI plan is also needed"
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "If the insured is diagnosed with a total and permanent disability or suffer loss of limbs or irrecoverable loss of sight before the age of 65",
+        "If the insured is diagnosed with Alzheimer's disease, Parkinson's disease or loss of independent existence ... before the age of 85",
+        "will provide you with a series of advance payments, which will be advanced from the sum assured and the face values of any Reversionary Bonus and Terminal Bonus"
+      ],
+      "notesForReviewer": "The captured text truncates the detailed definitions and exclusions."
+    },
+    {
+      "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Monthly advance for 30 months",
+      "whatProductOffers": "Pays a monthly advance equal to 1% of the sum assured plus bonus face values for the first 30 months after diagnosis, then pays the remaining balance as a lump sum at the end of the 30th month, and waives future premiums.",
+      "keyFigures": [
+        {
+          "label": "Monthly advance",
+          "value": "1% of sum assured + Reversionary Bonus + Terminal Bonus face values",
+          "condition": "First 30 months"
+        },
+        {
+          "label": "Lump sum",
+          "value": "Remainder of sum assured and bonuses",
+          "condition": "End of 30th month"
+        },
+        {
+          "label": "Premium waiver",
+          "value": "Future basic premiums waived",
+          "condition": "On diagnosis of a covered condition"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Applies only to the TPD and Caring Benefit conditions, not to all illnesses.",
+        "The monthly amount is calculated on the sum assured and bonus face values as at the date of disability or diagnosis.",
+        "The payments are advances, so the eventual death benefit is reduced.",
+        "The remaining balance is paid only if the diagnosed condition persists."
+      ],
+      "clientSignalPhrases": [
+        "worried about monthly bills if disabled",
+        "no emergency fund",
+        "wants income stream",
+        "needs help with care costs",
+        "diagnosis would stop my income",
+        "wants premiums waived",
+        "family needs monthly cash",
+        "needs monthly cash after diagnosis"
+      ],
+      "negativeSignalPhrases": [
+        "wants a single lump sum immediately",
+        "needs income cover for general illness"
+      ],
+      "clientProfileFit": [
+        "Households needing monthly cash flow after diagnosis",
+        "Clients without emergency savings",
+        "Older clients planning for care costs"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy pays 1% of the sum assured plus bonuses every month for 30 months, then releases the remaining balance — and premiums stop.",
+      "verificationPrompts": [
+        "Ask how the household would meet monthly costs after a diagnosis",
+        "Confirm the client prefers instalments over a lump sum",
+        "Check the policy's definition of the covered conditions"
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "we will make monthly advance payments equal to 1% of the sum of the sum assured and the face value of any Reversionary Bonus ... plus the corresponding face value of any Terminal Bonus",
+        "we will pay you the remainder of the sum assured and the face values of any Reversionary Bonus and Terminal Bonus in a lump sum ... at the end of the 30th month",
+        "we will waive the future premiums for the basic plan if you are diagnosed with any of the above conditions"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Instalment death benefit option",
+      "whatProductOffers": "Lets the policyholder direct the death benefit to be paid to the beneficiary in regular instalments instead of a lump sum, provided the total annual payment is at least 2% of the death benefit.",
+      "keyFigures": [
+        {
+          "label": "Minimum annual instalment",
+          "value": "2% of death benefit",
+          "condition": "Chosen by policyholder"
+        },
+        {
+          "label": "Minimum death benefit",
+          "value": "US$50,000",
+          "condition": "For the settlement option to be available"
+        },
+        {
+          "label": "Accumulation",
+          "value": "Remaining balance accumulates",
+          "condition": "At a non-guaranteed interest rate"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The settlement option is not available if the death benefit payable is less than US$50,000.",
+        "The total annual payment must be at least 2% of the death benefit.",
+        "The interest rate on the undistributed balance is non-guaranteed.",
+        "The payment schedule is chosen by the policyholder, not the beneficiary."
+      ],
+      "clientSignalPhrases": [
+        "worried beneficiary will squander lump sum",
+        "wants monthly inheritance",
+        "special needs child",
+        "wants controlled payout",
+        "estate planning",
+        "young beneficiaries",
+        "wants income for spouse",
+        "wants staged inheritance"
+      ],
+      "negativeSignalPhrases": [
+        "wants a single lump sum",
+        "death benefit likely below US$50,000"
+      ],
+      "clientProfileFit": [
+        "Parents leaving money to young adults",
+        "Clients with a vulnerable beneficiary",
+        "Estate planners wanting staged distributions"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the death benefit can be paid as a monthly stream rather than one lump sum, so the beneficiary gets income over time.",
+      "verificationPrompts": [
+        "Confirm the death benefit will exceed US$50,000",
+        "Ask how the client wants the beneficiary to receive the money",
+        "Discuss the non-guaranteed interest on the retained balance"
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "if you wish your beneficiary to take the amount of death benefit in regular instalments, the plan provides a settlement option",
+        "provided that the total annual payment is at least equal to 2% of the death benefit",
+        "The death benefit settlement option is not available if the death benefit payable is less than US$50,000."
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death benefit plus bonus values",
+      "whatProductOffers": "Pays the sum assured of the basic plan plus the face value of any Reversionary Bonus and Terminal Bonus to the chosen beneficiary, and allows optional accident, medical, critical illness and disability add-ons.",
+      "keyFigures": [
+        {
+          "label": "Death benefit",
+          "value": "Sum assured + Reversionary Bonus + Terminal Bonus",
+          "condition": "Less outstanding debt and benefits already paid"
+        },
+        {
+          "label": "Add-on types",
+          "value": "4",
+          "condition": "Accident, medical, critical illness, disability"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Outstanding debt and any benefits already paid are deducted before payment.",
+        "Bonus face values are non-guaranteed.",
+        "Add-ons require additional premiums and underwriting and terminate with the basic plan."
+      ],
+      "clientSignalPhrases": [
+        "main breadwinner",
+        "young family",
+        "wants life cover with savings",
+        "needs to protect a mortgage",
+        "wants add-on medical",
+        "wants a simple death benefit",
+        "planning for children",
+        "wants protection that grows"
+      ],
+      "negativeSignalPhrases": [
+        "needs term cover only",
+        "wants no insurance component"
+      ],
+      "clientProfileFit": [
+        "Breadwinners with dependants",
+        "Clients wanting one policy for protection and savings",
+        "Buyers likely to add riders later"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the death benefit is the sum assured plus any declared bonuses, so the protection amount can grow over the policy's life.",
+      "verificationPrompts": [
+        "Confirm the cover amount against the mortgage and income needs",
+        "Ask which add-ons they want",
+        "Explain that bonus values are not guaranteed"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "the death benefit will include: i. the sum assured of your basic plan; ii. the face value of any Reversionary Bonus; plus iii. the face value of any Terminal Bonus",
+        "We will deduct all outstanding debt and any benefits paid under this policy before we make the payment"
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "bonus-power-life-insurance-plan-2-enhanced-protection_savings_and_wealth_growth",
+    "bestForOneLiner": "A participating whole-life plan with reversionary and terminal bonuses from year three, plus advance payments for disability and specified conditions.",
+    "notSuitedWhen": [
+      "Client wants guaranteed bonuses",
+      "Client needs cover for a condition outside the TPD and caring list",
+      "Client needs a death benefit below US$50,000 with instalment settlement"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium rates and illustrated values are not in the captured text",
+      "Exact TPD and caring-condition definitions and exclusions are truncated",
+      "Policy loan terms and surrender charges are not captured"
+    ]
+  }
+}

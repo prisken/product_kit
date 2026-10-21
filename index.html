@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIA Product Trends — Review</title>
+  <link rel="stylesheet" href="styles.css?v=1792566101">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Plan name</div>
+      <h1 id="pname">AIA Assemble Critical Illness Insurance Plan</h1>
+      <div class="plan-line" id="planline"></div>
+      <div class="meta" id="pmeta"></div>
+      <div class="hero-actions">
+        <div class="lang-wrap" data-lang-toggle style="margin-left:0"></div>
+        <a class="btn" href="wizard.html">Meeting wizard</a>
+        <a class="btn ghost" href="clients.html" data-i18n="Follow-up">Follow-up</a>
+        <a class="btn ghost" id="dl" href="data/aia-assemble-critical-illness-insurance-plan.json" download data-i18n="Download JSON">Download JSON</a>
+        <button class="btn ghost" id="copy" type="button" data-i18n="Copy JSON">Copy JSON</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="side">
+      <div class="side-t">Catalogue <span id="pcount"></span></div>
+      <input id="q" type="search" placeholder="Filter products…" autocomplete="off">
+      <div id="plist"></div>
+    </aside>
+    <main id="app"><div class="loading">Loading…</div></main>
+  </div>
+
+  <footer class="wrap foot">
+    Local review build · 57 AIA Hong Kong products · all figures copied from source; gaps are listed explicitly.
+  </footer>
+
+  <script src="i18n.js?v=1792566101"></script>
+  <script src="app.js?v=1792566101"></script>
+</body>
+</html>

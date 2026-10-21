@@ -1,0 +1,288 @@
+{
+  "productId": "cancer-care-essence",
+  "productName": "Cancer Care Essence",
+  "productType": "critical illness insurance (cancer-specific, lump sum)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "cancer-care-essence_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Lump sum for 4 common cancers",
+      "whatProductOffers": "Pays a lump sum for four common cancers (lung, colon and rectum, breast in females, prostate in males at TNM T1c or above) plus carcinoma-in-situ of breast, colon and rectum and lung, and early stage prostate malignancy at T1a or T1b.",
+      "keyFigures": [
+        {
+          "label": "Initial sum assured (illustration)",
+          "value": "HK$1,000,000",
+          "condition": "26-year-old non-smoking male"
+        },
+        {
+          "label": "First claim",
+          "value": "20% of Initial Sum Assured",
+          "condition": "carcinoma-in-situ or early stage malignancy"
+        },
+        {
+          "label": "Second claim",
+          "value": "80% of Initial Sum Assured",
+          "condition": "specific cancer or death before age 80"
+        },
+        {
+          "label": "Total payable",
+          "value": "100% of Initial Sum Assured",
+          "condition": "policy terminates at 100% payment"
+        },
+        {
+          "label": "Age at application",
+          "value": "18 to 60",
+          "condition": "benefit term to age 80"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only the four named cancer sites are covered; other cancers are not.",
+        "Prostate cancer must be TNM classification T1c or above for the cancer benefit; T1a or T1b is treated as early stage malignancy at 20%.",
+        "Advance payments reduce the Current Sum Assured and the premium accordingly.",
+        "The policy terminates once 100% of the Initial Sum Assured has been paid.",
+        "Waiting periods and the full covered-illness schedule are not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "family history of cancer",
+        "wants a lump sum not reimbursement",
+        "worried about breast cancer",
+        "works long hours, no savings buffer",
+        "wants cover for early stage",
+        "needs cash fast after diagnosis",
+        "young and healthy, thinking ahead",
+        "colorectal cancer in the family",
+        "wants to cover income loss"
+      ],
+      "negativeSignalPhrases": [
+        "wants all critical illnesses covered",
+        "needs medical bill reimbursement",
+        "wants a savings element"
+      ],
+      "clientProfileFit": [
+        "Clients aged 18-60 with cancer family history",
+        "Young professionals wanting a first lump-sum plan",
+        "Budget-conscious buyers focused on the most common cancers"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a diagnosis of one of the four covered cancers pays the full sum assured as cash, not a hospital bill reimbursement.",
+      "verificationPrompts": [
+        "Confirm the covered cancer definitions and TNM staging requirements.",
+        "Confirm the waiting period and any survival period.",
+        "Confirm whether the 20% early-stage payment is available before any cancer diagnosis."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "renewability",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "This plan covers specific cancer protection for 4 common cancers, including lung, colon and rectum, breast and prostate cancer. Should the misfortune occur, we will provide you with a one-off payment",
+        "Once the insured is firstly diagnosed with specific Carcinoma-in-situ or Early Stage Malignancy, 20% of the Initial Sum Assured will be payable ... The benefit payment of specific Cancer or death benefit will be reduced from 100% to 80% of the Initial Sum Assured accordingly."
+      ],
+      "notesForReviewer": "The HK$1,000,000 figure is an illustration for a 26-year-old non-smoking male, not a fixed plan benefit."
+    },
+    {
+      "trendId": "cancer-care-essence_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "From HK$3 a day",
+      "whatProductOffers": "Positions the plan at a premium as low as HK$3 a day for a HK$1,000,000 sum assured, based on a 26-year-old non-smoking male.",
+      "keyFigures": [
+        {
+          "label": "Premium",
+          "value": "as low as HK$3 a day",
+          "condition": "26-year-old non-smoking male, HK$1,000,000 sum assured"
+        },
+        {
+          "label": "Payment mode",
+          "value": "annually / monthly",
+          "condition": "basic plan"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The HK$3 a day figure depends on age, smoking status and sum assured; it is not a general premium.",
+        "Premium is calculated on attained age and the applicable rate at application or renewal, so it rises with age.",
+        "The full premium table is not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "cheap cancer cover",
+        "few dollars a day",
+        "student budget",
+        "first job, small salary",
+        "wants to start small",
+        "premium under 100 a month",
+        "just wants basic cancer cover",
+        "premium too high",
+        "first job small salary"
+      ],
+      "negativeSignalPhrases": [
+        "wants comprehensive CI cover",
+        "needs high sum assured cheaply at older age"
+      ],
+      "clientProfileFit": [
+        "Young non-smoking professionals",
+        "First-time buyers on a tight budget",
+        "Clients adding a low-cost top-up"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "{client_detail} can start at roughly HK$3 a day for a HK$1,000,000 cancer sum assured at age 26.",
+      "verificationPrompts": [
+        "Quote the actual premium for the client's age, gender and smoking status.",
+        "Confirm whether monthly mode changes the total premium."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "you can pay as low as HK$3 premium a day for ... HK$1,000,000 sum assured*, with guaranteed renewal until the insured reaches the age of 80. * Based on a 26-year-old non-smoking male insured"
+      ],
+      "notesForReviewer": "Only one illustrative premium point is given; no rate table in the extracted text."
+    },
+    {
+      "trendId": "cancer-care-essence_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "No waiting period on early claim",
+      "whatProductOffers": "The first claim flow for carcinoma-in-situ or early stage malignancy is shown with no waiting period applied, paying 20% of the Initial Sum Assured on diagnosis.",
+      "keyFigures": [
+        {
+          "label": "First claim payment",
+          "value": "20% of Initial Sum Assured",
+          "condition": "no waiting period will be applied"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The 'no waiting period' statement appears in the claims illustration for the early-stage benefit; confirm it in the policy contract.",
+        "Payment still requires a diagnosis of a covered carcinoma-in-situ or early stage malignancy.",
+        "Any waiting period for the cancer benefit itself is not stated in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "wants claim paid quickly",
+        "worried about waiting period",
+        "diagnosed early, needs cash now",
+        "hates long claim processes",
+        "wants money at first diagnosis",
+        "hates paperwork",
+        "needs cash fast",
+        "wants cashless hospital",
+        "diagnosis overwhelming"
+      ],
+      "negativeSignalPhrases": [
+        "needs cover for a condition diagnosed before application",
+        "expects payment without medical proof"
+      ],
+      "clientProfileFit": [
+        "Clients who value speed of payout at early diagnosis",
+        "People with family history doing regular screening"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "If {client_detail} is diagnosed at the carcinoma-in-situ stage, the 20% payment is triggered with no waiting period applied.",
+      "verificationPrompts": [
+        "Confirm in the policy contract whether a waiting period applies to the early-stage benefit.",
+        "Confirm the claim documents required for a carcinoma-in-situ diagnosis."
+      ],
+      "comparisonRows": [
+        "waiting_period",
+        "ci_coverage"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "First claim 20% of Initial Sum Assured ... no waiting period will be applied"
+      ],
+      "notesForReviewer": "The phrase comes from a claims-flow diagram; its contractual scope needs confirmation."
+    },
+    {
+      "trendId": "cancer-care-essence_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death benefit equals sum assured",
+      "whatProductOffers": "Pays a death benefit equal to the Current Sum Assured to the nominated beneficiary if the insured dies before age 80.",
+      "keyFigures": [
+        {
+          "label": "Death benefit",
+          "value": "Current Sum Assured",
+          "condition": "before the insured's age 80"
+        },
+        {
+          "label": "Current Sum Assured",
+          "value": "Initial Sum Assured less advance payments",
+          "condition": "reduced by any early-stage payments"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The death benefit is reduced by any advance payments already made for carcinoma-in-situ, early stage malignancy or cancer.",
+        "Cover ends at age 80.",
+        "This is not a savings or investment plan; there is no cash value stated."
+      ],
+      "clientSignalPhrases": [
+        "wants something for the family",
+        "single income household",
+        "young children at home",
+        "wants death cover too",
+        "parents depend on me",
+        "main breadwinner",
+        "wants child illness covered",
+        "spouse not working"
+      ],
+      "negativeSignalPhrases": [
+        "wants a larger life cover",
+        "needs estate planning"
+      ],
+      "clientProfileFit": [
+        "Breadwinners with dependent children",
+        "Clients wanting cancer cover with a death benefit attached"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "Beyond cancer, {client_detail} also leaves the current sum assured to the family if death occurs before age 80.",
+      "verificationPrompts": [
+        "Confirm the death benefit calculation after any advance payments.",
+        "Confirm beneficiary nomination rules."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "If the insured ... passes away, we will pay the death benefit to the person whom you select in your policy as beneficiary. The death benefit will be equal to the Current Sum Assured."
+      ],
+      "notesForReviewer": "No separate life sum assured; death benefit is the remaining cancer sum assured."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "cancer-care-essence_critical_illness_readiness",
+    "bestForOneLiner": "Low-cost lump-sum cover for four common cancers with an early-stage advance payment.",
+    "notSuitedWhen": [
+      "The client wants cover for cancers outside the four named sites.",
+      "The client needs hospital bill reimbursement rather than a cash lump sum.",
+      "The client wants savings, dividends or a return of premium."
+    ],
+    "gapsInSourceMaterial": [
+      "Full premium table by age and gender",
+      "Waiting period for the cancer benefit",
+      "Detailed covered-illness benefit schedule"
+    ]
+  }
+}

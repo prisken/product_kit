@@ -1,0 +1,288 @@
+{
+  "productId": "secure-first",
+  "productName": "Secure First",
+  "productType": "accident protection insurance plan",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "secure-first_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "12-year premiums, lifetime cover",
+      "whatProductOffers": "A 12-year premium payment term with premiums guaranteed to remain level, while accidental death cover continues for life.",
+      "keyFigures": [
+        {
+          "label": "Premium payment term",
+          "value": "12 years",
+          "condition": "fixed"
+        },
+        {
+          "label": "Accidental death benefit term",
+          "value": "Whole life",
+          "condition": "policy in force"
+        },
+        {
+          "label": "Premium level",
+          "value": "Guaranteed level",
+          "condition": "throughout the 12-year payment term"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Premium guarantee applies only to the 12-year payment term, not beyond it.",
+        "Dismemberment and permanent total disability benefits end at age 76.",
+        "Premium rates vary by age, gender and smoking status in the rate table (not in excerpt)."
+      ],
+      "clientSignalPhrases": [
+        "doesn't want to pay forever",
+        "wants premiums fixed",
+        "asked how many years to pay",
+        "wants lifetime accident cover",
+        "budget fixed for 12 years",
+        "hates premium increases",
+        "planning to retire soon",
+        "wants cover that outlasts the mortgage"
+      ],
+      "negativeSignalPhrases": [
+        "wants single premium only",
+        "needs investment returns",
+        "wants to stop cover after 10 years"
+      ],
+      "clientProfileFit": [
+        "Clients aged 35-55 wanting cover into retirement",
+        "Budget-conscious buyers who dislike repricing",
+        "Parents paying for a child's long-term accident cover"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the premiums are fixed for 12 years and the accidental death cover then continues for life, so there is no repricing later.",
+      "verificationPrompts": [
+        "Confirm the annual premium from the rate table for the client's age and smoking status.",
+        "Confirm what happens to cover after the 12-year payment term ends."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Secure First. 12-year premium payment plan with lifetime protection",
+        "Premium amounts are guaranteed to remain level throughout the premium payment term."
+      ],
+      "notesForReviewer": "The annual premium rate table is cut off in the supplied excerpt."
+    },
+    {
+      "trendId": "secure-first_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Accidental death plus double indemnity",
+      "whatProductOffers": "Pays the current sum assured as an accidental death benefit if death occurs within 180 days of an accident, and doubles the payout for specified public transport, elevator and fire scenarios.",
+      "keyFigures": [
+        {
+          "label": "Claim window",
+          "value": "180 days after the accident",
+          "condition": "death due to accident"
+        },
+        {
+          "label": "Double indemnity scenarios",
+          "value": "Public land transport, passenger elevator, fire in theatre/auditorium/hotel/school/hospital",
+          "condition": "at the time of the accident"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 63",
+          "condition": "at policy issue"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "A taxi or any transport chartered for private travel is excluded from double indemnity.",
+        "Mine or construction site elevators are excluded.",
+        "Death must occur within 180 days of the accident."
+      ],
+      "clientSignalPhrases": [
+        "commutes by bus and MTR",
+        "worried about accidents on the road",
+        "main breadwinner",
+        "wants double payout for public transport",
+        "travels a lot for work",
+        "has young children",
+        "asked what counts as double",
+        "wants a simple accident plan"
+      ],
+      "negativeSignalPhrases": [
+        "only wants illness cover",
+        "wants investment growth",
+        "needs cover for a pre-existing disability"
+      ],
+      "clientProfileFit": [
+        "Daily public transport commuters",
+        "Parents with dependent children",
+        "Clients wanting a simple, low-complexity accident plan"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "Because {client_detail} commutes by bus and MTR every day, the double indemnity benefit doubles the payout for a fatal accident on public land transport.",
+      "verificationPrompts": [
+        "Confirm the maximum sum assured allowed for the client's age and income group.",
+        "Confirm the exact double indemnity definitions in the policy."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "If the insured, who is the person protected under the policy, passes away due to an accident within 180 days after the date of the accident, Secure First will pay a lump sum amount as the Accidental Death Benefit",
+        "we will double the compensation paid for Accidental Death Benefit, Accidental Dismemberment Benefit or Permanent Total Disability Benefit"
+      ],
+      "notesForReviewer": "Sum assured limits and the accidental dismemberment benefit schedule are not in the excerpt."
+    },
+    {
+      "trendId": "secure-first_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Up to 60% premium refund",
+      "whatProductOffers": "Refunds up to 60% of total applicable premiums paid if the policy is surrendered, lapses, or ends due to non-accidental death.",
+      "keyFigures": [
+        {
+          "label": "Cash benefit",
+          "value": "Up to 60% of total applicable premiums paid",
+          "condition": "surrender, lapse or non-accidental death"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Refund follows a schedule by completed policy years; early surrender returns less.",
+        "Total applicable premiums exclude extra premium loading.",
+        "Refund is reduced if accident benefits have already been paid."
+      ],
+      "clientSignalPhrases": [
+        "doesn't want to lose everything",
+        "asked about surrender value",
+        "wants some money back",
+        "on a tight budget",
+        "worried about wasting premiums",
+        "first insurance plan",
+        "wants a low-commitment start",
+        "compared with pure term accident cover"
+      ],
+      "negativeSignalPhrases": [
+        "wants full premium back",
+        "wants investment returns",
+        "plans to claim early and surrender"
+      ],
+      "clientProfileFit": [
+        "First-time insurance buyers",
+        "Budget-sensitive clients comparing with term cover",
+        "Young adults wanting a refund feature"
+      ],
+      "priorityAlignment": [
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, if the plan is surrendered or lapses, up to 60% of total applicable premiums paid comes back instead of nothing.",
+      "verificationPrompts": [
+        "Show the refund percentage schedule by policy year.",
+        "Confirm how prior accident claims reduce the refund."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Cash Benefit up to 60% of total applicable premiums paid",
+        "you will receive a refund of premiums paid for the policy according to the schedule below"
+      ],
+      "notesForReviewer": "Refund schedule percentages by year are cut off in the excerpt."
+    },
+    {
+      "trendId": "secure-first_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Annual check-ups and worldwide help",
+      "whatProductOffers": "Provides an annual medical check-up for 12 consecutive years starting after the first policy year, plus 24-hour worldwide emergency assistance with evacuation and repatriation up to HK$/MOP500,000 per life.",
+      "keyFigures": [
+        {
+          "label": "Medical check-up",
+          "value": "Annually for 12 consecutive years",
+          "condition": "from the end of the first policy year"
+        },
+        {
+          "label": "Emergency assistance limit",
+          "value": "HK$/MOP500,000 per life",
+          "condition": "aggregate across AIA policies covering the same insured"
+        },
+        {
+          "label": "Assistance availability",
+          "value": "24-hour worldwide",
+          "condition": "accident or unexpected illness while travelling outside HK, Macau or PRC"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Check-up items may be revised without prior notice.",
+        "Assistance applies while travelling outside Hong Kong, Macau or the PRC for a permanent resident.",
+        "The HK$500,000 limit is shared across all AIA policies on the same life."
+      ],
+      "clientSignalPhrases": [
+        "travels overseas often",
+        "wants a free health check",
+        "asked about evacuation cover",
+        "works in China frequently",
+        "wants more than just payout",
+        "values preventive check-ups",
+        "family travels together",
+        "wants 24-hour hotline"
+      ],
+      "negativeSignalPhrases": [
+        "needs full medical cover abroad",
+        "wants hospital bills paid overseas",
+        "only cares about death benefit"
+      ],
+      "clientProfileFit": [
+        "Frequent travellers and cross-border workers",
+        "Clients who value preventive health checks",
+        "Families wanting emergency support while abroad"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan adds an annual check-up for 12 years and a 24-hour worldwide assistance line, not just a death payout.",
+      "verificationPrompts": [
+        "Confirm the check-up provider list and what is included.",
+        "Confirm whether the assistance limit is shared with other AIA policies."
+      ],
+      "comparisonRows": [
+        "premium",
+        "network_access",
+        "outpatient"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Starting from the end of first policy year, we will offer medical check-up to the insured annually for 12 consecutive years.",
+        "emergency medical evacuation and repatriation of remains up to a HK$ / MOP500,000 per life limit under all policies held with us"
+      ],
+      "notesForReviewer": "Check-up benefit is preventive, not diagnostic or outpatient treatment cover."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "secure-first_premium_stability",
+    "bestForOneLiner": "A 12-year premium accident plan with lifetime accidental death cover, double indemnity for public transport and up to 60% premium refund.",
+    "notSuitedWhen": [
+      "The client wants illness or hospital cover",
+      "The client wants guaranteed investment growth",
+      "The client needs a sum assured above the per-life maximum for their age group"
+    ],
+    "gapsInSourceMaterial": [
+      "Annual premium rate table",
+      "Sum assured limits by age and income group",
+      "Accidental dismemberment benefit schedule",
+      "Full exclusions"
+    ]
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "productId": "wisdom-term-life-plan",
+  "productName": "Wisdom Term Life Plan",
+  "productType": "term life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "wisdom-term-life-plan_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Affordable renewable term cover",
+      "whatProductOffers": "A term life plan with premiums described as affordable and guaranteed to remain unchanged within each renewal period, offered in 1-year, 5-year and 20-year renewal periods as either a basic plan or an add-on.",
+      "keyFigures": [
+        {
+          "label": "Renewal periods",
+          "value": "1 year / 5 years / 20 years",
+          "condition": "client selects at application"
+        },
+        {
+          "label": "Basic plan issue age",
+          "value": "16 to 70 (1-year and 5-year); 16 to 65 (20-year)",
+          "condition": "age at application"
+        },
+        {
+          "label": "Add-on plan issue age",
+          "value": "15 days to 70 (1-year and 5-year); 15 days to 65 (20-year)",
+          "condition": "age at application"
+        },
+        {
+          "label": "Premium payment modes",
+          "value": "Annually, semi-annually, quarterly, monthly",
+          "condition": "add-on follows the basic plan's mode"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Premium is guaranteed unchanged only within a renewal period; renewal premium for the next period is based on prevailing rates for the insured's age at renewal.",
+        "The 20-year renewal period is not available for basic-plan applicants above age 65 or add-on applicants above age 65.",
+        "The brochure excerpt does not include a premium table, so affordability cannot be quantified.",
+        "Benefits are subject to the policy's exclusions and to amounts owed being deducted before payment."
+      ],
+      "clientSignalPhrases": [
+        "cheap term cover",
+        "breadwinner needs cover till retirement",
+        "premium must stay flat",
+        "young family, tight budget",
+        "wants 20-year level term",
+        "just needs a death benefit",
+        "no savings element needed",
+        "compare with mortgage insurance",
+        "renewable cover, no investment",
+        "wants add-on to an existing plan"
+      ],
+      "negativeSignalPhrases": [
+        "wants cash value or savings",
+        "needs critical illness cover",
+        "needs cover past age 85"
+      ],
+      "clientProfileFit": [
+        "Young families on a tight budget",
+        "Mortgage holders wanting pure cover",
+        "Clients who already hold savings policies"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan delivers a pure death benefit with premiums guaranteed unchanged inside each renewal period, so the cost is predictable for the chosen term.",
+      "verificationPrompts": [
+        "Confirm the actual premium table for the client's age, sex and sum assured.",
+        "Confirm the renewal premium basis at the end of the selected period.",
+        "Confirm whether the sum assured has a minimum or maximum."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"provides you and your family with ample protection at affordable premiums, which are guaranteed to remain unchanged within each renewal period\"",
+        "\"guaranteed to be renewable at the end of each renewal period up to the age of 85\"",
+        "\"3 renewal periods for you to choose from: 1 year, 5 years and 20 years\""
+      ],
+      "notesForReviewer": "No premium figures in the supplied text; affordability is described, not quantified."
+    },
+    {
+      "trendId": "wisdom-term-life-plan_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Guaranteed renewability to 85",
+      "whatProductOffers": "Cover is guaranteed renewable at the end of each renewal period up to the insured's age 85, and the premium cannot be increased because of changes in the insured's health within a renewal period.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed renewability",
+          "value": "To age 85 of the insured",
+          "condition": "at end of each renewal period"
+        },
+        {
+          "label": "Premium increase for health change",
+          "value": "Not permitted within a renewal period",
+          "condition": "health-condition basis only"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Renewal premiums are recalculated at the prevailing rate for the insured's age at renewal, so the amount payable rises with age even though health cannot be used to reprice.",
+        "Guaranteed renewal is up to age 85; cover does not continue beyond that.",
+        "Renewal is subject to the premium being paid and the policy remaining in force.",
+        "The 'Premium Adjustment' section referenced in the brochure is not included in the supplied excerpt."
+      ],
+      "clientSignalPhrases": [
+        "wants cover that cannot be cancelled",
+        "health changed since application",
+        "guaranteed renewability matters",
+        "worried about failing underwriting later",
+        "needs cover to 85",
+        "wants no re-medical at renewal",
+        "policy lapsed risk?",
+        "planning cover into retirement",
+        "wants certainty on renewal"
+      ],
+      "negativeSignalPhrases": [
+        "needs cover beyond 85",
+        "wants a level premium for life",
+        "expects no age-based increases"
+      ],
+      "clientProfileFit": [
+        "Clients with early health changes",
+        "Long-horizon breadwinners",
+        "Clients who value contractual renewability"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, cover is guaranteed renewable to age 85 and health changes cannot push the premium up inside a renewal period.",
+      "verificationPrompts": [
+        "Confirm the prevailing premium rates at each renewal age.",
+        "Confirm the 'Premium Adjustment' terms referenced in the brochure.",
+        "Confirm any maximum renewal age for add-on plans."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "lifetime_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"guarantees that your premium will not be increased because of any changes in your health condition within each renewal period\"",
+        "\"guaranteed to be renewable at the end of each renewal period up to the age of 85 of the insured\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "wisdom-term-life-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Super Lifestage cover top-ups",
+      "whatProductOffers": "At three defined milestone events the client can buy an additional term add-on without further health information: taking out a mortgage on a new residential property, marriage, or the birth of a natural child.",
+      "keyFigures": [
+        {
+          "label": "Trigger events",
+          "value": "New residential mortgage drawdown / marriage / birth of a natural child",
+          "condition": "per event"
+        },
+        {
+          "label": "Frequency cap",
+          "value": "Once per milestone event and any two milestone events for the same insured",
+          "condition": "lifetime"
+        },
+        {
+          "label": "Minimum spacing",
+          "value": "At least 2 consecutive years between purchases",
+          "condition": "between add-ons"
+        },
+        {
+          "label": "Policy in-force requirement",
+          "value": "At least 2 years",
+          "condition": "before exercise"
+        },
+        {
+          "label": "Deadline",
+          "value": "Within 180 days of the milestone event",
+          "condition": "and on or before the anniversary after age 60"
+        },
+        {
+          "label": "Max sum assured per add-on",
+          "value": "Lower of US$250,000 or HK$/MOP1,875,000; 50% of this plan's sum assured; or the mortgage loan amount",
+          "condition": "whichever is lower"
+        },
+        {
+          "label": "Conversion privilege",
+          "value": "Convert to whole life without further health information",
+          "condition": "on or before the anniversary after age 70"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "No claim may have been submitted or paid under the policy at the time of exercise.",
+        "The new add-on is subject to underwriting requirements determined by the company.",
+        "The mortgage trigger applies only to a new purchase of residential property, not refinancing.",
+        "The birth trigger excludes adoption.",
+        "Sum assured per add-on is capped at the lowest of the three limits stated.",
+        "The conversion privilege is subject to increased premium and to the products then available."
+      ],
+      "clientSignalPhrases": [
+        "just bought a flat",
+        "getting married next year",
+        "expecting a baby",
+        "needs more cover without medicals",
+        "mortgage just drew down",
+        "wants to top up at life events",
+        "health issue, can't underwrite new cover",
+        "new parents needing cover",
+        "wants cover to scale with life",
+        "planning a property purchase"
+      ],
+      "negativeSignalPhrases": [
+        "needs a large sum assured top-up",
+        "wants cover unrelated to a life event",
+        "has already claimed"
+      ],
+      "clientProfileFit": [
+        "New parents",
+        "First-time home buyers",
+        "Newlyweds planning a family"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a mortgage, marriage or a new baby unlocks extra cover without new health questions, capped at the lower of US$250,000, 50% of the sum assured or the mortgage amount.",
+      "verificationPrompts": [
+        "Confirm which milestone the client is within 180 days of.",
+        "Confirm the remaining sum-assured headroom under the three caps.",
+        "Confirm the client has not submitted a claim under the policy."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"purchase an additional term life insurance plan in the form of add-on plan without requiring further health information\"",
+        "\"a maximum of once per milestone event and any two milestone events for the same insured\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "wisdom-term-life-plan_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "100% sum assured death benefit",
+      "whatProductOffers": "On the death of the insured, the death benefit equal to 100% of the sum assured is paid to the beneficiary named in the policy.",
+      "keyFigures": [
+        {
+          "label": "Death benefit",
+          "value": "100% of the sum assured",
+          "condition": "on death of the insured"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "All outstanding amounts owed to the company are deducted before payment to the beneficiary.",
+        "The sum assured is reduced by any Terminal Illness Benefit already advanced.",
+        "Payment is subject to the policy's exclusions and to valid beneficiary designation.",
+        "The excerpt does not describe a minimum or maximum sum assured."
+      ],
+      "clientSignalPhrases": [
+        "main breadwinner",
+        "needs a clean death benefit",
+        "wants the payout to go to a named person",
+        "mortgage and kids",
+        "wants 100% of the sum assured paid",
+        "simple protection, no frills",
+        "estate liquidity",
+        "cover for a spouse",
+        "wants the beneficiary fixed"
+      ],
+      "negativeSignalPhrases": [
+        "wants the payout to grow with investment",
+        "needs an income stream rather than a lump sum",
+        "wants cover past 85"
+      ],
+      "clientProfileFit": [
+        "Breadwinners with dependent children",
+        "Mortgage holders",
+        "Clients wanting straightforward death cover"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the death benefit is 100% of the sum assured, paid to the named beneficiary, which is the simplest way to size the cover against a mortgage or income gap.",
+      "verificationPrompts": [
+        "Confirm the beneficiary nomination and any contingent beneficiary.",
+        "Confirm whether the sum assured is level or reducible over the term.",
+        "Confirm outstanding-amount deductions."
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"The death benefit will be equal to 100% of the sum assured\""
+      ],
+      "notesForReviewer": "No sum-assured range given in the excerpt."
+    },
+    {
+      "trendId": "wisdom-term-life-plan_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Terminal illness advance payment",
+      "whatProductOffers": "If the insured is expected to pass away within 12 months from a terminal illness, confirmed by both the treating specialist and the company's appointed doctor, 100% of the sum assured is paid in one advance.",
+      "keyFigures": [
+        {
+          "label": "Advance payment",
+          "value": "100% of the sum assured",
+          "condition": "one-off"
+        },
+        {
+          "label": "Prognosis window",
+          "value": "12 months",
+          "condition": "confirmed by two registered medical practitioners"
+        },
+        {
+          "label": "Aggregate cap across policies",
+          "value": "US$2,000,000 or HK$/MOP15,000,000",
+          "condition": "for the same insured"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The sum assured is reduced by the amount advanced.",
+        "Both the treating specialist and the company's appointed registered medical practitioner must confirm the prognosis.",
+        "The Terminal Illness Benefit applies to the basic plan only.",
+        "The aggregate cap of US$2,000,000 / HK$15,000,000 applies across all such benefits issued by the company for the same insured."
+      ],
+      "clientSignalPhrases": [
+        "diagnosed terminal, needs cash now",
+        "wants money before death",
+        "hospital bills piling up",
+        "family needs liquidity fast",
+        "wants an advance, not a claim after death",
+        "doctor says 12 months",
+        "wants to sort affairs",
+        "needs cash for treatment",
+        "wants the benefit paid early"
+      ],
+      "negativeSignalPhrases": [
+        "wants the full sum assured paid twice",
+        "needs a critical illness payout for a non-terminal condition",
+        "policy is an add-on only"
+      ],
+      "clientProfileFit": [
+        "Clients facing a terminal diagnosis",
+        "Families needing immediate liquidity",
+        "Clients wanting accelerated death benefits"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a terminal diagnosis with a 12-month prognosis releases 100% of the sum assured early, instead of waiting for the death claim.",
+      "verificationPrompts": [
+        "Confirm the two-doctor certification requirement and who appoints the second doctor.",
+        "Confirm the remaining aggregate cap for the insured across all policies.",
+        "Confirm the effect on the death benefit after the advance."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "lifetime_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"a one-off advance payment, equal to 100% of the sum assured will be paid as Terminal Illness Benefit\"",
+        "\"expected to pass away within 12 months due to a terminal illness\""
+      ],
+      "notesForReviewer": "Terminal illness benefit is not a critical illness benefit; it applies to the basic plan only."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "wisdom-term-life-plan_budget_friendly_entry",
+    "bestForOneLiner": "A renewable term life plan with 1, 5 or 20-year renewal periods, guaranteed renewability to age 85 and life-event top-ups without new health questions.",
+    "notSuitedWhen": [
+      "The client needs cover beyond age 85",
+      "The client wants a savings or cash-value element",
+      "The client needs critical illness cover rather than death cover"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table by age and sum assured",
+      "Minimum and maximum sum assured",
+      "Full exclusions",
+      "Details of the 'Premium Adjustment' terms"
+    ]
+  }
+}

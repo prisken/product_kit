@@ -1,0 +1,422 @@
+{
+  "productId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5",
+  "productName": "CEO Medical Plan 5 / CEO Medical Plan (Worldwide) 5",
+  "productType": "medical insurance (reimbursement, high-end)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_high_annual_or_lifetime_limit",
+      "trendCategory": "high_annual_or_lifetime_limit",
+      "isNewCategory": false,
+      "trendName": "HK$50m lifetime, HK$20m yearly",
+      "whatProductOffers": "Provides a lifetime limit of HK$50,000,000 with an annual limit of HK$20,000,000; the Worldwide version carries US$6,250,000 lifetime and US$2,500,000 annual limits.",
+      "keyFigures": [
+        {
+          "label": "Overall lifetime limit",
+          "value": "HK$50,000,000",
+          "condition": "CEO Medical Plan 5 (HKD)"
+        },
+        {
+          "label": "Annual limit",
+          "value": "HK$20,000,000",
+          "condition": "per policy year"
+        },
+        {
+          "label": "Lifetime limit (worldwide)",
+          "value": "US$6,250,000",
+          "condition": "CEO Medical Plan (Worldwide) 5"
+        },
+        {
+          "label": "Annual limit (worldwide)",
+          "value": "US$2,500,000",
+          "condition": "CEO Medical Plan (Worldwide) 5"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Limits shown are the plan maximums; individual benefit items still follow the benefits schedule.",
+        "Annual deductible choices of 0 / 16,000 / 25,000 / 50,000 (HK$) apply and reduce the reimbursed amount.",
+        "Currency of the policy determines which limit set applies."
+      ],
+      "clientSignalPhrases": [
+        "needs very high cover",
+        "worried one big claim uses up the plan",
+        "wants lifetime limit not annual only",
+        "senior executive medical cover",
+        "family has expensive treatment history",
+        "wants room for cancer treatment over years",
+        "50 million enough?",
+        "wants top-tier medical plan",
+        "worried limit runs out"
+      ],
+      "negativeSignalPhrases": [
+        "budget under 10k a year",
+        "wants simple low-cost cover"
+      ],
+      "clientProfileFit": [
+        "High-net-worth clients and senior executives",
+        "Families wanting maximum lifetime medical capacity",
+        "Clients planning for expensive long-term cancer or dialysis treatment"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the lifetime limit is HK$50,000,000 with HK$20,000,000 available in any single policy year.",
+      "verificationPrompts": [
+        "Confirm which limit set applies to the chosen plan version and currency.",
+        "Confirm the deductible choice and how it interacts with the annual limit.",
+        "Confirm the benefits schedule sublimits."
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "annual_limit",
+        "room_level"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "AIA's CEO Medical Plan 5 / CEO Medical Plan (Worldwide) 5 ... provides lifetime cover up to HK$50,000,000.",
+        "Overall Lifetime Limit ... Annual Limit ... HK$ 50,000,000 / 20,000,000 ... US$ 6,250,000 / 2,500,000"
+      ],
+      "notesForReviewer": "The extracted table is compressed; confirm the annual/lifetime pairing in the benefits schedule."
+    },
+    {
+      "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_room_ward_level",
+      "trendCategory": "room_ward_level",
+      "isNewCategory": false,
+      "trendName": "Standard private room cover",
+      "whatProductOffers": "Covers hospital stay at the standard private room level, with worldwide hospital and surgery cover.",
+      "keyFigures": [
+        {
+          "label": "Room type",
+          "value": "standard private room",
+          "condition": "both plan versions"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Room and board is reimbursed up to the standard private room rate; higher room classes are not covered at full rate.",
+        "The room and board sublimit per day is not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "wants private room",
+        "hates ward stays",
+        "wants own room for recovery",
+        "private hospital only",
+        "family wants privacy during stay",
+        "hates ward",
+        "wants privacy",
+        "upgraded room last stay",
+        "wants own bathroom"
+      ],
+      "negativeSignalPhrases": [
+        "happy with public hospital ward",
+        "wants suite level cover"
+      ],
+      "clientProfileFit": [
+        "Clients who insist on private hospital rooms",
+        "Executives wanting privacy during treatment"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "{client_detail} is covered at the standard private room level rather than a shared ward.",
+      "verificationPrompts": [
+        "Confirm the daily room and board sublimit for the standard private room.",
+        "Confirm the treatment for higher room classes."
+      ],
+      "comparisonRows": [
+        "room_level",
+        "annual_limit",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Room Type: Standard private room",
+        "worldwide cover for hospital stay"
+      ],
+      "notesForReviewer": "Per-day room sublimit not in the extracted text."
+    },
+    {
+      "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Worldwide cover, US optional",
+      "whatProductOffers": "Covers hospital treatment worldwide, with a Worldwide version including the United States and a standard version covering worldwide excluding the United States; both include global emergency treatment and worldwide emergency assistance.",
+      "keyFigures": [
+        {
+          "label": "Geographical cover",
+          "value": "Worldwide",
+          "condition": "CEO Medical Plan (Worldwide) 5"
+        },
+        {
+          "label": "Geographical cover",
+          "value": "Worldwide excluding the United States",
+          "condition": "CEO Medical Plan 5"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The standard version excludes the United States; US treatment requires the Worldwide version.",
+        "Global emergency treatment and assistance services are defined in the benefits schedule and may carry limits.",
+        "The extracted text does not state whether elective treatment abroad requires pre-approval."
+      ],
+      "clientSignalPhrases": [
+        "works in mainland China",
+        "children studying in UK",
+        "travels often for work",
+        "wants US treatment option",
+        "family may relocate",
+        "wants overseas second opinion",
+        "expat package",
+        "works overseas",
+        "children studying abroad"
+      ],
+      "negativeSignalPhrases": [
+        "only needs Hong Kong cover",
+        "wants cheaper local-only plan"
+      ],
+      "clientProfileFit": [
+        "Executives with regional or global responsibilities",
+        "Families with children studying abroad",
+        "Clients planning treatment overseas"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "{client_detail} can choose worldwide cover including the US, and keep emergency assistance wherever they travel.",
+      "verificationPrompts": [
+        "Confirm whether US treatment is included in the selected version.",
+        "Confirm pre-approval requirements for elective overseas treatment.",
+        "Confirm emergency assistance limits."
+      ],
+      "comparisonRows": [
+        "network_access",
+        "annual_limit",
+        "room_level"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Geographical Cover: Worldwide / Worldwide excluding the United States",
+        "global emergency treatment and worldwide emergency assistance services"
+      ],
+      "notesForReviewer": "Overseas treatment approval mechanics not in the extracted text."
+    },
+    {
+      "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Deductible cut up to 100%",
+      "whatProductOffers": "Guarantees renewal for life without premium loading for claims or health changes, and reduces the selected annual deductible by 10% for every two consecutive claim-free cover years, up to 100%.",
+      "keyFigures": [
+        {
+          "label": "No-claim deductible discount",
+          "value": "10%",
+          "condition": "per two consecutive claim-free cover years"
+        },
+        {
+          "label": "Maximum discount",
+          "value": "100%",
+          "condition": "deductible can fall to zero"
+        },
+        {
+          "label": "Reset",
+          "value": "back to 0% discount",
+          "condition": "next cover year after a claim payment"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The discount applies to the original deductible amount and resets to 0% in the next cover year after a claim payment.",
+        "Hospital cash, lower room class cash, day surgery and worldwide emergency assistance claims do not affect eligibility for the discount.",
+        "Renewal premium still follows prevailing premium rates, so age-related increases apply."
+      ],
+      "clientSignalPhrases": [
+        "healthy, rarely claims",
+        "wants lower deductible over time",
+        "doesn't want to pay for claims he won't make",
+        "deductible too high upfront",
+        "long-term client",
+        "wants premium efficiency",
+        "worried premium jumps",
+        "wants no loading after claim",
+        "plans to keep long term"
+      ],
+      "negativeSignalPhrases": [
+        "expects level premium",
+        "claims every year"
+      ],
+      "clientProfileFit": [
+        "Healthy clients choosing a higher deductible to lower premium",
+        "Long-term holders who rarely claim"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "If {client_detail} stays claim-free, the deductible drops 10% every two years and can reach zero.",
+      "verificationPrompts": [
+        "Confirm the deductible choices available and the premium difference between them.",
+        "Confirm which benefit payments reset the discount."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "If no claim is made for two consecutive cover years ... offers a 10% discount on your selected deductible choice in the following cover year. Such discount will accumulate every two consecutive cover years and can reach up to 100%"
+      ],
+      "notesForReviewer": "Actual premium figures not in the extracted text."
+    },
+    {
+      "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Disability subsidy and home care",
+      "whatProductOffers": "Pays a disability subsidy of HK$5,000 per month for up to 24 months if the insured cannot take care of themselves for at least 6 uninterrupted months, and covers home facility enhancements and therapies after a stroke.",
+      "keyFigures": [
+        {
+          "label": "Disability subsidy",
+          "value": "HK$5,000 per month",
+          "condition": "up to 24 months"
+        },
+        {
+          "label": "Trigger",
+          "value": "unable to self-care for 6 uninterrupted months",
+          "condition": "activities of daily living"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The subsidy requires inability to take care of oneself for at least 6 uninterrupted months.",
+        "Maximum payout is 24 months of HK$5,000.",
+        "Home facility enhancements require approval by occupational therapists.",
+        "Extended caring benefits are defined in the benefits schedule and may carry their own limits."
+      ],
+      "clientSignalPhrases": [
+        "stroke in the family",
+        "worried about rehab costs",
+        "needs home modifications",
+        "who pays if I can't work",
+        "wants support beyond hospital bill",
+        "elderly parent cover",
+        "wants physio covered",
+        "needs physio and speech therapy",
+        "elderly parent care"
+      ],
+      "negativeSignalPhrases": [
+        "wants full income replacement",
+        "needs long-term care insurance"
+      ],
+      "clientProfileFit": [
+        "Clients with stroke or cardiovascular family history",
+        "Households where the insured is the main caregiver or earner",
+        "Older applicants planning rehabilitation cover"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "If {client_detail} cannot self-care for six months after a stroke, HK$5,000 a month is paid for up to 24 months on top of treatment costs.",
+      "verificationPrompts": [
+        "Confirm the definition of unable to take care of oneself.",
+        "Confirm whether the subsidy is payable alongside hospital reimbursement.",
+        "Confirm the list of covered home enhancements and therapies."
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "annual_limit",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "if you become unable to take care of yourself for at least 6 uninterrupted months, we will provide a disability subsidy of HK$5,000 per month to you for up to 24 months",
+        "home facility enhancements approved by occupational therapists - widening of corridors, adapting bathroom facilities and purchasing specialised furniture"
+      ],
+      "notesForReviewer": "Subsidy is a fixed monthly amount, not an income replacement calculation."
+    },
+    {
+      "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "Post-hospital care plus dental option",
+      "whatProductOffers": "Provides broad post-hospitalisation care and optional outpatient and dental benefits, alongside cancer treatment, dialysis and stroke rehabilitation cover.",
+      "keyFigures": [
+        {
+          "label": "Optional benefits",
+          "value": "outpatient benefits; dental benefits",
+          "condition": "add-on selection"
+        },
+        {
+          "label": "Extended cover",
+          "value": "cancer treatment, dialysis, stroke rehabilitation, pregnancy complications",
+          "condition": "within the plan"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Outpatient and dental benefits are optional and only apply if selected.",
+        "Post-hospitalisation cover follows the benefits schedule period and limits, which are not in the extracted text.",
+        "Pregnancy complications benefit applies only to covered complications, not normal maternity."
+      ],
+      "clientSignalPhrases": [
+        "wants dental covered",
+        "needs follow-up visits after discharge",
+        "wants outpatient cover",
+        "dialysis three times a week",
+        "wants pregnancy complication cover",
+        "hates paying follow-ups out of pocket",
+        "wants follow-up visits covered",
+        "asks about dental",
+        "needs physio after discharge"
+      ],
+      "negativeSignalPhrases": [
+        "wants maternity package",
+        "needs routine check-ups only"
+      ],
+      "clientProfileFit": [
+        "Clients wanting one plan for hospital and follow-up care",
+        "Families planning pregnancy",
+        "Patients needing long-term dialysis"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "{client_detail} can add outpatient and dental cover on top of the hospital plan, with follow-up visits after discharge included.",
+      "verificationPrompts": [
+        "Confirm the post-hospitalisation period and number of follow-up visits.",
+        "Confirm outpatient and dental add-on premiums and limits.",
+        "Confirm pregnancy complication benefit conditions."
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "add_ons",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Optional Benefits: outpatient benefits; dental benefits",
+        "broad post-hospitalisation care"
+      ],
+      "notesForReviewer": "Post-hospitalisation period and outpatient limits are in the benefits schedule, not the extracted text."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_high_annual_or_lifetime_limit",
+    "bestForOneLiner": "High-end worldwide medical cover with a HK$50,000,000 lifetime limit and standard private room.",
+    "notSuitedWhen": [
+      "The client needs a low premium and would rather accept a ward or public hospital.",
+      "The client only needs Hong Kong cover and no US option.",
+      "The client wants a cash lump sum rather than reimbursement."
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table by age",
+      "Per-benefit sublimits in the benefits schedule",
+      "Post-hospitalisation period and outpatient add-on pricing"
+    ]
+  }
+}

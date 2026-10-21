@@ -1,0 +1,6253 @@
+{
+ "generatedAt": "2026-10-21T06:11:08.826Z",
+ "provider": "deepseek:deepseek-chat",
+ "products": {
+  "admire-life-insurance-plan-2": {
+   "summary": {
+    "bestForOneLiner": "一份分紅終身壽險計劃，提供保證現金價值、每年紅利及終期紅利，並於五個保費繳付期內保費固定。",
+    "notSuitedWhen": [
+     "客戶需要以最低保費獲得純保障",
+     "客戶需要在數年內取回資金",
+     "客戶要求保證紅利金額"
+    ],
+    "gapsInSourceMaterial": [
+     "擷取的文本中沒有說明退保價值、紅利比率或IRR",
+     "未擷取按年齡及保費繳付期劃分的保費表",
+     "未擷取完整的不保事項、等候期及退保費用"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "admire-life-insurance-plan-2_savings_and_wealth_growth",
+     "trendName": "保證現金價值加紅利",
+     "whatProductOffers": "一份分紅終身壽險計劃，提供保證現金價值，並每年派發非保證的每年紅利，以及於退保或身故時派發非保證的終期紅利（單一保費為5年後，其他保費繳付期為10年後）。",
+     "keyFigures": [
+      {
+       "label": "保證現金價值",
+       "value": "提供",
+       "condition": "整個保單年期內"
+      },
+      {
+       "label": "每年紅利",
+       "value": "每年派發，非保證",
+       "condition": "以現金提取、抵繳保費，或積存生息"
+      },
+      {
+       "label": "終期紅利資格",
+       "value": "5年 / 10年",
+       "condition": "單一保費 / 其他保費繳付期"
+      },
+      {
+       "label": "保障年期",
+       "value": "終身",
+       "condition": "所有保費繳付期"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "每年紅利及終期紅利均為非保證。",
+      "終期紅利僅於退保或身故時派發，且單一保費保單須於5年後、其他保單須於10年後方符合資格。",
+      "積存紅利所獲的利息按非保證利率計算。",
+      "擷取的文本中沒有說明任何示例價值或紅利比率。"
+     ],
+     "clientProfileFit": [
+      "為子女教育儲蓄的父母",
+      "建立長期儲蓄的專業人士",
+      "希望兼備保障與累積成分的客戶"
+     ],
+     "priorityAlignment": [
+      "growth"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃可建立保證現金價值並加上每年紅利，若持有至少5年或10年（視保費繳付期而定），更可獲終期紅利。",
+     "verificationPrompts": [
+      "確認客戶的投資年期至少為10年",
+      "詢問客戶希望如何處理紅利——現金提取、抵繳保費或積存生息",
+      "讓客戶明白紅利並非保證"
+     ]
+    },
+    {
+     "trendId": "admire-life-insurance-plan-2_legacy_and_estate",
+     "trendName": "為受益人提供終身身故保障",
+     "whatProductOffers": "向指定受益人支付終身身故保障，金額相等於保額加上積存每年紅利及利息，再加上任何終期紅利，並扣除未償還的保單欠款。",
+     "keyFigures": [
+      {
+       "label": "保障年期",
+       "value": "終身",
+       "condition": "保障至身故"
+      },
+      {
+       "label": "身故保障組成部分",
+       "value": "保額 + 積存每年紅利 + 終期紅利",
+       "condition": "終期紅利受5/10年規則限制"
+      },
+      {
+       "label": "受益人",
+       "value": "由客戶指定",
+       "condition": "保單提名"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "終期紅利部分為非保證，並須符合5年（單一保費）或10年（其他保費繳付期）的規定。",
+      "支付前會先扣除保單下所有未償還欠款。",
+      "紅利金額由AIA酌情宣佈。"
+     ],
+     "clientProfileFit": [
+      "規劃傳承的父母及祖父母",
+      "希望簡單安排財富傳承的高淨值客戶",
+      "希望兼備保障及隨紅利增長的身故保障的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "growth"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，身故保障並不只是保額——它還包括積存紅利及任何終期紅利，因此傳承的金額可隨時間增長。",
+     "verificationPrompts": [
+      "確認擬定的受益人及任何信託安排",
+      "詢問客戶是否需要在身故前提取流動資金",
+      "查核獲取終期紅利所需的保單年期"
+     ]
+    },
+    {
+     "trendId": "admire-life-insurance-plan-2_premium_stability",
+     "trendName": "保費於繳付期內固定",
+     "whatProductOffers": "在所選的保費繳付期內，保費保證維持固定，並提供五個繳付期：一次性、5年、10年、18年及25年。",
+     "keyFigures": [
+      {
+       "label": "保費繳付期",
+       "value": "5",
+       "condition": "一次性、5年、10年、18年及25年"
+      },
+      {
+       "label": "保費水平",
+       "value": "保證固定",
+       "condition": "整個保費繳付期內"
+      },
+      {
+       "label": "投保年齡",
+       "value": "15日至75 / 65 / 60 / 60 / 55",
+       "condition": "視保費繳付期而定"
+      },
+      {
+       "label": "保障年期",
+       "value": "終身",
+       "condition": "所有繳付期"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "保費僅於保費繳付期內固定；繳費期結束後保單仍然生效。",
+      "投保年齡上限因保費繳付期而異，由單一保費的15日至75歲，至25年繳付期的15日至55歲。",
+      "附加保障計劃的保費另行計算，並不由基本計劃固定。"
+     ],
+     "clientProfileFit": [
+      "希望鎖定成本的客戶",
+      "希望短期繳費的準退休人士",
+      "按固定年度金額編製預算的父母"
+     ],
+     "priorityAlignment": [
+      "cost",
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，一旦選定保費繳付期，保費在整個繳付期內固定——繳費期間不會增加。",
+     "verificationPrompts": [
+      "確認客戶偏好的繳費期及現金流",
+      "查核所選繳付期的投保年齡上限",
+      "詢問客戶是否希望在退休前完成繳費"
+     ]
+    },
+    {
+     "trendId": "admire-life-insurance-plan-2_family_protection",
+     "trendName": "傷殘豁免保費",
+     "whatProductOffers": "若受保人於60歲前完全及永久傷殘，可豁免未來保費；並提供付款人保障附加保障，若付款人於60歲前身故或完全及永久傷殘，可豁免保費直至受保人年滿25歲。",
+     "keyFigures": [
+      {
+       "label": "豁免觸發條件",
+       "value": "60歲前完全及永久傷殘",
+       "condition": "受保人"
+      },
+      {
+       "label": "付款人保障附加保障",
+       "value": "豁免保費直至受保人25歲",
+       "condition": "若付款人於60歲前身故或完全及永久傷殘"
+      },
+      {
+       "label": "核保",
+       "value": "需要",
+       "condition": "優惠須經AIA決定"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "兩項豁免均須經核保並受不保事項限制。",
+      "付款人保障附加保障屬自選性質，可能涉及額外保費（擷取的文本中並無說明）。",
+      "豁免適用於基本計劃的未來保費，並不適用於附加保障的保費。"
+     ],
+     "clientProfileFit": [
+      "為子女投保的父母",
+      "單一收入家庭",
+      "希望保單在傷殘後仍可維持的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，若付款人於60歲前身故或完全及永久傷殘，付款人保障附加保障可讓子女的保單繼續生效至25歲，而無須再繳保費。",
+     "verificationPrompts": [
+      "確認由誰繳付保費",
+      "詢問付款人是否已有傷殘保障",
+      "查核核保要求及健康病歷"
+     ]
+    },
+    {
+     "trendId": "admire-life-insurance-plan-2_flexibility_and_customisation",
+     "trendName": "五個繳付期及紅利選擇",
+     "whatProductOffers": "提供五個保費繳付期，可選擇以現金提取每年紅利、用以抵繳保費，或積存生息，並可附加意外、醫療、危疾及傷殘附加保障。",
+     "keyFigures": [
+      {
+       "label": "保費繳付期",
+       "value": "5",
+       "condition": "一次性、5年、10年、18年、25年"
+      },
+      {
+       "label": "紅利選擇",
+       "value": "3",
+       "condition": "現金提取、抵繳保費、積存生息"
+      },
+      {
+       "label": "貨幣",
+       "value": "美元及港元",
+       "condition": "若於澳門簽發則為澳門元"
+      },
+      {
+       "label": "附加保障類型",
+       "value": "4",
+       "condition": "意外、醫療、危疾、傷殘"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "單一保費僅適用於一次性繳付保費的保單。",
+      "澳門元僅適用於在澳門簽發的保單。",
+      "附加保障涉及額外保費、核保及不保事項，並於基本計劃終止時終止。",
+      "基本計劃繳費期結束後，附加保障只可續保至其本身的屆滿日。"
+     ],
+     "clientProfileFit": [
+      "現金流不平均的客戶",
+      "希望以附加保障度身訂造保障的買家",
+      "有貨幣偏好的客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，我們可按其現金流配對保費繳付期，並於日後決定紅利是以現金提取還是積存生息。",
+     "verificationPrompts": [
+      "確認客戶偏好的繳費頻率及貨幣",
+      "詢問客戶需要哪些附加保障",
+      "說明附加保障須另行核保及定價"
+     ]
+    }
+   ]
+  },
+  "aia-assemble-critical-illness-insurance-plan": {
+   "summary": {
+    "bestForOneLiner": "適合已持有部分危疾保障、希望填補特定保障缺口而不想購買全新計劃的客戶。",
+    "notSuitedWhen": [
+     "客戶想要一份無需選擇保障的現成危疾計劃。",
+     "客戶需要住院或醫療費用報銷，而非一筆過賠償。",
+     "客戶想要儲蓄或財富增值產品，而非保障。",
+     "客戶沒有預算支付強制性的癌症保障。"
+    ],
+    "gapsInSourceMaterial": [
+     "保費表及最低保費",
+     "每項保障的等候期",
+     "核保規則及既有病症的處理",
+     "早期、輕微及嚴重兒童疾病的賠償百分比",
+     "完整不保事項列表"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-assemble-critical-illness-insurance-plan_flexibility_and_customisation",
+     "trendName": "自選組合危疾計劃",
+     "whatProductOffers": "讓客戶以強制性及自選保障組合計劃，危疾保障總額設定為壽險保障初始保額的100%至最高2,500%。",
+     "keyFigures": [
+      {
+       "label": "保障範圍",
+       "value": "壽險保障初始保額的100%至最高2,500%（總計）",
+       "condition": "所選保障的總計"
+      },
+      {
+       "label": "強制性保障",
+       "value": "癌症保障",
+       "condition": "自動提供"
+      },
+      {
+       "label": "自選保障",
+       "value": "心臟相關、神經系統相關及其他疾病",
+       "condition": "每項各有其初始保額"
+      },
+      {
+       "label": "專屬保障",
+       "value": "如選購所有自選保障則自動提供",
+       "condition": "選購多重癌症保障並非先決條件"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "癌症保障屬強制性，不可移除。",
+      "保障總額不可超過壽險保障初始保額的2,500%。",
+      "專屬保障須選購所有自選保障方可獲得。",
+      "摘錄文本未列明每項保障的等候期、核保規則及賠償百分比。"
+     ],
+     "clientProfileFit": [
+      "有保障缺口的現有危疾保單持有人",
+      "注重預算的年輕專業人士",
+      "有特定家族健康關注的客戶"
+     ],
+     "priorityAlignment": [
+      "靈活性",
+      "保障",
+      "成本"
+     ],
+     "talkingPointTemplate": "你可以圍繞自己關注的疾病組合計劃，{client_detail}，而無需為不需要的保障付費。",
+     "verificationPrompts": [
+      "確認現有危疾保額及已涵蓋的疾病。",
+      "確認客戶最關注的疾病。",
+      "查核每項所選保障的等候期、核保及賠償規則。"
+     ]
+    },
+    {
+     "trendId": "aia-assemble-critical-illness-insurance-plan_critical_illness_readiness",
+     "trendName": "86種疾病保障至100歲",
+     "whatProductOffers": "涵蓋多達86種病症：58種危疾（57種嚴重疾病及1種輕微疾病）、22種早期危疾及6種嚴重兒童疾病，危疾保障至受保人100歲。",
+     "keyFigures": [
+      {
+       "label": "總涵蓋疾病數目",
+       "value": "多達86種",
+       "condition": "按產品小冊子所述"
+      },
+      {
+       "label": "危疾",
+       "value": "58種",
+       "condition": "包括57種嚴重疾病及1種輕微疾病"
+      },
+      {
+       "label": "早期危疾",
+       "value": "22種",
+       "condition": ""
+      },
+      {
+       "label": "嚴重兒童疾病",
+       "value": "6種",
+       "condition": ""
+      },
+      {
+       "label": "保障年期",
+       "value": "至受保人100歲",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "摘錄文本未列明早期、輕微及嚴重兒童疾病的賠償百分比。",
+      "每種疾病的定義及不保事項載於保單，並不在摘錄中。",
+      "保障受保單條款及核保規限。"
+     ],
+     "clientProfileFit": [
+      "育有年幼子女的父母",
+      "30至50歲保障不足的成年人",
+      "有危疾家族病史的客戶"
+     ],
+     "priorityAlignment": [
+      "保障"
+     ],
+     "talkingPointTemplate": "它涵蓋多達86種病症，包括早期及嚴重兒童疾病，危疾保障可至100歲。",
+     "verificationPrompts": [
+      "確認客戶現有的危疾保障及早期病症是否已涵蓋。",
+      "確認家族病史及客戶的主要健康關注。",
+      "查核保單的定義、不保事項及按階段劃分的賠償百分比。"
+     ]
+    },
+    {
+     "trendId": "aia-assemble-critical-illness-insurance-plan_critical_illness_readiness_multiple_cancer",
+     "trendName": "額外五次癌症索償",
+     "whatProductOffers": "自選多重癌症保障就癌症提供多達5次額外索償。",
+     "keyFigures": [
+      {
+       "label": "額外癌症索償",
+       "value": "多達5次",
+       "condition": "自選多重癌症保障"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "多重癌症保障屬自選，必須選購。",
+      "摘錄文本未列明等候期、索償間隔及資格規則。",
+      "索償受保單的癌症定義及索償條件規限。"
+     ],
+     "clientProfileFit": [
+      "有癌症家族病史的客戶",
+      "受核保規限的癌症康復者",
+      "現有危疾計劃僅賠償一次的客戶"
+     ],
+     "priorityAlignment": [
+      "保障"
+     ],
+     "talkingPointTemplate": "如最擔心癌症，自選多重癌症保障可增加多達五次額外索償。",
+     "verificationPrompts": [
+      "確認客戶是否已有癌症保障及其可索償次數。",
+      "查核復發、轉移及新發癌症是否符合資格，以及等候期。",
+      "如客戶有癌症病史，確認核保要求。"
+     ]
+    },
+    {
+     "trendId": "aia-assemble-critical-illness-insurance-plan_budget_friendly_entry",
+     "trendName": "由100%保障起步",
+     "whatProductOffers": "允許以壽險保障初始保額的100%作為起點，並按預算加入自選保障；產品小冊子將此計劃定位為適合需要可負擔而不超出預算計劃的客戶。",
+     "keyFigures": [
+      {
+       "label": "最低保障總額",
+       "value": "壽險保障初始保額的100%",
+       "condition": ""
+      },
+      {
+       "label": "最高保障總額",
+       "value": "壽險保障初始保額的2,500%",
+       "condition": "所選保障的總計"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "癌症保障屬強制性，因此入門保費並非零。",
+      "保額較低意味賠償較低。",
+      "摘錄文本未列明保費表或最低保費。"
+     ],
+     "clientProfileFit": [
+      "年輕專業人士",
+      "首次購買危疾保障者",
+      "預算受限的客戶"
+     ],
+     "priorityAlignment": [
+      "成本",
+      "靈活性"
+     ],
+     "talkingPointTemplate": "你可以由壽險保額的100%起步，日後按預算加入保障。",
+     "verificationPrompts": [
+      "確認客戶的預算及強制性癌症保障的保費。",
+      "查核現行說明的最低保費；摘錄中並無此資料。",
+      "確認客戶明白保額較低意味賠償較低。"
+     ]
+    }
+   ]
+  },
+  "aia-deferred-annuity-plan-2": {
+   "summary": {
+    "bestForOneLiner": "QDAP 年金計劃，將 5 年保費期轉化為保證水平每月收入，於 50 至 75 歲自選年齡起領取 10 年，並可享最高 HK$60,000 稅項扣除。",
+    "notSuitedWhen": [
+     "客戶需要於 50 歲前取得收入",
+     "客戶希望終身年金而非 10 年",
+     "客戶沒有香港應課稅收入，亦不需要扣除"
+    ],
+    "gapsInSourceMaterial": [
+     "保費及年金金額表",
+     "末期疾病保障金額",
+     "累積年金款項的利率",
+     "完整不保事項及退保條款"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-deferred-annuity-plan-2_income_or_lifestyle_support",
+     "trendName": "保證每月退休收入",
+     "whatProductOffers": "合資格延期年金保單，將儲蓄轉化為 10 年年金期內的水平每月年金款項，保證部分於 50、55、60、65、70 或 75 歲自選年齡起開始。",
+     "keyFigures": [
+      {
+       "label": "投保年齡",
+       "value": "18 至 70",
+       "condition": "申請時年齡"
+      },
+      {
+       "label": "年金款項開始年齡",
+       "value": "50 / 55 / 60 / 65 / 70 / 75",
+       "condition": "客戶選擇"
+      },
+      {
+       "label": "年金期",
+       "value": "10 年",
+       "condition": "固定"
+      },
+      {
+       "label": "保費繳付期",
+       "value": "5 年",
+       "condition": "年金可最早於第 6 年開始"
+      },
+      {
+       "label": "派發模式",
+       "value": "水平；固定保證每月金額",
+       "condition": "年金期內"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "只有每月年金款項的保證部分獲保證；非保證部分取決於可分配盈餘，可能為零。",
+      "10 年年金期為固定；小冊子摘錄並無描述終身年金選項。",
+      "年金領取人必須為受保人，並為收取款項的人。",
+      "保證每月年金款項開始後，保證現金價值會減少。"
+     ],
+     "clientProfileFit": [
+      "45-70 歲規劃退休收入的客戶",
+      "沒有公司退休金的專業人士",
+      "將到期儲蓄保單轉換的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "對於 {client_detail}，此計劃將儲蓄轉化為 10 年水平每月年金，於 50 至 75 歲自選年齡起開始，提供可預測的退休收入。",
+     "verificationPrompts": [
+      "確認客戶年齡、性別及保費下的保證每月年金金額。",
+      "確認 10 年年金期結束時的情況。",
+      "確認每月年金的保證與非保證部分之劃分。"
+     ]
+    },
+    {
+     "trendId": "aia-deferred-annuity-plan-2_flexibility_and_customisation",
+     "trendName": "款項選項靈活性",
+     "whatProductOffers": "客戶可選擇以現金收取每月年金款項，或將其累積於保單內以賺取潛在利息，並可更改年金款項選項而無需額外收費。",
+     "keyFigures": [
+      {
+       "label": "年金款項選項",
+       "value": "每月收取，或累積於保單內",
+       "condition": "客戶選擇"
+      },
+      {
+       "label": "更改選項",
+       "value": "無需額外收費",
+       "condition": "按小冊子措辭，可隨時更改"
+      },
+      {
+       "label": "保費繳付期",
+       "value": "5 年",
+       "condition": "摘錄所述唯一選項"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "累積款項可能按公司釐定的利率賺取利息；摘錄並無列明該利率。",
+      "更改選項不會改變已釐定的保證每月金額。",
+      "摘錄僅描述 5 年保費期；其他年期可能存在但不在文本中。"
+     ],
+     "clientProfileFit": [
+      "未確定退休日期的客戶",
+      "於開始年齡後仍繼續工作的客戶",
+      "建立退休過渡收入的客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "access"
+     ],
+     "talkingPointTemplate": "對於 {client_detail}，每月年金可以現金收取或留作累積，日後可更改選項而無需額外收費。",
+     "verificationPrompts": [
+      "確認累積年金款項是否賺取利息及其利率。",
+      "確認可更改款項選項的頻率。",
+      "確認更改是否影響保證金額。"
+     ]
+    },
+    {
+     "trendId": "aia-deferred-annuity-plan-2_budget_friendly_entry",
+     "trendName": "QDAP 稅項扣除",
+     "whatProductOffers": "作為合資格延期年金保單，如年金領取人為納稅人或其配偶，且該人在該年度有應課稅收入，保費每年每名納稅人可享最高 HK$60,000 稅項扣除。",
+     "keyFigures": [
+      {
+       "label": "稅項扣除上限",
+       "value": "每年每名納稅人最高 HK$60,000",
+       "condition": "如符合資格"
+      },
+      {
+       "label": "資格條件",
+       "value": "年金領取人必須為納稅人或納稅人配偶",
+       "condition": "於該課稅期內有應課稅收入"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "扣除要求年金領取人為保單持有人或配偶，並於課稅期內有應課稅收入。",
+      "HK$60,000 為扣除上限，並非稅項抵免；節省稅款取決於邊際稅率。",
+      "稅務規則可能改變；小冊子指示客戶參閱稅務局及自身稅務顧問。",
+      "扣除為每年每名納稅人計算，並非每份保單計算。"
+     ],
+     "clientProfileFit": [
+      "較高稅率納稅人",
+      "有應課稅收入的已婚夫婦",
+      "已使用強積金自願性供款的客戶"
+     ],
+     "priorityAlignment": [
+      "cost",
+      "access"
+     ],
+     "talkingPointTemplate": "對於 {client_detail}，QDAP 資格容許每名納稅人每年最高 HK$60,000 保費獲扣除，前提是年金領取人為客戶或配偶並有應課稅收入。",
+     "verificationPrompts": [
+      "確認客戶及配偶的應課稅收入及現有 QDAP 扣除。",
+      "確認年金領取人符合 QDAP 資格條件。",
+      "確認現行稅務局規則及該年度扣除上限。"
+     ]
+    },
+    {
+     "trendId": "aia-deferred-annuity-plan-2_fast_access_and_convenience",
+     "trendName": "末期疾病及失業紓緩",
+     "whatProductOffers": "計劃包括末期疾病保障，支付一筆過預付款項，以及失業保障，將保費繳付期由 31 天延長至最多 365 天。",
+     "keyFigures": [
+      {
+       "label": "末期疾病保障",
+       "value": "一筆過預付款項",
+       "condition": "按保單條款"
+      },
+      {
+       "label": "失業保障",
+       "value": "保費繳付期延長 31 至 365 天",
+       "condition": "符合失業資格"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "末期疾病預付款項須經證明，並會減少保單價值；摘錄並無列明預付金額。",
+      "失業延期屬保費遞延，並非豁免；未繳保費仍須於日後繳付。",
+      "兩項保障均受保單條款及細則約束，摘錄並無完整載錄。"
+     ],
+     "clientProfileFit": [
+      "處於週期性行業的客戶",
+      "中年專業人士",
+      "希望有保費靈活性保障的客戶"
+     ],
+     "priorityAlignment": [
+      "access",
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於 {client_detail}，一段失業期可將保費繳付期延後 31 至 365 天，令收入中斷時保單較不易失效。",
+     "verificationPrompts": [
+      "確認失業保障的資格條件。",
+      "確認末期疾病保障金額及證明程序。",
+      "確認遞延保費是日後收取還是資本化。"
+     ]
+    },
+    {
+     "trendId": "aia-deferred-annuity-plan-2_savings_and_wealth_growth",
+     "trendName": "保證及預測內部回報率",
+     "whatProductOffers": "計劃按年金開始年齡公布期滿時保證及預測總內部回報率範圍，以 45 歲非吸煙男性按月繳付為例。",
+     "keyFigures": [
+      {
+       "label": "期滿保證 IRR",
+       "value": "0.10%-0.82%（開始年齡 50）至 1.84%-2.00%（開始年齡 75）",
+       "condition": "45 歲非吸煙男性，10 年年金期"
+      },
+      {
+       "label": "期滿預測總 IRR",
+       "value": "1.77%-2.41%（開始年齡 50）至 3.74%-3.87%（開始年齡 75）",
+       "condition": "現行紅利尺度，非保證"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "預測總 IRR 取決於現行紅利尺度及非保證每月年金；並非保證。",
+      "IRR 隨受保人申請年齡、年金款項開始年齡及保費繳付模式而異。",
+      "所列範圍假設年金領取人收取每月年金款項。",
+      "開始年齡 50 的保證 IRR 低至 0.10%，因此提早年金化會大幅降低回報。"
+     ],
+     "clientProfileFit": [
+      "注重收益的退休儲蓄者",
+      "比較 QDAP 示例的客戶",
+      "延至 70-75 歲才年金化的客戶"
+     ],
+     "priorityAlignment": [
+      "growth",
+      "access"
+     ],
+     "talkingPointTemplate": "對於 {client_detail}，期滿保證 IRR 最高達 2.00%，預測總 IRR 最高達 3.87%，取決於所選年金開始年齡。",
+     "verificationPrompts": [
+      "確認客戶確切年齡、性別及保費模式的 IRR 表。",
+      "確認預測 IRR 背後的現行紅利尺度。",
+      "確認為客戶帶來最佳 IRR 的年金開始年齡。"
+     ]
+    }
+   ]
+  },
+  "aia-one-absolute-full-protection": {
+   "summary": {
+    "bestForOneLiner": "按嚴重程度評分的整筆賠償計劃，涵蓋任何疾病或受傷，賠償高達保額的160%。",
+    "notSuitedWhen": [
+     "客戶需要自願醫保認證或稅務扣減。",
+     "客戶想要與指定危疾掛鈎的固定賠償。",
+     "客戶想要實報實銷的住院費用賠償。",
+     "客戶只接受無上限賠償、不接受按評分設定上限。"
+    ],
+    "gapsInSourceMaterial": [
+     "保障表及完整不保事項",
+     "保費表及可享20%折扣的保額門檻",
+     "等候期及生存期",
+     "完整評分表門檻"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-one-absolute-full-protection_critical_illness_readiness",
+     "trendName": "涵蓋任何疾病及受傷",
+     "whatProductOffers": "就任何疾病或受傷支付整筆賠償，包括癌症、心臟病發作、中風、併發症及尚未發現的病症，按四項嚴重程度因素評分，而非依指定疾病清單。",
+     "keyFigures": [
+      {
+       "label": "嚴重程度因素",
+       "value": "4項：手術、密集住院、殘疾、治療",
+       "condition": ""
+      },
+      {
+       "label": "範圍",
+       "value": "任何疾病及受傷，包括尚未發現的新疾病",
+       "condition": "按計劃條文"
+      },
+      {
+       "label": "投保年齡",
+       "value": "15天至65歲",
+       "condition": ""
+      },
+      {
+       "label": "保障年期",
+       "value": "至85歲",
+       "condition": "如「一覽保障」所示"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "賠償取決於嚴重程度評分，而非符合指定疾病定義。",
+      "每項嚴重程度因素均於保單合約中定義，並以定義規管索償。",
+      "本計劃並非自願醫保認證計劃，保費不可用作稅務扣減。"
+     ],
+     "clientProfileFit": [
+      "首次購買危疾保障的客戶",
+      "指定疾病索償曾被拒的客戶",
+      "希望獲得廣泛保障的年輕專業人士",
+      "有混合疾病家族史的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，計劃沒有指定疾病清單——任何疾病或受傷均按四項嚴重程度因素評分，因此新疾病不會自動被排除。",
+     "verificationPrompts": [
+      "確認保單對4項嚴重程度因素各自的定義。",
+      "確認是否有任何疾病或受傷被完全排除。",
+      "確認如何提交索償以進行嚴重程度評分。"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-full-protection_critical_illness_readiness_severity_payout",
+     "trendName": "高達160%嚴重程度賠償",
+     "whatProductOffers": "將賠償分為兩層：嚴重狀況保障高達保額的120%，加上極嚴重狀況額外保障高達40%，合共最高160%。",
+     "keyFigures": [
+      {
+       "label": "嚴重狀況保障",
+       "value": "高達保額的120%",
+       "condition": "按嚴重程度評分"
+      },
+      {
+       "label": "額外保障",
+       "value": "高達保額的40%",
+       "condition": "僅限極嚴重狀況"
+      },
+      {
+       "label": "最高總額",
+       "value": "高達保額的160%",
+       "condition": ""
+      },
+      {
+       "label": "按評分設定上限",
+       "value": "每名受保人US$50,000 / HK$400,000 / MOP400,000",
+       "condition": "適用於評分為3或4分的索償"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "額外40%僅於狀況達到極嚴重時適用。",
+      "評分為3或4分的索償，每名受保人上限為US$50,000 / HK$400,000 / MOP400,000。",
+      "治療因素會按觸發條件，就特定目標癌症增加40%或就特定器官衰竭增加20%。",
+      "殘疾索償須永久無法進行日常生活活動（ADL）連續3個月。"
+     ],
+     "clientProfileFit": [
+      "需要大額整筆賠償的家庭經濟支柱",
+      "有受養人及按揭的客戶",
+      "由100%危疾計劃升級的買家"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，嚴重狀況可賠償高達保額的160%——120%基本保障加上40%極嚴重狀況額外保障。",
+     "verificationPrompts": [
+      "確認哪些狀況符合40%額外保障。",
+      "確認3/4分上限是按每次索償還是按每個保單年度計算。",
+      "確認特定目標癌症40%附加保障如何與160%上限疊加。"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-full-protection_hospital_cost_protection",
+     "trendName": "ICU及昏迷觸發條件",
+     "whatProductOffers": "將密集住院計入嚴重程度評分：連續3日或以上入住ICU，或因昏迷住院連續96小時或以上，可提高評分，從而提高賠償。",
+     "keyFigures": [
+      {
+       "label": "ICU門檻",
+       "value": "連續3日或以上",
+       "condition": "於深切治療部"
+      },
+      {
+       "label": "昏迷門檻",
+       "value": "連續96小時或以上",
+       "condition": "住院期間"
+      },
+      {
+       "label": "住院途徑",
+       "value": "連續10日或以上",
+       "condition": "就指定狀況接受一般藥物或替代治療"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "ICU留院須連續3日或以上。",
+      "昏迷須持續連續96小時或以上。",
+      "10日住院途徑僅適用於指定狀況，例如原位癌、癌症、心臟病發作或中風。"
+     ],
+     "clientProfileFit": [
+      "對住院感到憂慮的客戶",
+      "有中風或心臟病發作家族史的家庭"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，入住ICU三日或昏迷96小時本身已是嚴重程度觸發條件，而不僅是指定診斷。",
+     "verificationPrompts": [
+      "確認保單合約下ICU日數是否須連續。",
+      "確認哪些狀況符合10日住院途徑。",
+      "確認昏迷是否須為醫療誘導或可為自然發生。"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-full-protection_premium_stability",
+     "trendName": "永久20%保費折扣",
+     "whatProductOffers": "保額高於指定金額可享永久20%保費折扣，AIA Vitality會員另可享首年即時10%折扣。",
+     "keyFigures": [
+      {
+       "label": "永久折扣",
+       "value": "20%",
+       "condition": "保額高於指定金額，僅限標準保費"
+      },
+      {
+       "label": "首年折扣",
+       "value": "10%",
+       "condition": "如加入AIA Vitality"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "20%折扣僅適用於標準保費。",
+      "折扣須保額高於某門檻，該門檻未於摘錄中列明。",
+      "10%折扣僅限首年。"
+     ],
+     "clientProfileFit": [
+      "AIA Vitality會員",
+      "較大保額的買家",
+      "對保費敏感的专业人士"
+     ],
+     "priorityAlignment": [
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，一旦保額超過門檻，20%折扣即為永久，而首年加入AIA Vitality可享10%折扣。",
+     "verificationPrompts": [
+      "確認保額門檻。",
+      "確認索償後折扣是否繼續。",
+      "確認折扣是否適用於附加保障計劃的保費。"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-full-protection_flexibility_and_customisation",
+     "trendName": "基本計劃、附加保障及貨幣",
+     "whatProductOffers": "可作為基本計劃或附加保障計劃，以US$、HK$或MOP發行，可選1年或5年續保期，保障至85歲。",
+     "keyFigures": [
+      {
+       "label": "計劃類型",
+       "value": "基本計劃及附加保障計劃",
+       "condition": ""
+      },
+      {
+       "label": "貨幣",
+       "value": "US$ / HK$ / MOP",
+       "condition": ""
+      },
+      {
+       "label": "續保期",
+       "value": "1年 / 5年",
+       "condition": ""
+      },
+      {
+       "label": "保障年期",
+       "value": "至85歲",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "附加保障計劃的保費繳付方式跟隨相應基本計劃。",
+      "同一表格所示保費繳付期為至85歲；請與保單合約確認確切對應關係。"
+     ],
+     "clientProfileFit": [
+      "現有AIA保單持有人",
+      "以美元或澳門幣支薪的客戶",
+      "為子女投保的父母"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，它可以是獨立基本計劃或附加保障，以客戶賺取收入的貨幣計價，保障至85歲。",
+     "verificationPrompts": [
+      "確認哪些基本計劃接受此為附加保障。",
+      "確認5年續保選項的保障年期。",
+      "確認續保時保費是否改變。"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-flexi-scheme": {
+   "summary": {
+    "bestForOneLiner": "一份獲VHIS認證的終身醫療計劃，不設每年或終身保障限額，並可就每位受保親屬扣稅。",
+    "notSuitedWhen": [
+     "客戶想要永不改變的固定保費。",
+     "客戶想要儲蓄或投資回報。",
+     "客戶想要精神科治療受保。",
+     "客戶需要在美國接受治療。"
+    ],
+    "gapsInSourceMaterial": [
+     "列明各項目分項限額的保障表",
+     "按年齡及病房級別劃分的保費表",
+     "住院前及住院後的天數範圍",
+     "網絡醫院名單"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_high_annual_or_lifetime_limit",
+     "trendName": "不設每年或終身限額",
+     "whatProductOffers": "一份獲VHIS認證的償款計劃，不設每年保障限額及終身保障限額，並保證終身續保。",
+     "keyFigures": [
+      {
+       "label": "每年保障限額",
+       "value": "無",
+       "condition": ""
+      },
+      {
+       "label": "終身保障限額",
+       "value": "無",
+       "condition": ""
+      },
+      {
+       "label": "續保",
+       "value": "保證終身",
+       "condition": ""
+      },
+      {
+       "label": "投保年齡",
+       "value": "15天至80歲",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "認證保障不設每年或終身限額，但保障表內各項目的分項限額仍然適用。",
+      "精神科治療不獲全球保障涵蓋。",
+      "補充嚴重醫療保障利益按每項傷殘及每個保單年度計算。",
+      "保費並非保證，保險公司可作出調整。"
+     ],
+     "clientProfileFit": [
+      "希望獲得終身私人保障的家庭",
+      "40至60歲規劃退休保障的客戶",
+      "現有VHIS標準計劃持有人升級"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，不設每年或終身保障限額，並保證終身續保，因此保障不會到期。",
+     "verificationPrompts": [
+      "確認保障表內各項目的分項限額。",
+      "確認保費調整歷史及日後的加費規則。",
+      "確認「不設限額」的措辭涵蓋所有核心保障，還是僅涵蓋認證保障。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_family_protection",
+     "trendName": "每位親屬均可扣稅",
+     "whatProductOffers": "保費可就每名受保人於每個課稅年度享有高達HKD8,000的VHIS稅務扣除，受保人須為納稅人或指定親屬，指定親屬人數不設上限。",
+     "keyFigures": [
+      {
+       "label": "稅務扣除",
+       "value": "每名受保人高達HKD8,000",
+       "condition": "每個課稅年度"
+      },
+      {
+       "label": "合資格受保人",
+       "value": "納稅人或指定親屬",
+       "condition": "按《稅務條例》定義"
+      },
+      {
+       "label": "親屬人數上限",
+       "value": "無",
+       "condition": "指定親屬人數不設上限"
+      },
+      {
+       "label": "計劃選項",
+       "value": "普通房 / 半私家房 / 標準私家房",
+       "condition": "HKD或USD認證"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "受保人須為納稅人或《稅務條例》所定義的指定親屬。",
+      "稅務扣除減少應評稅入息，並非直接從應繳稅款中扣除。",
+      "HKD8,000按每名受保人計算，而非按每份保單計算。",
+      "保單持有人須為納稅人。"
+     ],
+     "clientProfileFit": [
+      "供養父母的納稅人",
+      "為子女投保的父母",
+      "高收入的自僱客戶"
+     ],
+     "priorityAlignment": [
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，每名受保親屬可帶來高達HKD8,000的稅務扣除，而可受保的親屬人數不設上限。",
+     "verificationPrompts": [
+      "確認稅務局現行有關指定親屬及扣除上限的規則。",
+      "確認計劃於投保時仍為獲認證的VHIS計劃。",
+      "與客戶的會計師確認稅務狀況。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_outpatient_and_followup",
+     "trendName": "住院前後門診保障",
+     "whatProductOffers": "於核心保障內涵蓋住院或日間手術程序前後的門診護理、長期透析、處方診斷造影及處方非手術癌症治療。",
+     "keyFigures": [
+      {
+       "label": "門診保障",
+       "value": "住院或日間手術程序前後",
+       "condition": "摘錄未列明時間範圍"
+      },
+      {
+       "label": "透析",
+       "value": "涵蓋長期治療",
+       "condition": ""
+      },
+      {
+       "label": "癌症治療",
+       "value": "處方非手術癌症治療",
+       "condition": ""
+      },
+      {
+       "label": "造影",
+       "value": "處方診斷造影檢查",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "門診保障與住院或日間手術程序掛鈎；單獨門診求診不獲保障。",
+      "精神科治療不獲全球保障涵蓋。",
+      "住院前後的天數及分項限額載於保障表，摘錄並未列出。"
+     ],
+     "clientProfileFit": [
+      "患有慢性疾病的客戶",
+      "需要覆診的癌症病人",
+      "有年幼子女的家庭"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，住院前後的覆診及長期透析屬於核心保障，而非額外選項。",
+     "verificationPrompts": [
+      "確認住院前後所涵蓋的天數。",
+      "確認每個保單年度的透析分項限額。",
+      "確認日間手術程序是否需要預先批核。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_budget_friendly_entry",
+     "trendName": "無索償折扣高達25%",
+     "whatProductOffers": "連續3個或以上保單年度沒有索償後，可獲高達上一保單年度已繳總保費25%的無索償折扣，AIA Vitality會員另可享首年即時10%折扣。",
+     "keyFigures": [
+      {
+       "label": "無索償折扣",
+       "value": "高達上一保單年度已繳總保費的25%",
+       "condition": "連續3個或以上保單年度沒有索償"
+      },
+      {
+       "label": "首年折扣",
+       "value": "10%",
+       "condition": "AIA Vitality會員"
+      },
+      {
+       "label": "計劃級別",
+       "value": "普通房 / 半私家房 / 標準私家房",
+       "condition": "三個病房級別"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "25%折扣須連續3個或以上保單年度沒有索償。",
+      "折扣於下一個保單周年日應用，並非即時。",
+      "10%首年折扣僅適用於AIA Vitality會員。",
+      "無索償折扣按上一保單年度已繳保費計算。"
+     ],
+     "clientProfileFit": [
+      "年輕健康客戶",
+      "注重預算的家庭",
+      "AIA Vitality用戶"
+     ],
+     "priorityAlignment": [
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，三年沒有索償可獲高達去年保費25%的折扣，另加首年10%的Vitality折扣。",
+     "verificationPrompts": [
+      "確認保費變動時折扣的計算方式。",
+      "確認小額索償是否會令3年計算重新開始。",
+      "確認折扣是否適用於附加保障保費。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_fast_access_and_convenience",
+     "trendName": "網絡禮遇與免現金",
+     "whatProductOffers": "使用醫療網絡可享較高保障限額、補充嚴重醫療保障利益的較低共同保險百分比、醫療費用預先批核，以及日間手術程序的附加免現金安排。",
+     "keyFigures": [
+      {
+       "label": "保障限額",
+       "value": "較高",
+       "condition": "使用醫療網絡"
+      },
+      {
+       "label": "共同保險",
+       "value": "較低百分比",
+       "condition": "補充嚴重醫療保障利益"
+      },
+      {
+       "label": "預先批核",
+       "value": "可獲醫療費用預先批核",
+       "condition": ""
+      },
+      {
+       "label": "免現金",
+       "value": "日間手術程序的附加安排",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "禮遇僅於使用醫療網絡時適用。",
+      "免現金安排屬附加項目，適用於日間手術程序。",
+      "網絡醫院名單及實際限額並未載於摘錄文本。"
+     ],
+     "clientProfileFit": [
+      "繁忙的專業人士",
+      "重視可預測現金流的客戶",
+      "鄰近網絡醫院的家庭"
+     ],
+     "priorityAlignment": [
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，使用網絡可享較高限額、較低共同保險及日間手術的免現金選項，因此前期現金支出較少。",
+     "verificationPrompts": [
+      "確認網絡醫院名單及首選醫生是否包括在內。",
+      "確認網絡內外的共同保險百分比。",
+      "確認哪些日間手術程序符合免現金資格。"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-prime-scheme": {
+   "summary": {
+    "bestForOneLiner": "獲 VHIS 認可的償款計劃，提供三個年度自付額級別，可選港元或美元。",
+    "notSuitedWhen": [
+     "客戶需要一個已確認接受新申請的產品。",
+     "客戶需要已確認的保障限額或病房級別。",
+     "客戶希望自付額高於 HKD25,000。"
+    ],
+    "gapsInSourceMaterial": [
+     "保費表",
+     "年度及終身保障限額",
+     "病房級別及保障表",
+     "不保事項及等候期",
+     "產品專屬小冊子文字（slug 與 Flexi Scheme 重疊）"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-prime-scheme_flexibility_and_customisation",
+     "trendName": "三個年度自付額級別",
+     "whatProductOffers": "在獲 VHIS 認可的償款計劃下，讓客戶選擇三個年度自付額金額之一，以港元或美元計 — HKD0 / USD0、HKD16,000 / USD2,000 或 HKD25,000 / USD3,125。",
+     "keyFigures": [
+      {
+       "label": "自付額選項（港元）",
+       "value": "HKD0 / HKD16,000 / HKD25,000",
+       "condition": "每年"
+      },
+      {
+       "label": "自付額選項（美元）",
+       "value": "USD0 / USD2,000 / USD3,125",
+       "condition": "每年"
+      },
+      {
+       "label": "產品性質",
+       "value": "醫療保障保險計劃（償款）",
+       "condition": "VHIS 認可"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "產品頁面僅顯示三個自付額級別。",
+      "產品頁面將某些認證編號列為 Not available for New Application。",
+      "所擷取的文案未提供保費、保障限額及不保事項。"
+     ],
+     "clientProfileFit": [
+      "在保費與自付費用之間取得平衡的客戶",
+      "比較自付額級別的 VHIS 買家"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於 {client_detail}，自付額可設定為零、HKD16,000 或 HKD25,000，因此保費可與賬單的首部分互相取捨。",
+     "verificationPrompts": [
+      "確認每個自付額級別的保費。",
+      "確認此計劃是否接受新申請。",
+      "確認完整保障表及病房級別。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-prime-scheme_flexibility_and_customisation_plan_structure",
+     "trendName": "基本計劃或附加計劃",
+     "whatProductOffers": "根據產品頁面的計劃類型欄位，可作為基本計劃或附加計劃簽發。",
+     "keyFigures": [
+      {
+       "label": "計劃類型",
+       "value": "Basic Plan and add-on plan",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "來源僅提供計劃類型標籤；並未說明哪些基本計劃可接受其作為附加計劃。",
+      "某些認證編號列為 Not available for New Application。"
+     ],
+     "clientProfileFit": [
+      "尋求附加保障的現有 AIA 保單持有人"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於 {client_detail}，它可作為基本計劃投保，或附加於合資格的現有計劃。",
+     "verificationPrompts": [
+      "確認哪些基本計劃可接受其作為附加計劃。",
+      "確認目前是否接受新申請。"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-privilege-plus-scheme": {
+   "summary": {
+    "bestForOneLiner": "一份基本自願醫保（VHIS）償款計劃，提供三個以港元或美元計的年度自付額級別。",
+    "notSuitedWhen": [
+     "客戶需要確認產品是否仍接受新申請。",
+     "客戶需要確認保障限額或病房級別。",
+     "客戶想要高於HKD25,000的自付額。"
+    ],
+    "gapsInSourceMaterial": [
+     "保費表",
+     "年度及終身保障限額",
+     "病房級別及保障表",
+     "不保事項及等候期",
+     "產品專屬小冊子文字（slug與Privilege Ultra Scheme重疊）"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-plus-scheme_flexibility_and_customisation",
+     "trendName": "三個年度自付額級別",
+     "whatProductOffers": "在VHIS認可償款計劃下，提供三個以港元或美元計的年度自付額金額——HKD0 / USD0、HKD16,000 / USD2,000或HKD25,000 / USD3,125。",
+     "keyFigures": [
+      {
+       "label": "自付額選項（港元）",
+       "value": "HKD0 / HKD16,000 / HKD25,000",
+       "condition": "每年"
+      },
+      {
+       "label": "自付額選項（美元）",
+       "value": "USD0 / USD2,000 / USD3,125",
+       "condition": "每年"
+      },
+      {
+       "label": "產品性質",
+       "value": "醫療保障保險計劃（償款）",
+       "condition": "VHIS認可"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "產品頁面僅顯示三個自付額級別。",
+      "兩組認證編號列為「不接受新申請」。",
+      "所擷取的文案未提供保費、保障限額、病房級別及不保事項。"
+     ],
+     "clientProfileFit": [
+      "以保費換取自付費用的VHIS買家",
+      "比較不同保險公司自付額級別的客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "cost"
+     ],
+     "talkingPointTemplate": "對{client_detail}而言，自付額可設於零、HKD16,000或HKD25,000，因此保費可與賬單的首部分互相取捨。",
+     "verificationPrompts": [
+      "確認每個自付額級別的保費。",
+      "確認計劃是否接受新申請。",
+      "確認保障表及病房級別。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-plus-scheme_flexibility_and_customisation_plan_structure",
+     "trendName": "基本計劃結構",
+     "whatProductOffers": "根據產品頁面的計劃類型欄位，本產品為基本VHIS計劃，而非附加保障。",
+     "keyFigures": [
+      {
+       "label": "計劃類型",
+       "value": "Basic Plan",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "來源僅提供計劃類型標籤；並無描述完整保單結構。",
+      "某些認證編號列為「不接受新申請」。"
+     ],
+     "clientProfileFit": [
+      "想要獨立計劃的首次VHIS買家"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對{client_detail}而言，本產品作為基本VHIS計劃獨立存在，因此無需現有保單。",
+     "verificationPrompts": [
+      "確認目前是否接受新申請。",
+      "確認哪些附加保障可附加於此基本計劃。"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-privilege-scheme": {
+   "summary": {
+    "bestForOneLiner": "一份附加於基本計劃的自願醫保償款計劃，可選擇三個以港元或美元計算的年度自付額水平。",
+    "notSuitedWhen": [
+     "客戶需要一份獨立保單。",
+     "客戶沒有合資格的基本計劃可供附加。",
+     "客戶需要一款已確認接受新申請的產品。",
+     "客戶需要已確認的保障限額或病房級別。"
+    ],
+    "gapsInSourceMaterial": [
+     "此附加保障的合資格基本計劃",
+     "保費表",
+     "年度及終身保障限額",
+     "病房級別及保障表",
+     "產品專屬小冊子文字（slug 與 Privilege Ultra Scheme 重疊）"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-scheme_flexibility_and_customisation",
+     "trendName": "可選擇自付額的附加保障",
+     "whatProductOffers": "結構為附加於基本計劃的自願醫保計劃，提供三個以港元或美元計算的年度自付額 — HKD0 / USD0、HKD16,000 / USD2,000 或 HKD25,000 / USD3,125。",
+     "keyFigures": [
+      {
+       "label": "計劃類型",
+       "value": "附加計劃",
+       "condition": ""
+      },
+      {
+       "label": "自付額選項（港元）",
+       "value": "HKD0 / HKD16,000 / HKD25,000",
+       "condition": "年度"
+      },
+      {
+       "label": "自付額選項（美元）",
+       "value": "USD0 / USD2,000 / USD3,125",
+       "condition": "年度"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "作為附加保障，必須附加於合資格的基本計劃；產品頁面並未列明哪些基本計劃符合資格。",
+      "只顯示三個自付額水平。",
+      "兩組認證編號列為「不接受新申請」。",
+      "已擷取的文本並未提供保費、保障限額、病房級別及不保事項。"
+     ],
+     "clientProfileFit": [
+      "現有保單持有人加保以提升保障",
+      "希望以附加保障加保而非更換現有計劃的客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃可附加於現有合資格基本計劃，自付額可為零、HKD16,000 或 HKD25,000。",
+     "verificationPrompts": [
+      "確認哪些基本計劃接受此附加保障。",
+      "確認每個自付額水平的保費。",
+      "確認此計劃是否接受新申請。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-scheme_flexibility_and_customisation_deductible",
+     "trendName": "三個自付額級別",
+     "whatProductOffers": "讓保單持有人選擇零、HKD16,000（USD2,000）或 HKD25,000（USD3,125）的年度自付額，從而改變每宗索償在計劃賠付前需自行承擔的金額。",
+     "keyFigures": [
+      {
+       "label": "零自付額",
+       "value": "HKD0 / USD0",
+       "condition": "年度"
+      },
+      {
+       "label": "中等自付額",
+       "value": "HKD16,000 / USD2,000",
+       "condition": "年度"
+      },
+      {
+       "label": "高自付額",
+       "value": "HKD25,000 / USD3,125",
+       "condition": "年度"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "資料來源並未列明各級別之間的保費差額。",
+      "自付額按產品頁面標示以每個保單年度計算。",
+      "自付額越高，保障開始前需自付的金額越多 — 資料來源並未明確說明，因此應以產品機制解釋，而非視為引述特點。"
+     ],
+     "clientProfileFit": [
+      "有現金儲備可自行承擔風險的客戶",
+      "重視較低保費的健康客戶"
+     ],
+     "priorityAlignment": [
+      "cost",
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，HKD25,000 自付額可壓低保費，而零自付額則代表計劃由第一元起賠付。",
+     "verificationPrompts": [
+      "確認每個自付額級別的保費。",
+      "確認自付額是按每個保單年度還是每宗索償計算。",
+      "確認自付額與附加基本計劃之間的相互作用。"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-selectwise-scheme": {
+   "summary": {
+    "bestForOneLiner": "一份以可負擔保費為核心、並可於香港、澳門及中國內地指定醫院入住半私家房的VHIS計劃。",
+    "notSuitedWhen": [
+     "客戶堅持任何醫院及任何醫生。",
+     "客戶需要全球或美國保障。",
+     "客戶想要一筆過現金保障而非實報實銷。",
+     "客戶無法於入院前使用預先批核。"
+    ],
+    "gapsInSourceMaterial": [
+     "按年齡及房型劃分的保費表",
+     "房型升級的完整資格規則",
+     "中國內地保障表第20-26頁",
+     "完整指定醫院名單"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_budget_friendly_entry",
+     "trendName": "可負擔保費，升級房型",
+     "whatProductOffers": "將計劃定位於可持續且可負擔的保費，同時在符合資格條件時，可於香港、澳門及中國內地的SelectWise指定醫院入住更舒適的房型。",
+     "keyFigures": [
+      {
+       "label": "保費定位",
+       "value": "可持續且可負擔",
+       "condition": "摘錄中並無保費數字"
+      },
+      {
+       "label": "房型升級",
+       "value": "更舒適的房型",
+       "condition": "於SelectWise指定醫院"
+      },
+      {
+       "label": "香港房型",
+       "value": "半私家房",
+       "condition": "網絡醫生及預先批核費用"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "房型升級須入住SelectWise指定醫院並符合資格要求。",
+      "在香港，半私家房要求所有主診醫生均為網絡醫生，且所有費用均已預先批核。",
+      "實際保費水平並不在摘錄文本中。",
+      "本計劃為實報實銷的VHIS計劃，並非現金保障計劃。"
+     ],
+     "clientProfileFit": [
+      "年輕家庭",
+      "首次購買VHIS人士",
+      "注重預算的專業人士"
+     ],
+     "priorityAlignment": [
+      "cost",
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，保費維持於可持續水平，而在符合網絡條件時，仍可於指定醫院入住半私家房。",
+     "verificationPrompts": [
+      "確認按年齡及房型劃分的現行保費表。",
+      "確認房型升級的確切資格規則。",
+      "確認保費屬保證還是可調整。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_room_ward_level",
+     "trendName": "指定醫院的半私家房",
+     "whatProductOffers": "於香港及澳門，當入住SelectWise指定醫院、所有主診醫生均來自SelectWise醫療網絡且所有費用均已預先批核時，可入住半私家房；在中國內地，兩組指定醫院提供舒適房型。",
+     "keyFigures": [
+      {
+       "label": "香港及澳門房型",
+       "value": "半私家房",
+       "condition": "指定醫院 + 網絡醫生 + 預先批核"
+      },
+      {
+       "label": "中國內地",
+       "value": "兩組SelectWise指定醫院",
+       "condition": "舒適房型"
+      },
+      {
+       "label": "非指定內地醫院",
+       "value": "按VHIS標準計劃受保",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "在香港，必須同時符合三項條件：指定醫院、網絡醫生、預先批核費用。",
+      "於非指定內地醫院接受治療，將回落至VHIS標準計劃的保障。",
+      "房型須視乎醫院供應情況。",
+      "資格要求載於小冊子第5-6頁，該部分並未摘錄。"
+     ],
+     "clientProfileFit": [
+      "重視私隱的客戶",
+      "經常往返內地人士",
+      "計劃生育的家庭"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，當醫生屬網絡內且費用已預先批核時，可於香港及澳門的指定醫院入住半私家房。",
+     "verificationPrompts": [
+      "確認各城市的指定醫院名單。",
+      "確認住院期間如被安排非網絡醫生會如何處理。",
+      "確認房型升級是否適用於產科住院。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_high_annual_or_lifetime_limit",
+     "trendName": "終身HKD60m，每年HKD12m",
+     "whatProductOffers": "提供高達HKD60 million的終身限額及高達HKD12 million的每年限額，主要醫療費用不設分項保障限額。",
+     "keyFigures": [
+      {
+       "label": "終身限額",
+       "value": "高達HKD60 million",
+       "condition": ""
+      },
+      {
+       "label": "每年限額",
+       "value": "高達HKD12 million",
+       "condition": ""
+      },
+      {
+       "label": "分項限額",
+       "value": "主要醫療費用不設",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "受保障表及指定醫院規則所限。",
+      "於指定醫院以外的內地治療按VHIS標準計劃受保，限額較低。",
+      "摘錄並無說明限額是按保單還是按受保人計算。"
+     ],
+     "clientProfileFit": [
+      "希望以中端保費獲得高限額的客戶",
+      "有癌症家族史的家庭",
+      "計劃長期私家醫療的專業人士"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，每年限額為HKD12 million，終身限額為HKD60 million，主要費用不設分項限額。",
+     "verificationPrompts": [
+      "確認貨幣及限額是否於各保障利益間共用。",
+      "確認哪些費用不屬主要醫療費用。",
+      "確認於中國內地限額是否會調低。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_international_coverage",
+     "trendName": "內地醫院網絡",
+     "whatProductOffers": "透過兩組SelectWise指定醫院，以舒適房型保障中國內地的治療，而於非指定內地醫院的治療則按VHIS標準計劃受保。",
+     "keyFigures": [
+      {
+       "label": "內地網絡",
+       "value": "兩組SelectWise指定醫院",
+       "condition": "供選擇"
+      },
+      {
+       "label": "非指定內地",
+       "value": "按VHIS標準計劃受保",
+       "condition": ""
+      },
+      {
+       "label": "香港及澳門",
+       "value": "SelectWise指定醫院",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "於非指定內地醫院的保障僅限於VHIS標準計劃。",
+      "此並非全球保障；摘錄並無涵蓋香港、澳門及中國內地以外的國家。",
+      "指定醫院組別須符合資格條件。",
+      "內地保障詳情載於小冊子第20-26頁，該部分並未摘錄。"
+     ],
+     "clientProfileFit": [
+      "於大灣區工作的香港居民",
+      "有家人在中國內地的客戶",
+      "北移退休人士"
+     ],
+     "priorityAlignment": [
+      "access",
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，於指定內地醫院的治療以舒適房型受保，而於非指定內地醫院則回落至VHIS標準計劃。",
+     "verificationPrompts": [
+      "確認兩個醫院組別及所涵蓋的城市。",
+      "確認內地治療是否需要預先批核。",
+      "確認VHIS標準計劃回落保障下適用的保障限額。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_fast_access_and_convenience",
+     "trendName": "網絡流程與預先批核",
+     "whatProductOffers": "透過SelectWise醫療網絡提供專屬醫療流程及醫療費用預先批核，此亦為香港半私家房升級的條件。",
+     "keyFigures": [
+      {
+       "label": "網絡",
+       "value": "SelectWise醫療網絡",
+       "condition": "香港"
+      },
+      {
+       "label": "預先批核",
+       "value": "房型升級所需",
+       "condition": ""
+      },
+      {
+       "label": "醫生",
+       "value": "所有主診註冊醫生及外科醫生均須為網絡醫生",
+       "condition": "以獲得房型升級"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "預先批核是房型升級的條件，並非可選額外項目。",
+      "網絡以外的護理按標準實報實銷處理。",
+      "摘錄並無說明預先批核的處理時間。"
+     ],
+     "clientProfileFit": [
+      "繁忙的專業人士",
+      "希望費用可預測的客戶",
+      "居於網絡醫院附近的家庭"
+     ],
+     "priorityAlignment": [
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，透過SelectWise網絡進行預先批核，正是解鎖半私家房並使賬單可預測的關鍵。",
+     "verificationPrompts": [
+      "確認預先批核的處理時間。",
+      "確認緊急入院可否事後補辦預先批核。",
+      "確認客戶所在區域的網絡覆蓋範圍。"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-standard-scheme": {
+   "summary": {
+    "bestForOneLiner": "VHIS認證標準計劃，每年HKD420,000，不設終身限額，可續保至100歲。",
+    "notSuitedWhen": [
+     "客戶需要高於VHIS標準計劃保障水平的保障或單人病房。",
+     "客戶想要牙科、產科或非住院門診保障。",
+     "客戶已有已知的現有病症需要保障。"
+    ],
+    "gapsInSourceMaterial": [
+     "各項保障的分項限額及膳食及住宿金額",
+     "等候期及現有病症的定義",
+     "按年齡劃分的保費表"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_high_annual_or_lifetime_limit",
+     "trendName": "不設終身限額，每年420k",
+     "whatProductOffers": "提供實報實銷保障，每個保單年度每年保障限額為HKD420,000，不設終身保障限額，保證續保至受保人100歲。",
+     "keyFigures": [
+      {
+       "label": "每年保障限額",
+       "value": "HKD420,000",
+       "condition": "每個保單年度"
+      },
+      {
+       "label": "終身保障限額",
+       "value": "無",
+       "condition": "未述明終身限額"
+      },
+      {
+       "label": "保證續保",
+       "value": "至100歲",
+       "condition": "不因索償或健康變化而提高保費"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "保障表就每項設有分項限額（膳食及住宿、主診醫生診症費等）；有關金額不在擷取文本中。",
+      "環球保障不包括精神科治療。",
+      "現有病症的保障僅限於未知的現有病症。",
+      "續保保費按現行保費表計算，因此年齡相關的增幅仍然適用。"
+     ],
+     "clientProfileFit": [
+      "首次購買醫療保險的客戶",
+      "為多名家庭成員投保以扣稅的年輕家庭",
+      "仍希望使用私家醫院但注重預算的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，本計劃每個保單年度賠償高達HKD420,000，且不設終身限額，因此即使經歷大額索償，保障亦不會耗盡。",
+     "verificationPrompts": [
+      "確認保障表內現行的每年限額及逐項分項限額。",
+      "確認適用於未知現有病症的等候期。",
+      "確認無索償折扣級別及AIA Vitality首年折扣仍然適用。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_hospital_cost_protection",
+     "trendName": "住院及日間手術實報實銷",
+     "whatProductOffers": "賠償住院保障，包括膳食及住宿及主診醫生診症費、住院及日間手術程序、處方診斷造影檢查、處方非手術癌症治療，以及住院或日間手術程序前後的門診護理。",
+     "keyFigures": [
+      {
+       "label": "核心保障",
+       "value": "5個保障組別",
+       "condition": "住院、程序、造影、癌症治療、前後門診"
+      },
+      {
+       "label": "投保時受保年齡",
+       "value": "15天至80歲",
+       "condition": "新業務"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "每項保障項目均受保障表內各自的分項限額所限；有關金額不在擷取文本中。",
+      "環球地域保障不包括精神科治療。",
+      "日間手術程序受保，但程序清單於保障表中界定。"
+     ],
+     "clientProfileFit": [
+      "團體醫療保障不足的僱員",
+      "希望報銷掃描及日間手術費用的客戶",
+      "最高至80歲的較年長申請人"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "{client_detail}可獲報銷掃描、日間手術及住院前後診症，而不僅是住院病床。",
+     "verificationPrompts": [
+      "確認膳食及住宿及主診醫生診症費的分項限額。",
+      "確認處方診斷造影檢查是否需要預先批准。",
+      "確認日間手術程序的網絡安排。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_pre_existing_or_chronic_support",
+     "trendName": "保障未知的現有病症",
+     "whatProductOffers": "本計劃述明保障未知的現有病症，並同時提供保證續保，作為其VHIS標準計劃認證的一部分。",
+     "keyFigures": [
+      {
+       "label": "現有病症保障",
+       "value": "未知的現有病症",
+       "condition": "已知病症不受保"
+      },
+      {
+       "label": "認證編號",
+       "value": "S00013-01-000-02",
+       "condition": "VHIS認證標準計劃"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "僅未知的現有病症受保；已知的現有病症屬不保事項。",
+      "等候期及任何特定病症限制未在擷取文本中述明。",
+      "認證僅適用於標準計劃水平，因此保障遵循VHIS標準計劃的最低要求。"
+     ],
+     "clientProfileFit": [
+      "未確診任何病症但擔心不保事項的客戶",
+      "離開團體醫療保障的人士",
+      "擔心被拒保的申請人"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "若{client_detail}從未確診，未知的現有病症會受保而非列為不保事項。",
+     "verificationPrompts": [
+      "確認保單合約中未知現有病症的定義。",
+      "確認可就現有病症提出索償前的等候期。",
+      "確認VHIS認證編號與現行證書相符。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_budget_friendly_entry",
+     "trendName": "扣稅及無索償折扣",
+     "whatProductOffers": "保費可就每名受保人每個課稅年度享有高達HKD8,000的稅務扣除，指定親屬人數不設上限，另設高達15%的無索償折扣，以及AIA Vitality會員首年即時10%折扣。",
+     "keyFigures": [
+      {
+       "label": "稅務扣除",
+       "value": "高達HKD8,000",
+       "condition": "每名受保人每個課稅年度"
+      },
+      {
+       "label": "稅務扣除例子",
+       "value": "HKD32,000",
+       "condition": "4名受保人（HKD8,000 x 4）"
+      },
+      {
+       "label": "無索償折扣",
+       "value": "高達15%",
+       "condition": "連續3個或以上保單年度無索償"
+      },
+      {
+       "label": "AIA Vitality首年折扣",
+       "value": "10%",
+       "condition": "AIA Vitality會員，首年"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "稅務扣除是從應課稅入息中扣除，而非直接從應繳稅款中扣除。",
+      "扣除要求保單持有人為納稅人，而受保人為納稅人或指定親屬。",
+      "無索償折扣僅在連續3個或以上無索償保單年度後，於下一個保單周年日適用。",
+      "AIA Vitality會籍須繳付年費。"
+     ],
+     "clientProfileFit": [
+      "為自己及配偶、子女或父母投保的納稅人",
+      "無索償紀錄且對價格敏感的客戶",
+      "現有AIA Vitality會員"
+     ],
+     "priorityAlignment": [
+      "cost",
+      "coverage"
+     ],
+     "talkingPointTemplate": "{client_detail}可就每名受保人扣除高達HKD8,000，四名受保人可令家庭扣除額達HKD32,000。",
+     "verificationPrompts": [
+      "根據稅務局指引確認現行稅務扣除上限。",
+      "確認無索償折扣按上一保單年度的總保費計算。",
+      "確認AIA Vitality折扣於投保時仍然適用。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_premium_stability",
+     "trendName": "續保不因索償而加載",
+     "whatProductOffers": "保證每年續保至100歲，並述明續保保費不會因已作出的索償或受保人健康狀況的變化而提高。",
+     "keyFigures": [
+      {
+       "label": "保證續保",
+       "value": "至100歲",
+       "condition": "每年續保"
+      },
+      {
+       "label": "索償加載",
+       "value": "無",
+       "condition": "不因索償或健康變化而提高保費"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "續保保費按受保人已達年齡的現行保費計算，因此保費仍會隨年齡上升。",
+      "保險公司可整體修訂保費率；保證僅涵蓋索償及健康狀況。",
+      "本計劃不保證可於100歲後續保。"
+     ],
+     "clientProfileFit": [
+      "計劃終身醫療保障的客戶",
+      "曾索償並擔心加載的人士",
+      "希望獲得續保確定性的較年長申請人"
+     ],
+     "priorityAlignment": [
+      "cost",
+      "coverage"
+     ],
+     "talkingPointTemplate": "一旦{client_detail}投保，索償或健康變化不會推高續保保費；只適用按年齡計算的保費率。",
+     "verificationPrompts": [
+      "確認續保保費基礎及任何整體費率修訂條款。",
+      "確認保單合約中保證續保至100歲。"
+     ]
+    }
+   ]
+  },
+  "aia-one-absolute-cancer-serious-infectious-disease-protectio": {
+   "summary": {
+    "bestForOneLiner": "一份按嚴重程度評分、就癌症及嚴重傳染病提供一次性賠償的計劃，賠償額最高可達保額的160%。",
+    "notSuitedWhen": [
+     "客戶希望住院費用獲得實報實銷，而非一次性賠償。",
+     "客戶希望在確診指定疾病時獲得固定賠償。",
+     "客戶需要自願醫保認證或稅務扣減。",
+     "客戶的預算只足以支持非常小的保額。"
+    ],
+    "gapsInSourceMaterial": [
+     "保障表及嚴重程度評分門檻",
+     "等候期及完整不保事項",
+     "保費表及可享20%折扣的保額門檻",
+     "受保嚴重傳染病的完整名單"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-one-absolute-cancer-serious-infectious-disease-protectio_critical_illness_readiness",
+     "trendName": "按嚴重程度評分的癌症賠償",
+     "whatProductOffers": "就癌症及原位癌按客觀的醫療歷程嚴重程度評分支付一次性賠償，而非按固定診斷支付，保障利益最高可達保額的160%。",
+     "keyFigures": [
+      {
+       "label": "賠償基礎",
+       "value": "根據透明評分表的嚴重程度評分",
+       "condition": "客戶可查核該評分表"
+      },
+      {
+       "label": "最高保障利益",
+       "value": "最高可達保額的160%",
+       "condition": "涵蓋各嚴重程度級別"
+      },
+      {
+       "label": "投保年齡",
+       "value": "15天至65歲",
+       "condition": ""
+      },
+      {
+       "label": "續保年期選項",
+       "value": "1年／5年",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "賠償取決於嚴重程度評分，而非僅取決於診斷。",
+      "保障利益上限為保額的160%。",
+      "等候期及核保規則並未載於擷取文本中。",
+      "此趨勢下保障僅涵蓋癌症及原位癌；其他狀況另行處理。"
+     ],
+     "clientProfileFit": [
+      "30至55歲、有家族癌症病史的成年人",
+      "不喜歡指定疾病定義的客戶",
+      "沒有團體醫療保障的自僱人士",
+      "希望增加第二層保障的現有危疾保單持有人"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "靈活性"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，賠償額會隨癌症歷程的嚴重程度而調整，最高可達保額的160%，而非單一固定診斷賠償。",
+     "verificationPrompts": [
+      "在保單合約中確認嚴重程度評分表及分數門檻。",
+      "確認等候期及任何生存期。",
+      "確認原位癌在評分表下的評分方式。",
+      "確認可享20%保費折扣所需的指定保額。"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-cancer-serious-infectious-disease-protectio_critical_illness_readiness_infectious",
+     "trendName": "嚴重傳染病保障",
+     "whatProductOffers": "在癌症保障之外，將一次性賠償延伸至嚴重傳染病，例如在COVID-19仍屬國際關注的突發公共衛生事件期間提供保障，並涵蓋未來可能出現的全球疫情。",
+     "keyFigures": [
+      {
+       "label": "COVID-19",
+       "value": "受保",
+       "condition": "當COVID-19根據WHO仍屬PHEIC期間"
+      },
+      {
+       "label": "未來疫情",
+       "value": "涵蓋未來可能出現的全球疫情",
+       "condition": "按計劃條款"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "COVID-19保障僅在COVID-19根據WHO仍屬PHEIC期間適用。",
+      "受保傳染病名單及其定義並未載於擷取文本中。",
+      "傳染病索償按保單合約判定，而非按市場推廣例子。"
+     ],
+     "clientProfileFit": [
+      "經常外遊人士",
+      "曾提出COVID關注的客戶",
+      "希望獲得防疫保障的家庭"
+     ],
+     "priorityAlignment": [
+      "保障"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃亦就嚴重傳染病（例如COVID-19及未來可能出現的疫情）作出賠償，而不僅限於癌症。",
+     "verificationPrompts": [
+      "確認PHEIC狀態結束後仍受保的傳染病。",
+      "確認傳染病索償是否採用同一嚴重程度評分表。",
+      "確認是否有專為傳染病而設的等候期。"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-cancer-serious-infectious-disease-protectio_premium_stability",
+     "trendName": "分級保費折扣",
+     "whatProductOffers": "在指定保額以上提供永久20%保費折扣，AIA Vitality會員另可於首年享即時10%保費折扣。",
+     "keyFigures": [
+      {
+       "label": "永久折扣",
+       "value": "20%",
+       "condition": "在指定保額以上，僅適用於標準保費"
+      },
+      {
+       "label": "首年折扣",
+       "value": "10%",
+       "condition": "如加入AIA Vitality"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "20%折扣僅適用於標準保費，並僅在指定保額以上適用。",
+      "10%折扣僅適用於首個保單年度。",
+      "可享20%折扣的保額門檻並未載於擷取文本中。"
+     ],
+     "clientProfileFit": [
+      "已使用AIA Vitality、注重健康的客戶",
+      "投保較大保額的買家",
+      "對保費敏感的专业人士"
+     ],
+     "priorityAlignment": [
+      "成本"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，在指定保額以上保費永久下調20%，而首年透過AIA Vitality可享10%折扣。",
+     "verificationPrompts": [
+      "確認20%折扣的確切保額門檻。",
+      "確認保額減少後折扣是否仍然有效。",
+      "確認續保時是否適用折扣。"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-cancer-serious-infectious-disease-protectio_flexibility_and_customisation",
+     "trendName": "基本計劃或附加保障結構",
+     "whatProductOffers": "可作為基本計劃或附加保障計劃投保，貨幣可選US$、HK$或MOP，並可選擇1年或5年續保年期。",
+     "keyFigures": [
+      {
+       "label": "計劃類型",
+       "value": "基本計劃及附加保障計劃",
+       "condition": ""
+      },
+      {
+       "label": "貨幣",
+       "value": "US$／HK$／MOP",
+       "condition": ""
+      },
+      {
+       "label": "續保年期",
+       "value": "1年／5年",
+       "condition": ""
+      },
+      {
+       "label": "投保年齡",
+       "value": "15天至65歲",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "附加保障計劃的保費繳付方式跟隨相應的基本計劃。",
+      "保障年期及保費繳付期在擷取文本中被截斷。"
+     ],
+     "clientProfileFit": [
+      "現有AIA保單持有人加購附加保障",
+      "以美元或澳門幣受薪的客戶",
+      "為初生嬰兒投保的父母"
+     ],
+     "priorityAlignment": [
+      "靈活性"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃可作為現有AIA計劃的附加保障，貨幣可選USD、HKD或MOP，並可選擇一年或五年續保。",
+     "verificationPrompts": [
+      "確認哪些基本計劃可接受此產品作為附加保障。",
+      "確認5年續保的保費在該期間是否固定不變。",
+      "確認各續保選項的保障年期。"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-privilege-ultra-scheme": {
+   "summary": {
+    "bestForOneLiner": "頂級自願醫保計劃，終身保障限額達HKD60,000,000，主要開支不設分項限額，並涵蓋第3期臨床試驗藥物。",
+    "notSuitedWhen": [
+     "客戶需要在美國接受治療。",
+     "客戶希望保費越低越好。",
+     "客戶希望一筆過現金賠償而非實報實銷。",
+     "客戶無法承擔年度自付額。"
+    ],
+    "gapsInSourceMaterial": [
+     "按年齡、地域及自付額劃分的保費表",
+     "第16頁主要不保事項",
+     "保障表第12-15頁",
+     "各病房級別按地域劃分"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_high_annual_or_lifetime_limit",
+     "trendName": "HKD60,000,000終身保障限額",
+     "whatProductOffers": "自願醫保認可計劃，終身保障限額高達HKD60,000,000或USD7,500,000，年度限額高達HKD12,000,000或USD1,500,000，主要醫療開支不設分項保障限額。",
+     "keyFigures": [
+      {
+       "label": "終身保障限額",
+       "value": "HKD60,000,000 / USD7,500,000",
+       "condition": "高達"
+      },
+      {
+       "label": "年度限額",
+       "value": "HKD12,000,000 / USD1,500,000",
+       "condition": "高達"
+      },
+      {
+       "label": "分項限額",
+       "value": "主要醫療開支不設分項限額",
+       "condition": ""
+      }
+     ],
+     "exclusionsOrConditions": [
+      "必須先支付年度自付額，方可獲發保障利益。",
+      "保障僅限於所選地域：亞洲或全球（不包括美國）。",
+      "保障表仍決定哪些開支屬於主要醫療開支。",
+      "限額受所選保單貨幣限制。"
+     ],
+     "clientProfileFit": [
+      "高淨值客戶",
+      "45-65歲計劃使用私家醫療服務的客戶",
+      "希望獲得最高保障上限的家庭"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，終身保障上限為HKD60,000,000，每年HKD12,000,000，因此一筆災難性醫療費用不會耗盡保單。",
+     "verificationPrompts": [
+      "確認限額是按保單還是按受保人計算。",
+      "確認哪些開支不屬於主要醫療開支。",
+      "確認自付額及共同保險如何與年度限額相互作用。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_critical_illness_readiness",
+     "trendName": "臨床試驗藥物保障",
+     "whatProductOffers": "就第III期及第IV期指定癌症及不可治癒的血液惡性腫瘤，每個保單年度增加高達HKD500,000的第3期臨床試驗藥物保障。",
+     "keyFigures": [
+      {
+       "label": "臨床試驗藥物",
+       "value": "每個保單年度高達HKD500,000",
+       "condition": ""
+      },
+      {
+       "label": "合資格病症",
+       "value": "第III期及第IV期指定癌症；不可治癒的血液惡性腫瘤",
+       "condition": ""
+      },
+      {
+       "label": "試驗期",
+       "value": "第3期",
+       "condition": "僅限"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "僅第3期臨床試驗藥物符合資格。",
+      "僅限第III期或第IV期指定癌症，或不可治癒的血液惡性腫瘤。",
+      "HKD500,000上限按每個保單年度計算。",
+      "臨床試驗藥物註明不獲其他靈活認可自願醫保計劃保障。"
+     ],
+     "clientProfileFit": [
+      "有家族癌症病史的客戶",
+      "癌症風險較高的年長客戶",
+      "希望獲得新治療的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，第III期或第IV期指定癌症的第3期臨床試驗藥物每個保單年度保障高達HKD500,000。",
+     "verificationPrompts": [
+      "確認指定癌症名單。",
+      "確認藥物是否必須在香港施用。",
+      "確認此保障利益是否計入年度限額之內。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_flexibility_and_customisation",
+     "trendName": "兩個地域、四種自付額",
+     "whatProductOffers": "提供亞洲或全球（不包括美國）保障選擇，以及每種貨幣四種年度自付額金額，並可於50至81歲期間選定的保單周年日一次性降低自付額，而無需提供新的健康資料。",
+     "keyFigures": [
+      {
+       "label": "地域保障",
+       "value": "亞洲或全球（不包括美國）",
+       "condition": "2個選擇"
+      },
+      {
+       "label": "自付額（HKD）",
+       "value": "0 / 16,000 / 25,000 / 50,000",
+       "condition": "每年"
+      },
+      {
+       "label": "自付額（USD）",
+       "value": "0 / 2,000 / 3,125 / 6,250",
+       "condition": "每年"
+      },
+      {
+       "label": "自付額降低",
+       "value": "於50、55、60、65、70、75或81歲一次",
+       "condition": "無需新的健康資料"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "自付額於保單年期內僅可降低一次。",
+      "降低自付額時保費會增加。",
+      "全球選項不保美國治療。",
+      "一次性降低必須配合所列年齡之一的保單周年日。"
+     ],
+     "clientProfileFit": [
+      "經常往返亞洲的旅客",
+      "計劃在區內退休的客戶",
+      "願意自付小額費用以優化保費的客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，你現在可選擇亞洲保障及HKD50,000自付額，並於60歲時一次性降低而無需重新核保。",
+     "verificationPrompts": [
+      "確認每種自付額及地域的保費表。",
+      "確認降低自付額是否要求保單於該周年日仍然生效。",
+      "確認降低後的自付額日後可否再次提高。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_hospital_cost_protection",
+     "trendName": "不設分項保障限額",
+     "whatProductOffers": "主要醫療開支全額保障，不設分項保障限額，涵蓋病房及膳食、專科醫生費用，以至深切治療、診斷造影及非手術癌症治療。",
+     "keyFigures": [
+      {
+       "label": "分項限額",
+       "value": "主要醫療開支不設分項限額",
+       "condition": ""
+      },
+      {
+       "label": "受保項目",
+       "value": "病房及膳食、專科醫生、外科醫生、麻醉科醫生、深切治療",
+       "condition": ""
+      },
+      {
+       "label": "造影",
+       "value": "CT、MRI及PET掃描",
+       "condition": "處方診斷造影"
+      },
+      {
+       "label": "癌症治療",
+       "value": "放射治療、化學治療、標靶治療、免疫治療、荷爾蒙治療",
+       "condition": "非手術"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "全額保障適用於保障表所列的主要醫療開支；其他項目仍可能設有上限。",
+      "必須先支付年度自付額及任何共同保險，方可獲發保障利益。",
+      "主要不保事項載於小冊子第16頁，並未包含於摘錄中。"
+     ],
+     "clientProfileFit": [
+      "計劃接受私家手術的客戶",
+      "有年幼子女的家庭",
+      "不喜歡細字限額的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，外科醫生費用、深切治療及PET掃描等主要開支不設分項限額——上限即年度及終身限額。",
+     "verificationPrompts": [
+      "確認主要醫療開支的完整清單。",
+      "確認自付額後的共同保險百分比。",
+      "確認主診醫生費用是否全額保障或按合理及慣常收費。"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_outpatient_and_followup",
+     "trendName": "手術後365日跟進",
+     "whatProductOffers": "涵蓋住院或日間手術程序前後指定期間內的門診診症，包括大型或複雜手術後365日內的診症，以及每連續3個保單年度一次的指定身體檢查。",
+     "keyFigures": [
+      {
+       "label": "手術後門診",
+       "value": "365日內",
+       "condition": "大型或複雜手術後"
+      },
+      {
+       "label": "身體檢查",
+       "value": "每連續3個保單年度一次",
+       "condition": "指定身體檢查服務"
+      },
+      {
+       "label": "住院前",
+       "value": "住院前指定期間",
+       "condition": "摘錄未註明長度"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "門診保障與住院或日間手術程序掛鈎。",
+      "身體檢查為每連續3個保單年度一次，而非每年一次。",
+      "住院前期限並未於摘錄文本中註明。",
+      "身體檢查被描述為市場首創，並適用於指定服務。"
+     ],
+     "clientProfileFit": [
+      "面對計劃手術的客戶",
+      "40歲以上注重健康的客戶",
+      "處於跟進期的癌症患者"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，大型手術後跟進診症長達365日，並每三個保單年度包括一次身體檢查。",
+     "verificationPrompts": [
+      "確認住院前期限。",
+      "確認包括哪些身體檢查項目及可於何處進行。",
+      "確認作出索償後身體檢查是否重新計算。"
+     ]
+    }
+   ]
+  },
+  "cancer-care-essence": {
+   "summary": {
+    "bestForOneLiner": "低保費的一筆過保障，涵蓋四種常見癌症，並設早期階段預支賠償。",
+    "notSuitedWhen": [
+     "客戶希望保障四種指定部位以外的癌症。",
+     "客戶需要住院賬單賠償，而非一筆過現金。",
+     "客戶希望有儲蓄、紅利或保費退還。"
+    ],
+    "gapsInSourceMaterial": [
+     "按年齡及性別劃分的完整保費表",
+     "癌症保障的等候期",
+     "詳細的受保疾病保障利益表"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "cancer-care-essence_critical_illness_readiness",
+     "trendName": "四種常見癌症的一筆過賠償",
+     "whatProductOffers": "就四種常見癌症（肺癌、結腸及直腸癌、女性乳癌、男性前列腺癌達 TNM T1c 或以上）支付一筆過賠償，另涵蓋乳房、結腸及直腸與肺的原位癌，以及 T1a 或 T1b 的早期前列腺惡性腫瘤。",
+     "keyFigures": [
+      {
+       "label": "初期保額（說明例子）",
+       "value": "HK$1,000,000",
+       "condition": "26歲非吸煙男性"
+      },
+      {
+       "label": "首次索償",
+       "value": "初期保額的20%",
+       "condition": "原位癌或早期惡性腫瘤"
+      },
+      {
+       "label": "第二次索償",
+       "value": "初期保額的80%",
+       "condition": "特定癌症或80歲前身故"
+      },
+      {
+       "label": "應付總額",
+       "value": "初期保額的100%",
+       "condition": "支付100%後保單終止"
+      },
+      {
+       "label": "投保年齡",
+       "value": "18至60",
+       "condition": "保障期至80歲"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "只涵蓋四種指定癌症部位；其他癌症不獲保障。",
+      "前列腺癌須達 TNM 分類 T1c 或以上方符合癌症保障；T1a 或 T1b 視作早期惡性腫瘤，按20%賠償。",
+      "預支賠償會相應減少現行保額及保費。",
+      "初期保額的100%一經支付，保單即終止。",
+      "等候期及完整受保疾病表並未載於擷取文本中。"
+     ],
+     "clientProfileFit": [
+      "18至60歲、有癌症家族病史的客戶",
+      "希望以第一份一筆過計劃起步的年輕專業人士",
+      "注重最常見癌症、預算有限的買家"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "成本"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，確診四種受保癌症之一，會以現金支付全數保額，而非住院賬單賠償。",
+     "verificationPrompts": [
+      "確認受保癌症的定義及 TNM 分期要求。",
+      "確認等候期及任何存活期。",
+      "確認20%早期階段賠償是否可在任何癌症確診前提供。"
+     ]
+    },
+    {
+     "trendId": "cancer-care-essence_budget_friendly_entry",
+     "trendName": "每日低至HK$3",
+     "whatProductOffers": "以26歲非吸煙男性、HK$1,000,000保額計算，本計劃保費低至每日HK$3。",
+     "keyFigures": [
+      {
+       "label": "保費",
+       "value": "低至每日HK$3",
+       "condition": "26歲非吸煙男性，HK$1,000,000保額"
+      },
+      {
+       "label": "繳費方式",
+       "value": "年繳 / 月繳",
+       "condition": "基本計劃"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "每日HK$3的數字取決於年齡、吸煙狀況及保額，並非一般保費。",
+      "保費按投保或續保時的到達年齡及適用保費率計算，因此會隨年齡上升。",
+      "擷取的文本中並無完整保費表。"
+     ],
+     "clientProfileFit": [
+      "年輕非吸煙專業人士",
+      "預算緊絀的首次投保人士",
+      "加購低成本附加保障的客戶"
+     ],
+     "priorityAlignment": [
+      "成本",
+      "保障"
+     ],
+     "talkingPointTemplate": "{client_detail}於26歲時，可以每日約HK$3開始獲得HK$1,000,000癌症保額。",
+     "verificationPrompts": [
+      "按客戶的年齡、性別及吸煙狀況報出實際保費。",
+      "確認月繳方式會否改變保費總額。"
+     ]
+    },
+    {
+     "trendId": "cancer-care-essence_fast_access_and_convenience",
+     "trendName": "早期索償不設等候期",
+     "whatProductOffers": "原位癌或早期惡性腫瘤的首次索償流程顯示不設等候期，於確診時支付初步保額的20%。",
+     "keyFigures": [
+      {
+       "label": "首次索償賠償",
+       "value": "初步保額的20%",
+       "condition": "不設等候期"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "「不設等候期」的陳述見於早期階段保障的索償說明；請於保單合約中確認。",
+      "賠償仍須確診受保的原位癌或早期惡性腫瘤。",
+      "癌症保障本身的等候期並未於摘錄文本中列明。"
+     ],
+     "clientProfileFit": [
+      "重視早期確診時賠償速度的客戶",
+      "有家族病史並定期接受篩查的人士"
+     ],
+     "priorityAlignment": [
+      "access",
+      "coverage"
+     ],
+     "talkingPointTemplate": "若{client_detail}於原位癌階段確診，將觸發20%賠償，且不設等候期。",
+     "verificationPrompts": [
+      "請於保單合約中確認早期階段保障是否設有等候期。",
+      "確認原位癌確診所需的索償文件。"
+     ]
+    },
+    {
+     "trendId": "cancer-care-essence_family_protection",
+     "trendName": "身故賠償等於保額",
+     "whatProductOffers": "若受保人於80歲前身故，向指定受益人支付相等於現行保額的身故賠償。",
+     "keyFigures": [
+      {
+       "label": "身故賠償",
+       "value": "現行保額",
+       "condition": "受保人80歲前"
+      },
+      {
+       "label": "現行保額",
+       "value": "最初保額減去預支賠償",
+       "condition": "扣減任何早期階段賠償"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "身故賠償會扣減已就原位癌、早期惡性腫瘤或癌症支付的任何預支賠償。",
+      "保障於80歲終止。",
+      "此計劃並非儲蓄或投資計劃；並無列明現金價值。"
+     ],
+     "clientProfileFit": [
+      "有受養子女的家庭經濟支柱",
+      "希望癌症保障附帶身故賠償的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "除癌症保障外，若於80歲前身故，{client_detail}亦可將現行保額留給家人。",
+     "verificationPrompts": [
+      "確認扣除任何預支賠償後的身故賠償計算。",
+      "確認受益人指定規則。"
+     ]
+    }
+   ]
+  },
+  "ceo-pearl-medical-plan-5-series": {
+   "summary": {
+    "bestForOneLiner": "高端環球醫療保障計劃，終身保障限額為HK$50,000,000，並提供標準私家病房保障。",
+    "notSuitedWhen": [
+     "客戶需要門診或牙科保障，而本計劃並未列出此等保障。",
+     "客戶只需香港治療，並希望保費較低。",
+     "客戶希望一筆過賠償，而非實報實銷。"
+    ],
+    "gapsInSourceMaterial": [
+     "按年齡劃分的保費表",
+     "保障表內各項保障的分項限額",
+     "確認此版本不設門診或牙科選項"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_high_annual_or_lifetime_limit",
+     "trendName": "HK$50,000,000終身限額，HK$20,000,000年度限額",
+     "whatProductOffers": "提供HK$50,000,000終身保障，年度限額為HK$20,000,000；環球版本以美元計價，終身限額為US$6,250,000，年度限額為US$2,500,000。",
+     "keyFigures": [
+      {
+       "label": "整體終身限額",
+       "value": "HK$50,000,000",
+       "condition": "CEO Pearl Medical Plan 5"
+      },
+      {
+       "label": "年度限額",
+       "value": "HK$20,000,000",
+       "condition": "每保單年度"
+      },
+      {
+       "label": "終身限額（環球）",
+       "value": "US$6,250,000",
+       "condition": "CEO Pearl Medical Plan (Worldwide) 5"
+      },
+      {
+       "label": "年度限額（環球）",
+       "value": "US$2,500,000",
+       "condition": "CEO Pearl Medical Plan (Worldwide) 5"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "上述數字為計劃上限；個別保障項目須遵循保障表的分項限額。",
+      "年度自付額選項為0 / 16,000 / 25,000 / 50,000（HK$），會減少可獲賠償的金額。",
+      "適用的限額組合取決於計劃版本及貨幣。",
+      ""
+     ],
+     "clientProfileFit": [
+      "高級行政人員及高淨值客戶",
+      "希望獲得最高終身保障額度的家庭",
+      "需要為多年癌症或透析費用作規劃的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "{client_detail}可獲得HK$50,000,000終身限額，其中HK$20,000,000可於單一年度內使用。",
+     "verificationPrompts": [
+      "確認所選計劃版本及貨幣的限額組合。",
+      "確認年度限額之下保障表的分項限額。",
+      "確認自付額與年度限額之間的相互作用。"
+     ]
+    },
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_room_ward_level",
+     "trendName": "標準私人病房保障",
+     "whatProductOffers": "在香港版及環球版下，均按標準私人病房級別保障住院。",
+     "keyFigures": [
+      {
+       "label": "病房類型",
+       "value": "標準私人病房",
+       "condition": "兩個計劃版本"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "賠償按標準私人病房收費計算；較高級別病房不獲全數保障。",
+      "每日病房及膳食分項限額並未載於摘錄文本。 "
+     ],
+     "clientProfileFit": [
+      "堅持入住私人病房的客戶",
+      "希望治療期間保有私隱的高級行政人員"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "{client_detail}按標準私人病房級別獲得保障，而非共用病房。",
+     "verificationPrompts": [
+      "確認每日病房及膳食分項限額。",
+      "確認較高級別病房的賠償處理方式。"
+     ]
+    },
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_international_coverage",
+     "trendName": "全球保障，可選美國保障",
+     "whatProductOffers": "涵蓋全球住院治療，Worldwide版本包括美國，另一版本則涵蓋全球但不包括美國，另設全球緊急治療及全球緊急支援。",
+     "keyFigures": [
+      {
+       "label": "地域保障",
+       "value": "全球",
+       "condition": "CEO Pearl Medical Plan (Worldwide) 5"
+      },
+      {
+       "label": "地域保障",
+       "value": "全球但不包括美國",
+       "condition": "CEO Pearl Medical Plan 5"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "美國治療僅於Worldwide版本下受保。",
+      "全球緊急治療及支援受保障表限額所限。",
+      "所摘錄文本並未列明海外 elective 治療的預先批准規則。"
+     ],
+     "clientProfileFit": [
+      "經常往返全球各地的行政人員",
+      "有成員在海外求學或居住的家庭"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "醫療可及性"
+     ],
+     "talkingPointTemplate": "{client_detail}可選擇包括美國在內的全球保障，並可在任何地方獲得緊急支援。",
+     "verificationPrompts": [
+      "確認是否包括美國治療。",
+      "確認海外預先批准要求。",
+      "確認緊急支援限額。"
+     ]
+    },
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_premium_stability",
+     "trendName": "自付額最高可扣減100%",
+     "whatProductOffers": "保證終身每年續保，不會因索償或健康狀況變化而加收保費，並就每連續兩個無索償保障年度，將所選年度自付額扣減10%，最高可達100%。",
+     "keyFigures": [
+      {
+       "label": "無索償自付額扣減",
+       "value": "10%",
+       "condition": "每連續兩個無索償保障年度"
+      },
+      {
+       "label": "最高扣減",
+       "value": "100%",
+       "condition": "自付額可扣減至零"
+      },
+      {
+       "label": "重設",
+       "value": "0%扣減",
+       "condition": "於賠償後的下一保障年度"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "於賠償後的下一保障年度，扣減會重設至0%。",
+      "住院現金、較低病房級別現金、日間手術及緊急援助保障不影響資格。",
+      "續保保費按現行保費率釐定，因此年齡相關的保費增加仍然適用。"
+     ],
+     "clientProfileFit": [
+      "以自付額降低保費的健康客戶",
+      "索償頻率低的長期保單持有人"
+     ],
+     "priorityAlignment": [
+      "成本",
+      "靈活性"
+     ],
+     "talkingPointTemplate": "若{client_detail}沒有索償，自付額每兩年扣減10%，最高可降至零。",
+     "verificationPrompts": [
+      "確認自付額選項及每個級別所節省的保費。",
+      "確認哪些索償類型會重設扣減。"
+     ]
+    },
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_income_or_lifestyle_support",
+     "trendName": "傷殘補貼及家居照顧",
+     "whatProductOffers": "若受保人連續至少6個月無法自我照顧，每月支付HK$5,000，最多24個月；並涵蓋中風後經職業治療師批准的家居改裝及治療。",
+     "keyFigures": [
+      {
+       "label": "傷殘補貼",
+       "value": "每月HK$5,000",
+       "condition": "最多24個月"
+      },
+      {
+       "label": "觸發條件",
+       "value": "連續6個月無法自我照顧",
+       "condition": "自我照顧能力"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "補貼要求至少連續6個月無法自我照顧。",
+      "最高賠償為每月HK$5,000，最多24個月。",
+      "家居設施提升須經職業治療師批准。",
+      "癌症治療、透析及中風復康保障按保障表限額計算。"
+     ],
+     "clientProfileFit": [
+      "有中風或心血管家族病史的客戶",
+      "希望獲得復康支援的主要收入者",
+      "計劃在家接受照顧的較年長申請人"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "若{client_detail}連續六個月無法自我照顧，除治療保障外，每月HK$5,000可繼續支付最多24個月。",
+     "verificationPrompts": [
+      "確認補貼所採用的自我照顧定義。",
+      "確認補貼是否在住院賠償以外額外支付。",
+      "確認受保的家居提升及治療清單。"
+     ]
+    }
+   ]
+  },
+  "essence-on-your-side-insurance-plan": {
+   "summary": {
+    "bestForOneLiner": "一份分紅危疾計劃，涵蓋58種疾病，並提供額外壯年保障及三大疾病索償。",
+    "notSuitedWhen": [
+     "客戶想要最低成本的純保障。",
+     "客戶需要大額身故保障而非疾病保障。",
+     "客戶不接受非保證紅利。"
+    ],
+    "gapsInSourceMaterial": [
+     "保費表及保額選項",
+     "指定期間的定義",
+     "三大疾病盾保障金額"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "essence-on-your-side-insurance-plan_critical_illness_readiness",
+     "trendName": "58種疾病加上壯年加強保障",
+     "whatProductOffers": "涵蓋58種危疾（57種嚴重疾病及1種輕症疾病），並於指定期間內支付危疾保障利益或三大危疾盾保障利益時，額外提供高達初始保額40%的壯年危疾額外保障加強保障。",
+     "keyFigures": [
+      {
+       "label": "涵蓋危疾數目",
+       "value": "58",
+       "condition": "57種嚴重疾病及1種輕症疾病"
+      },
+      {
+       "label": "壯年加強保障",
+       "value": "高達初始保額的40%",
+       "condition": "於指定期間內索償"
+      },
+      {
+       "label": "加強保障期限",
+       "value": "長達365日",
+       "condition": "如計劃重點所示"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "壯年加強保障僅適用於指定期間內的索償；該期間的定義並未載於擷取的文本中。",
+      "嚴重或輕症疾病的預支賠償會扣減現行保額及未來保費。",
+      "完整的58種疾病一覽表及定義載於保單合約。",
+      ""
+     ],
+     "clientProfileFit": [
+      "30至40多歲、希望於收入高峰期獲得保障的客戶",
+      "希望獲得廣泛疾病保障的家庭",
+      "比較全面危疾計劃的買家"
+     ],
+     "priorityAlignment": [
+      "保障"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，涵蓋58種疾病，而於壯年期間索償可額外獲得高達40%保障。",
+     "verificationPrompts": [
+      "確認指定期間的定義及結束日期。",
+      "確認疾病清單及輕症疾病定義。",
+      "確認加強保障是否同時適用於危疾保障利益及三大疾病盾索償。"
+     ]
+    },
+    {
+     "trendId": "essence-on-your-side-insurance-plan_critical_illness_readiness_big3",
+     "trendName": "三大疾病額外索償",
+     "whatProductOffers": "提供三大危疾盾保障利益，在危疾保障利益之上，就癌症、心臟病發作或中風提供額外索償。",
+     "keyFigures": [
+      {
+       "label": "額外索償條件",
+       "value": "癌症、心臟病發作、中風",
+       "condition": "三大危疾盾保障利益"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "擷取的文本並未列明額外索償金額。",
+      "此保障利益僅適用於該三項指定疾病，而非全部58種疾病。",
+      "與壯年加強保障及總賠償上限的相互作用有待確認。"
+     ],
+     "clientProfileFit": [
+      "有癌症或心血管疾病家族史的客戶",
+      "希望獲得比單次索償危疾計劃更多保障的買家"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "{client_detail}在首次危疾索償後，可就癌症、心臟病發作或中風再次索償。",
+     "verificationPrompts": [
+      "確認三大疾病盾保障金額及兩次索償之間的等候期。",
+      "確認此盾保障是獨立保額，還是初始保額的某個百分比。"
+     ]
+    },
+    {
+     "trendId": "essence-on-your-side-insurance-plan_savings_and_wealth_growth",
+     "trendName": "設有終期紅利的分紅計劃",
+     "whatProductOffers": "一份分紅計劃，提供人壽及危疾保障，設有保證現金價值及非保證終期紅利，保單生效滿5年後，可能每個保單年度至少宣派一次。",
+     "keyFigures": [
+      {
+       "label": "終期紅利資格",
+       "value": "after 5 policy years",
+       "condition": "可能每個保單年度至少宣派一次"
+      },
+      {
+       "label": "保證現金價值",
+       "value": "provided",
+       "condition": "分紅計劃"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "終期紅利並非累積及非保證；可能為零。",
+      "宣派與否取決於投資回報、索償經驗及其他因素。",
+      "任何預支疾病賠償會減少保額及未來紅利。"
+     ],
+     "clientProfileFit": [
+      "希望危疾保障兼具儲蓄元素的客戶",
+      "能接受非保證紅利並長期持有的客戶"
+     ],
+     "priorityAlignment": [
+      "growth",
+      "coverage"
+     ],
+     "talkingPointTemplate": "{client_detail} 可保留保證現金價值，並可能於五年後獲得終期紅利，同時享有疾病保障。",
+     "verificationPrompts": [
+      "索取顯示保證及非保證價值的說明書。",
+      "確認紅利理念及現時宣派率。"
+     ]
+    },
+    {
+     "trendId": "essence-on-your-side-insurance-plan_family_protection",
+     "trendName": "額外40%身故保障",
+     "whatProductOffers": "加入終身額外保障提升（身故），在被保人身故時向摯愛額外支付最高達初步保額40%的金額。",
+     "keyFigures": [
+      {
+       "label": "身故提升",
+       "value": "最高達初步保額40%",
+       "condition": "於被保人身故時"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "此提升為身故時的額外支付，不適用於疾病索償。",
+      "此金額可能因保單下已作出的預支款項而減少。",
+      "確實百分比及條件載於保單合約。"
+     ],
+     "clientProfileFit": [
+      "有受養人的家庭經濟支柱",
+      "希望在同一保單內同時獲得危疾及身故保障的客戶"
+     ],
+     "priorityAlignment": [
+      "保障"
+     ],
+     "talkingPointTemplate": "在疾病保障之上，若不幸身故，{client_detail}的家人可額外獲得最高達保額40%的金額。",
+     "verificationPrompts": [
+      "確認身故提升的百分比及任何年齡限制。",
+      "確認預支款項如何減少身故保障。"
+     ]
+    },
+    {
+     "trendId": "essence-on-your-side-insurance-plan_flexibility_and_customisation",
+     "trendName": "365日保費寬限期",
+     "whatProductOffers": "如發生指定事件，逾期繳付保費的寬限期可延長至最多365日，截至2025年8月13日，此乃市場罕見的安排。",
+     "keyFigures": [
+      {
+       "label": "寬限期",
+       "value": "最多365日",
+       "condition": "發生指定事件"
+      },
+      {
+       "label": "市場比較日期",
+       "value": "2025年8月13日",
+       "condition": "與主要香港保險公司比較"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "延長須經保險公司批准並受現行規則約束。",
+      "只有指定事件符合資格；事件清單載於保單合約，並不在摘錄文本中。",
+      "該比較為截至2025年8月13日的當時說法。"
+     ],
+     "clientProfileFit": [
+      "收入不穩定的客戶",
+      "可能面對失業或重大人生事件的人士"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "如發生指定事件，{client_detail}可獲最多365日繳付保費，而非一般寬限期。",
+     "verificationPrompts": [
+      "確認指定事件清單及審批流程。",
+      "確認標準寬限期長度以作比較。"
+     ]
+    }
+   ]
+  },
+  "global-power-multi-currency-savings-insurance-plan-3": {
+   "summary": {
+    "bestForOneLiner": "一份多貨幣分紅儲蓄計劃，提供多達9種貨幣，可於第2個保單年度終結時起轉換貨幣，並可無限次更改受保人及分拆保單。",
+    "notSuitedWhen": [
+     "客戶需要短期存放現金",
+     "客戶只想要保證回報",
+     "客戶需要收入而非累積"
+    ],
+    "gapsInSourceMaterial": [
+     "9種貨幣的完整清單及兌換費用",
+     "IRR表數值",
+     "最低保費及保單價值",
+     "精神上無行為能力選項的條款",
+     "完整不保事項"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_international_coverage",
+     "trendName": "多達9種貨幣選項",
+     "whatProductOffers": "保單可持有最多9種貨幣選項，而貨幣兌換選項讓客戶可於第2個保單年度終結時起更改保單貨幣，並描述為市場上最早的時間。",
+     "keyFigures": [
+      {
+       "label": "貨幣選項",
+       "value": "多達9種",
+       "condition": "每份計劃"
+      },
+      {
+       "label": "貨幣兌換選項",
+       "value": "可於第2個保單年度終結時起行使",
+       "condition": "截至2023年9月15日為市場最早"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "兌換須受當時可提供的貨幣及公司規則所限；完整清單不在所提供的摘錄中。",
+      "貨幣兌換可能涉及差價或費用；摘錄並無列明費用。",
+      "更改貨幣會改變貨幣風險；並不保證回報更佳。",
+      "「市場首創」的說法以2023年9月15日為準，現時可能不再成立。"
+     ],
+     "clientProfileFit": [
+      "為海外教育提供資金的父母",
+      "移居或到海外退休的客戶",
+      "擁有多種貨幣負債的客戶"
+     ],
+     "priorityAlignment": [
+      "access",
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，保單可持有最多9種貨幣，並可於第2個年度終結時起轉換貨幣，正好配合海外學費或日後移居。",
+     "verificationPrompts": [
+      "確認9種可提供的貨幣及任何兌換差價。",
+      "確認最低及最高兌換金額。",
+      "確認是否允許多於一次兌換。"
+     ]
+    },
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_legacy_and_estate",
+     "trendName": "無限次更改受保人",
+     "whatProductOffers": "更改受保人選項及後備受保人選項均可無限次行使，因此保單可跨代持續生效，並可選擇身故賠償支付方式作為支援。",
+     "keyFigures": [
+      {
+       "label": "更改受保人選項",
+       "value": "無限次",
+       "condition": "每份計劃"
+      },
+      {
+       "label": "後備受保人選項",
+       "value": "無限次",
+       "condition": "每份計劃"
+      },
+      {
+       "label": "身故賠償支付方式",
+       "value": "由客戶選擇",
+       "condition": "以將財富傳承至下一代"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "新受保人必須符合公司的資格及核保規則；節錄並未列明年齡限制。",
+      "更改受保人不會重設保單的價值或收費，但可能影響身故賠償的計算。",
+      "所提供文本並未描述身故賠償支付方式的運作細節。"
+     ],
+     "clientProfileFit": [
+      "為孫兒女規劃的祖父母",
+      "設有信託架構的家庭",
+      "超高淨值傳承規劃者"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "靈活性"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，受保人可無限次更改，並可指定後備受保人，因此保單可較原有受保人更長久地生效。",
+     "verificationPrompts": [
+      "確認新受保人的資格及年齡限制。",
+      "確認更改受保人是否會觸發核保。",
+      "確認可選擇的身故賠償支付方式。"
+     ]
+    },
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_flexibility_and_customisation",
+     "trendName": "保單分拆與紅利解鎖",
+     "whatProductOffers": "保單分拆選項可將一份保單分拆為多份保單以作資產規劃，而市場首創的紅利解鎖選項則可重新分配紅利以爭取潛在回報。",
+     "keyFigures": [
+      {
+       "label": "保單分拆選項",
+       "value": "將保單分拆為多份保單",
+       "condition": "作資產規劃之用"
+      },
+      {
+       "label": "紅利解鎖選項",
+       "value": "重新分配紅利以爭取潛在回報",
+       "condition": "由 AIA 於 2022 年 10 月 5 日首創"
+      },
+      {
+       "label": "紅利鎖定選項",
+       "value": "鎖定潛在收益",
+       "condition": "可供使用"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "保單分拆可能對每份分拆後的保單設有最低保單價值要求；節錄並未列明。",
+      "紅利解鎖選項會改變紅利結構，並可能減少保證部分。",
+      "兩項選項均受公司規則所限，並須於保單生效期間方可行使。"
+     ],
+     "clientProfileFit": [
+      "為子女分拆資產的父母",
+      "遺產規劃有變的客戶",
+      "希望紅利具靈活性的客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "growth"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，保單可分拆為多份保單以分配予不同受益人，而紅利可隨情況變化而鎖定或解鎖。",
+     "verificationPrompts": [
+      "確認分拆後每份保單的最低價值。",
+      "確認紅利解鎖選項如何影響保證價值。",
+      "確認各選項的行使次數限制。"
+     ]
+    },
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_savings_and_wealth_growth",
+     "trendName": "長期紅利累積",
+     "whatProductOffers": "一份分紅儲蓄計劃，透過復歸紅利及終期紅利作長期財富累積，並設有限時發售的3年保費繳付期。",
+     "keyFigures": [
+      {
+       "label": "保費繳付期",
+       "value": "3年",
+       "condition": "限時發售"
+      },
+      {
+       "label": "紅利類型",
+       "value": "復歸紅利及終期紅利",
+       "condition": "非保證"
+      },
+      {
+       "label": "預期IRR",
+       "value": "於第100個保單年度結束時披露",
+       "condition": "經四捨五入，非保證"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "復歸紅利及終期紅利均為非保證，並可能由公司酌情每年變動。",
+      "於第100個保單年度結束時的預期IRR假設所有保費已全數繳付且並無行使任何選項。",
+      "預期回本年並非保證。",
+      "3年保費期為限時發售，並可能被撤回。"
+     ],
+     "clientProfileFit": [
+      "投資年期長的年輕專業人士",
+      "為未來海外教育儲備資金的父母",
+      "希望保費期短的客戶"
+     ],
+     "priorityAlignment": [
+      "增長",
+      "靈活性"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，三次保費即可投購一份分紅保單，透過復歸紅利及終期紅利於長線複合增長，期間可運用各項紅利選項。",
+     "verificationPrompts": [
+      "確認客戶背景資料下目前的紅利比率及預期IRR。",
+      "確認限時發售的3年期是否仍然提供。",
+      "確認客戶投資年期下保證與非保證部分的比例。"
+     ]
+    },
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_family_protection",
+     "trendName": "精神上無行為能力保障",
+     "whatProductOffers": "計劃包含精神上無行為能力選項，若保單持有人喪失精神上行為能力，可保障摯愛，同時向指定受益人支付身故保障。",
+     "keyFigures": [
+      {
+       "label": "特點",
+       "value": "精神上無行為能力選項",
+       "condition": "按計劃"
+      },
+      {
+       "label": "身故保障",
+       "value": "支付予指定的受益人",
+       "condition": "按保單條款"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "節錄僅提及該選項，並無說明觸發條件、賠付內容或由誰收取。",
+      "該選項受保單條款約束，並須具備喪失行為能力的醫療證明。",
+      "此選項不能取代遺囑或持久授權書。"
+     ],
+     "clientProfileFit": [
+      "年長保單持有人",
+      "有認知障礙症家族史的客戶",
+      "遺產規劃客戶"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "提取"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，精神上無行為能力選項可在持有人喪失行為能力時增加一層保障，並在家人身故保障之上額外提供。",
+     "verificationPrompts": [
+      "確認精神上無行為能力選項的確切觸發條件及保障利益。",
+      "確認由誰收取保障利益及以何種形式收取。",
+      "確認與持久授權書之間的相互影響。"
+     ]
+    }
+   ]
+  },
+  "bonus-power-life-insurance-plan-2-enhanced-protection": {
+   "summary": {
+    "bestForOneLiner": "一份分紅終身壽險計劃，由第3年起提供復歸紅利及終期紅利，並就傷殘及指定狀況提供預支款項。",
+    "notSuitedWhen": [
+     "客戶要求保證紅利",
+     "客戶需要涵蓋TPD及關顧列表以外狀況的保障",
+     "客戶需要低於US$50,000並以分期方式支付的身故賠償"
+    ],
+    "gapsInSourceMaterial": [
+     "已擷取的文本未包含保費率及說明價值",
+     "TPD及關顧狀況的準確定義及不保事項已被截斷",
+     "保單貸款條款及退保費用未被擷取"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_savings_and_wealth_growth",
+     "trendName": "復歸紅利及終期紅利",
+     "whatProductOffers": "一份分紅終身壽險計劃，由第3個保單年度完結起，至少每年一次宣佈非保證的復歸紅利及終期紅利，復歸紅利一經宣佈即成為保單的永久增添。",
+     "keyFigures": [
+      {
+       "label": "首次紅利宣佈",
+       "value": "第3個保單年度完結",
+       "condition": "其後至少每年一次"
+      },
+      {
+       "label": "復歸紅利",
+       "value": "非保證，一經宣佈即為永久",
+       "condition": "可套現或保留累積"
+      },
+      {
+       "label": "終期紅利",
+       "value": "非累積、非保證",
+       "condition": "每次宣佈時金額可升可跌"
+      },
+      {
+       "label": "紅利驅動因素",
+       "value": "投資回報及市場波動",
+       "condition": "以及其他因素"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "兩項紅利均為非保證。",
+      "終期紅利為非累積，其金額可高於或低於上一次宣佈。",
+      "提早退保或終止時，紅利的現金價值並不保證。",
+      "已擷取的文本並無說明紅利比率或IRR。"
+     ],
+     "clientProfileFit": [
+      "長線儲蓄者",
+      "可接受非保證回報的客戶",
+      "希望同時獲得保障及紅利潛力的保單持有人"
+     ],
+     "priorityAlignment": [
+      "增長"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，紅利由第3年完結起開始宣佈，而復歸紅利一經宣佈即成為保單的永久增添。",
+     "verificationPrompts": [
+      "設定期望，說明兩項紅利均為非保證",
+      "確認客戶的投資年期足以看到紅利宣佈",
+      "詢問客戶希望如何處理復歸紅利——套現或累積"
+     ]
+    },
+    {
+     "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_critical_illness_readiness",
+     "trendName": "指定狀況預支款項",
+     "whatProductOffers": "若受保人於65歲前確診完全永久傷殘、喪失肢體或不可逆轉的失明，或於85歲前確診阿茲海默症、柏金遜症或喪失獨立生活能力，會從保額及紅利價值中支付預支款項。",
+     "keyFigures": [
+      {
+       "label": "完全永久傷殘／喪失肢體／喪失視力",
+       "value": "65歲前",
+       "condition": "完全永久傷殘保障利益"
+      },
+      {
+       "label": "關顧狀況",
+       "value": "85歲前",
+       "condition": "阿茲海默症、柏金遜症、喪失獨立生活能力"
+      },
+      {
+       "label": "款項來源",
+       "value": "從保額及紅利面值中預支",
+       "condition": "會扣減身故保障利益"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "完全永久傷殘保障利益須經核保。",
+      "僅限所列狀況符合資格；此並非全面的危疾計劃。",
+      "款項為從保單本身的保額及紅利中預支，並非額外保障。",
+      "關顧保障利益要求於85歲前確診。"
+     ],
+     "clientProfileFit": [
+      "有神經退行性疾病家族史的客戶",
+      "計劃護理的較年長保單持有人",
+      "希望在壽險保單內獲得狀況觸發流動性的買家"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，若於85歲前確診阿茲海默症、柏金遜症或喪失獨立生活能力，會觸發預支款項，而無須等待身故索償。",
+     "verificationPrompts": [
+      "詢問是否有阿茲海默症或柏金遜症家族史",
+      "確認客戶明白該款項為預支，並非額外保障",
+      "檢查是否亦需要獨立危疾計劃"
+     ]
+    },
+    {
+     "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_income_or_lifestyle_support",
+     "trendName": "30 個月每月預支",
+     "whatProductOffers": "於確診後首 30 個月，每月支付相等於保額加紅利面值 1% 的預支款項，然後於第 30 個月月底一筆過支付餘下結餘，並豁免未來保費。",
+     "keyFigures": [
+      {
+       "label": "每月預支",
+       "value": "保額 + 復歸紅利 + 終期紅利面值的 1%",
+       "condition": "首 30 個月"
+      },
+      {
+       "label": "一筆過款項",
+       "value": "保額及紅利的餘下結餘",
+       "condition": "第 30 個月月底"
+      },
+      {
+       "label": "保費豁免",
+       "value": "豁免未來基本保費",
+       "condition": "確診受保狀況時"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "僅適用於 TPD 及關顧保障的狀況，並非涵蓋所有疾病。",
+      "每月金額按傷殘或確診當日的保額及紅利面值計算。",
+      "有關款項屬預支，因此最終身故保障會相應減少。",
+      "餘下結餘僅在確診狀況持續時支付。"
+     ],
+     "clientProfileFit": [
+      "確診後需要每月現金流的家庭",
+      "沒有應急儲蓄的客戶",
+      "為護理費用作規劃的年長客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，保單會每月支付保額加紅利的 1%，為期 30 個月，然後發放餘下結餘——而且保費會停止。",
+     "verificationPrompts": [
+      "詢問家庭在確診後如何應付每月開支",
+      "確認客戶偏好分期而非一筆過款項",
+      "查核保單對受保狀況的定義"
+     ]
+    },
+    {
+     "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_legacy_and_estate",
+     "trendName": "分期身故賠償選項",
+     "whatProductOffers": "讓保單持有人指示將身故賠償以定期分期方式支付予受益人，而非一筆過支付，惟每年支付總額須至少為身故賠償的2%。",
+     "keyFigures": [
+      {
+       "label": "最低每年分期金額",
+       "value": "身故賠償的2%",
+       "condition": "由保單持有人選擇"
+      },
+      {
+       "label": "最低身故賠償",
+       "value": "US$50,000",
+       "condition": "方可使用此結算選項"
+      },
+      {
+       "label": "累積",
+       "value": "餘額會累積",
+       "condition": "按非保證利率"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "如應付身故賠償低於US$50,000，則不可使用此結算選項。",
+      "每年支付總額須至少為身故賠償的2%。",
+      "未分配餘額的利率為非保證。",
+      "支付安排由保單持有人選擇，而非受益人。"
+     ],
+     "clientProfileFit": [
+      "向年輕成年人留下款項的父母",
+      "受益人有需要的客戶",
+      "希望分階段分配的遺產規劃客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，身故賠償可按每月方式支付，而非一筆過支付，讓受益人隨時間獲得收入。",
+     "verificationPrompts": [
+      "確認身故賠償將超過US$50,000",
+      "詢問客戶希望受益人如何收取款項",
+      "討論保留餘額的非保證利息"
+     ]
+    },
+    {
+     "trendId": "bonus-power-life-insurance-plan-2-enhanced-protection_family_protection",
+     "trendName": "身故保障加紅利價值",
+     "whatProductOffers": "向所選受益人支付基本計劃的保額，加上任何復歸紅利及終期紅利的面值，並可附加意外、醫療、危疾及傷殘附加保障。",
+     "keyFigures": [
+      {
+       "label": "身故保障",
+       "value": "保額 + 復歸紅利 + 終期紅利",
+       "condition": "扣除未償還債務及已支付的保障利益"
+      },
+      {
+       "label": "附加保障類型",
+       "value": "4",
+       "condition": "意外、醫療、危疾、傷殘"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "支付前會扣除未償還債務及任何已支付的保障利益。",
+      "紅利面值並非保證。",
+      "附加保障需要額外保費及核保，並隨基本計劃終止而終止。"
+     ],
+     "clientProfileFit": [
+      "有受養人的家庭經濟支柱",
+      "希望以一份保單同時獲得保障與儲蓄的客戶",
+      "日後可能附加保障的買家"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，身故保障為保額加上任何已宣派的紅利，因此保障金額可隨保單年期增長。",
+     "verificationPrompts": [
+      "按按揭及收入需要確認保障金額",
+      "詢問他們想要哪些附加保障",
+      "說明紅利價值並非保證"
+     ]
+    }
+   ]
+  },
+  "ceo-medical-plan-5-ceo-medical-plan-worldwide-5": {
+   "summary": {
+    "bestForOneLiner": "高端全球醫療保障，終身保障限額為HK$50,000,000，標準私人病房。",
+    "notSuitedWhen": [
+     "客戶需要低保費，並寧願接受普通病房或公立醫院。",
+     "客戶只需要香港保障，不需要美國選項。",
+     "客戶想要一筆現金賠償，而非實報實銷。"
+    ],
+    "gapsInSourceMaterial": [
+     "按年齡劃分的保費表",
+     "保障表內各項保障的分項限額",
+     "出院後期間及門診附加保障的定價"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_high_annual_or_lifetime_limit",
+     "trendName": "HK$50,000,000終身限額，HK$20,000,000年度限額",
+     "whatProductOffers": "提供HK$50,000,000的終身保障限額，年度限額為HK$20,000,000；Worldwide版本提供US$6,250,000終身限額及US$2,500,000年度限額。",
+     "keyFigures": [
+      {
+       "label": "整體終身限額",
+       "value": "HK$50,000,000",
+       "condition": "CEO Medical Plan 5（港元）"
+      },
+      {
+       "label": "年度限額",
+       "value": "HK$20,000,000",
+       "condition": "每個保單年度"
+      },
+      {
+       "label": "終身限額（全球）",
+       "value": "US$6,250,000",
+       "condition": "CEO Medical Plan (Worldwide) 5"
+      },
+      {
+       "label": "年度限額（全球）",
+       "value": "US$2,500,000",
+       "condition": "CEO Medical Plan (Worldwide) 5"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "所示限額為計劃上限；個別保障項目仍須依循保障表。",
+      "可選擇0 / 16,000 / 25,000 / 50,000（HK$）的年度自付額，並會減少賠償金額。",
+      "保單貨幣決定適用哪一套限額。"
+     ],
+     "clientProfileFit": [
+      "高淨值客戶及高級行政人員",
+      "希望獲得最大終身醫療保障額的家庭",
+      "為昂貴的長期癌症或透析治療作準備的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，終身限額為HK$50,000,000，任何單一保單年度可用HK$20,000,000。",
+     "verificationPrompts": [
+      "確認所選計劃版本及貨幣適用哪一套限額。",
+      "確認自付額選擇及其與年度限額的相互影響。",
+      "確認保障表的分項限額。"
+     ]
+    },
+    {
+     "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_room_ward_level",
+     "trendName": "標準私人病房保障",
+     "whatProductOffers": "以標準私人病房級別保障住院，並提供全球住院及手術保障。",
+     "keyFigures": [
+      {
+       "label": "病房類型",
+       "value": "標準私人病房",
+       "condition": "兩個計劃版本均適用"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "病房及膳食按標準私人病房費率實報實銷；較高級別病房不獲全額賠償。",
+      "每日病房及膳食分項限額未載於擷取文本中。"
+     ],
+     "clientProfileFit": [
+      "堅持入住私人醫院病房的客戶",
+      "希望在治療期間保有私隱的高級行政人員"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "{client_detail}以標準私人病房級別獲得保障，而非共用病房。",
+     "verificationPrompts": [
+      "確認標準私人病房的每日病房及膳食分項限額。",
+      "確認較高級別病房的處理方式。"
+     ]
+    },
+    {
+     "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_international_coverage",
+     "trendName": "全球保障，美國為可選項",
+     "whatProductOffers": "保障全球住院治療，Worldwide版本包括美國，標準版本則涵蓋全球但不包括美國；兩者均包括全球緊急治療及全球緊急支援。",
+     "keyFigures": [
+      {
+       "label": "地域保障",
+       "value": "全球",
+       "condition": "CEO Medical Plan (Worldwide) 5"
+      },
+      {
+       "label": "地域保障",
+       "value": "全球（不包括美國）",
+       "condition": "CEO Medical Plan 5"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "標準版本不包括美國；美國治療需要Worldwide版本。",
+      "全球緊急治療及支援服務於保障表內界定，並可能設有限額。",
+      "擷取的文本並無說明海外非緊急治療是否需要預先批准。"
+     ],
+     "clientProfileFit": [
+      "肩負區域或全球職責的行政人員",
+      "有子女在海外留學的家庭",
+      "計劃到海外接受治療的客戶"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "{client_detail}可選擇包括美國的全球保障，並在他們旅遊的任何地方保留緊急支援。",
+     "verificationPrompts": [
+      "確認所選版本是否包括美國治療。",
+      "確認海外非緊急治療的預先批准要求。",
+      "確認緊急支援的限額。"
+     ]
+    },
+    {
+     "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_premium_stability",
+     "trendName": "自付額最高扣減100%",
+     "whatProductOffers": "保證終身續保，不會因索償或健康變化而加收保費，並且每連續兩個無索償保障年度，將所選年度自付額扣減10%，最高可達100%。",
+     "keyFigures": [
+      {
+       "label": "無索償自付額折扣",
+       "value": "10%",
+       "condition": "每連續兩個無索償保障年度"
+      },
+      {
+       "label": "最高折扣",
+       "value": "100%",
+       "condition": "自付額可降至零"
+      },
+      {
+       "label": "重設",
+       "value": "折扣重設回0%",
+       "condition": "在支付索償後的下一保障年度"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "折扣按原本自付額計算，並在支付索償後的下一保障年度重設回0%。",
+      "住院現金、較低病房級別現金、日間手術及全球緊急援助索償不影響折扣資格。",
+      "續保保費仍按現行保費率計算，因此會適用年齡相關的增幅。"
+     ],
+     "clientProfileFit": [
+      "選擇較高自付額以降低保費的健康客戶",
+      "很少索償的長期保單持有人"
+     ],
+     "priorityAlignment": [
+      "成本",
+      "靈活性"
+     ],
+     "talkingPointTemplate": "如果{client_detail}一直沒有索償，自付額每兩年扣減10%，並可降至零。",
+     "verificationPrompts": [
+      "確認可選的自付額選項及它們之間的保費差額。",
+      "確認哪些保障賠償會重設折扣。"
+     ]
+    },
+    {
+     "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_income_or_lifestyle_support",
+     "trendName": "傷殘補貼與家居照顧",
+     "whatProductOffers": "若受保人連續至少6個月無法自我照顧，每月支付HK$5,000傷殘補貼，最多24個月，並涵蓋中風後的家居設施提升及治療。",
+     "keyFigures": [
+      {
+       "label": "傷殘補貼",
+       "value": "每月HK$5,000",
+       "condition": "最多24個月"
+      },
+      {
+       "label": "觸發條件",
+       "value": "連續6個月無法自我照顧",
+       "condition": "日常生活活動"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "補貼要求至少連續6個月無法自我照顧。",
+      "最高賠付為24個月、每月HK$5,000。",
+      "家居設施提升須經職業治療師批准。",
+      "延伸照顧保障於保障表內界定，可能設有其本身的限額。"
+     ],
+     "clientProfileFit": [
+      "有中風或心血管家族病史的客戶",
+      "受保人為主要照顧者或主要收入來源的家庭",
+      "計劃康復保障的年長申請人"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "若{client_detail}中風後六個月無法自我照顧，除治療費用外，每月可獲HK$5,000，最多24個月。",
+     "verificationPrompts": [
+      "確認無法自我照顧的定義。",
+      "確認補貼是否可與住院實報實銷同時支付。",
+      "確認受保家居設施提升及治療的清單。"
+     ]
+    },
+    {
+     "trendId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_outpatient_and_followup",
+     "trendName": "出院後護理加牙科選項",
+     "whatProductOffers": "提供廣泛的出院後護理，以及可選的門診及牙科保障，並涵蓋癌症治療、透析及中風復康保障。",
+     "keyFigures": [
+      {
+       "label": "可選保障",
+       "value": "門診保障；牙科保障",
+       "condition": "附加保障選擇"
+      },
+      {
+       "label": "延伸保障",
+       "value": "癌症治療、透析、中風復康、妊娠併發症",
+       "condition": "計劃內"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "門診及牙科保障屬可選，只在選取後適用。",
+      "出院後保障依循保障表的期間及限額，惟該等資料並未載於擷取文本。",
+      "妊娠併發症保障只適用於受保的併發症，不適用於正常生育。"
+     ],
+     "clientProfileFit": [
+      "希望以單一計劃涵蓋住院及跟進護理的客戶",
+      "計劃生育的家庭",
+      "需要長期透析的病人"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "靈活性"
+     ],
+     "talkingPointTemplate": "{client_detail} 可在住院計劃之上加購門診及牙科保障，並包括出院後的跟進診症。",
+     "verificationPrompts": [
+      "確認出院後期間及跟進診症次數。",
+      "確認門診及牙科附加保障的保費及限額。",
+      "確認妊娠併發症保障的條件。"
+     ]
+    }
+   ]
+  },
+  "easyguard-term-life-plan": {
+   "summary": {
+    "bestForOneLiner": "每年續保的定期壽險計劃，按年齡分組的保費較低，身故保障可獲一筆小額固定加額，並可於70歲前轉換為終身壽險。",
+    "notSuitedWhen": [
+     "客戶希望保費固定、不隨年齡上升",
+     "客戶希望有現金價值或儲蓄成分",
+     "客戶需要85歲以後的保障"
+    ],
+    "gapsInSourceMaterial": [
+     "只顯示年度保費率；沒有長期成本說明",
+     "未涵蓋不保事項及等候期",
+     "未列明可轉換的產品範圍及定價"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "easyguard-term-life-plan_budget_friendly_entry",
+     "trendName": "低成本定期保障",
+     "whatProductOffers": "每年續保的定期壽險保障，16至26歲的保費由每1,000保額HK$/US$/MOP0.90起，保額達US$250,000 / HK$1,875,000或以上可享每1,000保額0.09的保費折扣。",
+     "keyFigures": [
+      {
+       "label": "16–26歲的保費率",
+       "value": "每1,000保額0.90",
+       "condition": "男性及女性非吸煙者，年度"
+      },
+      {
+       "label": "30歲男性非吸煙者的保費率",
+       "value": "每1,000保額0.92",
+       "condition": "年度保費率"
+      },
+      {
+       "label": "大額折扣",
+       "value": "每1,000保額0.09",
+       "condition": "保額US$250,000 / HK$1,875,000或以上"
+      },
+      {
+       "label": "投保年齡",
+       "value": "16至70",
+       "condition": "於申請時"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "保費率並非保證，公司可作出修訂。",
+      "保費率隨達到的年齡上升，並因性別及吸煙狀況而有所不同。",
+      "保費率表不包括保險業監管局收取的徵費。",
+      "折扣只適用於基本計劃，且只適用於達到所述保額門檻的情況。"
+     ],
+     "clientProfileFit": [
+      "需要以低成本獲得大額保障的年輕家庭",
+      "預算有限的按揭持有人",
+      "希望獲得保障而無需儲蓄的客戶"
+     ],
+     "priorityAlignment": [
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，其年齡的保費率由每1,000保障0.90起，因此大額身故保障每年所需費用相對較少。",
+     "verificationPrompts": [
+      "按客戶達到的年齡及吸煙狀況計算保費",
+      "檢查保額是否符合0.09折扣的資格",
+      "提醒保費率會隨年齡上升且並非保證"
+     ]
+    },
+    {
+     "trendId": "easyguard-term-life-plan_family_protection",
+     "trendName": "身故賠償連固定額外金額",
+     "whatProductOffers": "受保人身故時，向指定受益人支付100%保額，另加US$650或HK$/MOP5,000，並先扣除保單尚未清繳的金額。",
+     "keyFigures": [
+      {
+       "label": "身故賠償",
+       "value": "100%保額",
+       "condition": "另加固定額外金額"
+      },
+      {
+       "label": "固定額外金額",
+       "value": "US$650或HK$/MOP5,000",
+       "condition": "視保單貨幣而定"
+      },
+      {
+       "label": "保障年期",
+       "value": "每年續保至85歲",
+       "condition": "保證續保"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "支付前會先扣除欠AIA的未清繳金額。",
+      "保障屬純身故賠償；沒有現金價值或儲蓄成分。",
+      "保障於85歲終止。"
+     ],
+     "clientProfileFit": [
+      "有年幼子女的父母",
+      "按揭借款人",
+      "以收入保障受養人的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，身故賠償為100%保額另加一筆固定的額外金額，因此保障金額易於說明及比較。",
+     "verificationPrompts": [
+      "按收入替代及債務需要協定保額",
+      "確認保單貨幣",
+      "確認客戶不預期有現金價值"
+     ]
+    },
+    {
+     "trendId": "easyguard-term-life-plan_flexibility_and_customisation",
+     "trendName": "70歲轉換為終身壽險",
+     "whatProductOffers": "可於受保人70歲生日後緊接的保單周年日或之前，轉換為終身壽險保障計劃，毋須提供額外健康資料，惟須繳付較高保費，並受產品供應情況限制。",
+     "keyFigures": [
+      {
+       "label": "轉換期限",
+       "value": "70歲生日後的保單周年日",
+       "condition": "或之前"
+      },
+      {
+       "label": "醫療核保",
+       "value": "不需要",
+       "condition": "毋須提供額外健康資料"
+      },
+      {
+       "label": "條件",
+       "value": "保費增加及可供應產品",
+       "condition": "於轉換時"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "轉換必須於70歲生日後緊接的保單周年日或之前進行。",
+      "轉換後須繳付較高保費。",
+      "只可選擇當時就轉換權益而提供的產品。",
+      "所擷取的文本未列明可轉換的產品範圍或定價。"
+     ],
+     "clientProfileFit": [
+      "日後可能希望擁有永久保障的年輕客戶",
+      "有早期健康關注的客戶",
+      "先購買定期壽險並計劃日後升級的買家"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，他們可以先以低保費的定期壽險起步，日後於70歲前轉換為終身壽險，毋須重新回答醫療問題。",
+     "verificationPrompts": [
+      "確認客戶日後可能希望擁有永久保障",
+      "說明轉換期限及可能增加的保費",
+      "查核目前是否有任何可轉換產品供應"
+     ]
+    },
+    {
+     "trendId": "easyguard-term-life-plan_premium_stability",
+     "trendName": "保證每年續保至85歲",
+     "whatProductOffers": "保證每年續保至受保人85歲，並訂明不會因受保人健康狀況改變而提高保費，續保保費按達到的年齡釐定。",
+     "keyFigures": [
+      {
+       "label": "保證續保",
+       "value": "至85歲",
+       "condition": "每年"
+      },
+      {
+       "label": "健康狀況加費",
+       "value": "無",
+       "condition": "不因健康狀況改變而提高保費"
+      },
+      {
+       "label": "續保基礎",
+       "value": "按達到年齡的現行保費率",
+       "condition": "每次續保時"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "續保保費按受保人續保時年齡的現行保費率計算，因此會隨年齡上升。",
+      "保費率並非保證，公司可作出修訂。",
+      "此保證是針對健康狀況加費，而非針對按年齡的保費上升。",
+      "85歲以後不可續保。"
+     ],
+     "clientProfileFit": [
+      "希望續保有確定性的客戶",
+      "健康狀況穩定的人士",
+      "需要保障至85歲的長期規劃人士"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，保單每年續保至85歲，健康狀況改變不會被用作拒絕續保或加收保費的理由——但保費率仍會隨年齡上升。",
+     "verificationPrompts": [
+      "說明續保保費率按年齡分級，而非固定不變",
+      "確認客戶能接受保費隨時間上升",
+      "詢問保障至85歲是否足夠"
+     ]
+    }
+   ]
+  },
+  "cancer-guardian-3": {
+   "summary": {
+    "bestForOneLiner": "癌症實報實銷計劃，涵蓋所有階段，不設分項限額，包括實驗性藥物，限額每3年補充一次。",
+    "notSuitedWhen": [
+     "客戶希望確診時一筆過獲賠，而非實報實銷。",
+     "客戶需要非癌症狀況的保障。",
+     "客戶需要在保單首90天內獲得保障。"
+    ],
+    "gapsInSourceMaterial": [
+     "保障限額及每年或終身最高限額",
+     "保費表及投保年齡限制",
+     "實驗性藥物保障限額的詳情"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "cancer-guardian-3_hospital_cost_protection",
+     "trendName": "癌症治療不設分項限額",
+     "whatProductOffers": "涵蓋診斷檢查、癌症治療、藥物、重建手術及監察，該四個保障類別下不設分項保障限額。",
+     "keyFigures": [
+      {
+       "label": "分項限額",
+       "value": "無",
+       "condition": "診斷、癌症治療、重建手術及監察保障"
+      },
+      {
+       "label": "受保癌症",
+       "value": "所有階段的惡性癌症及原位癌",
+       "condition": "於保單簽發或生效後超過90天發生"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "受保癌症必須於保單簽發或生效後（以較遲者為準）超過90天發生。",
+      "不設分項限額僅適用於該四個指定保障類別；其他保障仍可能設有限額。",
+      "保障金額及每年或終身限額並未載於摘錄文本中。"
+     ],
+     "clientProfileFit": [
+      "面對私營癌症治療費用的客戶",
+      "有癌症家族史並希望獲得治療保障的人士",
+      "不喜歡分項限額的買家"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，診斷檢查、治療、重建手術及監察均不設分項限額。",
+     "verificationPrompts": [
+      "確認保障表內的保障金額及任何每年限額。",
+      "確認90天受保癌症條款的措辭。",
+      "確認重建手術是否需要預先批核。"
+     ]
+    },
+    {
+     "trendId": "cancer-guardian-3_hospital_cost_protection_experimental_drugs",
+     "trendName": "實驗性藥物保障",
+     "whatProductOffers": "為用於癌症治療的實驗性藥物提供保障利益，截至 2022 年 9 月 1 日，此乃香港主要保險公司同類癌症保障產品中的市場首創保障利益。",
+     "keyFigures": [
+      {
+       "label": "實驗性藥物保障",
+       "value": "受保",
+       "condition": "截至 2022 年 9 月 1 日的市場首創聲稱"
+      },
+      {
+       "label": "市場比較",
+       "value": "香港主要保險公司",
+       "condition": "同類癌症保障產品"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "市場首創聲稱乃截至 2022 年 9 月 1 日的時點比較，並非現行保證。",
+      "保障金額、合資格藥物名單及審批流程並未載於摘錄文本。",
+      "實驗性藥物一般不受其他醫療產品（包括高端醫療計劃）保障，因此此乃填補缺口，而非全面醫療計劃的替代方案。"
+     ],
+     "clientProfileFit": [
+      "家庭中有晚期癌症關注的客戶",
+      "已持有高端醫療計劃但缺乏藥物保障的買家"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "{client_detail}可獲得大多數醫療計劃不保的實驗性藥物保障。",
+     "verificationPrompts": [
+      "確認實驗性藥物保障限額及合資格藥物定義。",
+      "確認是否需要預先批核。",
+      "確認現行資料是否仍稱其為市場首創。"
+     ]
+    },
+    {
+     "trendId": "cancer-guardian-3_outpatient_and_followup",
+     "trendName": "預防、篩查及家人檢查",
+     "whatProductOffers": "為受保人報銷HPV疫苗接種及癌症篩查，並在受保人確診受保癌症時，為最多2名直系家庭成員提供預防性癌症檢查。",
+     "keyFigures": [
+      {
+       "label": "家人檢查",
+       "value": "最多2名直系家庭成員",
+       "condition": "若受保人確診受保癌症"
+      },
+      {
+       "label": "預防保障",
+       "value": "HPV疫苗接種及癌症篩查",
+       "condition": "實報實銷"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "在預防及早期檢測保障下，預測性費用僅限於子宮頸抹片檢查；其他預測性檢測不獲保障。",
+      "家庭成員檢查僅在受保人確診受保癌症時觸發。",
+      "疫苗接種及篩查的金額未載於擷取文本中。"
+     ],
+     "clientProfileFit": [
+      "有癌症家族史的家庭",
+      "希望HPV疫苗接種及篩查獲保障的家長",
+      "注重預防的客戶"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "{client_detail}可獲報銷篩查及HPV疫苗接種，若確診癌症，兩名家庭成員可接受檢查。",
+     "verificationPrompts": [
+      "確認HPV疫苗接種及篩查的報銷限額。",
+      "確認檢查保障中直系家庭成員的定義。",
+      "確認預測性用途僅涵蓋子宮頸抹片檢查。"
+     ]
+    },
+    {
+     "trendId": "cancer-guardian-3_pre_existing_or_chronic_support",
+     "trendName": "限額每 3 年補充一次",
+     "whatProductOffers": "每 3 年補充受保癌症限額，為癌症作為慢性疾病提供持續保障，應對復發及漫長治療期。",
+     "keyFigures": [
+      {
+       "label": "限額補充",
+       "value": "每 3 年",
+       "condition": "受保癌症限額"
+      },
+      {
+       "label": "復發背景",
+       "value": "卵巢 85%、前列腺 48%",
+       "condition": "所引用的復發率"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "補充僅適用於受保癌症限額；補充金額未於摘錄文本中列明。",
+      "受保癌症須符合保單簽發或生效後的 90 天條件。",
+      "本計劃為癌症計劃；非癌症的慢性疾病不獲保障。"
+     ],
+     "clientProfileFit": [
+      "對癌症復發有強烈憂慮的客戶",
+      "希望獲得持續監察保障的康復者",
+      "有多名家族成員患癌的家庭"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "由於癌症可能復發，{client_detail} 的受保癌症限額每 3 年補充一次，而非一次用盡。",
+     "verificationPrompts": [
+      "確認補充金額，以及是在索償後還是 3 個保單年度後適用。",
+      "確認復發是否在補充限額內獲得保障。"
+     ]
+    },
+    {
+     "trendId": "cancer-guardian-3_fast_access_and_convenience",
+     "trendName": "免現金住院及個案管理",
+     "whatProductOffers": "提供本地免現金住院、個人醫療個案管理（包括復康管理），以及 Health Pilot 服務，在診斷、治療及康復過程中為受保人提供支援。",
+     "keyFigures": [
+      {
+       "label": "免現金住院",
+       "value": "本地",
+       "condition": "免卻預先支付醫療費用"
+      },
+      {
+       "label": "個案管理",
+       "value": "個人醫療個案管理",
+       "condition": "包括復康管理"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "增值服務並非合約性質、不獲保證，並由保險公司酌情提供。",
+      "免現金服務僅限本地；海外治療不適用免現金服務。",
+      "服務範圍及服務供應商名單可能不作另行通知而更改。"
+     ],
+     "clientProfileFit": [
+      "沒有現金緩衝支付住院按金的客戶",
+      "確診後需要導航支援的病人"
+     ],
+     "priorityAlignment": [
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，本地住院費用可以免現金方式結算，並由個案經理協調治療及復康。",
+     "verificationPrompts": [
+      "確認現行的免現金住院網絡。",
+      "確認增值服務並非合約性質。"
+     ]
+    }
+   ]
+  },
+  "easyguard-care-essence": {
+   "summary": {
+    "bestForOneLiner": "一份低成本、每年續保的計劃，就癌症、心臟病發作及中風支付一筆過款項，保障至85歲。",
+    "notSuitedWhen": [
+     "客戶希望保障多於三種危疾。",
+     "客戶需要85歲以後的保障。",
+     "客戶想要儲蓄、現金價值或有意義的身故保障。"
+    ],
+    "gapsInSourceMaterial": [
+     "保額選項",
+     "按年齡的保費表",
+     "危疾定義及存活期"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "easyguard-care-essence_critical_illness_readiness",
+     "trendName": "癌症、心臟病發作、中風保障",
+     "whatProductOffers": "就癌症、心臟病發作及中風支付一筆過的「主要都市危疾保障利益」，保障至受保人85歲。",
+     "keyFigures": [
+      {
+       "label": "受保疾病",
+       "value": "3",
+       "condition": "癌症、心臟病發作、中風"
+      },
+      {
+       "label": "投保年齡",
+       "value": "18至65",
+       "condition": "基本計劃"
+      },
+      {
+       "label": "保障年期",
+       "value": "至85歲",
+       "condition": "每年續保"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "只涵蓋三種指明的危疾；其他重大疾病及早期階段病症不獲保障。",
+      "擷取的文本並無列明保額。",
+      "完整的危疾定義及任何存活期載於保單合約。"
+     ],
+     "clientProfileFit": [
+      "希望獲得核心危疾保障的年輕成人",
+      "沒有團體保障的自僱客戶",
+      "專注於三種最常見疾病的預算型買家"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "成本"
+     ],
+     "talkingPointTemplate": "若{client_detail}在85歲前患上癌症、心臟病發作或中風，可獲一筆過款項。",
+     "verificationPrompts": [
+      "確認保額選項及客戶年齡的保費。",
+      "確認危疾定義及任何存活期。",
+      "確認早期階段病症是否不保。"
+     ]
+    },
+    {
+     "trendId": "easyguard-care-essence_budget_friendly_entry",
+     "trendName": "可負擔的三種疾病入門計劃",
+     "whatProductOffers": "一份每年續保的計劃，保費可負擔，只保障三種最常見的危疾，令入門成本維持低水平。",
+     "keyFigures": [
+      {
+       "label": "續保期",
+       "value": "每年",
+       "condition": "每次續保時重新計算保費"
+      },
+      {
+       "label": "繳費方式",
+       "value": "年繳 / 月繳",
+       "condition": "基本計劃"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "擷取的文本沒有提供保費數字，因此無法量化可負擔程度。",
+      "保費按續保時到達年齡的現行費率計算，並隨年齡上升。",
+      "保障範圍狹窄、只涵蓋三種疾病，正是保費維持低水平的原因。"
+     ],
+     "clientProfileFit": [
+      "大學畢業生及事業初期客戶",
+      "加添低成本危疾保障層的客戶",
+      "以價格為先的買家"
+     ],
+     "priorityAlignment": [
+      "成本"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃只保障最重要的三種疾病，從而降低成本。",
+     "verificationPrompts": [
+      "引用客戶年齡的實際年繳及月繳保費。",
+      "確認續保時保費增加多少。"
+     ]
+    },
+    {
+     "trendId": "easyguard-care-essence_premium_stability",
+     "trendName": "續保至85歲，不因健康狀況加費",
+     "whatProductOffers": "保證每年續保至受保人85歲，並述明保費不會因受保人健康狀況的任何變化而調高。",
+     "keyFigures": [
+      {
+       "label": "保證續保",
+       "value": "至85歲",
+       "condition": "每年續保"
+      },
+      {
+       "label": "按健康狀況加費",
+       "value": "無",
+       "condition": "保費不因健康變化而調高"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "續保保費按受保人年齡的現行保費率計算，因此仍會隨年齡增加。",
+      "此保證涵蓋健康狀況的變化，不包括一般保費率調整。",
+      "保障於85歲終止。"
+     ],
+     "clientProfileFit": [
+      "希望續保確定性延續至退休的客戶",
+      "健康狀況有變化的人士"
+     ],
+     "priorityAlignment": [
+      "成本",
+      "保障"
+     ],
+     "talkingPointTemplate": "{client_detail}可每年續保至85歲，健康狀況變化不會令保費加費。",
+     "verificationPrompts": [
+      "確認續保保費的計算基礎及保費率調整條款。",
+      "確認此保證僅延伸至85歲。"
+     ]
+    },
+    {
+     "trendId": "easyguard-care-essence_family_protection",
+     "trendName": "恩恤身故保障",
+     "whatProductOffers": "若受保人身故，向指定受益人支付US$650或HK$/MOP5,000的恩恤身故保障。",
+     "keyFigures": [
+      {
+       "label": "身故保障",
+       "value": "US$650",
+       "condition": "美元保單"
+      },
+      {
+       "label": "身故保障",
+       "value": "HK$/MOP5,000",
+       "condition": "港元或澳門元保單"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "此為固定的恩恤保障金額，並非壽險保額。",
+      "支付前會先扣除保單下欠付的款項。",
+      "此保障不能取代獨立的壽險計劃。"
+     ],
+     "clientProfileFit": [
+      "想要象徵式身故保障的年輕單身人士",
+      "已持有獨立壽險保障的客戶"
+     ],
+     "priorityAlignment": [
+      "保障"
+     ],
+     "talkingPointTemplate": "若最壞情況發生，{client_detail}的受益人可獲固定的HK$5,000恩恤保障。",
+     "verificationPrompts": [
+      "確認所選貨幣的身故保障金額。",
+      "確認是否扣除任何欠付的保單債務。"
+     ]
+    },
+    {
+     "trendId": "easyguard-care-essence_flexibility_and_customisation",
+     "trendName": "美元、港元或澳門元貨幣",
+     "whatProductOffers": "以美元或港元簽發保單，於澳門簽發的保單亦可選擇澳門元。",
+     "keyFigures": [
+      {
+       "label": "貨幣選項",
+       "value": "US$ / HK$",
+       "condition": "標準簽發"
+      },
+      {
+       "label": "額外貨幣",
+       "value": "MOP",
+       "condition": "於澳門簽發的保單"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "澳門元僅適用於在澳門簽發的保單。",
+      "貨幣選擇於簽發時固定，並影響所支付的保障金額。"
+     ],
+     "clientProfileFit": [
+      "以美元為收入的客戶",
+      "澳門客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "{client_detail}可以美元或港元持有保單，於澳門簽發的保單亦可選擇澳門元。",
+     "verificationPrompts": [
+      "確認客戶的居住地可選擇哪些貨幣。",
+      "確認簽發後是否可以更改貨幣。"
+     ]
+    }
+   ]
+  },
+  "everbliss-annuity-insurance-plan": {
+   "summary": {
+    "bestForOneLiner": "一款單一保費終身壽險年金，適合40至75歲人士，由第一個月起支付每月收入，並就阿茲海默症或柏金遜症提供額外收入，以及為家庭事件提供預支收入。",
+    "notSuitedWhen": [
+     "客戶未滿40歲",
+     "客戶需要資金流動性而非收入",
+     "客戶想要高倍數身故保障"
+    ],
+    "gapsInSourceMaterial": [
+     "產品小冊子及完整保單條款",
+     "保證每月收入率及保費級別",
+     "額外收入保障的受保疾病定義",
+     "預支收入保障的合資格事件完整清單",
+     "推廣12%保費回贈條款"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "everbliss-annuity-insurance-plan_income_or_lifestyle_support",
+     "trendName": "即時終身每月收入",
+     "whatProductOffers": "一款以一次性保費購買的終身壽險年金，於整個收入期內支付每月收入，並於第1個保單月結日（0年累積期）或第61個保單月結日（5年累積期）開始支付。",
+     "keyFigures": [
+      {
+       "label": "保障年期",
+       "value": "終身",
+       "condition": "按產品頁面"
+      },
+      {
+       "label": "投保年齡",
+       "value": "40至75",
+       "condition": "申請時年齡"
+      },
+      {
+       "label": "保費",
+       "value": "一次性單一保費",
+       "condition": "按產品頁面"
+      },
+      {
+       "label": "首次保證收入給付",
+       "value": "第1個保單月結日（0年累積期）或第61個保單月結日（5年累積期）",
+       "condition": "視乎所選累積期"
+      },
+      {
+       "label": "非保證收入開始",
+       "value": "第85個保單月結日",
+       "condition": "如有"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "每月收入包括保證每月收入、非保證每月收入（可能為零）及任何額外收入。",
+      "保證每月收入由首個保證給付日期起至收入期結束止支付；非保證收入由公司酌情派發。",
+      "投保年齡限制為40至75歲，因此較年輕客戶不能申請。",
+      "保費金額及收入率並未於產品頁面公布。"
+     ],
+     "clientProfileFit": [
+      "40至75歲持有一筆資金的退休人士",
+      "希望即時獲得收入的客戶",
+      "保守型收入尋求者"
+     ],
+     "priorityAlignment": [
+      "access",
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，一筆單一保費可轉化為每月收入，可由第一個月起開始，並享有終身保障年期。",
+     "verificationPrompts": [
+      "確認每US$100,000單一保費的保證每月收入。",
+      "確認0年與5年累積期之間的收入差異。",
+      "確認適用的收入期定義。"
+     ]
+    },
+    {
+     "trendId": "everbliss-annuity-insurance-plan_pre_existing_or_chronic_support",
+     "trendName": "認知障礙疾病額外收入",
+     "whatProductOffers": "若受保人於第5個保單周年日或之後確診阿茲海默症、不可逆轉的器質性腦退化疾病或柏金遜症，可獲支付相等於保證每月收入50%的額外收入，最多為期120個月。",
+     "keyFigures": [
+      {
+       "label": "額外收入",
+       "value": "保證每月收入的50%",
+       "condition": "按支付額外收入時計算"
+      },
+      {
+       "label": "最長期限",
+       "value": "120個月",
+       "condition": "受保人在世期間"
+      },
+      {
+       "label": "合資格日期",
+       "value": "第5個保單周年日或之後",
+       "condition": "確診日期"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "確診必須於第5個保單周年日或之後；較早前的確診不合資格。",
+      "僅在受保人在世期間繼續支付，並須按要求提供生存證明。",
+      "額外收入按所選每月收入支付選項作為每月收入的一部分支付。",
+      "受保疾病的定義載於保單小冊子，惟該小冊子並未載於所提供的資料來源中。"
+     ],
+     "clientProfileFit": [
+      "有認知障礙症或柏金遜症家族史的客戶",
+      "較年長的退休人士",
+      "為護理開支作準備的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，於第5年後確診阿茲海默症、腦退化疾病或柏金遜症，可為每月收入增加50%，最多為期120個月。",
+     "verificationPrompts": [
+      "確認小冊子中受保疾病的準確定義。",
+      "確認額外收入是否於任何其他保障利益以外額外支付。",
+      "確認生存證明的規定。"
+     ]
+    },
+    {
+     "trendId": "everbliss-annuity-insurance-plan_flexibility_and_customisation",
+     "trendName": "收入轉移至指定收款人",
+     "whatProductOffers": "由第5個保單周年日起，客戶可將每月收入款項於指定期間直接支付予指定收款人，而非由本人收取。",
+     "keyFigures": [
+      {
+       "label": "開始",
+       "value": "第5個保單周年日",
+       "condition": "最早行使日期"
+      },
+      {
+       "label": "特點",
+       "value": "每月收入直接支付予指定收款人",
+       "condition": "於指定期間"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "此選項只轉移收入，並不會增加應付金額。",
+      "指定期間及收款人條件載於產品小冊子，而非產品頁面。",
+      "若款項於身故後至索償獲批期間支付予收款人，該款項將從身故賠償中扣除。"
+     ],
+     "clientProfileFit": [
+      "資助教育的祖父母",
+      "供養受養人的客戶",
+      "安排收入饋贈的遺產規劃客戶"
+     ],
+     "priorityAlignment": [
+      "靈活性",
+      "提取"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，收入可由第5年起轉移至指定收款人，令保單成為結構化的每月饋贈，而非個人收入。",
+     "verificationPrompts": [
+      "確認誰可被指名為收款人。",
+      "確認指定期間的最低及最高時限。",
+      "確認支付予第三方的收入在稅務及遺產方面的處理。"
+     ]
+    },
+    {
+     "trendId": "everbliss-annuity-insurance-plan_fast_access_and_convenience",
+     "trendName": "為人生事件預支收入",
+     "whatProductOffers": "當合資格事件（例如子女或孫子女結婚）於收入期內發生，客戶可預支最多24個月的保證每月收入。",
+     "keyFigures": [
+      {
+       "label": "最高預支",
+       "value": "24個月的保證每月收入",
+       "condition": "每份保單年期"
+      },
+      {
+       "label": "第5個保單周年日前",
+       "value": "最多12個月",
+       "condition": "如於第5個保單周年日前提交申請"
+      },
+      {
+       "label": "第5個保單周年日起",
+       "value": "最多24個月",
+       "condition": "如於第5個保單周年日或之後提交申請"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "整個保單年期內最多可預支24個月的保證每月收入。",
+      "預支收入會於身故保障計算中從保證現金價值扣除以作收回。",
+      "合資格事件於小冊子中定義；頁面上僅以子女或孫子女結婚作為例子。"
+     ],
+     "clientProfileFit": [
+      "即將有婚禮的祖父母",
+      "有一次過家庭開支的客戶",
+      "希望獲得流動性而不想退保的客戶"
+     ],
+     "priorityAlignment": [
+      "access",
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，一場家庭婚禮可預支最多24個月的保證收入，而無需退保。",
+     "verificationPrompts": [
+      "確認合資格事件的完整列表。",
+      "確認預支如何從未來收入或身故保障中收回。",
+      "確認保單剩餘的預支權益。"
+     ]
+    },
+    {
+     "trendId": "everbliss-annuity-insurance-plan_family_protection",
+     "trendName": "設有105%下限的身故賠償",
+     "whatProductOffers": "受保人身故時，受益人可獲較高者：扣除未收回預支收入後的保證現金價值，或單一保費的105%減去已支付的所有保證每月收入及預支收入。",
+     "keyFigures": [
+      {
+       "label": "身故賠償下限",
+       "value": "已付單一保費的105%，減去已支付的收入",
+       "condition": "與保證現金價值比較"
+      },
+      {
+       "label": "額外組成部分",
+       "value": "非保證終期紅利（如有）加上累積收入及利息",
+       "condition": "如適用"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "由身故日期至索償獲批期間支付予收款人的收入款項，會從身故賠償中扣除。",
+      "所有欠付公司的款項及保單債務會在支付前扣除。",
+      "105%下限會因已支付的保證每月收入及預支收入而減少。",
+      "產品頁面並無公布醫療核保詳情。"
+     ],
+     "clientProfileFit": [
+      "其中一方配偶依賴該收入的夫婦",
+      "希望設有資本下限的遺產規劃人士",
+      "持有一筆資金的年長客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，身故賠償至少為單一保費的105%減去已支付的收入，因此家庭可獲得資本下限，而非僅餘的現金價值。",
+     "verificationPrompts": [
+      "以客戶實際的收入開始日期確認身故賠償計算。",
+      "確認預支收入如何減少身故賠償。",
+      "確認預測年度的終期紅利狀況。"
+     ]
+    }
+   ]
+  },
+  "forever-love-coupon-insurance-plan-5": {
+   "summary": {
+    "bestForOneLiner": "一份美元分紅儲蓄計劃，本金由 US$5,000 起，每年派發 2.1% 加 0.4% 的保證年度現金券，並內置父母或配偶身故時的保費豁免。",
+    "notSuitedWhen": [
+     "客戶追求最大複息增長而不希望有任何派發",
+     "客戶需要短期內取得大筆一次性款項",
+     "客戶追求與股票掛鈎的回報"
+    ],
+    "gapsInSourceMaterial": [
+     "按保費年期劃分的完整現金券表",
+     "免體檢申請的總保費上限",
+     "退保價值表",
+     "完整不保事項及豁免終止條件"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "forever-love-coupon-insurance-plan-5_savings_and_wealth_growth",
+     "trendName": "保證年度現金券",
+     "whatProductOffers": "一份分紅儲蓄計劃，於每個保單年度末派發相等於本金金額 2.1% 的保證現金，並於第 20 個保單年度末前每年額外派發本金的 0.4%。",
+     "keyFigures": [
+      {
+       "label": "年度保證現金派發",
+       "value": "本金金額的 2.1%",
+       "condition": "於每個保單年度末派發，直至受保人年滿 100 歲"
+      },
+      {
+       "label": "額外保證現金派發",
+       "value": "本金金額的 0.4%",
+       "condition": "於每個保單年度末派發，直至第 20 個保單年度末"
+      },
+      {
+       "label": "首次派發",
+       "value": "第 1、2 或 3 個保單年度末",
+       "condition": "視乎 6、10 或 15/20 年保費年期而定"
+      },
+      {
+       "label": "最低本金金額",
+       "value": "US$5,000",
+       "condition": "保單以美元計價"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "2.1% 及 0.4% 乃按本金金額計算，而非按累積價值計算。",
+      "本金金額不作為身故保障支付，惟意外身故保障除外。",
+      "年度紅利僅由第 10 個保單年度末起開始派發，且並非保證。",
+      "終期紅利須保單生效滿 10 年或以上方可享有，且並非保證。"
+     ],
+     "clientProfileFit": [
+      "為子女支付每年學費的父母",
+      "希望獲得現金券收入的退休人士",
+      "偏好保證現金多於利益演示的客戶"
+     ],
+     "priorityAlignment": [
+      "growth",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃每年派發本金的 2.1%，並於首 20 年額外派發 0.4%，因此由第一年起已有現金回報。",
+     "verificationPrompts": [
+      "確認所選保費年期的首次派發年度。",
+      "確認本金金額的定義及其是否會變動。",
+      "確認累積現金券如何賺取利息。"
+     ]
+    },
+    {
+     "trendId": "forever-love-coupon-insurance-plan-5_family_protection",
+     "trendName": "父母身故保費豁免",
+     "whatProductOffers": "基本保單包含父母身故保費豁免或配偶身故保費豁免保障：若受保子女的父母或受保成人的配偶於80歲前身故，全部或部分未來保費將獲豁免。",
+     "keyFigures": [
+      {
+       "label": "豁免觸發條件",
+       "value": "受保子女的父母身故，或受保成人的配偶身故",
+       "condition": "於80歲前"
+      },
+      {
+       "label": "豁免範圍",
+       "value": "基本計劃全部或部分未來保費",
+       "condition": "按保障條款"
+      },
+      {
+       "label": "子女保障延續",
+       "value": "受保子女的保費獲豁免至25歲",
+       "condition": "若父母身故"
+      },
+      {
+       "label": "合資格年期",
+       "value": "保單須生效滿2年",
+       "condition": "保障方適用"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "父母或配偶於申請時須為50歲或以下（摘錄在此條件處被截斷）。",
+      "保障僅於保單生效滿2年後方生效。",
+      "僅全部或部分未來保費獲豁免；身故賠償本身不受影響。",
+      "此保障無需健康資料。"
+     ],
+     "clientProfileFit": [
+      "單親父母",
+      "為孫子女投保的祖父母",
+      "有年幼子女的家庭"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，若父母或配偶於80歲前身故，餘下保費將獲豁免，子女的保單無需新資金即可繼續生效。",
+     "verificationPrompts": [
+      "確認父母／配偶50歲的申請條件及確切措辭。",
+      "確認豁免涵蓋全部還是僅部分保費。",
+      "確認子女保障於25歲的結束日期。"
+     ]
+    },
+    {
+     "trendId": "forever-love-coupon-insurance-plan-5_legacy_and_estate",
+     "trendName": "身故保障及意外保障",
+     "whatProductOffers": "受保人身故時，受益人可獲取保證現金價值或已繳基本計劃總保費（扣除已派發的保證現金款項）的 105% 兩者中的較高者，另加累積現金款項、累積紅利及任何終期紅利。",
+     "keyFigures": [
+      {
+       "label": "身故保障下限",
+       "value": "保證現金價值或已繳總保費（扣除保證現金款項）的 105% 兩者中的較高者",
+       "condition": "另加累積款項"
+      },
+      {
+       "label": "意外身故保障",
+       "value": "基本計劃的名義金額",
+       "condition": "於首 12 個月內因受保意外身故"
+      },
+      {
+       "label": "意外身故保障上限",
+       "value": "US$100,000",
+       "condition": "同一受保人所有 FLCP5 保單的合計上限"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "105% 下限乃於扣除已派發的保證現金款項後計算。",
+      "意外身故保障僅於首 12 個月內適用，且僅限受保意外。",
+      "意外身故保障就同一受保人所有保單合計上限為 US$100,000。",
+      "支付予受益人前會先扣除所有未償還債務。"
+     ],
+     "clientProfileFit": [
+      "為子女留下傳承的父母",
+      "希望保障本金的夫婦",
+      "同時兼顧收入與傳承目標的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "growth"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，身故保障至少為已繳保費（扣除票息）的 105%，因此即使經過多年派發，家人取回的金額仍高於本金。",
+     "verificationPrompts": [
+      "按所選保費年期確認身故保障的計算。",
+      "確認首 12 個月保障中何謂受保意外。",
+      "確認該受保人已使用的意外身故合計上限。"
+     ]
+    },
+    {
+     "trendId": "forever-love-coupon-insurance-plan-5_budget_friendly_entry",
+     "trendName": "低門檻、免體檢",
+     "whatProductOffers": "本計劃最低本金金額由US$5,000起，提供6、10、15或20年保費年期，並在每名受保人設定的總保費上限內，新申請毋須進行體檢。",
+     "keyFigures": [
+      {
+       "label": "最低本金金額",
+       "value": "US$5,000",
+       "condition": "每份保單"
+      },
+      {
+       "label": "保費年期",
+       "value": "6 / 10 / 15 / 20 年",
+       "condition": "由客戶選擇"
+      },
+      {
+       "label": "投保年齡",
+       "value": "15日至65歲（6年期）；15日至60歲（10年期）；15日至55歲（15及20年期）",
+       "condition": "申請時年齡"
+      },
+      {
+       "label": "保費繳付模式",
+       "value": "年繳、半年繳、季繳、月繳",
+       "condition": "可供選擇"
+      },
+      {
+       "label": "體檢",
+       "value": "不需要",
+       "condition": "受每名受保人的年度總保費上限規限"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "免體檢僅適用於年度總保費維持在每名受保人設定的總上限之內，並受公司現行規則規限。",
+      "保費在所選保費年期內固定不變。",
+      "申請時年齡超過55歲不提供20年期。",
+      "節錄內容未有列明總保費上限。"
+     ],
+     "clientProfileFit": [
+      "首次儲蓄人士",
+      "祖父母向孫兒送贈",
+      "希望擁有小型簡單保單的客戶"
+     ],
+     "priorityAlignment": [
+      "成本",
+      "可及性"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，入場門檻為US$5,000本金金額，在總上限內毋須體檢，保費年期可選6、10、15或20年。",
+     "verificationPrompts": [
+      "確認可免體檢的年度總保費上限。",
+      "確認所選年期的最低保費。",
+      "確認所選保費年期的投保年齡限制。"
+     ]
+    }
+   ]
+  },
+  "health-journey-guardian": {
+   "summary": {
+    "bestForOneLiner": "全旅程醫療保障計劃，結合30次網絡門診、癌症治療保障、在家復康及寧養照顧，並保證終身續保。",
+    "notSuitedWhen": [
+     "客戶想要簡單、只涵蓋住院的計劃",
+     "客戶需要無限次門診",
+     "客戶不接受網絡限制"
+    ],
+    "gapsInSourceMaterial": [
+     "年度保費表",
+     "各計劃選項的每項保障限額",
+     "等候期及完整不保事項"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup",
+     "trendName": "30次網絡門診",
+     "whatProductOffers": "透過醫療網絡涵蓋普通科及專科醫生診症、中醫診症、物理治療、針灸、跌打及疫苗接種，每個保單年度最多30次。",
+     "keyFigures": [
+      {
+       "label": "門診次數",
+       "value": "每個保單年度30次",
+       "condition": "所有受保門診服務合計上限"
+      },
+      {
+       "label": "受保服務",
+       "value": "普通科、專科、中醫、物理治療、針灸、跌打、疫苗接種",
+       "condition": "須經優質醫療網絡"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "只限網絡診所。",
+      "每個保單年度上限30次。",
+      "每項服務的保障金額未載於擷取文本。"
+     ],
+     "clientProfileFit": [
+      "經常使用基層醫療的客戶",
+      "需要物理治療的活躍客戶",
+      "希望獲得日常護理的家庭"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "access"
+     ],
+     "talkingPointTemplate": "鑑於{client_detail}，每年30次網絡門診可涵蓋他們現時已使用的普通科、物理治療及中醫診症。",
+     "verificationPrompts": [
+      "估算客戶每年的診症次數",
+      "確認客戶偏好的網絡診所",
+      "查核中醫或物理治療是否主要需要"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_critical_illness_readiness",
+     "trendName": "由癌症確診到監察",
+     "whatProductOffers": "就癌症相關的診斷、積極治療（包括標靶治療）、紓緩治療及監察費用作出賠付，設有三個計劃選項。",
+     "keyFigures": [
+      {
+       "label": "計劃選項",
+       "value": "3（普通病房、半私家、標準私家）",
+       "condition": "於投保時選擇"
+      },
+      {
+       "label": "癌症保障",
+       "value": "診斷、積極治療（包括標靶治療）、紓緩治療及監察",
+       "condition": "受計劃保障利益表所限"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "各計劃的保障金額並未載於擷取文本。",
+      "擷取文本並未列明等候期。",
+      "癌症必須屬於保單的受保疾病範圍內。"
+     ],
+     "clientProfileFit": [
+      "有家族癌症病史的客戶",
+      "希望獲得治療費用保障而非一筆過賠償的人士",
+      "於投保時選擇病房級別的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，癌症保障涵蓋由確診、治療到監察的過程，而非僅限於一筆過賠償。",
+     "verificationPrompts": [
+      "確認客戶偏好的病房級別",
+      "查核客戶是否期望一筆過危疾賠償",
+      "確認治療場所（香港公營或私營）"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup_rehab",
+     "trendName": "家居復康及寧養照顧",
+     "whatProductOffers": "涵蓋因癌症、中風、心臟病發作、腎衰竭或需要手術的損傷而接受的復康治療，以及家居寧養照顧，並同時提供復康中心及寧養照顧。",
+     "keyFigures": [
+      {
+       "label": "復康觸發條件",
+       "value": "癌症、中風、心臟病發作、腎衰竭或需要手術的損傷",
+       "condition": "按產品小冊子所列"
+      },
+      {
+       "label": "家居保障",
+       "value": "家居復康及寧養照顧",
+       "condition": "於小冊子日期為市場首創的索償；由持牌健康護理人員及註冊護士提供"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "復康僅限於所列的狀況。",
+      "家居服務由持牌健康護理人員及註冊護士提供。",
+      "保障限額並未載於擷取的文本中。"
+     ],
+     "clientProfileFit": [
+      "需要照顧年長父母的客戶",
+      "重視家居復康的人士",
+      "面對長期疾病的家庭"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "若{client_detail}，家居復康及寧養照顧保障可讓照顧留在家庭偏好的地方進行。",
+     "verificationPrompts": [
+      "詢問由誰在家中提供照顧",
+      "確認手術後是否可能需要復康",
+      "了解客戶對寧養支援的期望"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_premium_stability",
+     "trendName": "終身保證續保",
+     "whatProductOffers": "保證每年續保至終身，續保保費不會因已作出的索償或健康狀況變化而調高。",
+     "keyFigures": [
+      {
+       "label": "續保",
+       "value": "保證每年續保至終身",
+       "condition": "保費按續保時現行保費率計算"
+      },
+      {
+       "label": "因索償加費",
+       "value": "無",
+       "condition": "不因索償或健康變化而加費"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "續保保費仍按現行保費率計算，該費率可能變動。",
+      "此並非終身固定保費。",
+      "首年保費載於年度保費表。"
+     ],
+     "clientProfileFit": [
+      "計劃終身保障的客戶",
+      "健康風險正在發展的人士",
+      "擔心索償的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，續保保證至終身，索償不會令保費上升。",
+     "verificationPrompts": [
+      "確認客戶的時間規劃",
+      "詢問客戶是否期望保費保持不變",
+      "查核過往索償是否影響其關注點"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup_preventive",
+     "trendName": "人生階段檢查與健康",
+     "whatProductOffers": "每三個保單年度提供免費檢查，並於第五個保單年度後提供可獲償付的健康服務，包括婚前檢查及大腸鏡檢查。",
+     "keyFigures": [
+      {
+       "label": "免費檢查",
+       "value": "每3個保單年度",
+       "condition": "於計劃下"
+      },
+      {
+       "label": "健康服務",
+       "value": "第5個保單年度後可獲償付",
+       "condition": "包括婚前檢查及大腸鏡檢查"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "健康服務僅於第5個保單年度後適用。",
+      "摘要未列明每項服務的範圍及金額。",
+      "檢查固定為每3個保單年度一次。"
+     ],
+     "clientProfileFit": [
+      "注重預防的客戶",
+      "計劃結婚的伴侶",
+      "適合接受篩查的45歲以上客戶"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "因為{client_detail}，內置的檢查及篩查保障可在任何疾病出現前增添價值。",
+     "verificationPrompts": [
+      "詢問客戶上次檢查的時間",
+      "查看是否適合進行大腸鏡檢查",
+      "確認客戶對健康計劃的興趣"
+     ]
+    }
+   ]
+  },
+  "multiple-care-pro-critical-illness-insurance-plan-2": {
+   "summary": {
+    "bestForOneLiner": "一份分紅危疾計劃，涵蓋61種疾病，於五個疾病組別下提供高達500%賠償，並額外派發紅利。",
+    "notSuitedWhen": [
+     "客戶想要最低成本的純定期保障",
+     "客戶需要住院或門診費用報銷",
+     "客戶無法長期持有保單以獲取紅利"
+    ],
+    "gapsInSourceMaterial": [
+     "保費表",
+     "按級別及組別劃分的保障利益表",
+     "等候期及完整不保事項"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "multiple-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness",
+     "trendName": "涵蓋61種危疾",
+     "whatProductOffers": "涵蓋53種嚴重疾病、2種輕微疾病、1種早期危疾、4種嚴重兒童疾病及女性原位癌，保障至100歲。",
+     "keyFigures": [
+      {
+       "label": "涵蓋疾病數目",
+       "value": "61",
+       "condition": "53種嚴重、2種輕微、1種早期、4種嚴重兒童疾病，另加女性原位癌"
+      },
+      {
+       "label": "保障年期",
+       "value": "至100歲",
+       "condition": "不包括喪失獨立生活能力；第1級嚴重疾病保障至85歲"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "喪失獨立生活能力不屬至100歲的保障範圍。",
+      "第1級下51種嚴重疾病保障至85歲，而非100歲。",
+      "定義及等候期載於保單。",
+      ""
+     ],
+     "clientProfileFit": [
+      "希望獲得廣泛危疾保障的客戶",
+      "希望為子女疾病提供保障的家長",
+      "關注原位癌的女性"
+     ],
+     "priorityAlignment": [
+      "保障"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，一份保單涵蓋61種疾病，包括早期及兒童疾病。",
+     "verificationPrompts": [
+      "詢問客戶最關注哪些疾病",
+      "確認保障至100歲是否重要",
+      "確認客戶了解各級別的保障年齡"
+     ]
+    },
+    {
+     "trendId": "multiple-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness_multiple",
+     "trendName": "五倍危疾賠償",
+     "whatProductOffers": "於五個級別及五個疾病組別合共支付高達危疾保額的500%，癌症最多可索償三次。",
+     "keyFigures": [
+      {
+       "label": "最高多重賠償",
+       "value": "危疾保額的500%",
+       "condition": "涵蓋的索償合計"
+      },
+      {
+       "label": "級別",
+       "value": "5",
+       "condition": "主要疾病分為5個組別"
+      },
+      {
+       "label": "癌症索償",
+       "value": "最多3次",
+       "condition": "其他組別每組一次索償"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "每個主要疾病組別可索償一次，癌症除外，最多可索償3次。",
+      "受級別保障利益條款約束。",
+      "預支賠償會扣減現時保額。"
+     ],
+     "clientProfileFit": [
+      "尋求保障的癌症康復者",
+      "有多次癌症家族史的客戶",
+      "長線保障買家"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "鑑於{client_detail}，保單可於不同疾病組別合共支付高達保額五倍的賠償。",
+     "verificationPrompts": [
+      "詢問過往癌症病史",
+      "確認客戶理解癌症三次索償上限",
+      "查核客戶想要的保額"
+     ]
+    },
+    {
+     "trendId": "multiple-care-pro-critical-illness-insurance-plan-2_savings_and_wealth_growth",
+     "trendName": "分紅計劃連紅利",
+     "whatProductOffers": "一份分紅計劃，年度紅利會連同利息累積，並可能於保單生效滿10年後派發一次性終期紅利。",
+     "keyFigures": [
+      {
+       "label": "年度紅利",
+       "value": "非保證，每年派發",
+       "condition": "連同利息累積"
+      },
+      {
+       "label": "終期紅利",
+       "value": "一次性非保證",
+       "condition": "保單生效滿10年"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "紅利及終期紅利均為非保證。",
+      "終期紅利須保單生效滿10年。",
+      "回報取決於投資及索償經驗。"
+     ],
+     "clientProfileFit": [
+      "想要保障加儲蓄的客戶",
+      "長期保單持有人",
+      "為傳承作準備的父母"
+     ],
+     "priorityAlignment": [
+      "增長",
+      "保障"
+     ],
+     "talkingPointTemplate": "由於{client_detail}，分紅結構在危疾保障之上額外提供非保證紅利。",
+     "verificationPrompts": [
+      "確認客戶的持有年期",
+      "核對客戶對非保證回報的期望",
+      "詢問現金價值提取是否重要"
+     ]
+    },
+    {
+     "trendId": "multiple-care-pro-critical-illness-insurance-plan-2_legacy_and_estate",
+     "trendName": "身故賠償加恩恤現金",
+     "whatProductOffers": "支付身故賠償，金額為現時保額加上累積年度紅利及任何終期紅利，並額外提供相等於最初保額4%或5%的恩恤現金保障。",
+     "keyFigures": [
+      {
+       "label": "身故賠償",
+       "value": "現時保額 + 累積年度紅利 + 終期紅利",
+       "condition": "保單生效滿10年方有終期紅利"
+      },
+      {
+       "label": "恩恤現金",
+       "value": "最初保額的4%或5%",
+       "condition": "視乎所購買的危疾保障金額而定"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "恩恤現金的百分比視乎保障金額而定。",
+      "終期紅利為非保證，並須滿10年。",
+      "現時保額會因預支賠償而減少。"
+     ],
+     "clientProfileFit": [
+      "有受養子女的父母",
+      "結合保障與傳承的客戶",
+      "希望為家人提供即時現金的人士"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "growth"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，身故賠償會退回保額加上紅利，並額外提供恩恤現金以應付即時開支。",
+     "verificationPrompts": [
+      "確認受益人安排",
+      "詢問遺產流動性是否重要",
+      "查核所購買的保障金額"
+     ]
+    }
+   ]
+  },
+  "pac-select-3": {
+   "summary": {
+    "bestForOneLiner": "一份模組化意外附加保障，提供由客戶自訂的意外死亡及傷殘保障、每月永久傷殘收入，以及可選的意外醫療及住院現金保障。",
+    "notSuitedWhen": [
+     "客戶需要一份獨立保單",
+     "客戶想要疾病或住院醫療保障",
+     "客戶需要儲蓄或投資功能"
+    ],
+    "gapsInSourceMaterial": [
+     "保障利益表金額",
+     "保費率",
+     "等候期及完整不保事項"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "pac-select-3_income_or_lifestyle_support",
+     "trendName": "意外死亡及傷殘保障",
+     "whatProductOffers": "核心意外死亡及斷肢保障，保額由客戶自訂，另加每月永久完全傷殘保障利益，金額為該保額的1%，最多給付100個月。",
+     "keyFigures": [
+      {
+       "label": "核心保障",
+       "value": "意外死亡及斷肢保障",
+       "condition": "保額由客戶選擇"
+      },
+      {
+       "label": "永久完全傷殘給付",
+       "value": "每月為意外死亡及斷肢保額的1%",
+       "condition": "由第13個月起；最多100個月"
+      },
+      {
+       "label": "永久完全傷殘條件",
+       "value": "18歲或以上、於180天內傷殘、連續12個月",
+       "condition": "按保單定義"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "永久完全傷殘僅適用於18歲或以上的受保人。",
+      "傷殘必須持續連續12個月。",
+      "如同一傷害已獲意外死亡及斷肢保障給付，則不獲永久完全傷殘給付。",
+      "給付後保額會減少。"
+     ],
+     "clientProfileFit": [
+      "需要收入保障的家庭經濟支柱",
+      "體力勞動及地盤工人",
+      "希望自訂保障的客戶"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "成本"
+     ],
+     "talkingPointTemplate": "由於{client_detail}，永久傷殘會每月給付所選保額的1%，最多100個月。",
+     "verificationPrompts": [
+      "確認客戶的職業",
+      "詢問需要替代的每月收入",
+      "查核客戶可負擔的保額"
+     ]
+    },
+    {
+     "trendId": "pac-select-3_hospital_cost_protection",
+     "trendName": "可選意外醫療保障",
+     "whatProductOffers": "可於核心AD&D計劃上附加可選的意外醫療費用賠償及每日住院現金保障。",
+     "keyFigures": [
+      {
+       "label": "可選保障",
+       "value": "意外醫療費用賠償 + 每日住院現金",
+       "condition": "附加於核心保障"
+      },
+      {
+       "label": "核心保障",
+       "value": "意外身故及斷肢",
+       "condition": "必須的基礎保障"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "可選保障可能需要額外保費。",
+      "保障金額並未載於擷取的文本中。",
+      "受保單條款約束。"
+     ],
+     "clientProfileFit": [
+      "希望意外醫療費用獲保障的客戶",
+      "正在建立模組化保障的人士",
+      "以核心保障起步、注重預算的買家"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "成本"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，可選的醫療及住院現金保障建基於核心意外保額之上。",
+     "verificationPrompts": [
+      "詢問客戶是否需要醫療賠償",
+      "檢查可選保障的預算",
+      "確認現有的住院保障"
+     ]
+    },
+    {
+     "trendId": "pac-select-3_flexibility_and_customisation",
+     "trendName": "自訂保額",
+     "whatProductOffers": "一份模組化意外附加保障，由客戶自訂意外死亡及傷殘保額，並選擇附加哪些可選保障。",
+     "keyFigures": [
+      {
+       "label": "結構",
+       "value": "核心意外死亡及傷殘保障加2項可選保障",
+       "condition": "可選醫療費用及每日住院現金"
+      },
+      {
+       "label": "保額",
+       "value": "由客戶自選",
+       "condition": "意外死亡及傷殘與永久完全傷殘保障的計算基礎"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "必須作為附加保障附加於基本計劃。",
+      "保額須經核保並受上限規限。",
+      "可選保障另行定價。"
+     ],
+     "clientProfileFit": [
+      "已持有基本計劃的客戶",
+      "希望調整保費的買家",
+      "由小額起步的年輕客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "cost"
+     ],
+     "talkingPointTemplate": "鑑於{client_detail}，他們可自訂意外保額，並只附加所需的保障。",
+     "verificationPrompts": [
+      "確認客戶現有的基本計劃",
+      "詢問他們的保費預算",
+      "查核所需的保額"
+     ]
+    },
+    {
+     "trendId": "pac-select-3_income_or_lifestyle_support_double_indemnity",
+     "trendName": "交通事故雙倍賠償",
+     "whatProductOffers": "就以下受保意外將AD&D或PTD保障利益加倍：乘搭公共交通工具、在客用升降機內、在戲院、酒店、學校或醫院發生火災、行人被車輛撞倒，或於香港或澳門發生水浸或山泥傾瀉。",
+     "keyFigures": [
+      {
+       "label": "雙倍賠償",
+       "value": "2倍AD&D或PTD保障利益",
+       "condition": "指定意外情況"
+      },
+      {
+       "label": "受保交通工具",
+       "value": "渡輪、巴士、旅遊巴、火車/港鐵、的士、飛機",
+       "condition": "付費乘客"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "僅限所列情況方符合資格。",
+      "礦場或建築地盤的升降機不保。",
+      "火災必須發生於所列場所。",
+      "水浸或山泥傾瀉保障僅限於香港或澳門。"
+     ],
+     "clientProfileFit": [
+      "每日乘搭公共交通工具的通勤者",
+      "經常乘搭飛機的人士",
+      "城市行人"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "因為{client_detail}，意外保障利益會在其每日使用的交通工具上加倍。",
+     "verificationPrompts": [
+      "詢問每日通勤情況",
+      "查核乘搭飛機的頻率",
+      "確認是否知悉所列事件"
+     ]
+    }
+   ]
+  },
+  "runner-guard": {
+   "summary": {
+    "bestForOneLiner": "為單一跑步賽事提供短期意外保障，保額為HK$500,000或HK$1,000,000，保障期為1至90日。",
+    "notSuitedWhen": [
+     "客戶希望獲得全年意外保障",
+     "該賽事屬多項運動，跑步僅為其中一項元素",
+     "賽事低於3,000m、高於2,000m海拔，或參賽人數少於50人"
+    ],
+    "gapsInSourceMaterial": [
+     "各計劃及保障期的保費表",
+     "完整Wild Nature Benefit保障表",
+     "完整不保事項及索償程序"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "runner-guard_fast_access_and_convenience",
+     "trendName": "賽事日保障，單一保費",
+     "whatProductOffers": "為單一跑步賽事購買的短期意外保障，保障期為1日、3日、30日或90日，並以單一保費繳付。",
+     "keyFigures": [
+      {
+       "label": "保障期",
+       "value": "1日 / 3日 / 30日 / 90日",
+       "condition": "於投保時選擇"
+      },
+      {
+       "label": "保費繳付方式",
+       "value": "單一保費",
+       "condition": "一次性繳付"
+      },
+      {
+       "label": "保障時段",
+       "value": "由指定起步時間至衝線或退出",
+       "condition": "包括即時緊急醫療援助"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "保障由指定起步時間開始，而非由報名或熱身開始。",
+      "頒獎典禮及賽後活動不獲保障。",
+      "保障於受保人退出或越過終點線時結束。"
+     ],
+     "clientProfileFit": [
+      "每年參加一至兩場賽事的業餘跑手",
+      "慈善跑參加者",
+      "在保障期內參與海外馬拉松的旅客"
+     ],
+     "priorityAlignment": [
+      "access",
+      "cost"
+     ],
+     "talkingPointTemplate": "由於{client_detail}只需在比賽日前后獲得保障，Runner Guard按賽事購買，以單一保費繳付，並由起步槍聲起至終點線止提供保障。",
+     "verificationPrompts": [
+      "提交前確認賽事符合全部八項受保跑步準則。",
+      "確認哪個保障期配合比賽日期及旅遊計劃。"
+     ]
+    },
+    {
+     "trendId": "runner-guard_income_or_lifestyle_support",
+     "trendName": "跑步受傷的一筆過賠償",
+     "whatProductOffers": "就受保的跑步受傷支付一筆過賠償，以助支付治療、康復或無法工作期間的開支，包括心臟驟停、昏迷至少48小時、永久喪失肢體或視力，或死亡，可獲保額的100%。",
+     "keyFigures": [
+      {
+       "label": "心臟驟停／昏迷／永久喪失／死亡",
+       "value": "保額的100%",
+       "condition": "於受保參與期間內"
+      },
+      {
+       "label": "昏迷時間",
+       "value": "至少48小時",
+       "condition": "因意外導致不省人事"
+      },
+      {
+       "label": "運動性中暑",
+       "value": "每次意外HK$10,000",
+       "condition": "住院至少24小時"
+      },
+      {
+       "label": "肌腱斷裂／韌帶撕裂",
+       "value": "接受手術可獲保額的10%；未接受手術可獲HK$5,000",
+       "condition": "賽事期間受保受傷"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "同一意外中發生多項受保受傷時，只支付保障利益最高的一項。",
+      "支付保額的100%後，保單自動終止。",
+      "受保期間以外的受傷，包括指定起步時間前的熱身，均不獲保障。"
+     ],
+     "clientProfileFit": [
+      "沒有病假的自僱跑手",
+      "參加多場賽事的業餘競賽跑手",
+      "一旦無法行走或訓練便會失去收入的客戶"
+     ],
+     "priorityAlignment": [
+      "保障",
+      "可及性"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，受保的賽事受傷會支付一筆過賠償，可在康復期間替代收入，而不只是報銷收據。",
+     "verificationPrompts": [
+      "確認每類受保受傷的保障表百分比。",
+      "確認部分賠償後保額會否減少。"
+     ]
+    },
+    {
+     "trendId": "runner-guard_high_annual_or_lifetime_limit",
+     "trendName": "保額高達HK$1,000,000",
+     "whatProductOffers": "兩款計劃規模，Plan 1保額為HK$500,000，Plan 2保額為HK$1,000,000。",
+     "keyFigures": [
+      {
+       "label": "Plan 1保額",
+       "value": "HK$500,000",
+       "condition": "投保時年齡18-70"
+      },
+      {
+       "label": "Plan 2保額",
+       "value": "HK$1,000,000",
+       "condition": "投保時年齡18-55"
+      },
+      {
+       "label": "貨幣",
+       "value": "HK$",
+       "condition": "港元保單"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "此為保額，並非年度或終身醫療限額。",
+      "Plan 2僅供年齡18-55的申請人投保。",
+      "當保額的100%已獲賠付後，保單即終止。"
+     ],
+     "clientProfileFit": [
+      "希望獲得較大一筆款項的高收入跑手",
+      "符合Plan 2資格、年齡18-55的申請人",
+      "參加超級馬拉松或越野賽的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage"
+     ],
+     "talkingPointTemplate": "若{client_detail}希望獲得有意義的賠償而非象徵式保障利益，Plan 2為單一賽事期提供HK$1,000,000保額。",
+     "verificationPrompts": [
+      "確認申請人年齡符合Plan 2的資格範圍。",
+      "確認是否設有每名受保人跨保單的保額上限。"
+     ]
+    },
+    {
+     "trendId": "runner-guard_flexibility_and_customisation",
+     "trendName": "兩個計劃，四種保障期",
+     "whatProductOffers": "讓客戶在兩個保額級別及四種保障期之間選擇，以配合單一賽事或短期賽季。",
+     "keyFigures": [
+      {
+       "label": "計劃選項",
+       "value": "2",
+       "condition": "計劃1或計劃2"
+      },
+      {
+       "label": "保障期選項",
+       "value": "4",
+       "condition": "1、3、30或90日"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "計劃2只限18-55歲申請人；計劃1則為18-70歲。",
+      "每份保單只涵蓋一個賽事期間。",
+      "賽事必須符合全部八項受保跑步條件。"
+     ],
+     "clientProfileFit": [
+      "在90日內參加一系列賽事的跑手",
+      "結合賽事與短途旅行的旅客",
+      "按賽事距離及費用選擇保障的客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，我們可將90日選項配合賽季，而無需支付全年的費用。",
+     "verificationPrompts": [
+      "確認每個保障期所涵蓋的具體日期。",
+      "對照受保跑步條件，確認賽事距離及海拔。"
+     ]
+    }
+   ]
+  },
+  "serene-life-serene-life-annual-dividends-macau": {
+   "summary": {
+    "bestForOneLiner": "一個分紅終身壽險系列，設有兩個版本——一個偏向長期回報，一個偏向流動性——提供三種保費繳付年期。",
+    "notSuitedWhen": [
+     "客戶需要保障而非儲蓄",
+     "客戶無法承諾長期繳付保費",
+     "客戶需要保證紅利金額"
+    ],
+    "gapsInSourceMaterial": [
+     "所擷取的產品小冊子為澳門版本；香港條款可能有所不同",
+     "僅展示一個30歲男性示例",
+     "保費繳付年期及完整產品機制被截斷"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_savings_and_wealth_growth",
+     "trendName": "保證價值加紅利",
+     "whatProductOffers": "一份分紅終身壽險儲蓄計劃，提供保證現金價值加非保證終期紅利，或於年度紅利版本中提供可累積生息的每年紅利。",
+     "keyFigures": [
+      {
+       "label": "第50年預期總退保價值——Serene Life",
+       "value": "US$147,078",
+       "condition": "30歲男性非吸煙者，5年繳付年期，年繳保費US$3,200"
+      },
+      {
+       "label": "第50年預期總退保價值——Annual Dividends",
+       "value": "US$115,466",
+       "condition": "同一示例"
+      },
+      {
+       "label": "保證現金價值",
+       "value": "US$21,798",
+       "condition": "同一示例，於第50個保單年度"
+      },
+      {
+       "label": "假設累積利率",
+       "value": "3.5% p.a.",
+       "condition": "僅供說明，非保證"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "紅利及終期紅利均為非保證，並由AIA酌情宣佈。",
+      "說明價值假設沒有提取或保單貸款，且所有保費已全數繳付。",
+      "必須退保方可實現說明的退保價值。",
+      "3.5% p.a.累積利率為說明假設，並非保證。",
+      "所擷取的產品小冊子為澳門版本；香港條款可能有所不同。"
+     ],
+     "clientProfileFit": [
+      "為子女教育儲備的家長",
+      "希望持有美元保單的長期儲蓄者",
+      "比較分紅儲蓄計劃的客戶"
+     ],
+     "priorityAlignment": [
+      "growth"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，說明顯示保證現金價值加非保證紅利，在上述示例中於第50個保單年度達到約US$147,078。",
+     "verificationPrompts": [
+      "確認客戶能持有20年以上",
+      "說明只有保證現金價值是確定的",
+      "取得按其年齡及保費的個人化說明"
+     ]
+    },
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_legacy_and_estate",
+     "trendName": "身故賠償高達保費11倍",
+     "whatProductOffers": "支付相等於保額加非保證紅利的身故賠償；在說明示例中，第50個保單年度的預期身故賠償為US$175,280，描述為高達已繳總保費的11倍。",
+     "keyFigures": [
+      {
+       "label": "第50年預期身故賠償——Serene Life",
+       "value": "US$175,280",
+       "condition": "保證US$50,000 + 非保證US$125,280"
+      },
+      {
+       "label": "第50年預期身故賠償——Annual Dividends",
+       "value": "US$143,668",
+       "condition": "保證US$50,000 + 非保證US$93,668"
+      },
+      {
+       "label": "保費倍數",
+       "value": "高達11倍",
+       "condition": "Serene Life，同一示例"
+      },
+      {
+       "label": "示例中的總保費",
+       "value": "US$16,000",
+       "condition": "每年US$3,200，為期5年"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "高於保證金額的身故賠償為非保證。",
+      "11倍數字基於一個假設示例（30歲男性非吸煙者，5年繳付年期）。",
+      "支付前會扣除未償還債務。",
+      "所擷取文本未詳述身故賠償支付選項的條款。"
+     ],
+     "clientProfileFit": [
+      "規劃傳承的祖父母及父母",
+      "希望保障可增長的客戶",
+      "有長遠規劃的家庭"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "growth"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，說明的身故賠償於第50年達到US$175,280——約為示例中US$16,000保費的11倍——但其中大部分為非保證。",
+     "verificationPrompts": [
+      "確認傳承目標及受益人",
+      "強調示例中只有US$50,000為保證",
+      "詢問是否需要支付選項"
+     ]
+    },
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_flexibility_and_customisation",
+     "trendName": "兩個版本，三種年期",
+     "whatProductOffers": "讓客戶在Serene Life（追求較高長期潛在回報）與Serene Life (Annual Dividends)（追求較高流動性）之間選擇，並提供三種保費繳付年期。",
+     "keyFigures": [
+      {
+       "label": "計劃版本",
+       "value": "2",
+       "condition": "Serene Life / Serene Life (Annual Dividends)"
+      },
+      {
+       "label": "保費繳付年期",
+       "value": "3",
+       "condition": "所擷取文本未逐一列明"
+      },
+      {
+       "label": "Serene Life重點",
+       "value": "較高長期潛在總回報",
+       "condition": "流動性較低"
+      },
+      {
+       "label": "Annual Dividends重點",
+       "value": "較高流動性",
+       "condition": "長期回報潛力較低"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "兩個版本在回報潛力與流動性之間取捨；客戶不能兩者兼得。",
+      "所擷取文本未逐一列明三種保費繳付年期。",
+      "所擷取文本未描述保單簽發後轉換版本。",
+      "示例採用5年繳付年期，每年US$3,200。"
+     ],
+     "clientProfileFit": [
+      "對流動性需求不確定的客戶",
+      "希望獲得紅利收入的退休人士",
+      "可能需要部分提取資金的儲蓄者"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，我們可以先選擇版本——以增長為本的Serene Life或流動性較高的Annual Dividends——然後配合三種繳付年期之一。",
+     "verificationPrompts": [
+      "詢問客戶是否需要提取紅利",
+      "確認偏好的保費繳付年期",
+      "在相同說明基礎上比較兩個版本"
+     ]
+    }
+   ]
+  },
+  "simply-love-encore-savings-insurance-plan-5": {
+   "summary": {
+    "bestForOneLiner": "一份分紅終身壽險儲蓄計劃，可透過更改受保人無限傳承，示例回本期為第5年，並可靈活每年提取。",
+    "notSuitedWhen": [
+     "客戶需要保證紅利金額",
+     "客戶需要於第6個保單年度前取得收入",
+     "客戶沒有傳承目標，需要純粹流動性",
+     "客戶不能接受長期持有期"
+    ],
+    "gapsInSourceMaterial": [
+     "除單一US$125,000示例外，沒有標準保費表",
+     "沒有紅利歷史或紅利比率",
+     "未提取失業保障金額及條件",
+     "未提取更改受保人資格規則"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_savings_and_wealth_growth",
+     "trendName": "五年回本",
+     "whatProductOffers": "一份分紅終身壽險計劃，提供保證現金價值、非保證每年紅利及非保證終期紅利；示例的一次性保費個案於第5個保單年度終結時達到預期回本期。",
+     "keyFigures": [
+      {
+       "label": "示例一次性保費",
+       "value": "US$125,000",
+       "condition": "假設示例"
+      },
+      {
+       "label": "預期回本期",
+       "value": "第5個保單年度終結",
+       "condition": "基於現時紅利比率，並非保證"
+      },
+      {
+       "label": "第40個保單年度預期退保總價值",
+       "value": "US$187,316",
+       "condition": "保證US$54,922加非保證US$132,394"
+      },
+      {
+       "label": "每年紅利之累積利率",
+       "value": "3.5% p.a.",
+       "condition": "現時利率，並非保證"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "每年紅利及終期紅利均為非保證，並由AIA全權酌情宣佈。",
+      "預期回本期及價值僅供說明，實際回本期可能較短或較長。",
+      "示例假設沒有保單貸款、沒有終期紅利鎖定，且所有保費均已如期全數繳付。",
+      "如要獲得示例金額，保單必須於相關保單年度終結時退保。",
+      "提取會減少本金金額及隨後之保證現金價值、紅利及身故賠償。"
+     ],
+     "clientProfileFit": [
+      "持有一筆約US$125,000一次性資金的客戶",
+      "持有10至40年投資期的儲蓄者",
+      "為下一代提供資金的祖父母",
+      "尋求較高長期潛力的存款持有人"
+     ],
+     "priorityAlignment": [
+      "增長",
+      "提取"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，示例個案於第5個保單年度終結時回本，並於第40年複合增長至預期US$187,316。",
+     "verificationPrompts": [
+      "確認客戶可投入一次性保費",
+      "檢查客戶對非保證紅利的反應",
+      "確認客戶可接受5年回本期",
+      "詢問客戶是否需要於第6年前提取"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_legacy_and_estate",
+     "trendName": "無限次更改受保人",
+     "whatProductOffers": "更改受保人選項及後備受保人選項讓保單可無限次傳承至後代，後備受保人可在受保人意外身故時保障保單。",
+     "keyFigures": [
+      {
+       "label": "更改受保人",
+       "value": "無限次",
+       "condition": "透過更改受保人選項"
+      },
+      {
+       "label": "後備受保人",
+       "value": "支持",
+       "condition": "後備受保人選項"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "摘錄未列明更改受保人的年齡限制、可保性要求或審批條件。",
+      "保單必須維持生效，選項方可適用。",
+      "摘錄未詳述身故保障利益結算選項的條款。"
+     ],
+     "clientProfileFit": [
+      "規劃跨代財富的祖父母及父母",
+      "有年幼子女的家庭",
+      "與遺產規劃師合作的客戶",
+      "希望保單比自己更長壽的保單持有人"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，保單可透過更改受保人無限次傳承，而無需支付賠償並重新開始。",
+     "verificationPrompts": [
+      "確認擬定後承受保人的年齡",
+      "查核更改受保人的可保性要求",
+      "詢問是否應於投保時指定後備受保人"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_flexibility_and_customisation",
+     "trendName": "自訂退休提取",
+     "whatProductOffers": "示例個案由第6個保單年度至第40個保單年度每年提取US$6,250，合共US$218,750，而於第40年仍預計有US$187,316留給下一代。",
+     "keyFigures": [
+      {
+       "label": "每年提取",
+       "value": "US$6,250",
+       "condition": "由第6至第40個保單年度"
+      },
+      {
+       "label": "提取總額",
+       "value": "US$218,750",
+       "condition": "橫跨35年"
+      },
+      {
+       "label": "剩餘預計總退保價值",
+       "value": "US$187,316",
+       "condition": "於第40個保單年度提取後"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "現金提取的金額及年期均為非保證。",
+      "提取會先從累積年度紅利及其利息中扣除，然後從保證現金價值及累積終期紅利中扣除。",
+      "提取會減少本金金額及身故保障。",
+      "當總退保價值被全數提取後，保單即告終止。"
+     ],
+     "clientProfileFit": [
+      "希望以提取方式而非年金方式取得收入的退休人士",
+      "希望同時獲得收入及保留傳承的客戶",
+      "有其他退休收入、需要額外補充的儲蓄者"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃可於第6年起每年支付約US$6,250，同時仍為家人留下預計金額。",
+     "verificationPrompts": [
+      "確認客戶所需的每年收入",
+      "核對示例中的提取不早於第6年開始",
+      "說明提取金額並非保證"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_fast_access_and_convenience",
+     "trendName": "無需體檢",
+     "whatProductOffers": "申請時無需進行體檢。",
+     "keyFigures": [
+      {
+       "label": "體檢",
+       "value": "不需要",
+       "condition": "申請此計劃"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "摘錄未說明是否仍須健康申報或核保。",
+      "無需體檢不代表保證受保；資格規則不在摘錄內。"
+     ],
+     "clientProfileFit": [
+      "希望避免體檢的年長儲蓄者",
+      "希望簡便申請的繁忙專業人士",
+      "有輕微病歷而不喜歡檢查的客戶"
+     ],
+     "priorityAlignment": [
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，申請無需體檢，令流程保持簡單。",
+     "verificationPrompts": [
+      "確認是否仍須健康申報",
+      "對照客戶年齡與投保年齡限制",
+      "詢問近期病歷"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_income_or_lifestyle_support",
+     "trendName": "失業保障緩衝",
+     "whatProductOffers": "計劃包含失業保障，在困難時期提供額外靈活性，僅適用於5年或10年保費繳付期的保單。",
+     "keyFigures": [
+      {
+       "label": "合資格保費繳付期",
+       "value": "5年或10年",
+       "condition": "失業保障適用性"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "不適用於一次性繳付保費的保單。",
+      "提取文本未列明保障金額、合資格期間及索償條件。"
+     ],
+     "clientProfileFit": [
+      "處於週期性行業的專業人士",
+      "保費繳付期為5年或10年的單一收入家庭",
+      "建立儲蓄緩衝的年輕家庭"
+     ],
+     "priorityAlignment": [
+      "access",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，失業保障可在保費繳付期內收入中斷時提供緩衝。",
+     "verificationPrompts": [
+      "確認所選保費繳付期符合資格",
+      "取得失業保障的定義及金額",
+      "了解客戶的工作穩定性"
+     ]
+    }
+   ]
+  },
+  "wealth-elite-life-insurance-plan-3": {
+   "summary": {
+    "bestForOneLiner": "一份一次性繳付保費的分紅終身壽險計劃，於保單生效時提供85%保證現金價值，並設有多層傳承服務。",
+    "notSuitedWhen": [
+     "客戶需要定期繳付保費，而非一筆過繳付",
+     "客戶需要醫療或危疾保障",
+     "客戶需要於早年取得流動性"
+    ],
+    "gapsInSourceMaterial": [
+     "保單分拆選項的運作機制內容被截斷",
+     "保費及退保說明並未收錄",
+     "Future Wishes及Transitional Owner Arrangement的條款僅以註腳形式出現"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "wealth-elite-life-insurance-plan-3_savings_and_wealth_growth",
+     "trendName": "開始時85%保證現金價值",
+     "whatProductOffers": "一份一次性繳付保費的分紅終身壽險計劃，於保單生效時，基本計劃的保證現金價值相等於已繳一次性保費的85%，並由第3個保單年度終結起宣派非保證終期紅利。",
+     "keyFigures": [
+      {
+       "label": "保單生效時保證現金價值",
+       "value": "一次性保費的85%",
+       "condition": "基本計劃"
+      },
+      {
+       "label": "首次終期紅利宣派",
+       "value": "第3個保單年度終結",
+       "condition": "其後每個保單年度一次"
+      },
+      {
+       "label": "投保年齡",
+       "value": "15日至75歲",
+       "condition": "投保時"
+      },
+      {
+       "label": "保障年期",
+       "value": "終身",
+       "condition": "終身"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "85%保證適用於保單生效時基本計劃的一次性保費。",
+      "終期紅利為非保證，任何年度均可能為零。",
+      "提早退保可取回的金額可能遠低於已繳保費。",
+      "所收錄的文本並無保費表或退保說明。"
+     ],
+     "clientProfileFit": [
+      "以一筆過資金配置的高淨值客戶",
+      "保存資本的退休人士",
+      "希望享有高保證下限並具上升潛力的客戶"
+     ],
+     "priorityAlignment": [
+      "增長"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，一次性保費的85%由第一天起即保證為現金價值，並於第三年後開始派發非保證終期紅利。",
+     "verificationPrompts": [
+      "確認客戶持有一筆過資金而非定期繳付保費",
+      "將85%保證下限與其他資本保存方案作比較",
+      "說明提早退保可能損失資本"
+     ]
+    },
+    {
+     "trendId": "wealth-elite-life-insurance-plan-3_legacy_and_estate",
+     "trendName": "多層財富傳承",
+     "whatProductOffers": "結合多項傳承工具：Future Wishes Arrangement 可於不同觸發事件下作出不同指示、Transitional Owner Arrangement、Beneficiary Flexi Option、可指定最多2位指定受益人的 Health Impairment Option，以及 Policy Split Option。",
+     "keyFigures": [
+      {
+       "label": "Future Wishes Arrangement",
+       "value": "一項綜合服務",
+       "condition": "就不同觸發事件作出不同指示"
+      },
+      {
+       "label": "Health Impairment Option",
+       "value": "最多2位指定受益人",
+       "condition": "同時支付保障利益及轉移擁有權"
+      },
+      {
+       "label": "Transitional Owner Arrangement",
+       "value": "保單傳承方案",
+       "condition": "僅限香港簽發的保單"
+      },
+      {
+       "label": "Beneficiary Flexi Option",
+       "value": "由受益人選擇結算方式",
+       "condition": "於指定年齡或指定疾病時"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "Future Wishes Arrangement 及 Transitional Owner Arrangement 屬增值服務，並非保單特點，亦不於保單合約下提供。",
+      "此等服務要求香港簽發的保單，不適用於公司持有或信託持有的保單，並須經 AIA 批准。",
+      "AIA 可酌情撤回或更改此等服務。",
+      "所收錄文本中的詳細運作機制及資格被截斷。"
+     ],
+     "clientProfileFit": [
+      "規劃傳承的企業東主",
+      "多代家庭",
+      "具複雜受益人需要的高淨值客戶"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃連結多項傳承工具——Future Wishes、Transitional Owner、Health Impairment 及 Beneficiary Flexi——讓指示可按觸發事件而有所不同。",
+     "verificationPrompts": [
+      "梳理家庭結構及擬定受益人",
+      "確認保單將於香港簽發且非公司持有",
+      "閱讀完整服務條款；此等服務並非保單合約特點"
+     ]
+    },
+    {
+     "trendId": "wealth-elite-life-insurance-plan-3_flexibility_and_customisation",
+     "trendName": "保單分拆選項",
+     "whatProductOffers": "包括保單分拆選項，讓保單持有人可分拆保單，同時提供多項傳承規劃選項以供選擇。",
+     "keyFigures": [
+      {
+       "label": "保單分拆選項",
+       "value": "已包括",
+       "condition": "所記錄文本中的詳情被截斷"
+      },
+      {
+       "label": "傳承選項",
+       "value": "多項",
+       "condition": "Future Wishes、Transitional Owner、Beneficiary Flexi、Health Impairment"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "保單分拆選項的運作機制、最低金額及條件並不在所記錄的文本中。",
+      "分拆選項屬保單特點，但可能受公司規則約束。",
+      "分拆可能影響紅利及增值服務的資格。"
+     ],
+     "clientProfileFit": [
+      "希望將財富分配給子女的父母",
+      "餽贈保單的客戶",
+      "有多名受益人的家庭"
+     ],
+     "priorityAlignment": [
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，保單分拆選項可讓一份保單日後分拆，有助將財富分配給多名受益人。",
+     "verificationPrompts": [
+      "確認擬定的受益人數目",
+      "查詢任何分拆的時間安排",
+      "向AIA索取完整的保單分拆條款"
+     ]
+    },
+    {
+     "trendId": "wealth-elite-life-insurance-plan-3_income_or_lifestyle_support",
+     "trendName": "符合PRMP資格以支援退休現金流",
+     "whatProductOffers": "本計劃為保單逆按計劃下的合資格壽險計劃，因此香港保單持有人可申請以保單作抵押借款，以獲取退休收入。",
+     "keyFigures": [
+      {
+       "label": "計劃",
+       "value": "保單逆按計劃",
+       "condition": "合資格壽險計劃"
+      },
+      {
+       "label": "合資格範圍",
+       "value": "香港簽發的保單",
+       "condition": "按產品頁面所述"
+      },
+      {
+       "label": "批核",
+       "value": "須符合HKMC準則",
+       "condition": "產品合資格並不代表獲批核"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "符合PRMP資格並不代表申請將獲批核。",
+      "保單持有人及保單仍須符合PRMP的合資格準則。",
+      "該計劃由HKMC Insurance Limited營運，條款可能變更。",
+      "只有於香港簽發的保單方符合資格。"
+     ],
+     "clientProfileFit": [
+      "已退休的高淨值保單持有人",
+      "希望獲取收入而無須退保的客戶",
+      "希望保留保單的財富傳承規劃客戶"
+     ],
+     "priorityAlignment": [
+      "access",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，本保單符合PRMP資格，因此可在無須退保的情況下支援退休借款，惟須經HKMC批核。",
+     "verificationPrompts": [
+      "確認保單於香港簽發",
+      "說明合資格並不代表獲批核",
+      "轉介客戶向HKMC查詢貸款準則"
+     ]
+    }
+   ]
+  },
+  "wealth-generation-savings-insurance-plan": {
+   "summary": {
+    "bestForOneLiner": "一份限量發售的分紅終身壽險計劃，可於第3個保單年度終結時起宣派非保證終期紅利，並由第15年起鎖定價值。",
+    "notSuitedWhen": [
+     "客戶需要保證紅利",
+     "客戶需要於首15年內套現",
+     "客戶不能接受限量發售",
+     "客戶需要有文件記錄的短期回報"
+    ],
+    "gapsInSourceMaterial": [
+     "沒有保費表或最低保費",
+     "沒有紅利率或說明",
+     "未提取具體的傳承選項",
+     "沒有退保費用或保單貸款條款"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "wealth-generation-savings-insurance-plan_savings_and_wealth_growth",
+     "trendName": "由第3年起派發終期紅利",
+     "whatProductOffers": "一份分紅終身壽險計劃，設有保證現金價值及非保證終期紅利，可於第3個保單年度終結時起宣派，每個保單年度一次或更頻密，例如每月。",
+     "keyFigures": [
+      {
+       "label": "終期紅利開始",
+       "value": "第3個保單年度終結時",
+       "condition": "非保證，由AIA全權酌情決定"
+      },
+      {
+       "label": "宣派頻率",
+       "value": "每個保單年度一次或更頻密",
+       "condition": "例子：每月"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "終期紅利為非保證，並由AIA全權酌情宣派。",
+      "本計劃以限量方式發售。",
+      "摘錄沒有提供紅利率、保費表或說明。",
+      "提取部分保證現金價值或終期紅利會減少本金額。"
+     ],
+     "clientProfileFit": [
+      "尋求早期價值增長的高淨值客戶",
+      "有15年以上投資期的儲蓄者",
+      "希望同時享有保證現金價值及終期紅利的客戶"
+     ],
+     "priorityAlignment": [
+      "增長"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，本計劃可於第3個保單年度終結時起宣派非保證終期紅利，比許多儲蓄計劃更早。",
+     "verificationPrompts": [
+      "確認客戶接受非保證紅利",
+      "鑑於限量發售，查核目前供應情況",
+      "取得紅利說明"
+     ]
+    },
+    {
+     "trendId": "wealth-generation-savings-insurance-plan_flexibility_and_customisation",
+     "trendName": "終期紅利鎖定",
+     "whatProductOffers": "終期紅利鎖定選項將最新終期紅利價值的某個百分比轉入終期紅利鎖定賬戶，按非保證利率賺取利息；由第15個保單年度終結時起，每個保單年度可行使一次，並須於保單年度終結後30天內申請。",
+     "keyFigures": [
+      {
+       "label": "鎖定開始",
+       "value": "第15個保單年度終結時",
+       "condition": "每個保單年度一次"
+      },
+      {
+       "label": "申請期限",
+       "value": "保單年度終結後30天內",
+       "condition": "每次轉移"
+      },
+      {
+       "label": "鎖定賬戶利息",
+       "value": "非保證利率",
+       "condition": "由AIA釐定"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "每個保單年度只可行使一次，且只可由第15個保單年度終結時起行使。",
+      "摘要未列明轉移百分比。",
+      "存入鎖定賬戶的利息並非保證。",
+      "根據資料來源，30天申請期限屬嚴格規定。"
+     ],
+     "clientProfileFit": [
+      "計劃降低風險的長期儲蓄者",
+      "保單已成熟、接近退休的客戶",
+      "希望鎖定收益而無須退保的投資者"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "access"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，鎖定選項可於第15年後將部分終期紅利轉入賺取利息的賬戶。",
+     "verificationPrompts": [
+      "在每個保單年度終結後，將30天期限記入日程",
+      "確認可用的鎖定百分比",
+      "說明鎖定利息並非保證"
+     ]
+    },
+    {
+     "trendId": "wealth-generation-savings-insurance-plan_fast_access_and_convenience",
+     "trendName": "提取而不削減本金",
+     "whatProductOffers": "可隨時從終期紅利鎖定賬戶提取現金，而不會減少保單的本金金額；提取保證現金價值或終期紅利則會減少本金。",
+     "keyFigures": [
+      {
+       "label": "鎖定賬戶的提取",
+       "value": "隨時",
+       "condition": "不減少本金金額"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "僅適用於已轉入終期紅利鎖定賬戶的價值。",
+      "提取保證現金價值或終期紅利會減少本金金額。",
+      "摘錄未列明最低提取金額或處理時間。"
+     ],
+     "clientProfileFit": [
+      "希望保留流動資金部分的退休人士",
+      "已累積終期紅利價值的客戶",
+      "希望提取而不削減本金的儲蓄人士"
+     ],
+     "priorityAlignment": [
+      "提取便利"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，一旦價值存入鎖定賬戶，便可隨時提取，而不會減少保單的本金金額。",
+     "verificationPrompts": [
+      "確認客戶明白此安排僅適用於已鎖定的價值",
+      "查核最低提取規則",
+      "說明其他提取對本金的影響"
+     ]
+    },
+    {
+     "trendId": "wealth-generation-savings-insurance-plan_legacy_and_estate",
+     "trendName": "財富按所選方式傳承",
+     "whatProductOffers": "本計劃旨在讓財富按保單擁有人的意願傳承，使摯愛獲得保障，讓傳承延續。",
+     "keyFigures": [],
+     "exclusionsOrConditions": [
+      "所提取的文字沒有列明具體傳承選項、受益人規則或擁有權轉移機制。",
+      "身故保障金額及結算條款不在提取內容之內。"
+     ],
+     "clientProfileFit": [
+      "高淨值家庭",
+      "有遺產規劃顧問的客戶",
+      "為下一代提供資助的祖父母"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "flexibility"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，本計劃的設計讓財富可按保單擁有人的意願傳承。",
+     "verificationPrompts": [
+      "詢問擬定的受益人",
+      "從產品小冊子取得完整的傳承功能清單"
+     ]
+    }
+   ]
+  },
+  "wisdom-term-life-plan": {
+   "summary": {
+    "bestForOneLiner": "可續保的定期壽險計劃，提供1年、5年或20年續保期，保證可續保至85歲，並可於人生事件發生時加保而毋須重新回答健康問題。",
+    "notSuitedWhen": [
+     "客戶需要85歲以後的保障",
+     "客戶想要儲蓄或現金價值元素",
+     "客戶需要危疾保障而非身故保障"
+    ],
+    "gapsInSourceMaterial": [
+     "按年齡及保額劃分的保費表",
+     "最低及最高保額",
+     "完整不保事項",
+     "「保費調整」條款的詳情"
+    ]
+   },
+   "trends": [
+    {
+     "trendId": "wisdom-term-life-plan_budget_friendly_entry",
+     "trendName": "可負擔的可續保定期保障",
+     "whatProductOffers": "定期壽險計劃，保費描述為可負擔，並保證於每個續保期內維持不變，提供1年、5年及20年續保期，可作為基本計劃或附加保障。",
+     "keyFigures": [
+      {
+       "label": "續保期",
+       "value": "1年 / 5年 / 20年",
+       "condition": "客戶於投保時選擇"
+      },
+      {
+       "label": "基本計劃投保年齡",
+       "value": "16至70歲（1年及5年）；16至65歲（20年）",
+       "condition": "投保時年齡"
+      },
+      {
+       "label": "附加保障投保年齡",
+       "value": "15日至70歲（1年及5年）；15日至65歲（20年）",
+       "condition": "投保時年齡"
+      },
+      {
+       "label": "保費繳付模式",
+       "value": "年繳、半年繳、季繳、月繳",
+       "condition": "附加保障跟隨基本計劃的模式"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "保費僅於續保期內保證不變；下一續保期的續保保費按受保人續保時年齡的現行保費率計算。",
+      "20年續保期不適用於65歲以上的基本計劃申請人或65歲以上的附加保障申請人。",
+      "產品小冊子摘錄並未包含保費表，因此無法量化可負擔程度。",
+      "保障利益受保單的不保事項規限，並須先扣除應付金額後方予支付。"
+     ],
+     "clientProfileFit": [
+      "預算緊絀的年輕家庭",
+      "需要純保障的按揭持有人",
+      "已持有儲蓄保單的客戶"
+     ],
+     "priorityAlignment": [
+      "成本",
+      "保障"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，此計劃提供純身故保障，保費於每個續保期內保證不變，因此所選年期內的成本可預測。",
+     "verificationPrompts": [
+      "確認客戶年齡、性別及保額所對應的實際保費表。",
+      "確認所選年期屆滿時的續保保費基準。",
+      "確認保額是否有最低或最高限額。"
+     ]
+    },
+    {
+     "trendId": "wisdom-term-life-plan_premium_stability",
+     "trendName": "保證可續保至 85 歲",
+     "whatProductOffers": "保障保證可於每個續保期結束時續保，直至受保人 85 歲；在續保期內，保費不得因受保人健康狀況的變化而增加。",
+     "keyFigures": [
+      {
+       "label": "保證可續保",
+       "value": "至受保人 85 歲",
+       "condition": "於每個續保期結束時"
+      },
+      {
+       "label": "因健康變化而增加保費",
+       "value": "續保期內不允許",
+       "condition": "僅以健康狀況為基礎"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "續保保費按續保時受保人年齡的現行保費率重新計算，因此即使健康狀況不能用作重新定價，應繳金額仍會隨年齡上升。",
+      "保證續保至 85 歲；保障不會在該年齡之後延續。",
+      "續保須以繳付保費及保單仍然生效為前提。",
+      "小冊子所提及的「保費調整」一節並未載於所提供的摘錄中。"
+     ],
+     "clientProfileFit": [
+      "健康狀況早期已出現變化的客戶",
+      "長線家庭經濟支柱",
+      "重視合約續保性的客戶"
+     ],
+     "priorityAlignment": [
+      "coverage",
+      "cost"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，保障保證可續保至 85 歲，而健康狀況的變化不能在續保期內推高保費。",
+     "verificationPrompts": [
+      "確認每個續保年齡的現行保費率。",
+      "確認小冊子所提及的「保費調整」條款。",
+      "確認附加計劃的任何最高續保年齡。"
+     ]
+    },
+    {
+     "trendId": "wisdom-term-life-plan_flexibility_and_customisation",
+     "trendName": "Super Lifestage 保障加保",
+     "whatProductOffers": "於三個指定里程碑事件發生時，客戶可購買額外的定期附加保障，而無需提供進一步健康資料：為新住宅物業承造按揭、結婚，或親生子女出生。",
+     "keyFigures": [
+      {
+       "label": "觸發事件",
+       "value": "新住宅按揭提取 / 結婚 / 親生子女出生",
+       "condition": "每項事件"
+      },
+      {
+       "label": "次數上限",
+       "value": "每項里程碑事件一次，同一受保人任何兩項里程碑事件",
+       "condition": "終身"
+      },
+      {
+       "label": "最短間隔",
+       "value": "每次購買之間至少相隔2個連續年度",
+       "condition": "附加保障之間"
+      },
+      {
+       "label": "保單生效要求",
+       "value": "至少2年",
+       "condition": "行使前"
+      },
+      {
+       "label": "期限",
+       "value": "里程碑事件發生後180天內",
+       "condition": "並須於60歲後保單周年日當日或之前"
+      },
+      {
+       "label": "每項附加保障最高保額",
+       "value": "US$250,000或HK$/MOP1,875,000（以較低者為準）；本計劃保額的50%；或按揭貸款金額",
+       "condition": "以最低者為準"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "行使時保單下不得曾提交或已支付任何索償。",
+      "新附加保障須符合公司釐定的核保要求。",
+      "按揭觸發僅適用於新購買住宅物業，不適用於再融資。",
+      "出生觸發不包括領養。",
+      "每項附加保障的保額以所列三項限額中最低者為上限。",
+      "轉換權益須受保費增加及當時可供應產品所規限。"
+     ],
+     "clientProfileFit": [
+      "新手父母",
+      "首次置業人士",
+      "計劃生育的新婚夫婦"
+     ],
+     "priorityAlignment": [
+      "flexibility",
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，按揭、結婚或新生嬰兒可解鎖額外保障而無需重新回答健康問題，上限為US$250,000、保額的50%或按揭金額中的最低者。",
+     "verificationPrompts": [
+      "確認客戶正處於哪項里程碑事件的180天內。",
+      "確認三項上限下的剩餘保額空間。",
+      "確認客戶未曾於保單下提交索償。"
+     ]
+    },
+    {
+     "trendId": "wisdom-term-life-plan_family_protection",
+     "trendName": "100%保額身故保障",
+     "whatProductOffers": "受保人身故時，相等於100%保額的身故保障利益會支付予保單指定的受益人。",
+     "keyFigures": [
+      {
+       "label": "身故保障",
+       "value": "100%保額",
+       "condition": "受保人身故時"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "支付予受益人前，會先扣除所有欠付公司的未償還款項。",
+      "保額會扣減任何已預先支付的末期疾病保障利益。",
+      "付款受保單的不保事項及有效的受益人指定所規限。",
+      "節錄並無說明最低或最高保額。"
+     ],
+     "clientProfileFit": [
+      "有受養子女的家庭經濟支柱",
+      "按揭持有人",
+      "想要簡單直接身故保障的客戶"
+     ],
+     "priorityAlignment": [
+      "保障"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，身故保障為100%保額，支付予指定受益人，這是按按揭或收入缺口釐定保障額最簡單的方法。",
+     "verificationPrompts": [
+      "確認受益人指定及任何後備受益人。",
+      "確認保額於保障期內為固定還是可遞減。",
+      "確認未償還款項的扣除安排。"
+     ]
+    },
+    {
+     "trendId": "wisdom-term-life-plan_fast_access_and_convenience",
+     "trendName": "末期疾病預先支付",
+     "whatProductOffers": "若受保人因末期疾病而預期於12個月內身故，並經主診專科醫生及本公司委任醫生雙方確認，則100%保額會以一筆預先支付方式發放。",
+     "keyFigures": [
+      {
+       "label": "預先支付",
+       "value": "100%保額",
+       "condition": "一次性"
+      },
+      {
+       "label": "預後期限",
+       "value": "12個月",
+       "condition": "經兩名註冊醫生確認"
+      },
+      {
+       "label": "保單合計上限",
+       "value": "US$2,000,000或HK$/MOP15,000,000",
+       "condition": "同一受保人"
+      }
+     ],
+     "exclusionsOrConditions": [
+      "保額會按已預先支付的金額相應減少。",
+      "主診專科醫生及本公司委任的註冊醫生均須確認預後。",
+      "末期疾病保障利益僅適用於基本計劃。",
+      "US$2,000,000／HK$15,000,000的合計上限適用於本公司就同一受保人簽發的所有同類保障利益。"
+     ],
+     "clientProfileFit": [
+      "面對末期診斷的客戶",
+      "需要即時流動資金的家庭",
+      "希望獲得加速身故保障利益的客戶"
+     ],
+     "priorityAlignment": [
+      "access",
+      "coverage"
+     ],
+     "talkingPointTemplate": "對於{client_detail}，若末期診斷的預後期限為12個月，可提早釋放100%保額，而毋須等待身故索償。",
+     "verificationPrompts": [
+      "確認兩名醫生認證的要求，以及由誰委任第二名醫生。",
+      "確認該受保人在所有保單下的剩餘合計上限。",
+      "確認預先支付後對身故保障利益的影響。"
+     ]
+    }
+   ]
+  }
+ }
+}

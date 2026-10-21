@@ -1,0 +1,398 @@
+{
+  "productId": "aia-voluntary-health-insurance-privilege-ultra-scheme",
+  "productName": "AIA Voluntary Health Insurance Privilege Ultra Scheme",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_high_annual_or_lifetime_limit",
+      "trendCategory": "high_annual_or_lifetime_limit",
+      "isNewCategory": false,
+      "trendName": "HKD60m lifetime limit",
+      "whatProductOffers": "A VHIS-certified plan with a lifetime limit of up to HKD60 million or USD7.5 million and an annual limit of up to HKD12 million or USD1.5 million, with no itemised benefit sublimit for key medical expenses.",
+      "keyFigures": [
+        {
+          "label": "Lifetime limit",
+          "value": "HKD60 million / USD7.5 million",
+          "condition": "up to"
+        },
+        {
+          "label": "Annual limit",
+          "value": "HKD12 million / USD1.5 million",
+          "condition": "up to"
+        },
+        {
+          "label": "Itemised sublimit",
+          "value": "None for key medical expenses",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The annual deductible must be met before benefits are paid.",
+        "Cover is limited to the chosen geographical area: Asia or Worldwide excluding the United States.",
+        "The benefit schedule still governs which expenses count as key medical expenses.",
+        "Limits are subject to the policy currency selected."
+      ],
+      "clientSignalPhrases": [
+        "worried about a catastrophic bill",
+        "wants the highest limit",
+        "private hospital all the way",
+        "wants expensive cancer drugs covered",
+        "comparing top-tier VHIS plans",
+        "family history of cancer",
+        "wants no sublimits",
+        "wants a high ceiling for peace of mind"
+      ],
+      "negativeSignalPhrases": [
+        "wants the lowest premium",
+        "only uses public hospitals",
+        "needs US treatment",
+        "wants a cash payout rather than reimbursement"
+      ],
+      "clientProfileFit": [
+        "High-net-worth clients",
+        "Clients aged 45-65 planning private care",
+        "Families wanting the maximum ceiling"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the lifetime ceiling is HKD60 million with HKD12 million a year, so one catastrophic bill does not exhaust the policy.",
+      "verificationPrompts": [
+        "Confirm whether limits are per policy or per insured.",
+        "Confirm which expenses fall outside key medical expenses.",
+        "Confirm how the deductible and coinsurance interact with the annual limit."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "lifetime_limit",
+        "room_level",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Lifetime limit of up to HKD60 million and annual limit of up to HKD12 million",
+        "provides up to a lifetime limit of HKD60 million or USD7.5 million and an annual limit of HKD12 million or USD1.5 million",
+        "Full cover for key medical expenses with no itemised benefit sublimit"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Clinical trial drug benefit",
+      "whatProductOffers": "Adds up to HKD0.5 million per policy year for phase 3 clinical trial drugs for stage III and stage IV designated cancers and incurable haematological malignancy.",
+      "keyFigures": [
+        {
+          "label": "Clinical trial drugs",
+          "value": "Up to HKD0.5 million per policy year",
+          "condition": ""
+        },
+        {
+          "label": "Eligible conditions",
+          "value": "Stage III and stage IV designated cancers; incurable haematological malignancy",
+          "condition": ""
+        },
+        {
+          "label": "Trial phase",
+          "value": "Phase 3",
+          "condition": "only"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only phase 3 clinical trial drugs qualify.",
+        "Only designated cancers at stage III or IV, or incurable haematological malignancy.",
+        "The HKD0.5 million cap applies per policy year.",
+        "Clinical trial drugs are noted as not covered by other flexi certified VHIS plans."
+      ],
+      "clientSignalPhrases": [
+        "asked about clinical trial drugs",
+        "stage 4 diagnosis in the family",
+        "wants cover other VHIS plans exclude",
+        "worried about expensive cancer drugs",
+        "wants access to new treatments",
+        "has a friend who paid out of pocket",
+        "wants cancer cover beyond hospital bills",
+        "asked about stage 4 drug costs"
+      ],
+      "negativeSignalPhrases": [
+        "wants all trial phases covered",
+        "needs US treatment",
+        "expects unlimited drug cover"
+      ],
+      "clientProfileFit": [
+        "Clients with family cancer history",
+        "Older clients at higher cancer risk",
+        "Clients wanting access to new treatments"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, phase 3 clinical trial drugs for stage III or IV designated cancers are covered up to HKD0.5 million a policy year.",
+      "verificationPrompts": [
+        "Confirm the designated cancer list.",
+        "Confirm whether the drug must be administered in Hong Kong.",
+        "Confirm whether the benefit is inside or outside the annual limit."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "outpatient",
+        "network_access"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Up to HKD0.5 million per policy year cover for phase 3 clinical trial drugs benefit for stage III and stage IV designated cancers and incurable haematological malignancy",
+        "Clinical trial drugs bring new hopes to cancer treatment but are more costly and are not covered by other flexi certified plans under the Voluntary Health Insurance Scheme"
+      ],
+      "notesForReviewer": "The extract does not say whether this benefit sits inside or on top of the annual limit."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Two geographies, four deductibles",
+      "whatProductOffers": "Offers a choice of Asia or Worldwide (excluding the United States) cover and four annual deductible amounts per currency, plus a one-time deductible reduction at a chosen policy anniversary from age 50 to 81 without providing new health information.",
+      "keyFigures": [
+        {
+          "label": "Geographical cover",
+          "value": "Asia or Worldwide (excluding United States)",
+          "condition": "2 choices"
+        },
+        {
+          "label": "Deductibles (HKD)",
+          "value": "0 / 16,000 / 25,000 / 50,000",
+          "condition": "annual"
+        },
+        {
+          "label": "Deductibles (USD)",
+          "value": "0 / 2,000 / 3,125 / 6,250",
+          "condition": "annual"
+        },
+        {
+          "label": "Deductible reduction",
+          "value": "Once at age 50, 55, 60, 65, 70, 75 or 81",
+          "condition": "no new health details required"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The deductible can be reduced only once during the policy term.",
+        "The premium increases when the deductible is reduced.",
+        "US treatment is excluded under the Worldwide option.",
+        "The one-time reduction must coincide with a policy anniversary at one of the listed ages."
+      ],
+      "clientSignalPhrases": [
+        "wants a high deductible to cut premium",
+        "plans to travel in Asia",
+        "may retire overseas",
+        "wants to lower the deductible at 60",
+        "asked about US cover",
+        "wants control over out-of-pocket",
+        "wants to self-insure small bills",
+        "asked about Asia-only cover"
+      ],
+      "negativeSignalPhrases": [
+        "needs US coverage",
+        "wants zero deductible at the lowest premium",
+        "changes country often"
+      ],
+      "clientProfileFit": [
+        "Frequent Asia travellers",
+        "Clients planning retirement in the region",
+        "Premium-optimisers willing to self-insure small bills"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, you can take Asia cover with a HKD50,000 deductible now and reduce it once at 60 without new underwriting.",
+      "verificationPrompts": [
+        "Confirm the premium table for each deductible and geography.",
+        "Confirm whether the deductible reduction requires the policy to be in force at that anniversary.",
+        "Confirm whether the reduced deductible can be increased again later."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "network_access",
+        "room_level"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "2 geographical cover choices of either Asia or Worldwide (excluding United States) and 4 annual deductible amount choices for each policy currency",
+        "choose to reduce your annual deductible amount once during the term of your policy ... at the age of 50, 55, 60, 65, 70, 75 or 81",
+        "without having to provide us with the current details of the insured person's health condition"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "No itemised benefit sublimits",
+      "whatProductOffers": "Pays full cover for key medical expenses with no itemised benefit sublimit, from room and board and specialist fees to intensive care, diagnostic imaging and non-surgical cancer treatment.",
+      "keyFigures": [
+        {
+          "label": "Itemised sublimit",
+          "value": "None for key medical expenses",
+          "condition": ""
+        },
+        {
+          "label": "Covered items",
+          "value": "Room and board, specialist, surgeon, anaesthetist, intensive care",
+          "condition": ""
+        },
+        {
+          "label": "Imaging",
+          "value": "CT, MRI and PET scans",
+          "condition": "prescribed diagnostic imaging"
+        },
+        {
+          "label": "Cancer treatment",
+          "value": "Radiotherapy, chemotherapy, targeted therapy, immunotherapy, hormonal therapy",
+          "condition": "non-surgical"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Full cover applies to key medical expenses listed in the benefit schedule; other items may still be capped.",
+        "The annual deductible and any coinsurance apply before benefits are paid.",
+        "Key exclusions are on page 16 of the brochure and were not in the extract."
+      ],
+      "clientSignalPhrases": [
+        "worried about sublimits",
+        "had a top-up bill before",
+        "wants full room and board",
+        "wants scans covered",
+        "private hospital surgery planned",
+        "wants the surgeon fee covered",
+        "had a bad experience with item caps",
+        "asked if ICU is capped"
+      ],
+      "negativeSignalPhrases": [
+        "wants a fixed cash benefit",
+        "only needs ward-level cover",
+        "premium is the only criterion"
+      ],
+      "clientProfileFit": [
+        "Clients planning private surgery",
+        "Families with young children",
+        "Clients who dislike fine-print caps"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, key expenses such as surgeon fees, ICU and PET scans have no itemised sublimit - the ceiling is the annual and lifetime limit.",
+      "verificationPrompts": [
+        "Confirm the full list of key medical expenses.",
+        "Confirm the coinsurance percentage after the deductible.",
+        "Confirm whether attending doctor fees are fully covered or reasonable-and-customary."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "room_level",
+        "outpatient",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Full cover for a wide range of medical expenses",
+        "Full cover for key medical expenses with no itemised benefit sublimit",
+        "Room and board, specialist's fee, surgeon's fee, anaesthetist's fee, intensive care"
+      ],
+      "notesForReviewer": "Full cover is marketing wording; reasonable-and-customary limits and the page 16 exclusions were not in the extract."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-privilege-ultra-scheme_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "365-day post-surgery follow-up",
+      "whatProductOffers": "Covers outpatient visits within specified periods before and after confinement or a day-case procedure, including visits within 365 days after major or complex surgery, plus a designated check-up once every 3 consecutive policy years.",
+      "keyFigures": [
+        {
+          "label": "Post-surgery outpatient",
+          "value": "Within 365 days",
+          "condition": "after major or complex surgery"
+        },
+        {
+          "label": "Check-up",
+          "value": "Once every 3 consecutive policy years",
+          "condition": "designated check-up service"
+        },
+        {
+          "label": "Pre-confinement",
+          "value": "Specified period before confinement",
+          "condition": "length not stated in extract"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Outpatient cover is linked to a confinement or day-case procedure.",
+        "The check-up is once every 3 consecutive policy years, not every year.",
+        "The pre-confinement window is not stated in the extracted text.",
+        "The check-up is described as first-in-market and applies to designated services."
+      ],
+      "clientSignalPhrases": [
+        "wants follow-up covered for a year",
+        "asked about the health check-up benefit",
+        "had surgery last year",
+        "wants rehab and follow-up",
+        "wants preventive check-ups",
+        "wants post-operation visits covered",
+        "wants a check-up every few years",
+        "asked about the three-year check-up"
+      ],
+      "negativeSignalPhrases": [
+        "wants an annual free check-up",
+        "wants standalone outpatient cover",
+        "needs dental cover"
+      ],
+      "clientProfileFit": [
+        "Clients facing planned surgery",
+        "Health-conscious clients over 40",
+        "Cancer patients in follow-up"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, follow-up visits run up to 365 days after major surgery and a check-up is included every three policy years.",
+      "verificationPrompts": [
+        "Confirm the pre-confinement window.",
+        "Confirm which check-up items are included and where they can be done.",
+        "Confirm whether the check-up resets if a claim is made."
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "annual_limit",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Outpatient visits within specified periods prior to and after confinement or day case procedure, including visits within 365 days after major or complex surgery",
+        "Receive a designated check-up service once every 3 consecutive policy years"
+      ],
+      "notesForReviewer": "The third quote belongs to the elderly cancer deductible waiver; it is listed here only as supporting context and should be moved to the cancer trend if the reviewer wants strict one-to-one evidence."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-voluntary-health-insurance-privilege-ultra-scheme_high_annual_or_lifetime_limit",
+    "bestForOneLiner": "A top-tier VHIS plan with a HKD60 million lifetime limit, no itemised sublimits on key expenses and phase 3 clinical trial drug cover.",
+    "notSuitedWhen": [
+      "The client needs treatment in the United States.",
+      "The client wants the lowest possible premium.",
+      "The client wants a lump-sum cash payout instead of reimbursement.",
+      "The client cannot absorb the annual deductible."
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table by age, geography and deductible",
+      "Page 16 key exclusions",
+      "Benefit schedule pages 12-15",
+      "Room level per geography"
+    ]
+  }
+}

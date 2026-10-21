@@ -1,0 +1,301 @@
+{
+  "productId": "wealth-elite-life-insurance-plan-3",
+  "productName": "Wealth Elite Life Insurance Plan 3",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "wealth-elite-life-insurance-plan-3_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "85% guaranteed cash value at start",
+      "whatProductOffers": "A single-premium participating whole-life plan whose guaranteed cash value amounts to 85% of the single premium paid for the basic plan at policy inception, with a non-guaranteed Terminal Bonus declared from the end of the 3rd policy year.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed cash value at inception",
+          "value": "85% of single premium",
+          "condition": "Basic plan"
+        },
+        {
+          "label": "First Terminal Bonus declaration",
+          "value": "End of 3rd policy year",
+          "condition": "Once per policy year thereafter"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 75",
+          "condition": "At application"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Whole life",
+          "condition": "Lifelong"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The 85% guarantee applies to the basic plan's single premium at policy inception.",
+        "The Terminal Bonus is non-guaranteed and may be zero in any year.",
+        "Early surrender may return considerably less than the premiums paid.",
+        "No premium table or surrender illustration is in the captured text."
+      ],
+      "clientSignalPhrases": [
+        "wants capital preservation",
+        "single premium lump sum",
+        "wants high guaranteed floor",
+        "has cash to deploy",
+        "wants low risk savings",
+        "comparing single premium plans",
+        "wants 85% back guaranteed",
+        "retiring and parking capital"
+      ],
+      "negativeSignalPhrases": [
+        "needs regular premium payments",
+        "wants high growth with no insurance"
+      ],
+      "clientProfileFit": [
+        "HNW clients deploying a lump sum",
+        "Retirees preserving capital",
+        "Clients wanting a high guaranteed floor with upside"
+      ],
+      "priorityAlignment": [
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, 85% of the single premium is guaranteed as cash value from day one, with a non-guaranteed terminal bonus starting after year three.",
+      "verificationPrompts": [
+        "Confirm the client has a lump sum rather than regular premiums",
+        "Compare the 85% floor against alternative capital-preservation options",
+        "Explain that early surrender can lose capital"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Guaranteed Cash Value amounts to 85% of the single premium paid for the basic plan at policy inception",
+        "The non-guaranteed Terminal Bonus may be declared to your policy once per policy year starting from the end of the 3rd policy year",
+        "Issue age 15 days to age 75"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "wealth-elite-life-insurance-plan-3_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Multi-layer wealth succession",
+      "whatProductOffers": "Combines several succession tools: a Future Wishes Arrangement for different instructions at different trigger events, a Transitional Owner Arrangement, a Beneficiary Flexi Option, a Health Impairment Option with up to 2 designated recipients, and a Policy Split Option.",
+      "keyFigures": [
+        {
+          "label": "Future Wishes Arrangement",
+          "value": "One integrated service",
+          "condition": "Different instructions for different trigger events"
+        },
+        {
+          "label": "Health Impairment Option",
+          "value": "Up to 2 designated recipients",
+          "condition": "Benefit payment and ownership transfer at the same time"
+        },
+        {
+          "label": "Transitional Owner Arrangement",
+          "value": "Policy succession solution",
+          "condition": "HK-issued policies only"
+        },
+        {
+          "label": "Beneficiary Flexi Option",
+          "value": "Beneficiary selects settlement",
+          "condition": "At Designated Age or Specified Illness"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Future Wishes Arrangement and Transitional Owner Arrangement are value-added services, not policy features, and are not offered under the policy contract.",
+        "They require Hong Kong-issued policies, are not available for corporate-owned or trust-owner policies, and need AIA approval.",
+        "AIA may withdraw or change these services at its discretion.",
+        "Detailed mechanics and eligibility are truncated in the captured text."
+      ],
+      "clientSignalPhrases": [
+        "business owner succession",
+        "wants control after death",
+        "complex family",
+        "worried about incapacitation",
+        "wants to split policy among kids",
+        "needs ownership transfer plan",
+        "has a trust",
+        "wants beneficiary flexibility"
+      ],
+      "negativeSignalPhrases": [
+        "simple estate with one beneficiary",
+        "policy issued outside Hong Kong"
+      ],
+      "clientProfileFit": [
+        "Business owners planning succession",
+        "Multi-generational families",
+        "HNW clients with complex beneficiary needs"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan links several succession tools — Future Wishes, Transitional Owner, Health Impairment and Beneficiary Flexi — so instructions can differ by trigger event.",
+      "verificationPrompts": [
+        "Map the family structure and intended recipients",
+        "Confirm the policy will be Hong Kong-issued and not corporate-owned",
+        "Read the full service terms; these are not policy contract features"
+      ],
+      "comparisonRows": [
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Future Wishes Arrangement ... allows the policy owner to make different instructions for different specified triggering events in one integrated value-added service",
+        "Health Impairment Option's specific feature where the policy owner can designate up to 2 different designated recipients and elect for both benefit payment and transfer of ownership",
+        "Transitional Owner Arrangement ... Seamless policy succession solution for wealth transfer and preservation"
+      ],
+      "notesForReviewer": "Services are value-added and not contractual; details truncated."
+    },
+    {
+      "trendId": "wealth-elite-life-insurance-plan-3_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Policy split option",
+      "whatProductOffers": "Includes a Policy Split Option that lets the policyholder divide the policy, alongside a choice of legacy planning options.",
+      "keyFigures": [
+        {
+          "label": "Policy Split Option",
+          "value": "Included",
+          "condition": "Details truncated in captured text"
+        },
+        {
+          "label": "Legacy options",
+          "value": "Multiple",
+          "condition": "Future Wishes, Transitional Owner, Beneficiary Flexi, Health Impairment"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The mechanics, minimum amounts and conditions of the Policy Split Option are not in the captured text.",
+        "The split option is a policy feature but may be subject to company rules.",
+        "Splitting may affect bonuses and eligibility for value-added services."
+      ],
+      "clientSignalPhrases": [
+        "wants to split policy among kids",
+        "gifting",
+        "multiple beneficiaries",
+        "wants to divide estate equally",
+        "planning for two children",
+        "wants separate policies later",
+        "two children to split between",
+        "wants policy divided later"
+      ],
+      "negativeSignalPhrases": [
+        "single beneficiary",
+        "no estate planning need"
+      ],
+      "clientProfileFit": [
+        "Parents wanting to divide wealth among children",
+        "Clients gifting policies",
+        "Families with multiple beneficiaries"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the Policy Split Option allows one policy to be divided later, which helps if wealth is to be shared among several beneficiaries.",
+      "verificationPrompts": [
+        "Confirm how many beneficiaries are intended",
+        "Ask about timing of any split",
+        "Obtain the full policy split terms from AIA"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "Policy Split Option"
+      ],
+      "notesForReviewer": "Only named in the plan highlights; terms are truncated in the captured text."
+    },
+    {
+      "trendId": "wealth-elite-life-insurance-plan-3_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "PRMP-eligible for retirement cash flow",
+      "whatProductOffers": "The plan is an eligible life insurance plan under the Policy Reverse Mortgage Programme, so Hong Kong policyholders may apply to borrow against the policy for retirement income.",
+      "keyFigures": [
+        {
+          "label": "Programme",
+          "value": "Policy Reverse Mortgage Programme",
+          "condition": "Eligible life insurance plan"
+        },
+        {
+          "label": "Eligibility scope",
+          "value": "Hong Kong-issued policies",
+          "condition": "Per product page"
+        },
+        {
+          "label": "Approval",
+          "value": "Subject to HKMC criteria",
+          "condition": "Product eligibility is not approval"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Eligibility under PRMP does not mean the application will be approved.",
+        "The policyholder and policy must still meet PRMP eligibility criteria.",
+        "The programme is operated by HKMC Insurance Limited and terms may change.",
+        "Only policies issued in Hong Kong are eligible."
+      ],
+      "clientSignalPhrases": [
+        "asset rich cash poor",
+        "retired with a policy",
+        "wants retirement income",
+        "asked about reverse mortgage",
+        "needs cash without surrendering",
+        "wants to keep the policy",
+        "low income but has savings policy",
+        "needs cash from the policy in retirement"
+      ],
+      "negativeSignalPhrases": [
+        "needs liquidity now",
+        "policy issued outside Hong Kong"
+      ],
+      "clientProfileFit": [
+        "Retired HNW policyholders",
+        "Clients wanting income without surrender",
+        "Estate planners preserving the policy"
+      ],
+      "priorityAlignment": [
+        "access",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy is PRMP-eligible, so it may support retirement borrowing without surrendering the cover, subject to HKMC approval.",
+      "verificationPrompts": [
+        "Confirm the policy is issued in Hong Kong",
+        "Explain that eligibility is not approval",
+        "Refer the client to HKMC for loan criteria"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Wealth Elite Life Insurance Plan 3 is eligible life insurance plan under the Policy Reverse Mortgage Programme (Applicable to the policies issued in Hong Kong only)",
+        "it does not necessarily mean that your PRMP application will be approved"
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "wealth-elite-life-insurance-plan-3_savings_and_wealth_growth",
+    "bestForOneLiner": "A single-premium participating whole-life plan with 85% guaranteed cash value at inception and layered succession services.",
+    "notSuitedWhen": [
+      "Client needs regular premium payments rather than a lump sum",
+      "Client needs medical or critical illness cover",
+      "Client needs liquidity in the early years"
+    ],
+    "gapsInSourceMaterial": [
+      "Policy Split Option mechanics are truncated",
+      "Premium and surrender illustrations are not captured",
+      "Future Wishes and Transitional Owner Arrangement terms appear only as footnotes"
+    ]
+  }
+}

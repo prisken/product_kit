@@ -1,0 +1,365 @@
+{
+  "productId": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2",
+  "productName": "On Your Side Insurance Plan 2 / On Your Side Insurance Plan 2 – First Gift",
+  "productType": "critical illness insurance (participating)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "58 critical illnesses plus 44 early",
+      "whatProductOffers": "Covers 57 major illnesses, 1 minor illness, 44 early-stage critical illnesses and 13 severe child diseases, with two-tier ICU protection for conditions beyond the critical illness list.",
+      "keyFigures": [
+        {
+          "label": "Critical illnesses",
+          "value": "58 (57 major + 1 minor)",
+          "condition": "Under the plan"
+        },
+        {
+          "label": "Early-stage conditions",
+          "value": "44",
+          "condition": "Covered under the early-stage benefit"
+        },
+        {
+          "label": "Severe child diseases",
+          "value": "13",
+          "condition": "Covered under the child disease benefit"
+        },
+        {
+          "label": "ICU protection",
+          "value": "2 tiers",
+          "condition": "Health issues beyond critical illnesses, including infectious diseases and injuries"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Definitions and waiting periods are in the policy.",
+        "The ICU benefit is tiered.",
+        "Age limits for child diseases are not stated in the extract."
+      ],
+      "clientSignalPhrases": [
+        "wants the full CI list",
+        "has young kids",
+        "worried about ICU costs",
+        "wants early stage cover",
+        "family history of illness",
+        "wants child diseases covered",
+        "had a recent scare",
+        "wants broad protection"
+      ],
+      "negativeSignalPhrases": [
+        "wants a cancer-only plan",
+        "budget is limited",
+        "needs medical reimbursement"
+      ],
+      "clientProfileFit": [
+        "Parents of young children",
+        "Clients wanting early-stage cover",
+        "Those concerned about ICU costs"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "Given {client_detail}, the plan covers major, minor, early-stage and child conditions, plus ICU stays outside the CI list.",
+      "verificationPrompts": [
+        "Ask the ages of the client's children",
+        "Check interest in early-stage cover",
+        "Confirm understanding of ICU tiers"
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Cover 58 critical illnesses (including 57 major illnesses and 1 minor illness), 44 early stage critical illnesses and 13 severe child diseases\"",
+        "\"2-tier protection for stays in the Intensive Care Unit (ICU) resulting from health issues beyond critical illnesses\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2_critical_illness_readiness_multiple",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "10x multiple CI benefit",
+      "whatProductOffers": "Allows multiple critical illness claims up to 10 times the protection amount, and doubles the early-stage critical illness payout.",
+      "keyFigures": [
+        {
+          "label": "Multiple CI benefit",
+          "value": "10X",
+          "condition": "Across covered claims"
+        },
+        {
+          "label": "Early-stage payout",
+          "value": "Doubled",
+          "condition": "Under the Double Early Stage Critical Illness Payout Benefit"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Subject to claim grouping and policy terms.",
+        "10X is a maximum, not automatic.",
+        "Definitions are in the policy."
+      ],
+      "clientSignalPhrases": [
+        "worried about repeat claims",
+        "wants multiple payout",
+        "had early stage before",
+        "family history of multiple cancers",
+        "wants 10x cover",
+        "concerned about recurrence",
+        "wants long protection",
+        "asks about double payout"
+      ],
+      "negativeSignalPhrases": [
+        "one claim is enough",
+        "wants simple cover",
+        "price sensitive"
+      ],
+      "clientProfileFit": [
+        "Clients with recurring-illness concerns",
+        "Clients with a family cancer history",
+        "Long-term protection buyers"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, multiple claims can reach ten times the protection amount over the policy's life.",
+      "verificationPrompts": [
+        "Ask about prior early-stage claims",
+        "Confirm understanding of the 10X cap",
+        "Check the sum assured needed"
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "annual_limit",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"10X Multiple Critical Illness Benefit\"",
+        "\"Double Early Stage Critical Illness Payout Benefit\""
+      ],
+      "notesForReviewer": "The extract does not spell out the claim grouping mechanics behind the 10X benefit."
+    },
+    {
+      "trendId": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Cancer income and dementia annuity",
+      "whatProductOffers": "Offers a Continuous Cancer Income Option and a lifelong Alzheimer's/Parkinson's annuity benefit, turning cover into ongoing payouts instead of a one-off sum.",
+      "keyFigures": [
+        {
+          "label": "Cancer income",
+          "value": "Continuous income option",
+          "condition": "Optional benefit; amount not in the extract"
+        },
+        {
+          "label": "Alzheimer/Parkinson annuity",
+          "value": "Lifelong",
+          "condition": "Under the annuity benefit"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Optional benefits may require additional premium.",
+        "Amounts and waiting periods are not in the extracted text.",
+        "Diagnosis definitions apply."
+      ],
+      "clientSignalPhrases": [
+        "worried about income during treatment",
+        "family history of Alzheimer's",
+        "wants a monthly payout",
+        "parent has Parkinson's",
+        "needs ongoing cash",
+        "wants the annuity option",
+        "cancer recurrence worry",
+        "planning retirement care"
+      ],
+      "negativeSignalPhrases": [
+        "wants a lump sum only",
+        "no family history",
+        "budget excludes riders"
+      ],
+      "clientProfileFit": [
+        "Clients wanting income during cancer treatment",
+        "Families with dementia history",
+        "Retirement-age clients"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "growth"
+      ],
+      "talkingPointTemplate": "Because {client_detail}, the plan can pay ongoing cancer income and a lifelong dementia annuity rather than a single lump sum.",
+      "verificationPrompts": [
+        "Ask about family history of dementia",
+        "Check whether income or lump sum is preferred",
+        "Confirm budget for optional benefits"
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "annual_limit",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Continuous Cancer Income Option\"",
+        "\"Lifelong Alzheimer / Parkinson Annuity Benefit\""
+      ],
+      "notesForReviewer": "The extract names the benefits but gives no payout amounts or trigger definitions."
+    },
+    {
+      "trendId": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed cash value plus bonus",
+      "whatProductOffers": "A participating plan with guaranteed cash value and a non-guaranteed terminal bonus that may be declared at least once a year after the policy has been in force for five years.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed cash value",
+          "value": "Included",
+          "condition": "Under the policy"
+        },
+        {
+          "label": "Terminal bonus",
+          "value": "Non-guaranteed, declared at least annually",
+          "condition": "After 5 years in force"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The terminal bonus is not guaranteed and is not cumulative.",
+        "Bonus factors include investment returns and claims experience.",
+        "Early surrender may return less than premiums paid."
+      ],
+      "clientSignalPhrases": [
+        "wants cash value",
+        "asks about the bonus",
+        "long-term savings",
+        "wants a guaranteed component",
+        "planning 20 years",
+        "wants protection plus savings",
+        "dislikes pure term",
+        "wants to borrow against the policy"
+      ],
+      "negativeSignalPhrases": [
+        "wants maximum CI per dollar",
+        "needs short-term money",
+        "wants guaranteed returns only"
+      ],
+      "clientProfileFit": [
+        "Long-term savers needing protection",
+        "Parents planning for children",
+        "Clients wanting a participating policy"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "Since {client_detail}, the policy builds guaranteed cash value with a non-guaranteed terminal bonus after five years.",
+      "verificationPrompts": [
+        "Confirm the holding horizon",
+        "Check expectations on non-guaranteed bonuses",
+        "Ask whether policy loan access matters"
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"offers guaranteed cash value and non-guaranteed Terminal Bonus\"",
+        "\"may be declared at least once per year after the basic policy has been in force for 5 years\""
+      ],
+      "notesForReviewer": "A top-up premium payment option is also mentioned in the source but is not modelled as a separate trend."
+    },
+    {
+      "trendId": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Oncology and mainland concierge",
+      "whatProductOffers": "Adds a dedicated Care Concierge for healthcare support in Mainland China and a One-Stop Oncology Service in Hong Kong, plus pre-approval medical expense and cashless service.",
+      "keyFigures": [
+        {
+          "label": "Care Concierge",
+          "value": "Mainland China healthcare support",
+          "condition": "Additional value-added service; not contractual"
+        },
+        {
+          "label": "One-Stop Oncology Service",
+          "value": "Hong Kong",
+          "condition": "Additional value-added service; not applicable in Macau"
+        },
+        {
+          "label": "Cashless service",
+          "value": "Pre-approval medical expense and cashless",
+          "condition": "Administrative support subject to terms"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Value-added services are not guaranteed and are not contractual benefits.",
+        "Care Concierge is not available in Hong Kong or Macau.",
+        "One-Stop Oncology Service is not available in Macau.",
+        "AIA may amend, suspend or terminate the services."
+      ],
+      "clientSignalPhrases": [
+        "wants help navigating hospitals",
+        "treatment in the mainland",
+        "wants a second opinion",
+        "needs cancer support",
+        "hates paying upfront",
+        "wants cashless admission",
+        "family in Shenzhen",
+        "wants a concierge"
+      ],
+      "negativeSignalPhrases": [
+        "only wants a cash payout",
+        "doesn't trust third-party services",
+        "needs a contractual guarantee"
+      ],
+      "clientProfileFit": [
+        "Clients treated across the border",
+        "Cancer patients wanting care coordination",
+        "Those wanting cashless hospital admission"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the concierge and oncology service handle coordination while the policy handles the payout.",
+      "verificationPrompts": [
+        "Ask where treatment would take place",
+        "Confirm interest in cashless admission",
+        "Check expectations on service guarantees"
+      ],
+      "comparisonRows": [
+        "network_access",
+        "outpatient",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Dedicated concierge connects you to a suite of healthcare and support services in mainland China\"",
+        "\"One-Stop Oncology Service ... Support continuous professional care all along in your recovery journey\""
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2_critical_illness_readiness",
+    "bestForOneLiner": "A participating critical illness plan with 58 critical illnesses, 44 early-stage conditions, 10X multiple claims and optional cancer income and dementia annuity benefits.",
+    "notSuitedWhen": [
+      "The client wants a simple lump-sum CI plan with no savings element",
+      "The client needs hospital or outpatient reimbursement",
+      "The client wants the lowest premium for a fixed CI amount"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table and benefit illustrations",
+      "Payout amounts for the cancer income and annuity options",
+      "Waiting periods and full exclusions"
+    ]
+  }
+}

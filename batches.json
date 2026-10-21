@@ -1,0 +1,632 @@
+[
+ [
+  {
+   "name": "AIA One Absolute – Cancer & Serious Infectious Disease Protection",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/AIAOneAbsolute-Cancer-and-SeriousInfectiousDiseaseProtection",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-one-absolute-cancer-serious-infectious-disease-protectio",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-one-absolute-cancer-serious-infectious-disease-protectio"
+  },
+  {
+   "name": "AIA One Absolute – Full Protection",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/AIAOneAbsolute-FullProtection",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-one-absolute-full-protection",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-one-absolute-full-protection"
+  },
+  {
+   "name": "AIA Voluntary Health Insurance Flexi Scheme",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/vhis-flexi",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-voluntary-health-insurance-flexi-scheme",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-voluntary-health-insurance-flexi-scheme"
+  },
+  {
+   "name": "AIA Voluntary Health Insurance Prime Scheme",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/vhis-prime",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-voluntary-health-insurance-flexi-scheme",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-voluntary-health-insurance-flexi-scheme"
+  },
+  {
+   "name": "AIA Voluntary Health Insurance Privilege Plus Scheme",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/vhis-privilege-plus",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-voluntary-health-insurance-privilege-ultra-scheme",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-voluntary-health-insurance-privilege-ultra-scheme"
+  },
+  {
+   "name": "AIA Voluntary Health Insurance Privilege Scheme",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/vhis-privilege",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-voluntary-health-insurance-privilege-ultra-scheme",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-voluntary-health-insurance-privilege-ultra-scheme"
+  },
+  {
+   "name": "AIA Voluntary Health Insurance Privilege Ultra",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/vhis-privilege-ultra",
+   "description": "AIA Voluntary Health Insurance Privilege Ultra Scheme: Whole life high limits coverage, extended cancer support, no itemised benefit sublimit, and tax deductions.",
+   "status": "current",
+   "brochure_slug": "aia-voluntary-health-insurance-privilege-ultra-scheme",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-voluntary-health-insurance-privilege-ultra-scheme"
+  },
+  {
+   "name": "AIA Voluntary Health Insurance SelectWise Scheme",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/vhis-select-wise",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-voluntary-health-insurance-selectwise-scheme",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-voluntary-health-insurance-selectwise-scheme"
+  }
+ ],
+ [
+  {
+   "name": "AIA Voluntary Health Insurance Standard Scheme",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/vhis-standard",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-voluntary-health-insurance-standard-scheme",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-voluntary-health-insurance-standard-scheme"
+  },
+  {
+   "name": "Cancer Care Essence",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/cancer-care-essence",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "cancer-care-essence",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "cancer-care-essence"
+  },
+  {
+   "name": "Cancer Guardian 3",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/cancer-guardian-3",
+   "description": "A cancer reimbursement plan that combines innovative benefits – including financial support for cancer screening and experimental drugs – with one-stop personalised value-added services at affordable premiums",
+   "status": "current",
+   "brochure_slug": "cancer-guardian-3",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "cancer-guardian-3"
+  },
+  {
+   "name": "CEO Medical Plan 5 / CEO Medical Plan (Worldwide) 5",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/ceo-medical-plan-5-series",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5"
+  },
+  {
+   "name": "CEO Pearl Medical Plan 5 Series",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/ceo-pearl-medical-plan-5-series",
+   "description": "",
+   "status": "current",
+   "brochure_slug": null,
+   "has_text": false,
+   "text_len": 0,
+   "productId": "ceo-pearl-medical-plan-5-series"
+  },
+  {
+   "name": "EasyGuard Care Essence",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/easyguard-care-essence",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "easyguard-care-essence",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "easyguard-care-essence"
+  },
+  {
+   "name": "Essence – On Your Side Insurance Plan",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/essence-on-your-side-insurance-plan",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "essence-on-your-side-insurance-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "essence-on-your-side-insurance-plan"
+  },
+  {
+   "name": "Executive Care Pro Critical Illness Insurance Plan 2",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/executive-care-pro-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "executive-care-pro-critical-illness-insurance-plan-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "executive-care-pro-critical-illness-insurance-plan-2"
+  }
+ ],
+ [
+  {
+   "name": "GBA Health Connect Outpatient Plan",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/gba-health-connect-outpatient",
+   "description": "GBA Health Connect: Seamless Ooutpatient coverage in Greater Bay Area, including online consultations, medication delivery, up to age 80, with easy application. Apply Now!",
+   "status": "current",
+   "brochure_slug": "gba-health-connect-outpatient-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "gba-health-connect-outpatient-plan"
+  },
+  {
+   "name": "Health Journey Guardian",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/health-journey-guardian",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "health-journey-guardian",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "health-journey-guardian"
+  },
+  {
+   "name": "Here For You Refundable Accident Plus",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/here-for-you-refundable-accident-plus",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "here-for-you-refundable-accident-plus",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "here-for-you-refundable-accident-plus"
+  },
+  {
+   "name": "Metro-Trio Medical & Critical Illness Protection Plan",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/metro-trio-medical-critical-illness-protection-plan",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "metro-trio-medical-critical-illness-protection-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "metro-trio-medical-critical-illness-protection-plan"
+  },
+  {
+   "name": "Multiple Care Pro Critical Illness Insurance Plan 2",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/multiple-care-pro-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "multiple-care-pro-critical-illness-insurance-plan-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "multiple-care-pro-critical-illness-insurance-plan-2"
+  },
+  {
+   "name": "On Your Side Insurance Plan 2 / On Your Side Insurance Plan 2 – First Gift",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/on-your-side-insurance-plan-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2"
+  },
+  {
+   "name": "OptimaCEO Medical Plan / OptimaCEO Medical Plan – First Gift",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/optimaceo-medical-plan",
+   "description": "Revolutionising wellness and medical solutions for a future of health and longevity",
+   "status": "current",
+   "brochure_slug": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi"
+  },
+  {
+   "name": "PAC Select 3",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/pac-select-3",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "pac-select-3",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "pac-select-3"
+  }
+ ],
+ [
+  {
+   "name": "Prime Care Pro Critical Illness Insurance Plan 2",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/prime-care-pro-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "prime-care-pro-critical-illness-insurance-plan-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "prime-care-pro-critical-illness-insurance-plan-2"
+  },
+  {
+   "name": "Runner Guard",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/runner-guard",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "runner-guard",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "runner-guard"
+  },
+  {
+   "name": "Secure First",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/secure-first",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "secure-first",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "secure-first"
+  },
+  {
+   "name": "Secure First Plus",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/secure-first-plus",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "secure-first-plus",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "secure-first-plus"
+  },
+  {
+   "name": "Silvery Protect",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/silvery-protect",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "silvery-protect",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "silvery-protect"
+  },
+  {
+   "name": "Simple Care Essence",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/simple-care-essence",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "simple-care-essence",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "simple-care-essence"
+  },
+  {
+   "name": "Smart Elite Ultra Critical Illness Insurance Plan",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/smart-elite-ultra",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "smart-elite-ultra-critical-illness-insurance-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "smart-elite-ultra-critical-illness-insurance-plan"
+  },
+  {
+   "name": "Super Adults Shield",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/super-adults-shield",
+   "description": "",
+   "status": "current",
+   "brochure_slug": null,
+   "has_text": false,
+   "text_len": 0,
+   "productId": "super-adults-shield"
+  }
+ ],
+ [
+  {
+   "name": "Super Good Health Medical Plan 2",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/super-good-health-medical-plan-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "super-good-health-medical-plan-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "super-good-health-medical-plan-2"
+  },
+  {
+   "name": "Xtra Protect",
+   "category": "health",
+   "url": "https://www.aia.com.hk/en/products/health/xtra-protect",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "xtra-protect",
+   "has_text": true,
+   "text_len": 5456,
+   "productId": "xtra-protect"
+  },
+  {
+   "name": "Admire Life Insurance Plan 2",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/admire-life-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "admire-life-insurance-plan-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "admire-life-insurance-plan-2"
+  },
+  {
+   "name": "Bonus Power Life Insurance Plan 2 (Enhanced Protection)",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/bonus-power-plan-2-enhanced-protection",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "bonus-power-life-insurance-plan-2-enhanced-protection",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "bonus-power-life-insurance-plan-2-enhanced-protection"
+  },
+  {
+   "name": "EasyGuard Term Life Plan",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/easyguard-term-life-plan",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "easyguard-term-life-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "easyguard-term-life-plan"
+  },
+  {
+   "name": "ProsperLife Insurance Plan",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/prosperlife",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "prosperlife-insurance-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "prosperlife-insurance-plan"
+  },
+  {
+   "name": "Serene Life / Serene Life (Annual Dividends)",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/serene-life-series",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "serene-life-serene-life-annual-dividends-macau",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "serene-life-serene-life-annual-dividends-macau"
+  },
+  {
+   "name": "Wealth Elite Life Insurance Plan 3",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/wealth-elite-3",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "wealth-elite-life-insurance-plan-3",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "wealth-elite-life-insurance-plan-3"
+  }
+ ],
+ [
+  {
+   "name": "Wealth Preserver Life Insurance Plan 5",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/wealth-preserver-5",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "wealth-preserver-life-insurance-plan-5",
+   "has_text": true,
+   "text_len": 4214,
+   "productId": "wealth-preserver-life-insurance-plan-5"
+  },
+  {
+   "name": "Wealth Ultima Life Insurance Plan 2",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/wealth-ultima-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "wealth-ultima-life-insurance-plan-2",
+   "has_text": true,
+   "text_len": 4834,
+   "productId": "wealth-ultima-life-insurance-plan-2"
+  },
+  {
+   "name": "Wisdom Term Life Plan",
+   "category": "life",
+   "url": "https://www.aia.com.hk/en/products/life/wisdom-term",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "wisdom-term-life-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "wisdom-term-life-plan"
+  },
+  {
+   "name": "AIA Deferred Annuity Plan 2",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/aia-deferred-annuity-plan-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "aia-deferred-annuity-plan-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "aia-deferred-annuity-plan-2"
+  },
+  {
+   "name": "EverBliss Annuity Insurance Plan",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/everbliss-annuity",
+   "description": "",
+   "status": "current",
+   "brochure_slug": null,
+   "has_text": false,
+   "text_len": 0,
+   "productId": "everbliss-annuity-insurance-plan"
+  },
+  {
+   "name": "Forever Love Coupon Insurance Plan 5",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/forever-love-coupon-plan-5",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "forever-love-coupon-insurance-plan-5",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "forever-love-coupon-insurance-plan-5"
+  },
+  {
+   "name": "Fortune Promise Savings Insurance Plan 2",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/fortune-promise-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "fortune-promise-savings-insurance-plan-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "fortune-promise-savings-insurance-plan-2"
+  },
+  {
+   "name": "Global Power Multi-Currency Savings Insurance Plan 3",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/global-power-3",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "global-power-multi-currency-savings-insurance-plan-3",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "global-power-multi-currency-savings-insurance-plan-3"
+  }
+ ],
+ [
+  {
+   "name": "GlobalFlexi Savings Insurance Plan",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/global-flexi",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "globalflexi-savings-insurance-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "globalflexi-savings-insurance-plan"
+  },
+  {
+   "name": "Golden Years Income Plan",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/golden-years-income-plan",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "golden-years-income-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "golden-years-income-plan"
+  },
+  {
+   "name": "Simply Love Encore Savings Insurance Plan 5",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/simply-love-encore-5",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "simply-love-encore-savings-insurance-plan-5",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "simply-love-encore-savings-insurance-plan-5"
+  },
+  {
+   "name": "Spring Income Insurance Plan",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/spring-income-plan",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "spring-income-insurance-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "spring-income-insurance-plan"
+  },
+  {
+   "name": "Wealth Enrich Savings Insurance Plan",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/wealth-enrich",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "wealth-enrich-savings-insurance-plan",
+   "has_text": true,
+   "text_len": 3973,
+   "productId": "wealth-enrich-savings-insurance-plan"
+  },
+  {
+   "name": "Wealth Flexi Savings Insurance Plan",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/wealth-flexi",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "wealth-flexi-savings-insurance-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "wealth-flexi-savings-insurance-plan"
+  },
+  {
+   "name": "Wealth Generation Savings Insurance Plan",
+   "category": "save",
+   "url": "https://www.aia.com.hk/en/products/save/wealth-generation",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "wealth-generation-savings-insurance-plan",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "wealth-generation-savings-insurance-plan"
+  },
+  {
+   "name": "Treasure Master Plus 2",
+   "category": "invest",
+   "url": "https://www.aia.com.hk/en/products/invest/treasure-master-plus-2",
+   "description": "",
+   "status": "current",
+   "brochure_slug": "treasure-master-plus-2",
+   "has_text": true,
+   "text_len": 6000,
+   "productId": "treasure-master-plus-2"
+  }
+ ]
+]

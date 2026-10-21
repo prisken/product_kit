@@ -1,0 +1,6 @@
+.secrets.env
+data/pdfs/
+node_modules/
+.vercel/
+.DS_Store
+*.log

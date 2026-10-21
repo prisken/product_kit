@@ -1,0 +1,1574 @@
+{
+ "products": {
+  "aia-assemble-critical-illness-insurance-plan": {
+   "trends": [
+    {
+     "trendId": "aia-assemble-critical-illness-insurance-plan_flexibility_and_customisation",
+     "pos": [
+      "已經有危疾但覺得唔夠保障",
+      "想淨係加癌症保障",
+      "家族有心臟病史",
+      "唔想畀錢買用唔著嘅保障",
+      "問可唔可以自己揀保障",
+      "現有計劃淨係包大病",
+      "想對個計劃有多啲控制",
+      "預算緊但想要危疾",
+      "後生又健康，想細細哋開始",
+      "想補返個特定嘅缺口"
+     ],
+     "neg": [
+      "想要個簡單嘅全包危疾計劃",
+      "唔想自己揀保障",
+      "淨係想要儲蓄"
+     ]
+    },
+    {
+     "trendId": "aia-assemble-critical-illness-insurance-plan_critical_illness_readiness",
+     "pos": [
+      "家族有癌症病史",
+      "擔心中風",
+      "想要早期保障",
+      "有小朋友",
+      "現有計劃淨係包大病",
+      "想保到100歲",
+      "擔心心臟病",
+      "阿媽有過癌症",
+      "想要更闊嘅疾病保障",
+      "覺得而家個危疾保障太窄"
+     ],
+     "neg": [
+      "已經有足夠危疾保障",
+      "淨係想要儲蓄",
+      "唔信危疾"
+     ]
+    },
+    {
+     "trendId": "aia-assemble-critical-illness-insurance-plan_critical_illness_readiness_multiple_cancer",
+     "pos": [
+      "家族有癌症",
+      "擔心復發",
+      "想要多次癌症賠償",
+      "之前有過癌症",
+      "想專門保癌症",
+      "現有計劃淨係賠一次",
+      "阿媽有過乳癌",
+      "想要額外癌症保障"
+     ],
+     "neg": [
+      "已經有多次賠償嘅癌症保障",
+      "淨係想要一筆過賠償",
+      "唔擔心癌症"
+     ]
+    },
+    {
+     "trendId": "aia-assemble-critical-illness-insurance-plan_budget_friendly_entry",
+     "pos": [
+      "預算緊",
+      "後生又健康，淨係想要啲保障",
+      "第一份危疾計劃",
+      "畀唔起大保費",
+      "想細細哋開始",
+      "淨係擔心癌症",
+      "要保費夠低",
+      "問最平嘅選擇"
+     ],
+     "neg": [
+      "想要最大保障",
+      "保費唔係問題",
+      "想要個簡單計劃"
+     ]
+    }
+   ]
+  },
+  "aia-one-absolute-full-protection": {
+   "trends": [
+    {
+     "trendId": "aia-one-absolute-full-protection_critical_illness_readiness",
+     "pos": [
+      "唔想要成100種病嘅清單",
+      "擔心新出現嘅病",
+      "試過有隻病唔包",
+      "想要一個全包嘅危疾計劃",
+      "好憎啲細字條款定義",
+      "想意外都包埋",
+      "問咩先算嚴重",
+      "想包埋併發症",
+      "同傳統危疾比較緊",
+      "想要個唔會過時嘅計劃"
+     ],
+     "neg": [
+      "需要自願醫保扣稅",
+      "想要每個指定危疾固定賠償",
+      "只需要住院賠償",
+      "只買最平嘅危疾計劃"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-full-protection_critical_illness_readiness_severity_payout",
+     "pos": [
+      "嚴重個案想賠多啲",
+      "問末期賠幾多",
+      "想要超過100%保障",
+      "同100%危疾計劃比較緊",
+      "需要一筆過錢頂收入",
+      "屋企人係第四期",
+      "想要最高賠償",
+      "問過嗰40%額外賠償",
+      "想用更高保額報價"
+     ],
+     "neg": [
+      "想要一個簡單固定賠償額",
+      "只需要小額加保",
+      "反對按分數設上限"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-full-protection_hospital_cost_protection",
+     "pos": [
+      "住過ICU",
+      "想住院都計",
+      "試過昏迷嚇一驚",
+      "擔心住好耐",
+      "隻病一開始好小事",
+      "想要診斷以外嘅保障",
+      "想意外住院都包",
+      "喺ICU住咗一個禮拜",
+      "問昏迷包唔包"
+     ],
+     "neg": [
+      "只要門診保障",
+      "需要日間手術賠償",
+      "以為住一日ICU都有得賠"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-full-protection_premium_stability",
+     "pos": [
+      "保費係最大障礙",
+      "問有冇折扣",
+      "已經係AIA Vitality會員",
+      "想要大保額",
+      "想保費維持不變",
+      "健康又活躍",
+      "問過永久折扣",
+      "想第一年平啲"
+     ],
+     "neg": [
+      "要低保額都有折扣",
+      "唔會加入AIA Vitality",
+      "期望保費終身不變"
+     ]
+    },
+    {
+     "trendId": "aia-one-absolute-full-protection_flexibility_and_customisation",
+     "pos": [
+      "想加落現有計劃度",
+      "需要美元保障",
+      "喺澳門做嘢",
+      "prefer 5年續保",
+      "想保到85歲",
+      "想由基本計劃開始",
+      "問過美元保單",
+      "想要5年選項"
+     ],
+     "neg": [
+      "只要獨立保單",
+      "想要終身單一保費產品"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-privilege-plus-scheme": {
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-plus-scheme_flexibility_and_customisation",
+     "pos": [
+      "想提高墊底費以減保費",
+      "問有邊啲墊底費",
+      "想要零墊底費選項",
+      "比較緊VHIS墊底費水平",
+      "身體健康好少索償",
+      "想每個墊底費都報個價",
+      "問墊底費係咪每年計",
+      "喺澳門做嘢要美金"
+     ],
+     "neg": [
+      "需要高過港幣25,000嘅墊底費",
+      "決定前要睇晒完整保障表",
+      "需要接受新申請嘅產品"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-privilege-plus-scheme_flexibility_and_customisation_plan_structure",
+     "pos": [
+      "想要獨立VHIS計劃",
+      "冇現有AIA保單",
+      "想要基本計劃再慢慢加",
+      "冇現有計劃",
+      "想要獨立VHIS保單",
+      "問基本計劃係咩意思",
+      "想要個計劃之後加附加保障",
+      "第一次買VHIS"
+     ],
+     "neg": [
+      "只需要附加保障",
+      "需要接受新申請嘅產品"
+     ]
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-selectwise-scheme": {
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_budget_friendly_entry",
+     "pos": [
+      "其他計劃保費太貴",
+      "想住私家房但預算有限",
+      "問最平嘅自願醫保",
+      "身體健康但想有保障",
+      "年輕家庭手頭緊",
+      "想住好過大房",
+      "想物有所值",
+      "已經比較過三份自願醫保計劃"
+     ],
+     "neg": [
+      "要求任何醫院都保證房型",
+      "需要全球保障",
+      "想要儲蓄計劃",
+      "拒絕網絡醫生"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_room_ward_level",
+     "pos": [
+      "想住半私家房",
+      "唔想住大房",
+      "想自己揀醫院",
+      "返內地睇醫生",
+      "住院想有私隱",
+      "想升級房間但唔想俾多啲",
+      "問包邊種房型",
+      "問指定醫院名單"
+     ],
+     "neg": [
+      "要求任何醫院都住私家房",
+      "堅持睇網絡外醫生",
+      "需要未預先批核嘅緊急入院"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_high_annual_or_lifetime_limit",
+     "pos": [
+      "想要高保障額",
+      "擔心癌症費用",
+      "提到CAR-T治療費用",
+      "想要冇分項限額",
+      "想私家醫院保障保到老",
+      "想要高年度限額",
+      "擔心醫療通脹",
+      "問終身限額"
+     ],
+     "neg": [
+      "只需要基本大房計劃",
+      "想要現金賠償",
+      "需要美國治療"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_international_coverage",
+     "pos": [
+      "去深圳做檢查",
+      "想要內地醫院保障",
+      "家人住喺內地",
+      "想縮短輪候時間",
+      "打算喺大灣區退休",
+      "跨境工作",
+      "問內地醫院收費",
+      "想一份計劃包香港同內地保障"
+     ],
+     "neg": [
+      "需要全球保障",
+      "想要美國醫院",
+      "從來唔返內地"
+     ]
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-selectwise-scheme_fast_access_and_convenience",
+     "pos": [
+      "想要免找數",
+      "想要預先批核",
+      "討厭索償文件",
+      "想要個案經理",
+      "行程忙，冇時間搞索償",
+      "想醫院費用直接結算",
+      "想要一個聯絡點",
+      "想要一個入院聯絡人"
+     ],
+     "neg": [
+      "想要完全自由揀醫生",
+      "喺網絡外海外治療"
+     ]
+    }
+   ]
+  },
+  "cancer-care-essence": {
+   "trends": [
+    {
+     "trendId": "cancer-care-essence_critical_illness_readiness",
+     "pos": [
+      "有家族癌症病史",
+      "想要一筆過賠償唔要實報實銷",
+      "擔心乳癌",
+      "工時長，冇儲蓄緩衝",
+      "想包早期階段",
+      "確診後要快速現金",
+      "後生健康，諗定將來",
+      "家族有大腸癌",
+      "想保障收入損失"
+     ],
+     "neg": [
+      "想所有危疾都包",
+      "需要醫療費用實報實銷",
+      "想要儲蓄成分"
+     ]
+    },
+    {
+     "trendId": "cancer-care-essence_budget_friendly_entry",
+     "pos": [
+      "平價癌症保障",
+      "每日幾蚊",
+      "學生預算",
+      "第一份工，人工少",
+      "想由細額開始",
+      "保費每月一百以下",
+      "只要基本癌症保障",
+      "保費太貴",
+      "第一份工人工少"
+     ],
+     "neg": [
+      "想要全面危疾保障",
+      "想年紀大時用平價買高保額"
+     ]
+    },
+    {
+     "trendId": "cancer-care-essence_fast_access_and_convenience",
+     "pos": [
+      "想賠償快啲到手",
+      "擔心等候期",
+      "早期確診，即刻要現金",
+      "好憎漫長索償程序",
+      "想一確診就有錢",
+      "好憎填表",
+      "要快速現金",
+      "想要無現金醫院",
+      "確診好徬徨"
+     ],
+     "neg": [
+      "需要保障申請前已確診嘅病",
+      "期望冇醫療證明都賠"
+     ]
+    },
+    {
+     "trendId": "cancer-care-essence_family_protection",
+     "pos": [
+      "想為家人做啲嘢",
+      "單一收入家庭",
+      "屋企有年幼小朋友",
+      "想包埋身故保障",
+      "父母靠我",
+      "主要經濟支柱",
+      "想包小朋友疾病",
+      "配偶冇做嘢"
+     ],
+     "neg": [
+      "想要更大額人壽保障",
+      "需要遺產規劃"
+     ]
+    }
+   ]
+  },
+  "ceo-pearl-medical-plan-5-series": {
+   "trends": [
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_high_annual_or_lifetime_limit",
+     "pos": [
+      "想要最高嘅保障額",
+      "高管套餐",
+      "一場大病可以幾百萬",
+      "想要保障唔會用完",
+      "家族有貴價治療病史",
+      "想要私家醫院大額保障",
+      "五千萬終身保障",
+      "頂級醫療計劃",
+      "驚保障額用晒"
+     ],
+     "neg": [
+      "預算好緊",
+      "只要基本住院保障"
+     ]
+    },
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_room_ward_level",
+     "pos": [
+      "想要私家房",
+      "唔要大房",
+      "想康復期間有私隱",
+      "淨係要私家醫院",
+      "家人想留宿陪",
+      "想要私家房",
+      "好憎大房",
+      "想要私隱",
+      "上次住院升級咗房"
+     ],
+     "neg": [
+      "公立醫院都OK",
+      "想要套房級保障"
+     ]
+    },
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_international_coverage",
+     "pos": [
+      "去美國出差",
+      "仔女喺外國讀書",
+      "想去新加坡醫",
+      "成日返大陸做嘢",
+      "家人可能移民",
+      "想要全球緊急保障",
+      "喺海外工作",
+      "仔女喺外國讀書",
+      "出差公幹"
+     ],
+     "neg": [
+      "從來唔旅行",
+      "想要淨係香港價錢"
+     ]
+    },
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_premium_stability",
+     "pos": [
+      "身體好從未索償",
+      "想墊底費逐年減少",
+      "揀高墊底費慳保費",
+      "長期客戶",
+      "想無索償有回贈",
+      "驚保費慢慢加",
+      "擔心保費突然跳",
+      "想索償後唔加loading",
+      "打算長期供落去"
+     ],
+     "neg": [
+      "年年索償",
+      "期望保費一世唔加"
+     ]
+    },
+    {
+     "trendId": "ceo-pearl-medical-plan-5-series_income_or_lifestyle_support",
+     "pos": [
+      "中風康復費用",
+      "中風後需要家居照顧",
+      "我返唔到工邊個找數",
+      "想要多過住院賠償",
+      "年邁父母",
+      "需要物理治療同言語治療",
+      "返唔到工邊個找數",
+      "擔心康復費用",
+      "需要家居改裝"
+     ],
+     "neg": [
+      "想要全額收入替代",
+      "需要長期護理保險"
+     ]
+    }
+   ]
+  },
+  "essence-on-your-side-insurance-plan": {
+   "trends": [
+    {
+     "trendId": "essence-on-your-side-insurance-plan_critical_illness_readiness",
+     "pos": [
+      "想有全面危疾保障",
+      "想喺黃金時期有額外保障",
+      "家族有危疾病史",
+      "想要多過三大疾病嘅保障",
+      "小朋友仲細需要保障",
+      "想要個安全網",
+      "比較緊58定61種疾病",
+      "確診想攞一筆過賠償",
+      "家族有癌症病史"
+     ],
+     "neg": [
+      "想要平價單一疾病保障",
+      "淨係想要癌症保障"
+     ]
+    },
+    {
+     "trendId": "essence-on-your-side-insurance-plan_critical_illness_readiness_big3",
+     "pos": [
+      "擔心癌症復發",
+      "家族有心臟病病史",
+      "想可以多次索償",
+      "一次索償唔夠",
+      "想三大疾病有額外保障",
+      "家族有人50歲中風",
+      "確診想攞一筆過賠償",
+      "家族有癌症病史",
+      "擔心收入損失"
+     ],
+     "neg": [
+      "想要無限次索償",
+      "期望每種病都賠兩次"
+     ]
+    },
+    {
+     "trendId": "essence-on-your-side-insurance-plan_savings_and_wealth_growth",
+     "pos": [
+      "想要保障加儲蓄",
+      "唔想要純保險",
+      "想要現金價值",
+      "長線投資",
+      "想要額外紅利",
+      "唔想冇索償就蝕保費",
+      "唔想蝕保費",
+      "想要股息",
+      "計劃緊退休"
+     ],
+     "neg": [
+      "想要最低成本嘅純保障",
+      "想要保證回報"
+     ]
+    },
+    {
+     "trendId": "essence-on-your-side-insurance-plan_family_protection",
+     "pos": [
+      "想為家人做多啲",
+      "有年幼子女",
+      "主要經濟支柱",
+      "想要危疾連身故保障",
+      "父母靠我份收入",
+      "想留份保障俾配偶",
+      "想為家人留啲嘢",
+      "屋企有年幼子女",
+      "單一收入家庭"
+     ],
+     "neg": [
+      "需要專門嘅定期壽險計劃",
+      "想要遺產規劃工具"
+     ]
+    },
+    {
+     "trendId": "essence-on-your-side-insurance-plan_flexibility_and_customisation",
+     "pos": [
+      "擔心唔記得交保費",
+      "收入唔穩定",
+      "有失業風險",
+      "有事發生想要彈性",
+      "去旅行會唔記得交費",
+      "想保單唔會失效",
+      "想揀貨幣",
+      "想遲啲有得揀",
+      "經常去旅行"
+     ],
+     "neg": [
+      "想隨時保費假期",
+      "期望無條件豁免"
+     ]
+    }
+   ]
+  },
+  "forever-love-coupon-insurance-plan-5": {
+   "trends": [
+    {
+     "trendId": "forever-love-coupon-insurance-plan-5_savings_and_wealth_growth",
+     "pos": [
+      "想定期收現金",
+      "想儲蓄每年有收入",
+      "唔想等十年先有錢收",
+      "退休用嘅coupon plan",
+      "想要保證現金，唔要預測",
+      "供養父母嘅收入",
+      "每年嘅學費",
+      "想要個會派錢嘅儲蓄計劃",
+      "一筆過資金帶嚟現金流",
+      "最憎到期前冇錢派嘅保單"
+     ],
+     "neg": [
+      "想最大複息滾存，唔提款",
+      "第五年需要一大筆錢",
+      "想要股票市場曝險"
+     ]
+    },
+    {
+     "trendId": "forever-love-coupon-insurance-plan-5_family_protection",
+     "pos": [
+      "單親，擔心啲小朋友",
+      "如果我死咗，邊個供保費",
+      "配偶過身，想保單繼續生效",
+      "想保障延續到小朋友",
+      "祖父母幫小朋友買",
+      "想喺求學時期有個安全網",
+      "保費豁免好重要",
+      "內置家庭保障",
+      "想保單喺有人過身後仍然生效",
+      "年輕家庭，預算緊"
+     ],
+     "neg": [
+      "想父母過身時有一筆現金賠償",
+      "需要即時嘅保費豁免",
+      "投保時父母已過50歲"
+     ]
+    },
+    {
+     "trendId": "forever-love-coupon-insurance-plan-5_legacy_and_estate",
+     "pos": [
+      "想家人攞返保費",
+      "為子女做遺產規劃",
+      "想要身故賠償加coupon",
+      "擔心意外死亡",
+      "需要留筆遺產俾配偶",
+      "想本金有保障",
+      "單親留錢俾小朋友",
+      "想要張點都賠嘅保單",
+      "家族財富傳承",
+      "想身故賠償包括紅利"
+     ],
+     "neg": [
+      "想要大額意外死亡多重賠償",
+      "需要純定期保障",
+      "想本金以身故賠償形式支付"
+     ]
+    },
+    {
+     "trendId": "forever-love-coupon-insurance-plan-5_budget_friendly_entry",
+     "pos": [
+      "預算細，想開始",
+      "五千美金起步",
+      "唔使驗身，有健康問題",
+      "想要簡單申請",
+      "祖父母送份細保單",
+      "想要6年保費期",
+      "唔想核保",
+      "入門級儲蓄計劃",
+      "想保費固定",
+      "小朋友做受保人"
+     ],
+     "neg": [
+      "需要大額保額",
+      "有嚴重病史超出限額",
+      "想要一筆過單一保費"
+     ]
+    }
+   ]
+  },
+  "global-power-multi-currency-savings-insurance-plan-3": {
+   "trends": [
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_international_coverage",
+     "pos": [
+      "小朋友喺英國讀書",
+      "準備移居澳洲",
+      "想揸美元同英鎊",
+      "之後需要轉貨幣",
+      "交緊海外學費",
+      "打算退休去加拿大",
+      "資產分散喺唔同國家",
+      "想對沖貨幣風險",
+      "幾年後移民",
+      "保單貨幣要有彈性"
+     ],
+     "neg": [
+      "想要單一港幣保單",
+      "第一年就要轉貨幣",
+      "想做外匯買賣"
+     ]
+    },
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_legacy_and_estate",
+     "pos": [
+      "想張保單傳幾代",
+      "孫做未來受保人",
+      "想之後轉受保人",
+      "跨代遺產規劃",
+      "唔想保單喺身故後完結",
+      "想要後備受保人",
+      "家族信託規劃",
+      "想保單繼續滾存",
+      "留畀孫嘅傳承",
+      "想分期賠付"
+     ],
+     "neg": [
+      "想要簡單單一受保人保單",
+      "而家就要身故賠償",
+      "想要固定受保人唔轉"
+     ]
+    },
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_flexibility_and_customisation",
+     "pos": [
+      "想將保單分畀幾個仔女",
+      "每個仔女要獨立保單",
+      "想鎖定紅利",
+      "想重新分配紅利",
+      "用一張保單做資產規劃",
+      "想之後有彈性",
+      "可能要分拆遺產",
+      "想解鎖紅利價值",
+      "為兩個家庭規劃",
+      "想重組但唔想退保"
+     ],
+     "neg": [
+      "想要一張簡單保單",
+      "要保證固定結構",
+      "第一年就要分拆"
+     ]
+    },
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_savings_and_wealth_growth",
+     "pos": [
+      "想長期滾存",
+      "可以鎖死20年以上",
+      "想要短供款期",
+      "3年供款期啱佢",
+      "想要保證以外嘅紅利",
+      "規劃30年後退休",
+      "想傳承一個增長緊嘅資產",
+      "唔想要10年供款期",
+      "想要全球分散加增長",
+      "長線、接受到非保證部分風險"
+     ],
+     "neg": [
+      "5年內要用筆錢",
+      "只要保證回報",
+      "而家需要收入"
+     ]
+    },
+    {
+     "trendId": "global-power-multi-currency-savings-insurance-plan-3_family_protection",
+     "pos": [
+      "擔心腦退化",
+      "想失去行為能力時有保障",
+      "家族有精神衰退病史",
+      "想保單幫到配偶",
+      "遺產規劃加埋失去能力保障",
+      "想老年有個保障",
+      "擔心長者照顧",
+      "想無論點都保障到家人",
+      "為認知障礙做規劃",
+      "想要多過身故賠償"
+     ],
+     "neg": [
+      "想要危疾賠償",
+      "需要法定授權書",
+      "想要保證失去能力收入"
+     ]
+    }
+   ]
+  },
+  "health-journey-guardian": {
+   "trends": [
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup",
+     "pos": [
+      "定期去物理治療",
+      "睇中醫",
+      "想針灸有得賠",
+      "需要打疫苗",
+      "用網絡診所",
+      "想唔使填索償表",
+      "家人成日睇家庭醫生",
+      "運動受傷做物理治療",
+      "想一張卡搞掂晒"
+     ],
+     "neg": [
+      "需要無限次睇診",
+      "想睇任何診所",
+      "需要住院護理"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_critical_illness_readiness",
+     "pos": [
+      "家族有癌症病史",
+      "擔心標靶治療費用",
+      "想要癌症保障",
+      "舊年嚇過一次",
+      "想監測有得賠",
+      "需要化療保障",
+      "想要私家房選項",
+      "考慮緊半私家房"
+     ],
+     "neg": [
+      "只要危疾一筆過賠償",
+      "對住院保障冇興趣",
+      "預算太緊買唔到癌症計劃"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup_rehab",
+     "pos": [
+      "想喺屋企康復",
+      "屋企人中風要做復康",
+      "擔心善終費用",
+      "寧願居家護理",
+      "有年長父母",
+      "想要護士上門",
+      "手術後復康",
+      "考慮緊紓緩治療"
+     ],
+     "neg": [
+      "只要醫院治療",
+      "冇照顧情況",
+      "需要長期院舍護理"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_premium_stability",
+     "pos": [
+      "擔心索償後保費跳升",
+      "之前索償過",
+      "想要保證續保",
+      "計劃長遠",
+      "慢性病開始出現",
+      "好憎重新核保",
+      "想要終身保障",
+      "怕被斷保"
+     ],
+     "neg": [
+      "想要固定保費",
+      "只需要短期保障",
+      "對價格非常敏感"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup_preventive",
+     "pos": [
+      "想要包身體檢查",
+      "就快結婚",
+      "夠期做大腸鏡",
+      "注重預防",
+      "想要健康獎賞",
+      "注重健康嘅客戶",
+      "家族有大腸問題病史",
+      "想要篩查有得賠"
+     ],
+     "neg": [
+      "只要治療保障",
+      "對檢查冇興趣",
+      "需要即時住院保障"
+     ]
+    }
+   ]
+  },
+  "multiple-care-pro-critical-illness-insurance-plan-2": {
+   "trends": [
+    {
+     "trendId": "multiple-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness",
+     "pos": [
+      "想要全面危疾保障",
+      "有癌症家族史",
+      "想包小朋友疾病保障",
+      "擔心女性危疾",
+      "想包早期階段",
+      "打算保障到100歲",
+      "想要全面危疾",
+      "連小病都想包"
+     ],
+     "neg": [
+      "想要平嘅定期保障",
+      "只需要癌症保障",
+      "想要醫療賠償"
+     ]
+    },
+    {
+     "trendId": "multiple-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness_multiple",
+     "pos": [
+      "擔心第二次癌症",
+      "想要多次索償",
+      "有復發家族史",
+      "之前患過癌症",
+      "想第一次索償後仍有保障",
+      "需要長期保障",
+      "想要5倍保障",
+      "擔心復發"
+     ],
+     "neg": [
+      "只想單次賠償",
+      "預算只夠一次索償",
+      "需要儲蓄產品"
+     ]
+    },
+    {
+     "trendId": "multiple-care-pro-critical-illness-insurance-plan-2_savings_and_wealth_growth",
+     "pos": [
+      "想要儲蓄成分",
+      "問股息",
+      "想要現金價值",
+      "長期計劃",
+      "唔鍾意純保障",
+      "想保單增值",
+      "遺產規劃",
+      "會揸20年"
+     ],
+     "neg": [
+      "想要保證回報",
+      "需要短期流動性",
+      "只想要保障"
+     ]
+    },
+    {
+     "trendId": "multiple-care-pro-critical-illness-insurance-plan-2_legacy_and_estate",
+     "pos": [
+      "想留遺產俾仔女",
+      "擔心殮葬費",
+      "想要身故賠償",
+      "單親",
+      "想留現金俾家人",
+      "遺產規劃",
+      "想保障受益人",
+      "問恩恤賠償"
+     ],
+     "neg": [
+      "冇受養人",
+      "想要純危疾",
+      "只要定期保障"
+     ]
+    }
+   ]
+  },
+  "pac-select-3": {
+   "trends": [
+    {
+     "trendId": "pac-select-3_income_or_lifestyle_support",
+     "pos": [
+      "主要經濟支柱",
+      "高空工作",
+      "擔心傷殘",
+      "傷殘都想有收入",
+      "體力勞動",
+      "家人靠佢",
+      "想自訂保額",
+      "僱主冇保障"
+     ],
+     "neg": [
+      "只想包醫療費",
+      "需要疾病保障",
+      "想要儲蓄計劃"
+     ]
+    },
+    {
+     "trendId": "pac-select-3_hospital_cost_protection",
+     "pos": [
+      "想醫療費都包埋",
+      "問住院現金",
+      "想要組合式計劃",
+      "有預算加附加保障",
+      "需要意外醫療",
+      "想要每日收入",
+      "比較緊附加保障",
+      "想要全面意外保障"
+     ],
+     "neg": [
+      "只要基本保障",
+      "想要一個固定計劃",
+      "唔擔心住院"
+     ]
+    },
+    {
+     "trendId": "pac-select-3_flexibility_and_customisation",
+     "pos": [
+      "想自己話事保障範圍",
+      "預算緊",
+      "想加附加保障唔要獨立計劃",
+      "已經有基本計劃",
+      "想加大保障",
+      "問保額",
+      "想要簡單意外附加保障",
+      "同獨立計劃比較緊"
+     ],
+     "neg": [
+      "想要全包計劃",
+      "需要獨立保障",
+      "想要保證組合"
+     ]
+    },
+    {
+     "trendId": "pac-select-3_income_or_lifestyle_support_double_indemnity",
+     "pos": [
+      "日日搭港鐵",
+      "搭巴士返工",
+      "搭渡輪",
+      "擔心搭的士意外",
+      "行近馬路",
+      "經常搭飛機",
+      "喺戲院做嘢",
+      "住喺山泥傾瀉區"
+     ],
+     "neg": [
+      "在家工作",
+      "唔搭公共交通工具",
+      "想要簡單保障"
+     ]
+    }
+   ]
+  },
+  "runner-guard": {
+   "trends": [
+    {
+     "trendId": "runner-guard_fast_access_and_convenience",
+     "pos": [
+      "下個月跑馬拉松",
+      "淨係需要比賽日保障",
+      "一次性賽事，唔係全年",
+      "十一月越野賽",
+      "同同事一齊跑慈善賽",
+      "唔想要年度保單",
+      "問賽事報名費包唔包保險",
+      "週末賽事，快速保障"
+     ],
+     "neg": [
+      "想要全年意外保障",
+      "想要健身室運動保障",
+      "需要多項運動賽事保障"
+     ]
+    },
+    {
+     "trendId": "runner-guard_income_or_lifestyle_support",
+     "pos": [
+      "擔心受傷會冇收入",
+      "自僱人士，唔可以冇工開",
+      "問如果韌帶撕裂會點",
+      "想要一筆過賠償，唔係報銷",
+      "有個朋友斷咗阿基里斯腱",
+      "需要康復期保障",
+      "為首個馬拉松訓練緊",
+      "想冇得跑或者返工都有現金"
+     ],
+     "neg": [
+      "淨係想要醫療費用報銷",
+      "想要一般健身室受傷保障",
+      "預期每次意外可以多次賠償"
+     ]
+    },
+    {
+     "trendId": "runner-guard_high_annual_or_lifetime_limit",
+     "pos": [
+      "想要大額一筆過賠償",
+      "問最高保障額",
+      "高收入人士，需要更大保障",
+      "比較咗計劃一同計劃二",
+      "想要比賽日一百萬港元保障",
+      "擔心一次受傷會使好多錢",
+      "得45歲，仲可以買計劃二",
+      "如果傷殘需要大額賠償"
+     ],
+     "neg": [
+      "淨係想要最平選項",
+      "超過55歲但想要一百萬計劃",
+      "需要醫療費用上限代替"
+     ]
+    },
+    {
+     "trendId": "runner-guard_flexibility_and_customisation",
+     "pos": [
+      "一個月跑兩場賽事",
+      "想要成個賽季保障",
+      "問90日選項",
+      "淨係需要一日",
+      "跑緊三日分站賽",
+      "想自己揀保障級別",
+      "比較兩個計劃",
+      "唔肯定保障期有幾長"
+     ],
+     "neg": [
+      "想要多年期保單",
+      "想要非跑步運動保障",
+      "只需要3,000米以下賽事保障"
+     ]
+    }
+   ]
+  },
+  "serene-life-serene-life-annual-dividends-macau": {
+   "trends": [
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_savings_and_wealth_growth",
+     "pos": [
+      "為小朋友做長線儲蓄",
+      "想要保證現金價值",
+      "比較緊儲蓄計劃",
+      "有20年以上嘅投資期",
+      "想要分紅",
+      "接受非保證部分",
+      "想要美元保單",
+      "計劃緊教育基金"
+     ],
+     "neg": [
+      "5年內要用錢",
+      "想要全保證回報"
+     ]
+    },
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_legacy_and_estate",
+     "pos": [
+      "想留錢俾家人",
+      "做遺產規劃",
+      "跨代傳承",
+      "想身故賠償可以增長",
+      "擔心通脹侵蝕保障",
+      "想要終身壽險保障",
+      "為孫仔孫女規劃",
+      "想要身故賠償支付方式選項"
+     ],
+     "neg": [
+      "想要低保費嘅純保障",
+      "只想要保證身故賠償"
+     ]
+    },
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_flexibility_and_customisation",
+     "pos": [
+      "可能早啲需要現金",
+      "想要短供",
+      "喺儲蓄同流動性之間猶豫",
+      "想要保費有彈性",
+      "可能需要分紅做收入",
+      "想要揀年期",
+      "需要流動性但又要保障",
+      "想要分紅做收入選項"
+     ],
+     "neg": [
+      "只想要最高回報",
+      "需要單一固定結構"
+     ]
+    }
+   ]
+  },
+  "simply-love-encore-savings-insurance-plan-5": {
+   "trends": [
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_savings_and_wealth_growth",
+     "pos": [
+      "想大約5年後攞返本金",
+      "有12.5萬美金放喺定期存款",
+      "想回報好過存款利率",
+      "問過幾時回本",
+      "想要一次性保費計劃",
+      "計劃20年後退休",
+      "想將錢傳承俾孫仔孫女",
+      "唔想每年交保費",
+      "有筆美金遺產",
+      "想長期複利滾存"
+     ],
+     "neg": [
+      "需要保證回報、唔想有波動",
+      "可能2年內要用返全部本金",
+      "而家就想有每月收入",
+      "對非保證紅利唔安心"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_legacy_and_estate",
+     "pos": [
+      "想將保單傳承俾孫仔孫女",
+      "擔心自己過身後保單就完",
+      "想要一張可以傳承幾代嘅保單",
+      "問過可唔可以更改受保人",
+      "有個年幼小朋友",
+      "想將保單留喺家族入面",
+      "同律師做遺產規劃",
+      "想要後備受保人",
+      "擔心海外遺產稅"
+     ],
+     "neg": [
+      "想保單喺身故時結束",
+      "冇家人可以傳承保單",
+      "需要一張簡單嘅單一受保人保單"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_flexibility_and_customisation",
+     "pos": [
+      "想每年從保單攞6千",
+      "想退休有收入之餘仲留到啲嘢",
+      "問過可唔可以每年提取",
+      "想喺強積金之前補充收入",
+      "需要靈活提取，唔要固定年金",
+      "想60歲退休慢慢攞錢",
+      "想同時有收入同傳承",
+      "問過啲錢可以用幾耐"
+     ],
+     "neg": [
+      "想要保證固定派發金額",
+      "需要第一年就開始提取",
+      "想保單完全唔郁，淨係用嚟傳承"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_fast_access_and_convenience",
+     "pos": [
+      "好憎驗身",
+      "年紀較大嘅客戶，擔心核保",
+      "想快速投保",
+      "有少少健康問題，想避開驗身",
+      "忙碌專業人士，冇時間做檢查",
+      "想手續簡單",
+      "唔使驗身，係咪？",
+      "唔想抽血",
+      "想唔使檢查都投到保"
+     ],
+     "neg": [
+      "健康差都想保證受保",
+      "期望完全唔問健康問題",
+      "需要保障現有嚴重疾病"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_income_or_lifestyle_support",
+     "pos": [
+      "擔心會失業",
+      "自由工作者，收入唔穩定",
+      "做緊波動大嘅行業",
+      "問過交唔到保費會點",
+      "想要保費假期選項",
+      "年輕家庭，單一收入",
+      "可能會失業",
+      "失業時想保費有彈性",
+      "問過失業保障"
+     ],
+     "neg": [
+      "揀一次性保費",
+      "淨係想要投資回報",
+      "已經有收入保障保險"
+     ]
+    }
+   ]
+  },
+  "super-adults-shield": {
+   "trends": [
+    {
+     "trendId": "super-adults-shield_family_protection",
+     "pos": [
+      "家庭主要收入來源",
+      "想保障到退休嘅意外保障",
+      "問過斷肢保障",
+      "做建築",
+      "揸車搵食",
+      "擔心嚴重意外",
+      "想留一筆錢俾家人",
+      "公司冇意外保障"
+     ],
+     "neg": [
+      "需要疾病保障",
+      "想要投資回報",
+      "已經超過65歲"
+     ]
+    },
+    {
+     "trendId": "super-adults-shield_income_or_lifestyle_support",
+     "pos": [
+      "擔心長期傷殘",
+      "唯一收入來源",
+      "體力勞動工人",
+      "問過每月收入",
+      "想冇工開都有支援",
+      "屋企冇儲蓄",
+      "需要收入替代",
+      "自僱司機"
+     ],
+     "neg": [
+      "只要一筆過賠償",
+      "需要危疾保障",
+      "期望即時賠錢"
+     ]
+    },
+    {
+     "trendId": "super-adults-shield_hospital_cost_protection",
+     "pos": [
+      "想包住院費",
+      "問過意外醫療費用",
+      "擔心手術費",
+      "想實報實銷",
+      "冇住院計劃",
+      "需要覆診治療保障",
+      "舊年跌親好嚴重",
+      "想一筆過加醫療費都要"
+     ],
+     "neg": [
+      "想要疾病住院保障",
+      "需要保證年度限額",
+      "想要免找數住院"
+     ]
+    },
+    {
+     "trendId": "super-adults-shield_fast_access_and_convenience",
+     "pos": [
+      "意外後想有情緒支援",
+      "工作需要周圍去",
+      "問過輔導",
+      "想要多過現金",
+      "擔心心理創傷",
+      "想要24小時熱線",
+      "跨境工作",
+      "重視身心健康福利"
+     ],
+     "neg": [
+      "只要現金賠償",
+      "需要精神科治療保障",
+      "從來唔出門"
+     ]
+    }
+   ]
+  },
+  "wealth-elite-life-insurance-plan-3": {
+   "trends": [
+    {
+     "trendId": "wealth-elite-life-insurance-plan-3_savings_and_wealth_growth",
+     "pos": [
+      "想保本",
+      "一次過繳付保費",
+      "想要高保證下限",
+      "有現金可投放",
+      "想做低風險儲蓄",
+      "比較緊一次過繳付嘅計劃",
+      "想有85%保證攞返",
+      "退休緊想擺放資金"
+     ],
+     "neg": [
+      "需要定期繳付保費",
+      "想要高增長但唔要保險"
+     ]
+    },
+    {
+     "trendId": "wealth-elite-life-insurance-plan-3_legacy_and_estate",
+     "pos": [
+      "生意東主安排傳承",
+      "想死後都有控制權",
+      "家庭關係複雜",
+      "擔心失去行為能力",
+      "想將保單分俾仔女",
+      "需要業權轉移安排",
+      "有信託",
+      "想受益人安排有彈性"
+     ],
+     "neg": [
+      "簡單遺產得一個受益人",
+      "保單喺香港以外簽發"
+     ]
+    },
+    {
+     "trendId": "wealth-elite-life-insurance-plan-3_flexibility_and_customisation",
+     "pos": [
+      "想將保單分俾仔女",
+      "送贈",
+      "多個受益人",
+      "想平均分配遺產",
+      "為兩個仔女規劃",
+      "想之後分開做幾張保單",
+      "兩個仔女一人一半",
+      "想之後先分拆保單"
+     ],
+     "neg": [
+      "單一受益人",
+      "冇遺產規劃需要"
+     ]
+    },
+    {
+     "trendId": "wealth-elite-life-insurance-plan-3_income_or_lifestyle_support",
+     "pos": [
+      "有資產但冇現金",
+      "退休咗有張保單",
+      "想有退休收入",
+      "問過逆按揭",
+      "需要現金但唔想退保",
+      "想保留張保單",
+      "收入低但有儲蓄保單",
+      "退休時需要保單嘅現金"
+     ],
+     "neg": [
+      "而家就需要流動資金",
+      "保單喺香港以外簽發"
+     ]
+    }
+   ]
+  },
+  "wealth-generation-savings-insurance-plan": {
+   "trends": [
+    {
+     "trendId": "wealth-generation-savings-insurance-plan_savings_and_wealth_growth",
+     "pos": [
+      "想比一般儲蓄計劃更早見到回報",
+      "年期長但想早啲有增長",
+      "問幾時第一次派紅利",
+      "想要有終期紅利嘅終身壽險計劃",
+      "同其他AIA儲蓄計劃比較緊",
+      "想每月派紅利",
+      "有一大筆一次過資金",
+      "想為家人保留財富"
+     ],
+     "neg": [
+      "需要保證紅利",
+      "需要第一年就有收入",
+      "接受唔到限量發售",
+      "需要短期產品"
+     ]
+    },
+    {
+     "trendId": "wealth-generation-savings-insurance-plan_flexibility_and_customisation",
+     "pos": [
+      "想遲啲鎖定收益",
+      "擔心會蝕返啲收益",
+      "想15年後有個防守選項",
+      "問過鎖定戶口",
+      "想退休前保護利潤",
+      "想鎖定價值有利息",
+      "想15年鎖定利潤",
+      "問過30日窗口期",
+      "想遲啲降低風險"
+     ],
+     "neg": [
+      "想頭10年內鎖定",
+      "需要保證鎖定利息",
+      "想要無限次轉換"
+     ]
+    },
+    {
+     "trendId": "wealth-generation-savings-insurance-plan_fast_access_and_convenience",
+     "pos": [
+      "想攞錢又唔想保單縮水",
+      "想保單內有現金儲備",
+      "問提取會唔會減少保額",
+      "想退休後有流動性",
+      "想只提取鎖定咗嗰部分",
+      "想攞現金又唔動本金",
+      "問過鎖定部分嘅提取",
+      "想保單內有儲備",
+      "60歲後需要流動性"
+     ],
+     "neg": [
+      "頭15年內需要流動性",
+      "想提取保單主要價值",
+      "需要保證提取金額"
+     ]
+    },
+    {
+     "trendId": "wealth-generation-savings-insurance-plan_legacy_and_estate",
+     "pos": [
+      "想將財富留俾下一代",
+      "想控制財富點樣傳承",
+      "傾緊遺產規劃",
+      "想保單保護家人",
+      "問過傳承功能",
+      "想傳承財富",
+      "遺產規劃",
+      "問過受益人",
+      "想保護家人"
+     ],
+     "neg": [
+      "冇繼承人或傳承目標",
+      "需要純投資回報",
+      "只想保單為自己提供收入"
+     ]
+    }
+   ]
+  },
+  "wisdom-term-life-plan": {
+   "trends": [
+    {
+     "trendId": "wisdom-term-life-plan_budget_friendly_entry",
+     "pos": [
+      "平價定期保障",
+      "家庭經濟支柱需要保障到退休",
+      "保費要維持不變",
+      "年輕家庭，預算緊",
+      "想要20年定期保障",
+      "只需要身故賠償",
+      "唔需要儲蓄成分",
+      "想同按揭保險比較",
+      "可續保，無投資成分",
+      "想附加喺現有計劃度"
+     ],
+     "neg": [
+      "想要現金價值或儲蓄",
+      "需要危疾保障",
+      "需要保障到85歲以上"
+     ]
+    },
+    {
+     "trendId": "wisdom-term-life-plan_premium_stability",
+     "pos": [
+      "想要唔可以取消嘅保障",
+      "申請之後健康有變",
+      "保證續保好重要",
+      "擔心之後核保唔過",
+      "需要保障到85歲",
+      "續保時唔想再驗身",
+      "驚保單失效？",
+      "計劃保障到退休",
+      "續保要有確定性"
+     ],
+     "neg": [
+      "需要保障超過85歲",
+      "想要終身固定保費",
+      "預期唔會隨年齡加價"
+     ]
+    },
+    {
+     "trendId": "wisdom-term-life-plan_flexibility_and_customisation",
+     "pos": [
+      "啱啱買咗樓",
+      "下年結婚",
+      "有咗BB",
+      "想加大保障但唔想驗身",
+      "按揭啱啱放款",
+      "想喺人生大事時加保",
+      "有健康問題，新保單核保唔到",
+      "新手父母需要保障",
+      "想保障隨人生階段調整",
+      "計劃買樓"
+     ],
+     "neg": [
+      "需要大幅加保額",
+      "想要同人生大事無關嘅保障",
+      "已經索償過"
+     ]
+    },
+    {
+     "trendId": "wisdom-term-life-plan_family_protection",
+     "pos": [
+      "主要經濟支柱",
+      "需要乾淨嘅身故賠償",
+      "想賠償俾指定受益人",
+      "有按揭同小朋友",
+      "想百分百保額全數賠出",
+      "簡單保障，唔要花巧",
+      "遺產流動性",
+      "為配偶提供保障",
+      "想固定受益人"
+     ],
+     "neg": [
+      "想賠償隨投資增長",
+      "需要收入流而唔係一筆過",
+      "想要保障超過85歲"
+     ]
+    },
+    {
+     "trendId": "wisdom-term-life-plan_fast_access_and_convenience",
+     "pos": [
+      "確診末期，即刻需要現金",
+      "想死前攞到錢",
+      "醫院費用堆積",
+      "家人需要快速流動資金",
+      "想預支，唔係死後索償",
+      "醫生話得12個月",
+      "想安排好身後事",
+      "需要現金醫病",
+      "想提早攞賠償"
+     ],
+     "neg": [
+      "想保額賠兩次",
+      "需要非末期疾病嘅危疾賠償",
+      "保單只係附加保障"
+     ]
+    }
+   ]
+  }
+ }
+}

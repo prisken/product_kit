@@ -1,0 +1,165 @@
+{
+  "productId": "aia-voluntary-health-insurance-privilege-scheme",
+  "productName": "AIA Voluntary Health Insurance Privilege Scheme",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-voluntary-health-insurance-privilege-scheme_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Add-on with deductible choice",
+      "whatProductOffers": "Is structured as an add-on VHIS plan with three annual deductible amounts in HKD or USD - HKD0 / USD0, HKD16,000 / USD2,000 or HKD25,000 / USD3,125.",
+      "keyFigures": [
+        {
+          "label": "Plan type",
+          "value": "Add-on plan",
+          "condition": ""
+        },
+        {
+          "label": "Deductible options (HKD)",
+          "value": "HKD0 / HKD16,000 / HKD25,000",
+          "condition": "annual"
+        },
+        {
+          "label": "Deductible options (USD)",
+          "value": "USD0 / USD2,000 / USD3,125",
+          "condition": "annual"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "As an add-on, it must attach to an eligible basic plan; the product page does not list which ones.",
+        "Only three deductible levels are shown.",
+        "Two blocks of certification numbers are listed as Not available for New Application.",
+        "Premium, benefit limits, room level and exclusions were not available in the fetched copy."
+      ],
+      "clientSignalPhrases": [
+        "already has a basic plan",
+        "wants to top up an existing policy",
+        "asked about deductible options",
+        "wants a rider rather than a new policy",
+        "wants to keep the current basic plan",
+        "wants a quote at each deductible",
+        "asked if the deductible is annual",
+        "works in Macau and needs USD"
+      ],
+      "negativeSignalPhrases": [
+        "needs a standalone plan",
+        "has no eligible basic plan",
+        "needs a product open to new applications"
+      ],
+      "clientProfileFit": [
+        "Existing policyholders topping up cover",
+        "Clients who want a rider instead of replacing their plan"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, this can be added to an existing eligible basic plan with a deductible of zero, HKD16,000 or HKD25,000.",
+      "verificationPrompts": [
+        "Confirm which basic plans accept this add-on.",
+        "Confirm the premium for each deductible level.",
+        "Confirm whether the scheme is open to new applications."
+      ],
+      "comparisonRows": [
+        "add_ons",
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "Plan Type: Add-on plan",
+        "HKD 0 / USD 0 deductible, HKD 16,000 / USD 2,000 deductible, HKD 25,000 / USD 3,125 deductible",
+        "Product Nature: Medical protection insurance plan (Reimbursement)"
+      ],
+      "notesForReviewer": "The assigned brochure slug is shared with the Privilege Ultra Scheme, so the brochure extract describes a sibling product and was not used. The product page returned only certification, deductible and plan-type fields. Treat as weak evidence; the add-on eligibility list is missing."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-privilege-scheme_flexibility_and_customisation_deductible",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Three deductible tiers",
+      "whatProductOffers": "Lets the policyholder pick a zero, HKD16,000 (USD2,000) or HKD25,000 (USD3,125) annual deductible, which changes how much of each claim is self-funded before the plan pays.",
+      "keyFigures": [
+        {
+          "label": "Zero deductible",
+          "value": "HKD0 / USD0",
+          "condition": "annual"
+        },
+        {
+          "label": "Mid deductible",
+          "value": "HKD16,000 / USD2,000",
+          "condition": "annual"
+        },
+        {
+          "label": "High deductible",
+          "value": "HKD25,000 / USD3,125",
+          "condition": "annual"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The premium difference between tiers is not stated in the source.",
+        "The deductible applies per policy year as labelled on the product page.",
+        "A higher deductible means more out-of-pocket before benefits start - the source does not spell this out, so explain it as product mechanics rather than a quoted feature."
+      ],
+      "clientSignalPhrases": [
+        "wants to lower the premium",
+        "can self-insure small bills",
+        "asked what deductible means",
+        "wants a zero deductible",
+        "healthy and rarely goes to hospital",
+        "asked how the deductible works",
+        "wants the lowest premium tier",
+        "can cover the first HKD25,000"
+      ],
+      "negativeSignalPhrases": [
+        "cannot absorb a HKD25,000 bill",
+        "wants first-dollar cover",
+        "needs premium certainty"
+      ],
+      "clientProfileFit": [
+        "Clients with cash reserves to self-insure",
+        "Healthy clients prioritising a lower premium"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a HKD25,000 deductible keeps the premium down, while a zero deductible means the plan pays from the first dollar.",
+      "verificationPrompts": [
+        "Confirm the premium at each deductible tier.",
+        "Confirm whether the deductible is per policy year or per claim.",
+        "Confirm how the deductible interacts with the add-on basic plan."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "Annual Deductible Choices HKD USD - HKD 0 / USD 0 deductible, HKD 16,000 / USD 2,000 deductible, HKD 25,000 / USD 3,125 deductible"
+      ],
+      "notesForReviewer": "This trend overlaps the add-on trend from the same single source table; it is split out because the deductible choice is the only quantified feature available. Merge if the reviewer prefers one trend per product."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-voluntary-health-insurance-privilege-scheme_flexibility_and_customisation",
+    "bestForOneLiner": "An add-on VHIS reimbursement plan with a choice of three annual deductible levels in HKD or USD.",
+    "notSuitedWhen": [
+      "The client needs a standalone policy.",
+      "The client has no eligible basic plan to attach it to.",
+      "The client needs a product confirmed open to new applications.",
+      "The client needs benefit limits or room level confirmed."
+    ],
+    "gapsInSourceMaterial": [
+      "Eligible basic plans for the add-on",
+      "Premium table",
+      "Annual and lifetime benefit limits",
+      "Room level and benefit schedule",
+      "Product-specific brochure text (slug collided with the Privilege Ultra Scheme)"
+    ]
+  }
+}

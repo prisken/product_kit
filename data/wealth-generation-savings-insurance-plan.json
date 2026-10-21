@@ -1,0 +1,279 @@
+{
+  "productId": "wealth-generation-savings-insurance-plan",
+  "productName": "Wealth Generation Savings Insurance Plan",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "wealth-generation-savings-insurance-plan_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Terminal dividend from year three",
+      "whatProductOffers": "A participating whole-life plan with guaranteed cash value and a non-guaranteed Terminal Dividend that may be declared from the end of the 3rd policy year, once per policy year or more often, such as monthly.",
+      "keyFigures": [
+        {
+          "label": "Terminal Dividend start",
+          "value": "End of 3rd policy year",
+          "condition": "Non-guaranteed, at AIA's sole discretion"
+        },
+        {
+          "label": "Declaration frequency",
+          "value": "Once per policy year or more often",
+          "condition": "Example given: monthly"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The Terminal Dividend is non-guaranteed and declared at AIA's sole discretion.",
+        "The plan is available on a limited basis.",
+        "The extract gives no dividend scale, premium table or illustration.",
+        "Withdrawing part of the guaranteed cash value or Terminal Dividend reduces the principal amount."
+      ],
+      "clientSignalPhrases": [
+        "wants earlier upside than a typical savings plan",
+        "has a long horizon but wants early growth",
+        "asked when the first dividend is declared",
+        "wants a whole life plan with terminal dividend",
+        "comparing with other AIA savings plans",
+        "wants monthly dividend declarations",
+        "has a large lump sum",
+        "wants to preserve wealth for the family"
+      ],
+      "negativeSignalPhrases": [
+        "needs guaranteed dividends",
+        "needs income from year one",
+        "cannot accept limited availability",
+        "needs a short-term product"
+      ],
+      "clientProfileFit": [
+        "High-net-worth clients seeking early value growth",
+        "Savers with a 15+ year horizon",
+        "Clients wanting guaranteed cash value plus terminal dividend"
+      ],
+      "priorityAlignment": [
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan can declare a non-guaranteed Terminal Dividend from the end of the 3rd policy year, earlier than many savings plans.",
+      "verificationPrompts": [
+        "Confirm the client accepts non-guaranteed dividends",
+        "Check current availability given the limited basis",
+        "Obtain the dividend illustration"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "starting from the end of the 3rd policy year, we may at our sole discretion declare a non-guaranteed Terminal Dividend once per policy year or more frequently, such as on a monthly basis",
+        "a participating whole life insurance plan that provides guaranteed cash value and non-guaranteed Terminal Dividend",
+        "Wealth Generation Savings Insurance Plan is available on a limited basis."
+      ],
+      "notesForReviewer": "No dividend scale or premium figures in the extract; the early-declaration feature is the differentiator, not a documented return."
+    },
+    {
+      "trendId": "wealth-generation-savings-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Terminal dividend lock-in",
+      "whatProductOffers": "The Terminal Dividend Lock-in Option transfers a percentage of the latest Terminal Dividend value into a Terminal Dividend Lock-in Account earning interest at a non-guaranteed rate; it is available once per policy year from the end of the 15th policy year, with application within 30 days after a policy year end.",
+      "keyFigures": [
+        {
+          "label": "Lock-in start",
+          "value": "End of 15th policy year",
+          "condition": "Once per policy year"
+        },
+        {
+          "label": "Application window",
+          "value": "Within 30 days after the end of a policy year",
+          "condition": "For each transfer"
+        },
+        {
+          "label": "Lock-in account interest",
+          "value": "Non-guaranteed rate",
+          "condition": "Set by AIA"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only once per policy year and only from the end of the 15th policy year.",
+        "The transfer percentage is not specified in the extract.",
+        "Interest credited to the lock-in account is not guaranteed.",
+        "The 30-day application window is strict per the source."
+      ],
+      "clientSignalPhrases": [
+        "wants to lock in gains later",
+        "worried about giving back gains",
+        "wants a defensive option after 15 years",
+        "asked about the lock-in account",
+        "wants to protect profits near retirement",
+        "wants interest on locked value",
+        "wants to lock in profits at 15 years",
+        "asked about the 30-day window",
+        "wants to de-risk later"
+      ],
+      "negativeSignalPhrases": [
+        "wants to lock in during the first 10 years",
+        "needs guaranteed lock-in interest",
+        "wants unlimited transfers"
+      ],
+      "clientProfileFit": [
+        "Long-term savers planning a de-risking step",
+        "Clients nearing retirement with a matured policy",
+        "Investors who want to crystallise gains without surrendering"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the lock-in option can move part of the Terminal Dividend into an interest-earning account after year 15.",
+      "verificationPrompts": [
+        "Diary the 30-day window after each policy year end",
+        "Confirm the lock-in percentage available",
+        "Explain that lock-in interest is not guaranteed"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "With the Terminal Dividend Lock-in Option ... transferring a percentage of the latest value of the Terminal Dividend into a Terminal Dividend Lock-in Account to earn interest at a non-guaranteed rate",
+        "available once per policy year starting from the end of the 15th policy year, and application for such transfer must be made within 30 days after the end of a policy year"
+      ],
+      "notesForReviewer": "The extract does not state the percentage that can be locked in or the interest rate mechanism."
+    },
+    {
+      "trendId": "wealth-generation-savings-insurance-plan_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Withdraw without cutting principal",
+      "whatProductOffers": "Cash can be withdrawn from the Terminal Dividend Lock-in Account at any time without reducing the principal amount of the policy; withdrawals of guaranteed cash value or Terminal Dividend do reduce principal.",
+      "keyFigures": [
+        {
+          "label": "Access to lock-in account",
+          "value": "Any time",
+          "condition": "No reduction of principal amount"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only applies to value already transferred into the Terminal Dividend Lock-in Account.",
+        "Withdrawals of guaranteed cash value or Terminal Dividend reduce the principal amount.",
+        "The extract does not state minimum withdrawal amounts or processing time."
+      ],
+      "clientSignalPhrases": [
+        "wants access without shrinking the policy",
+        "wants a cash reserve inside the policy",
+        "asked if withdrawals reduce the sum assured",
+        "wants liquidity after retirement",
+        "wants to draw only the locked-in portion",
+        "wants cash without touching principal",
+        "asked about lock-in withdrawals",
+        "wants a reserve in the policy",
+        "needs liquidity after 60"
+      ],
+      "negativeSignalPhrases": [
+        "needs liquidity in the first 15 years",
+        "wants to withdraw the main policy value",
+        "needs a guaranteed withdrawal amount"
+      ],
+      "clientProfileFit": [
+        "Retirees wanting a liquidity sleeve",
+        "Clients who have built up Terminal Dividend value",
+        "Savers who want access without reducing the principal"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, once value is in the lock-in account it can be withdrawn at any time without reducing the policy's principal amount.",
+      "verificationPrompts": [
+        "Confirm the client understands this applies only to locked-in value",
+        "Check minimum withdrawal rules",
+        "Explain the effect of other withdrawals on principal"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "You can withdraw cash from the Terminal Dividend Lock-in Account at any time without reducing the principal amount of your policy",
+        "You may request to withdraw part of the guaranteed cash value and part of the non-guaranteed Terminal Dividend (if any), however this will reduce the principal amount of your policy"
+      ],
+      "notesForReviewer": "Practical access depends on first building a lock-in account balance from year 15."
+    },
+    {
+      "trendId": "wealth-generation-savings-insurance-plan_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Wealth passed down as chosen",
+      "whatProductOffers": "The plan is positioned for passing wealth down as the policy owner wishes so that loved ones are protected and the legacy endures.",
+      "keyFigures": [],
+      "exclusionsOrConditions": [
+        "The extracted text does not name the specific legacy options, beneficiary rules or ownership transfer mechanics.",
+        "Death benefit amount and settlement terms are not in the extract."
+      ],
+      "clientSignalPhrases": [
+        "wants to leave wealth to the next generation",
+        "wants control over how wealth is passed on",
+        "estate planning discussion",
+        "wants the policy to protect the family",
+        "asked about legacy features",
+        "wants to pass wealth on",
+        "estate planning",
+        "asked about beneficiaries",
+        "wants the family protected"
+      ],
+      "negativeSignalPhrases": [
+        "no heirs or legacy goal",
+        "needs pure investment return",
+        "wants the policy for own income only"
+      ],
+      "clientProfileFit": [
+        "High-net-worth families",
+        "Clients with an estate planning adviser",
+        "Grandparents funding the next generation"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan is designed so wealth can be passed down according to the policy owner's wishes.",
+      "verificationPrompts": [
+        "Ask about the intended beneficiaries",
+        "Obtain the full legacy feature list from the brochure"
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "Wealth Generation Savings Insurance Plan also empowers you to pass down your wealth as you wish, ensuring your loved ones are protected and your legacy endures."
+      ],
+      "notesForReviewer": "The legacy paragraph is marketing copy in the extract; specific options were not captured. Do not quote features from other brochures."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "wealth-generation-savings-insurance-plan_savings_and_wealth_growth",
+    "bestForOneLiner": "A limited-availability participating whole-life plan that can declare a non-guaranteed Terminal Dividend from the end of year 3 and lock in value from year 15.",
+    "notSuitedWhen": [
+      "The client needs guaranteed dividends",
+      "The client needs liquidity in the first 15 years",
+      "The client cannot accept limited availability",
+      "The client needs a documented short-term return"
+    ],
+    "gapsInSourceMaterial": [
+      "No premium table or minimum premium",
+      "No dividend scale or illustration",
+      "Specific legacy options not extracted",
+      "No surrender charge or policy loan terms"
+    ]
+  }
+}

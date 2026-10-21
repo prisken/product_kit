@@ -1,0 +1,393 @@
+{
+  "productId": "aia-one-absolute-full-protection",
+  "productName": "AIA One Absolute – Full Protection",
+  "productType": "severity-based health protection insurance (lump sum)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-one-absolute-full-protection_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Covers every disease and injury",
+      "whatProductOffers": "Pays a lump sum for any disease or injury, including cancer, heart attack, stroke, complications and conditions not yet discovered, scored on four severity factors instead of a named-disease list.",
+      "keyFigures": [
+        {
+          "label": "Severity factors",
+          "value": "4: Surgery, Intensive Hospital Stay, Disability, Treatment",
+          "condition": ""
+        },
+        {
+          "label": "Scope",
+          "value": "Every disease and injury, including new diseases not yet discovered",
+          "condition": "per the plan wording"
+        },
+        {
+          "label": "Age at application",
+          "value": "15 days to age 65",
+          "condition": ""
+        },
+        {
+          "label": "Benefit term",
+          "value": "Up to age 85",
+          "condition": "as shown in Cover at a glance"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Payout depends on the severity score, not on meeting a named-disease definition.",
+        "Each severity factor is defined in the policy contract and definitions control the claim.",
+        "This plan is not a VHIS Certified Plan and premiums are not eligible for tax deduction."
+      ],
+      "clientSignalPhrases": [
+        "does not want a list of 100 diseases",
+        "worried about new diseases",
+        "had an illness that was not covered",
+        "wants one all-in-one CI plan",
+        "hates fine-print definitions",
+        "wants accidents covered too",
+        "asked what counts as severe",
+        "wants cover for complications",
+        "comparing with a traditional CI",
+        "wants a plan that cannot become outdated"
+      ],
+      "negativeSignalPhrases": [
+        "needs VHIS tax deduction",
+        "wants a fixed payout per named CI",
+        "only needs hospital reimbursement",
+        "only buys the cheapest CI plan"
+      ],
+      "clientProfileFit": [
+        "First-time critical illness buyers",
+        "Clients whose named-disease claim was declined",
+        "Young professionals wanting broad cover",
+        "Clients with a family history of mixed illnesses"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, there is no named-disease list - any illness or injury is scored on four severity factors, so new diseases are not automatically excluded.",
+      "verificationPrompts": [
+        "Confirm the policy definition of each of the 4 severity factors.",
+        "Confirm whether any disease or injury is excluded outright.",
+        "Confirm how a claim is submitted for severity scoring."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "renewability",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "AIA created an innovative, first-in-market protection plan that covers every disease and injury such as cancer, heart attack, stroke, complications, even new diseases which haven't been discovered yet.",
+        "provides payments based on the insured's experience under 4 Severity Factors covering every disease and injury",
+        "One calculation to cover unlimited diseases"
+      ],
+      "notesForReviewer": "The claim that every disease is covered is marketing language; the policy contract's severity definitions and exclusions govern."
+    },
+    {
+      "trendId": "aia-one-absolute-full-protection_critical_illness_readiness_severity_payout",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Up to 160% severity payout",
+      "whatProductOffers": "Structures the payout in two layers: a Severe Condition Benefit of up to 120% of the Sum Assured plus an Extra Benefit on Extremely Serious Condition of up to 40%, for a maximum of 160%.",
+      "keyFigures": [
+        {
+          "label": "Severe Condition Benefit",
+          "value": "Up to 120% of Sum Assured",
+          "condition": "based on the severity score"
+        },
+        {
+          "label": "Extra Benefit",
+          "value": "Up to 40% of Sum Assured",
+          "condition": "extremely serious condition only"
+        },
+        {
+          "label": "Maximum total",
+          "value": "Up to 160% of Sum Assured",
+          "condition": ""
+        },
+        {
+          "label": "Score-based cap",
+          "value": "US$50,000 / HK$400,000 / MOP400,000 per insured",
+          "condition": "for claims with a score of 3 or 4 points"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The extra 40% applies only when the condition reaches Extremely Serious.",
+        "Claims with a score of 3 or 4 points are capped at US$50,000 / HK$400,000 / MOP400,000 per insured.",
+        "The treatment factor adds 40% for Specific Target Cancer or 20% for failure of Specific Organs, depending on the trigger.",
+        "Disability claims require permanent inability to perform ADLs for 3 continuous months."
+      ],
+      "clientSignalPhrases": [
+        "wants a bigger payout for serious cases",
+        "asked how much for late-stage",
+        "wants more than 100% cover",
+        "comparing against a 100% CI plan",
+        "needs a lump sum for income replacement",
+        "stage 4 in the family",
+        "wants the maximum payout possible",
+        "asked about the 40% extra",
+        "wants a quote at a higher sum assured"
+      ],
+      "negativeSignalPhrases": [
+        "wants one simple fixed payout figure",
+        "only needs a small top-up",
+        "objects to score-based caps"
+      ],
+      "clientProfileFit": [
+        "Breadwinners needing a large lump sum",
+        "Clients with dependants and a mortgage",
+        "Buyers upgrading from a 100% CI plan"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a serious condition can pay up to 160% of the sum assured - 120% base plus 40% for extremely serious cases.",
+      "verificationPrompts": [
+        "Confirm which conditions qualify for the 40% extra benefit.",
+        "Confirm whether the score 3/4 cap applies per claim or per policy year.",
+        "Confirm how the Specific Target Cancer 40% add-on stacks with the 160% maximum."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "annual_limit",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Maximum 160% of Sum Assured",
+        "Extra Benefit on Extremely Serious Condition - Maximum 40% of Sum Assured",
+        "Severe Condition Benefit - Maximum 120% of Sum Assured",
+        "Subject to a maximum of US$50,000 / HK$400,000 / MOP400,000 per insured for claims with a score of 3 points and 4 points."
+      ],
+      "notesForReviewer": "The exact stacking order of the treatment add-on against the 160% ceiling is not fully clear from the extract."
+    },
+    {
+      "trendId": "aia-one-absolute-full-protection_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "ICU and coma triggers",
+      "whatProductOffers": "Counts an Intensive Hospital Stay toward the severity score: 3 consecutive days or more in ICU, or hospitalisation with coma for 96 consecutive hours or more, can raise the score and therefore the payout.",
+      "keyFigures": [
+        {
+          "label": "ICU threshold",
+          "value": "3 consecutive days or more",
+          "condition": "in intensive care"
+        },
+        {
+          "label": "Coma threshold",
+          "value": "96 consecutive hours or more",
+          "condition": "during hospitalisation"
+        },
+        {
+          "label": "Hospitalisation route",
+          "value": "10 consecutive days or more",
+          "condition": "general medication or alternative treatment for listed conditions"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The ICU stay must be 3 consecutive days or more.",
+        "The coma must last 96 consecutive hours or more.",
+        "The 10-day hospitalisation route applies only to listed conditions such as carcinoma-in-situ, cancer, heart attack or stroke."
+      ],
+      "clientSignalPhrases": [
+        "spent time in ICU",
+        "wants hospital stays to count",
+        "had a coma scare",
+        "worried about a long admission",
+        "illness started as something minor",
+        "wants cover beyond a diagnosis",
+        "wants accident-related stays covered",
+        "was in ICU for a week",
+        "asked whether coma is covered"
+      ],
+      "negativeSignalPhrases": [
+        "wants outpatient-only cover",
+        "needs day-case surgery reimbursement",
+        "expects a payout for a one-day ICU stay"
+      ],
+      "clientProfileFit": [
+        "Clients anxious about hospitalisation",
+        "Families with a history of stroke or heart attack"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, three days in ICU or 96 hours in a coma is itself a severity trigger, not just a named diagnosis.",
+      "verificationPrompts": [
+        "Confirm whether ICU days must be consecutive under the policy contract.",
+        "Confirm which conditions qualify under the 10-day hospitalisation route.",
+        "Confirm whether coma must be medically induced or can be natural."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Intensive Hospital Stay - 3 consecutive days or more in ICU",
+        "Hospitalisation and coma for 96 consecutive hours or more",
+        "any other illness or injury resulting in 10 consecutive days or more of hospitalisation"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "aia-one-absolute-full-protection_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Permanent 20% premium cut",
+      "whatProductOffers": "Offers a permanent 20% premium discount above a specified Sum Assured and an instant 10% first-year discount for AIA Vitality members.",
+      "keyFigures": [
+        {
+          "label": "Permanent discount",
+          "value": "20%",
+          "condition": "above a specified Sum Assured, standard premiums only"
+        },
+        {
+          "label": "First-year discount",
+          "value": "10%",
+          "condition": "if you join AIA Vitality"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The 20% discount applies to standard premiums only.",
+        "The discount requires a Sum Assured above a threshold that is not stated in the extract.",
+        "The 10% discount is for the first year only."
+      ],
+      "clientSignalPhrases": [
+        "premium is the blocker",
+        "asked for a discount",
+        "already on AIA Vitality",
+        "wants a large sum assured",
+        "wants the premium to stay flat",
+        "healthy and active",
+        "asked about the permanent discount",
+        "wants the first year cheaper"
+      ],
+      "negativeSignalPhrases": [
+        "needs the discount at a low sum assured",
+        "will not join AIA Vitality",
+        "expects level premiums for life"
+      ],
+      "clientProfileFit": [
+        "AIA Vitality members",
+        "Buyers of larger sums assured",
+        "Premium-sensitive professionals"
+      ],
+      "priorityAlignment": [
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the 20% discount is permanent once the sum assured passes the threshold, and the first year is 10% off with AIA Vitality.",
+      "verificationPrompts": [
+        "Confirm the Sum Assured threshold.",
+        "Confirm whether the discount continues after a claim.",
+        "Confirm whether the discount applies to add-on plan premiums."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "You can enjoy a permanent 20% premium discount above a specified Sum Assured, and an instant 10% premium discount for the first year if you join AIA Vitality+.",
+        "Applicable to the standard premiums of this plan only."
+      ],
+      "notesForReviewer": "No premium table or threshold figure in the extract."
+    },
+    {
+      "trendId": "aia-one-absolute-full-protection_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Basic, add-on and currencies",
+      "whatProductOffers": "Can be issued as a basic plan or an add-on plan in US$, HK$ or MOP, with a 1-year or 5-year renewal period option and cover up to age 85.",
+      "keyFigures": [
+        {
+          "label": "Plan type",
+          "value": "Basic plan and add-on plan",
+          "condition": ""
+        },
+        {
+          "label": "Currency",
+          "value": "US$ / HK$ / MOP",
+          "condition": ""
+        },
+        {
+          "label": "Renewal period",
+          "value": "1 year / 5 years",
+          "condition": ""
+        },
+        {
+          "label": "Benefit term",
+          "value": "Up to age 85",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Add-on plan premium payment mode follows the corresponding basic plan.",
+        "The premium payment period is shown as up to age 85 in the same table; confirm the exact mapping with the policy contract."
+      ],
+      "clientSignalPhrases": [
+        "wants to bolt it onto an existing plan",
+        "needs USD cover",
+        "works in Macau",
+        "prefers a 5-year renewal",
+        "wants cover to age 85",
+        "wants to start with a basic plan",
+        "asked about USD policies",
+        "wants the 5-year option"
+      ],
+      "negativeSignalPhrases": [
+        "wants only a standalone policy",
+        "wants a whole-life single premium product"
+      ],
+      "clientProfileFit": [
+        "Existing AIA policyholders",
+        "Clients paid in USD or MOP",
+        "Parents insuring children"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, it can be a standalone basic plan or an add-on, in the currency they earn, with cover running to age 85.",
+      "verificationPrompts": [
+        "Confirm which basic plans accept this as an add-on.",
+        "Confirm the benefit term for the 5-year renewal option.",
+        "Confirm whether premium changes at renewal."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "add_ons"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Plan Type: Basic plan and add-on plan",
+        "Currency: US$ / HK$ / MOP",
+        "Renewal Period Option: 1 year / 5 years",
+        "Benefit Term: Up to the insured's age of 85"
+      ],
+      "notesForReviewer": "The Cover at a glance rows are visually jumbled in the extract; benefit term and premium payment period both appear as 'up to age 85'."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-one-absolute-full-protection_critical_illness_readiness",
+    "bestForOneLiner": "A severity-scored lump-sum plan that covers any disease or injury, paying up to 160% of the sum assured.",
+    "notSuitedWhen": [
+      "The client needs VHIS certification or tax deduction.",
+      "The client wants a fixed payout tied to a named critical illness.",
+      "The client wants reimbursement of actual hospital bills.",
+      "The client will only accept an unlimited payout with no score-based cap."
+    ],
+    "gapsInSourceMaterial": [
+      "Benefit schedule and full exclusions",
+      "Premium table and the Sum Assured threshold for the 20% discount",
+      "Waiting period and survival period",
+      "Full scoring table thresholds"
+    ]
+  }
+}

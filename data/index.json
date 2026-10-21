@@ -1,0 +1,572 @@
+[
+ {
+  "productId": "admire-life-insurance-plan-2",
+  "productName": "Admire Life Insurance Plan 2",
+  "category": "life",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "file": "admire-life-insurance-plan-2.json",
+  "trendCount": 5,
+  "primaryTrend": "admire-life-insurance-plan-2_savings_and_wealth_growth"
+ },
+ {
+  "productId": "aia-assemble-critical-illness-insurance-plan",
+  "productName": "AIA Assemble Critical Illness Insurance Plan",
+  "category": "health",
+  "productType": "critical illness insurance",
+  "market": "Hong Kong",
+  "file": "aia-assemble-critical-illness-insurance-plan.json",
+  "trendCount": 4,
+  "primaryTrend": "aia-assemble-critical-illness-insurance-plan_flexibility_and_customisation"
+ },
+ {
+  "productId": "aia-deferred-annuity-plan-2",
+  "productName": "AIA Deferred Annuity Plan 2",
+  "category": "save",
+  "productType": "annuity",
+  "market": "Hong Kong",
+  "file": "aia-deferred-annuity-plan-2.json",
+  "trendCount": 5,
+  "primaryTrend": "aia-deferred-annuity-plan-2_income_or_lifestyle_support"
+ },
+ {
+  "productId": "aia-one-absolute-cancer-serious-infectious-disease-protectio",
+  "productName": "AIA One Absolute – Cancer & Serious Infectious Disease Protection",
+  "category": "health",
+  "productType": "severity-based health protection insurance (lump sum)",
+  "market": "Hong Kong",
+  "file": "aia-one-absolute-cancer-serious-infectious-disease-protectio.json",
+  "trendCount": 4,
+  "primaryTrend": "aia-one-absolute-cancer-serious-infectious-disease-protectio_critical_illness_readiness"
+ },
+ {
+  "productId": "aia-one-absolute-full-protection",
+  "productName": "AIA One Absolute – Full Protection",
+  "category": "health",
+  "productType": "severity-based health protection insurance (lump sum)",
+  "market": "Hong Kong",
+  "file": "aia-one-absolute-full-protection.json",
+  "trendCount": 5,
+  "primaryTrend": "aia-one-absolute-full-protection_critical_illness_readiness"
+ },
+ {
+  "productId": "aia-voluntary-health-insurance-flexi-scheme",
+  "productName": "AIA Voluntary Health Insurance Flexi Scheme",
+  "category": "health",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "file": "aia-voluntary-health-insurance-flexi-scheme.json",
+  "trendCount": 5,
+  "primaryTrend": "aia-voluntary-health-insurance-flexi-scheme_high_annual_or_lifetime_limit"
+ },
+ {
+  "productId": "aia-voluntary-health-insurance-prime-scheme",
+  "productName": "AIA Voluntary Health Insurance Prime Scheme",
+  "category": "health",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "file": "aia-voluntary-health-insurance-prime-scheme.json",
+  "trendCount": 2,
+  "primaryTrend": "aia-voluntary-health-insurance-prime-scheme_flexibility_and_customisation"
+ },
+ {
+  "productId": "aia-voluntary-health-insurance-privilege-plus-scheme",
+  "productName": "AIA Voluntary Health Insurance Privilege Plus Scheme",
+  "category": "health",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "file": "aia-voluntary-health-insurance-privilege-plus-scheme.json",
+  "trendCount": 2,
+  "primaryTrend": "aia-voluntary-health-insurance-privilege-plus-scheme_flexibility_and_customisation"
+ },
+ {
+  "productId": "aia-voluntary-health-insurance-privilege-scheme",
+  "productName": "AIA Voluntary Health Insurance Privilege Scheme",
+  "category": "health",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "file": "aia-voluntary-health-insurance-privilege-scheme.json",
+  "trendCount": 2,
+  "primaryTrend": "aia-voluntary-health-insurance-privilege-scheme_flexibility_and_customisation"
+ },
+ {
+  "productId": "aia-voluntary-health-insurance-privilege-ultra-scheme",
+  "productName": "AIA Voluntary Health Insurance Privilege Ultra Scheme",
+  "category": "health",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "file": "aia-voluntary-health-insurance-privilege-ultra-scheme.json",
+  "trendCount": 5,
+  "primaryTrend": "aia-voluntary-health-insurance-privilege-ultra-scheme_high_annual_or_lifetime_limit"
+ },
+ {
+  "productId": "aia-voluntary-health-insurance-selectwise-scheme",
+  "productName": "AIA Voluntary Health Insurance SelectWise Scheme",
+  "category": "health",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "file": "aia-voluntary-health-insurance-selectwise-scheme.json",
+  "trendCount": 5,
+  "primaryTrend": "aia-voluntary-health-insurance-selectwise-scheme_room_ward_level"
+ },
+ {
+  "productId": "aia-voluntary-health-insurance-standard-scheme",
+  "productName": "AIA Voluntary Health Insurance Standard Scheme",
+  "category": "health",
+  "productType": "medical insurance (reimbursement, VHIS Certified Standard Plan)",
+  "market": "Hong Kong",
+  "file": "aia-voluntary-health-insurance-standard-scheme.json",
+  "trendCount": 5,
+  "primaryTrend": "aia-voluntary-health-insurance-standard-scheme_high_annual_or_lifetime_limit"
+ },
+ {
+  "productId": "bonus-power-life-insurance-plan-2-enhanced-protection",
+  "productName": "Bonus Power Life Insurance Plan 2 (Enhanced Protection)",
+  "category": "life",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "file": "bonus-power-life-insurance-plan-2-enhanced-protection.json",
+  "trendCount": 5,
+  "primaryTrend": "bonus-power-life-insurance-plan-2-enhanced-protection_savings_and_wealth_growth"
+ },
+ {
+  "productId": "cancer-care-essence",
+  "productName": "Cancer Care Essence",
+  "category": "health",
+  "productType": "critical illness insurance (cancer-specific, lump sum)",
+  "market": "Hong Kong",
+  "file": "cancer-care-essence.json",
+  "trendCount": 4,
+  "primaryTrend": "cancer-care-essence_critical_illness_readiness"
+ },
+ {
+  "productId": "cancer-guardian-3",
+  "productName": "Cancer Guardian 3",
+  "category": "health",
+  "productType": "medical insurance (cancer reimbursement)",
+  "market": "Hong Kong",
+  "file": "cancer-guardian-3.json",
+  "trendCount": 5,
+  "primaryTrend": "cancer-guardian-3_hospital_cost_protection"
+ },
+ {
+  "productId": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5",
+  "productName": "CEO Medical Plan 5 / CEO Medical Plan (Worldwide) 5",
+  "category": "health",
+  "productType": "medical insurance (reimbursement, high-end)",
+  "market": "Hong Kong",
+  "file": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5.json",
+  "trendCount": 6,
+  "primaryTrend": "ceo-medical-plan-5-ceo-medical-plan-worldwide-5_high_annual_or_lifetime_limit"
+ },
+ {
+  "productId": "ceo-pearl-medical-plan-5-series",
+  "productName": "CEO Pearl Medical Plan 5 Series",
+  "category": "health",
+  "productType": "medical insurance (reimbursement, high-end)",
+  "market": "Hong Kong",
+  "file": "ceo-pearl-medical-plan-5-series.json",
+  "trendCount": 5,
+  "primaryTrend": "ceo-pearl-medical-plan-5-series_high_annual_or_lifetime_limit"
+ },
+ {
+  "productId": "easyguard-care-essence",
+  "productName": "EasyGuard Care Essence",
+  "category": "health",
+  "productType": "critical illness insurance (lump sum, yearly renewable)",
+  "market": "Hong Kong",
+  "file": "easyguard-care-essence.json",
+  "trendCount": 5,
+  "primaryTrend": "easyguard-care-essence_critical_illness_readiness"
+ },
+ {
+  "productId": "easyguard-term-life-plan",
+  "productName": "EasyGuard Term Life Plan",
+  "category": "life",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "file": "easyguard-term-life-plan.json",
+  "trendCount": 4,
+  "primaryTrend": "easyguard-term-life-plan_budget_friendly_entry"
+ },
+ {
+  "productId": "essence-on-your-side-insurance-plan",
+  "productName": "Essence – On Your Side Insurance Plan",
+  "category": "health",
+  "productType": "critical illness insurance (participating, lump sum)",
+  "market": "Hong Kong",
+  "file": "essence-on-your-side-insurance-plan.json",
+  "trendCount": 5,
+  "primaryTrend": "essence-on-your-side-insurance-plan_critical_illness_readiness"
+ },
+ {
+  "productId": "everbliss-annuity-insurance-plan",
+  "productName": "EverBliss Annuity Insurance Plan",
+  "category": "save",
+  "productType": "annuity",
+  "market": "Hong Kong",
+  "file": "everbliss-annuity-insurance-plan.json",
+  "trendCount": 5,
+  "primaryTrend": "everbliss-annuity-insurance-plan_income_or_lifestyle_support"
+ },
+ {
+  "productId": "executive-care-pro-critical-illness-insurance-plan-2",
+  "productName": "Executive Care Pro Critical Illness Insurance Plan 2",
+  "category": "health",
+  "productType": "critical illness insurance (participating, lump sum)",
+  "market": "Hong Kong",
+  "file": "executive-care-pro-critical-illness-insurance-plan-2.json",
+  "trendCount": 5,
+  "primaryTrend": "executive-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness"
+ },
+ {
+  "productId": "forever-love-coupon-insurance-plan-5",
+  "productName": "Forever Love Coupon Insurance Plan 5",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "forever-love-coupon-insurance-plan-5.json",
+  "trendCount": 4,
+  "primaryTrend": "forever-love-coupon-insurance-plan-5_savings_and_wealth_growth"
+ },
+ {
+  "productId": "fortune-promise-savings-insurance-plan-2",
+  "productName": "Fortune Promise Savings Insurance Plan 2",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "fortune-promise-savings-insurance-plan-2.json",
+  "trendCount": 5,
+  "primaryTrend": "fortune-promise-savings-insurance-plan-2_savings_and_wealth_growth"
+ },
+ {
+  "productId": "gba-health-connect-outpatient-plan",
+  "productName": "GBA Health Connect Outpatient Plan",
+  "category": "health",
+  "productType": "medical insurance (network outpatient plan)",
+  "market": "Hong Kong",
+  "file": "gba-health-connect-outpatient-plan.json",
+  "trendCount": 3,
+  "primaryTrend": "gba-health-connect-outpatient-plan_international_coverage"
+ },
+ {
+  "productId": "global-power-multi-currency-savings-insurance-plan-3",
+  "productName": "Global Power Multi-Currency Savings Insurance Plan 3",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "global-power-multi-currency-savings-insurance-plan-3.json",
+  "trendCount": 5,
+  "primaryTrend": "global-power-multi-currency-savings-insurance-plan-3_international_coverage"
+ },
+ {
+  "productId": "globalflexi-savings-insurance-plan",
+  "productName": "GlobalFlexi Savings Insurance Plan",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "globalflexi-savings-insurance-plan.json",
+  "trendCount": 5,
+  "primaryTrend": "globalflexi-savings-insurance-plan_savings_and_wealth_growth"
+ },
+ {
+  "productId": "golden-years-income-plan",
+  "productName": "Golden Years Income Plan",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "golden-years-income-plan.json",
+  "trendCount": 4,
+  "primaryTrend": "golden-years-income-plan_income_or_lifestyle_support"
+ },
+ {
+  "productId": "health-journey-guardian",
+  "productName": "Health Journey Guardian",
+  "category": "health",
+  "productType": "medical insurance",
+  "market": "Hong Kong",
+  "file": "health-journey-guardian.json",
+  "trendCount": 5,
+  "primaryTrend": "health-journey-guardian_outpatient_and_followup"
+ },
+ {
+  "productId": "here-for-you-refundable-accident-plus",
+  "productName": "Here For You Refundable Accident Plus",
+  "category": "health",
+  "productType": "accident insurance",
+  "market": "Hong Kong",
+  "file": "here-for-you-refundable-accident-plus.json",
+  "trendCount": 5,
+  "primaryTrend": "here-for-you-refundable-accident-plus_hospital_cost_protection"
+ },
+ {
+  "productId": "metro-trio-medical-critical-illness-protection-plan",
+  "productName": "Metro-Trio Medical & Critical Illness Protection Plan",
+  "category": "health",
+  "productType": "medical and critical illness insurance",
+  "market": "Hong Kong",
+  "file": "metro-trio-medical-critical-illness-protection-plan.json",
+  "trendCount": 5,
+  "primaryTrend": "metro-trio-medical-critical-illness-protection-plan_pre_existing_or_chronic_support"
+ },
+ {
+  "productId": "multiple-care-pro-critical-illness-insurance-plan-2",
+  "productName": "Multiple Care Pro Critical Illness Insurance Plan 2",
+  "category": "health",
+  "productType": "critical illness insurance (participating)",
+  "market": "Hong Kong",
+  "file": "multiple-care-pro-critical-illness-insurance-plan-2.json",
+  "trendCount": 4,
+  "primaryTrend": "multiple-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness_multiple"
+ },
+ {
+  "productId": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2",
+  "productName": "On Your Side Insurance Plan 2 / On Your Side Insurance Plan 2 – First Gift",
+  "category": "health",
+  "productType": "critical illness insurance (participating)",
+  "market": "Hong Kong",
+  "file": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2.json",
+  "trendCount": 5,
+  "primaryTrend": "on-your-side-insurance-plan-2-on-your-side-insurance-plan-2_critical_illness_readiness"
+ },
+ {
+  "productId": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi",
+  "productName": "OptimaCEO Medical Plan / OptimaCEO Medical Plan – First Gift",
+  "category": "health",
+  "productType": "medical insurance",
+  "market": "Hong Kong",
+  "file": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi.json",
+  "trendCount": 4,
+  "primaryTrend": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi_critical_illness_readiness"
+ },
+ {
+  "productId": "pac-select-3",
+  "productName": "PAC Select 3",
+  "category": "health",
+  "productType": "accident insurance (add-on plan)",
+  "market": "Hong Kong",
+  "file": "pac-select-3.json",
+  "trendCount": 4,
+  "primaryTrend": "pac-select-3_income_or_lifestyle_support"
+ },
+ {
+  "productId": "prime-care-pro-critical-illness-insurance-plan-2",
+  "productName": "Prime Care Pro Critical Illness Insurance Plan 2",
+  "category": "health",
+  "productType": "critical illness insurance",
+  "market": "Hong Kong",
+  "file": "prime-care-pro-critical-illness-insurance-plan-2.json",
+  "trendCount": 5,
+  "primaryTrend": "prime-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness"
+ },
+ {
+  "productId": "prosperlife-insurance-plan",
+  "productName": "ProsperLife Insurance Plan",
+  "category": "life",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "file": "prosperlife-insurance-plan.json",
+  "trendCount": 5,
+  "primaryTrend": "prosperlife-insurance-plan_family_protection"
+ },
+ {
+  "productId": "runner-guard",
+  "productName": "Runner Guard",
+  "category": "health",
+  "productType": "personal accident insurance",
+  "market": "Hong Kong",
+  "file": "runner-guard.json",
+  "trendCount": 4,
+  "primaryTrend": "runner-guard_fast_access_and_convenience"
+ },
+ {
+  "productId": "secure-first-plus",
+  "productName": "Secure First Plus",
+  "category": "health",
+  "productType": "accident protection insurance plan",
+  "market": "Hong Kong",
+  "file": "secure-first-plus.json",
+  "trendCount": 4,
+  "primaryTrend": "secure-first-plus_premium_stability"
+ },
+ {
+  "productId": "secure-first",
+  "productName": "Secure First",
+  "category": "health",
+  "productType": "accident protection insurance plan",
+  "market": "Hong Kong",
+  "file": "secure-first.json",
+  "trendCount": 4,
+  "primaryTrend": "secure-first_premium_stability"
+ },
+ {
+  "productId": "serene-life-serene-life-annual-dividends-macau",
+  "productName": "Serene Life / Serene Life (Annual Dividends)",
+  "category": "life",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "file": "serene-life-serene-life-annual-dividends-macau.json",
+  "trendCount": 3,
+  "primaryTrend": "serene-life-serene-life-annual-dividends-macau_savings_and_wealth_growth"
+ },
+ {
+  "productId": "silvery-protect",
+  "productName": "Silvery Protect",
+  "category": "health",
+  "productType": "accident protection insurance plan",
+  "market": "Hong Kong",
+  "file": "silvery-protect.json",
+  "trendCount": 5,
+  "primaryTrend": "silvery-protect_hospital_cost_protection"
+ },
+ {
+  "productId": "simple-care-essence",
+  "productName": "Simple Care Essence",
+  "category": "health",
+  "productType": "critical illness insurance",
+  "market": "Hong Kong",
+  "file": "simple-care-essence.json",
+  "trendCount": 4,
+  "primaryTrend": "simple-care-essence_budget_friendly_entry"
+ },
+ {
+  "productId": "simply-love-encore-savings-insurance-plan-5",
+  "productName": "Simply Love Encore Savings Insurance Plan 5",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "simply-love-encore-savings-insurance-plan-5.json",
+  "trendCount": 5,
+  "primaryTrend": "simply-love-encore-savings-insurance-plan-5_legacy_and_estate"
+ },
+ {
+  "productId": "smart-elite-ultra-critical-illness-insurance-plan",
+  "productName": "Smart Elite Ultra Critical Illness Insurance Plan",
+  "category": "health",
+  "productType": "critical illness insurance",
+  "market": "Hong Kong",
+  "file": "smart-elite-ultra-critical-illness-insurance-plan.json",
+  "trendCount": 5,
+  "primaryTrend": "smart-elite-ultra-critical-illness-insurance-plan_critical_illness_readiness"
+ },
+ {
+  "productId": "spring-income-insurance-plan",
+  "productName": "Spring Income Insurance Plan",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "spring-income-insurance-plan.json",
+  "trendCount": 5,
+  "primaryTrend": "spring-income-insurance-plan_income_or_lifestyle_support"
+ },
+ {
+  "productId": "super-adults-shield",
+  "productName": "Super Adults Shield",
+  "category": "health",
+  "productType": "accident protection insurance plan",
+  "market": "Hong Kong",
+  "file": "super-adults-shield.json",
+  "trendCount": 4,
+  "primaryTrend": "super-adults-shield_family_protection"
+ },
+ {
+  "productId": "super-good-health-medical-plan-2",
+  "productName": "Super Good Health Medical Plan 2",
+  "category": "health",
+  "productType": "medical insurance",
+  "market": "Hong Kong",
+  "file": "super-good-health-medical-plan-2.json",
+  "trendCount": 5,
+  "primaryTrend": "super-good-health-medical-plan-2_hospital_cost_protection"
+ },
+ {
+  "productId": "treasure-master-plus-2",
+  "productName": "Treasure Master Plus 2",
+  "category": "invest",
+  "productType": "investment-linked assurance scheme (ILAS)",
+  "market": "Hong Kong",
+  "file": "treasure-master-plus-2.json",
+  "trendCount": 4,
+  "primaryTrend": "treasure-master-plus-2_savings_and_wealth_growth"
+ },
+ {
+  "productId": "wealth-elite-life-insurance-plan-3",
+  "productName": "Wealth Elite Life Insurance Plan 3",
+  "category": "life",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "file": "wealth-elite-life-insurance-plan-3.json",
+  "trendCount": 4,
+  "primaryTrend": "wealth-elite-life-insurance-plan-3_savings_and_wealth_growth"
+ },
+ {
+  "productId": "wealth-enrich-savings-insurance-plan",
+  "productName": "Wealth Enrich Savings Insurance Plan",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "wealth-enrich-savings-insurance-plan.json",
+  "trendCount": 3,
+  "primaryTrend": "wealth-enrich-savings-insurance-plan_savings_and_wealth_growth"
+ },
+ {
+  "productId": "wealth-flexi-savings-insurance-plan",
+  "productName": "Wealth Flexi Savings Insurance Plan",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "wealth-flexi-savings-insurance-plan.json",
+  "trendCount": 4,
+  "primaryTrend": "wealth-flexi-savings-insurance-plan_legacy_and_estate"
+ },
+ {
+  "productId": "wealth-generation-savings-insurance-plan",
+  "productName": "Wealth Generation Savings Insurance Plan",
+  "category": "save",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "file": "wealth-generation-savings-insurance-plan.json",
+  "trendCount": 4,
+  "primaryTrend": "wealth-generation-savings-insurance-plan_savings_and_wealth_growth"
+ },
+ {
+  "productId": "wealth-preserver-life-insurance-plan-5",
+  "productName": "Wealth Preserver Life Insurance Plan 5",
+  "category": "life",
+  "productType": "universal life insurance",
+  "market": "Hong Kong",
+  "file": "wealth-preserver-life-insurance-plan-5.json",
+  "trendCount": 3,
+  "primaryTrend": "wealth-preserver-life-insurance-plan-5_legacy_and_estate"
+ },
+ {
+  "productId": "wealth-ultima-life-insurance-plan-2",
+  "productName": "Wealth Ultima Life Insurance Plan 2",
+  "category": "life",
+  "productType": "universal life insurance",
+  "market": "Hong Kong",
+  "file": "wealth-ultima-life-insurance-plan-2.json",
+  "trendCount": 3,
+  "primaryTrend": "wealth-ultima-life-insurance-plan-2_legacy_and_estate"
+ },
+ {
+  "productId": "wisdom-term-life-plan",
+  "productName": "Wisdom Term Life Plan",
+  "category": "life",
+  "productType": "term life insurance",
+  "market": "Hong Kong",
+  "file": "wisdom-term-life-plan.json",
+  "trendCount": 5,
+  "primaryTrend": "wisdom-term-life-plan_budget_friendly_entry"
+ },
+ {
+  "productId": "xtra-protect",
+  "productName": "Xtra Protect",
+  "category": "health",
+  "productType": "accident insurance",
+  "market": "Hong Kong",
+  "file": "xtra-protect.json",
+  "trendCount": 5,
+  "primaryTrend": "xtra-protect_hospital_cost_protection"
+ }
+]

@@ -1,0 +1,194 @@
+{
+  "productId": "wealth-enrich-savings-insurance-plan",
+  "productName": "Wealth Enrich Savings Insurance Plan",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "wealth-enrich-savings-insurance-plan_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Long-term wealth accumulation",
+      "whatProductOffers": "A whole-life savings plan designed to accumulate wealth over the long term while keeping life protection in place.",
+      "keyFigures": [
+        {
+          "label": "Benefit term",
+          "value": "Whole life",
+          "condition": "Per AIA product page"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 80",
+          "condition": "Per AIA product page"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The source gives no premium, bonus, yield or surrender value figures.",
+        "The extract does not confirm whether the plan is participating or what non-guaranteed elements it has.",
+        "Life insurance policies are long-term; early surrender may return considerably less than premiums paid."
+      ],
+      "clientSignalPhrases": [
+        "wants long-term capital growth",
+        "has 15 years before retirement",
+        "wants a simple whole life savings plan",
+        "wants to build a nest egg",
+        "doesn't need income now",
+        "wants life cover alongside savings",
+        "has a lump sum to grow",
+        "asked about AIA's savings series"
+      ],
+      "negativeSignalPhrases": [
+        "needs income now",
+        "needs capital within 5 years",
+        "wants a capital guaranteed product",
+        "wants detailed return projections"
+      ],
+      "clientProfileFit": [
+        "Savers with a 10 to 20 year horizon",
+        "Clients wanting whole-life cover plus accumulation",
+        "Conservative savers comparing AIA savings plans"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, this is a whole-life savings plan built for long-term accumulation rather than short-term yield.",
+      "verificationPrompts": [
+        "Confirm the client's time horizon",
+        "Obtain the full brochure for premium and bonus details",
+        "Check whether the client needs a participating plan"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Wealth Enrich Savings Insurance Plan helps you accumulate wealth towards an even brighter future.",
+        "enjoy whole life coverage with the added flexibility to make withdrawals and meet your changing needs",
+        "Benefit term: Whole life. Issue age: 15 days to age 80."
+      ],
+      "notesForReviewer": "The brochure text for this product is mostly AIA corporate boilerplate; no product mechanics, premium table, bonus structure or charges were captured. Only the product page confirms whole life and issue age."
+    },
+    {
+      "trendId": "wealth-enrich-savings-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Withdrawals for changing needs",
+      "whatProductOffers": "The plan includes flexibility to make withdrawals from policy value to meet changing financial needs.",
+      "keyFigures": [],
+      "exclusionsOrConditions": [
+        "Withdrawal limits, minimum amounts, charges and the effect on death benefit are not stated in the source.",
+        "The extract does not confirm whether withdrawals reduce the principal amount."
+      ],
+      "clientSignalPhrases": [
+        "may need some cash in future",
+        "doesn't want everything locked up",
+        "wants access for emergencies",
+        "asked if can withdraw part of the policy",
+        "wants savings with some liquidity",
+        "wants access if needed",
+        "may need cash for medical bills",
+        "doesn't want a locked policy",
+        "asked about partial withdrawal"
+      ],
+      "negativeSignalPhrases": [
+        "needs scheduled income",
+        "needs full access at any time",
+        "expects no impact on policy value"
+      ],
+      "clientProfileFit": [
+        "Savers who want optional access",
+        "Clients with uncertain future cash needs",
+        "Planners keeping a liquidity sleeve"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan allows withdrawals when needs change, though the detailed rules need confirmation in the full brochure.",
+      "verificationPrompts": [
+        "Ask when the client might need cash",
+        "Obtain the withdrawal terms from the full brochure"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "whole life coverage with the added flexibility to make withdrawals and meet your changing needs"
+      ],
+      "notesForReviewer": "Single sentence in the source; no mechanics. Treat as a soft feature until the full brochure is read."
+    },
+    {
+      "trendId": "wealth-enrich-savings-insurance-plan_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Death benefit for legacy",
+      "whatProductOffers": "Pays a death benefit so that wealth can be preserved and passed to the next generation.",
+      "keyFigures": [],
+      "exclusionsOrConditions": [
+        "The death benefit amount, calculation and any options are not stated in the source.",
+        "Outstanding debt deduction and beneficiary rules are not in the extract."
+      ],
+      "clientSignalPhrases": [
+        "wants to leave money to the kids",
+        "worried about estate planning",
+        "wants a simple death benefit",
+        "wants the policy to protect the family",
+        "asked what happens on death",
+        "wants to pass money on",
+        "has grandchildren",
+        "asked about death benefit",
+        "wants a simple inheritance"
+      ],
+      "negativeSignalPhrases": [
+        "no dependants",
+        "only cares about return",
+        "needs a large death benefit"
+      ],
+      "clientProfileFit": [
+        "Parents and grandparents with a legacy goal",
+        "Clients wanting a simple death benefit alongside savings"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan pays a death benefit so the accumulated value can pass to the next generation.",
+      "verificationPrompts": [
+        "Confirm the beneficiary",
+        "Obtain the death benefit formula"
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "protects your loved ones via a death benefit, so that your legacy can be preserved for the next generation"
+      ],
+      "notesForReviewer": "No death benefit figures or settlement options in the source."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "wealth-enrich-savings-insurance-plan_savings_and_wealth_growth",
+    "bestForOneLiner": "A whole-life savings plan positioned for long-term wealth accumulation with life protection, but with very limited product detail available in the source.",
+    "notSuitedWhen": [
+      "The client needs documented return projections",
+      "The client needs income or liquidity in the near term",
+      "The client requires a capital guaranteed product"
+    ],
+    "gapsInSourceMaterial": [
+      "Brochure text is corporate boilerplate with no product mechanics",
+      "No premium table, bonus structure or charges",
+      "No death benefit or withdrawal terms",
+      "Participation status not confirmed"
+    ]
+  }
+}

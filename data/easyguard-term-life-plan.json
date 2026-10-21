@@ -1,0 +1,304 @@
+{
+  "productId": "easyguard-term-life-plan",
+  "productName": "EasyGuard Term Life Plan",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "easyguard-term-life-plan_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Low-cost term protection",
+      "whatProductOffers": "Yearly renewable term cover priced from HK$/US$/MOP0.90 per 1,000 of sum assured at ages 16 to 26, with a premium discount of 0.09 per 1,000 for sums assured of US$250,000 / HK$1,875,000 or above.",
+      "keyFigures": [
+        {
+          "label": "Rate at ages 16–26",
+          "value": "0.90 per 1,000 sum assured",
+          "condition": "Male and female non-smokers, annual"
+        },
+        {
+          "label": "Rate at age 30 male non-smoker",
+          "value": "0.92 per 1,000 sum assured",
+          "condition": "Annual premium rate"
+        },
+        {
+          "label": "Bulk discount",
+          "value": "0.09 per 1,000 sum assured",
+          "condition": "Sum assured US$250,000 / HK$1,875,000 or above"
+        },
+        {
+          "label": "Issue age",
+          "value": "16 to 70",
+          "condition": "At application"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Premium rates are non-guaranteed and subject to revision by the company.",
+        "Rates rise with attained age and differ by gender and smoking status.",
+        "The rate table excludes the levy collected by the Insurance Authority.",
+        "The discount applies to the basic plan only and only above the stated sum assured threshold."
+      ],
+      "clientSignalPhrases": [
+        "cheap life cover",
+        "young client on budget",
+        "just needs death benefit",
+        "wants maximum cover per dollar",
+        "no savings component needed",
+        "student",
+        "first job",
+        "mortgage cover on a budget"
+      ],
+      "negativeSignalPhrases": [
+        "wants cash value",
+        "needs cover past 85",
+        "wants level premium for life"
+      ],
+      "clientProfileFit": [
+        "Young families needing large cover cheaply",
+        "Mortgage holders on a budget",
+        "Clients who want protection without savings"
+      ],
+      "priorityAlignment": [
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the rate starts at 0.90 per 1,000 of cover at their age, so a large death benefit costs comparatively little each year.",
+      "verificationPrompts": [
+        "Calculate the premium at the client's attained age and smoking status",
+        "Check whether the sum assured qualifies for the 0.09 discount",
+        "Warn that rates rise with age and are not guaranteed"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Annual premium rates ... 16 - 26 0.90 1.19 0.90 1.19",
+        "Premium Discount ... US$250,000/HK$1,875,000/MOP1,875,000 or above minus 0.09 from the per US$/HK$/MOP1,000 Sum Assured annual premium rate",
+        "Premium rates stated above are non-guaranteed and subject to revision by the Company from time to time"
+      ],
+      "notesForReviewer": "The captured table covers annual rates to age 84; total cost over time is not illustrated."
+    },
+    {
+      "trendId": "easyguard-term-life-plan_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death benefit with fixed extra",
+      "whatProductOffers": "Pays 100% of the sum assured plus US$650 or HK$/MOP5,000 to the chosen beneficiary on the insured's death, after deducting outstanding policy amounts.",
+      "keyFigures": [
+        {
+          "label": "Death benefit",
+          "value": "100% of sum assured",
+          "condition": "Plus the fixed extra"
+        },
+        {
+          "label": "Fixed extra",
+          "value": "US$650 or HK$/MOP5,000",
+          "condition": "Depending on policy currency"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Yearly renewable to age 85",
+          "condition": "Guaranteed renewal"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Outstanding amounts owed to AIA are deducted before payment.",
+        "Cover is pure death benefit; there is no cash value or savings element.",
+        "Cover ends at age 85."
+      ],
+      "clientSignalPhrases": [
+        "mortgage protection",
+        "new baby",
+        "income replacement",
+        "wants a simple death benefit",
+        "family depends on me",
+        "wants cover without investment risk",
+        "needs large sum assured",
+        "planning for dependants"
+      ],
+      "negativeSignalPhrases": [
+        "wants savings or cash value",
+        "needs critical illness cover"
+      ],
+      "clientProfileFit": [
+        "Parents with young children",
+        "Mortgage borrowers",
+        "Clients replacing income for dependants"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the death benefit is 100% of the sum assured plus a small fixed amount, so the cover amount is easy to explain and compare.",
+      "verificationPrompts": [
+        "Agree the sum assured from income replacement and debts",
+        "Confirm the policy currency",
+        "Check that no cash value is expected"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "If the insured ... passes away, we will pay the death benefit to the person whom you select in your policy as beneficiary",
+        "The death benefit will be equal to 100% of the sum assured plus US$650 or HK$/MOP5,000"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "easyguard-term-life-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Convert to whole life at 70",
+      "whatProductOffers": "Allows conversion to a whole-life protection plan on or before the anniversary of cover immediately following the insured's 70th birthday, without additional health information, subject to a premium increase and product availability.",
+      "keyFigures": [
+        {
+          "label": "Conversion deadline",
+          "value": "Anniversary after 70th birthday",
+          "condition": "On or before"
+        },
+        {
+          "label": "Medical underwriting",
+          "value": "Not required",
+          "condition": "No additional health information"
+        },
+        {
+          "label": "Conditions",
+          "value": "Premium increase and available products",
+          "condition": "At time of conversion"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Conversion must happen on or before the anniversary immediately following the 70th birthday.",
+        "A higher premium applies after conversion.",
+        "Only products then made available for the conversion privilege can be chosen.",
+        "The captured text does not state the conversion product range or pricing."
+      ],
+      "clientSignalPhrases": [
+        "wants option to convert later",
+        "health issues now",
+        "not ready for whole life",
+        "wants cover while young",
+        "may need permanent cover later",
+        "worried about future insurability",
+        "newly diagnosed condition",
+        "may convert when older"
+      ],
+      "negativeSignalPhrases": [
+        "wants whole life immediately",
+        "needs conversion after 70"
+      ],
+      "clientProfileFit": [
+        "Young clients who may want permanent cover later",
+        "Clients with early health concerns",
+        "Buyers starting with term and planning to upgrade"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, they can start with cheap term cover and later convert to whole life before age 70 without new medical questions.",
+      "verificationPrompts": [
+        "Confirm the client may want permanent cover later",
+        "Explain the conversion deadline and likely premium increase",
+        "Check whether any conversion products are currently available"
+      ],
+      "comparisonRows": [
+        "renewability",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "On or before the anniversary of cover immediately following the insured's 70th birthday, the plan can be converted into a whole-life protection insurance plan without requiring additional health information",
+        "subject to an increase in premium and choices of products then made available for the purpose of this privilege"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "easyguard-term-life-plan_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Guaranteed yearly renewal to 85",
+      "whatProductOffers": "Guarantees yearly renewal up to the insured's age 85 and states the premium will not be raised because of changes in the insured's health condition, with renewal rates set by attained age.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed renewal",
+          "value": "To age 85",
+          "condition": "Every year"
+        },
+        {
+          "label": "Health-based loading",
+          "value": "None",
+          "condition": "Premium not raised for health changes"
+        },
+        {
+          "label": "Renewal basis",
+          "value": "Prevailing rates for attained age",
+          "condition": "At each renewal"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Renewal premium is based on the prevailing rates for the insured's age at renewal, so it rises with age.",
+        "Premium rates are non-guaranteed and can be revised by the company.",
+        "The guarantee is against health-based loading, not against age-based increases.",
+        "Cover cannot be renewed beyond age 85."
+      ],
+      "clientSignalPhrases": [
+        "wants renewable cover",
+        "worried about losing cover after diagnosis",
+        "wants no medical re-underwriting",
+        "health condition stable",
+        "needs cover to 85",
+        "fears policy cancellation",
+        "wants yearly renewal",
+        "wants renewal without a health check"
+      ],
+      "negativeSignalPhrases": [
+        "wants a level premium that never changes",
+        "needs cover past 85"
+      ],
+      "clientProfileFit": [
+        "Clients wanting renewal certainty",
+        "People with stable health conditions",
+        "Long-term planners needing cover to 85"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy renews every year to 85 and a change in health will not be used to refuse renewal or load the premium — though the rate still rises with age.",
+      "verificationPrompts": [
+        "Explain that renewal rates are age-banded, not level",
+        "Confirm the client can accept rising cost over time",
+        "Ask whether cover to 85 is sufficient"
+      ],
+      "comparisonRows": [
+        "renewability",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "EasyGuard Term Life Plan guarantees that your premium will not be raised for any changes in the insured's health condition",
+        "You can renew the cover every year until the insured's age of 85",
+        "The renewal premium for the next policy year will be based on the prevailing premium rates for the age of the insured at the time of renewal"
+      ],
+      "notesForReviewer": "The word 'guaranteed' applies to renewal, not to the rate level."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "easyguard-term-life-plan_budget_friendly_entry",
+    "bestForOneLiner": "A yearly renewable term plan with low age-banded rates, a small fixed addition to the death benefit, and conversion to whole life before age 70.",
+    "notSuitedWhen": [
+      "Client wants a level premium that never rises with age",
+      "Client wants cash value or savings",
+      "Client needs cover past age 85"
+    ],
+    "gapsInSourceMaterial": [
+      "Only annual premium rates are shown; no long-term cost illustration",
+      "Exclusions and waiting period are not captured",
+      "Conversion product range and pricing are not specified"
+    ]
+  }
+}

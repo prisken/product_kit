@@ -1,0 +1,320 @@
+{
+  "productId": "golden-years-income-plan",
+  "productName": "Golden Years Income Plan",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "golden-years-income-plan_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Monthly income for retirement",
+      "whatProductOffers": "Pays Monthly Income for a chosen income period of 10 years, 15 years, or until the insured reaches age 110, in a structure the brochure compares to a regular salary.",
+      "keyFigures": [
+        {
+          "label": "Income period options",
+          "value": "3",
+          "condition": "10 years, 15 years, or to age 110"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 60",
+          "condition": "10-year and 15-year income periods"
+        },
+        {
+          "label": "Issue age",
+          "value": "Age 18 to 60",
+          "condition": "Income period to age 110"
+        },
+        {
+          "label": "Monthly Income",
+          "value": "Guaranteed portion plus non-guaranteed portion",
+          "condition": "Non-guaranteed portion may fluctuate"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The income period is selected at application and cannot be changed once the policy is issued.",
+        "The guaranteed cash value decreases when guaranteed Monthly Income payments begin.",
+        "Only the guaranteed Monthly Income amount is pre-set at application; the non-guaranteed portion may fluctuate.",
+        "Outstanding debt is deducted before payments are made."
+      ],
+      "clientSignalPhrases": [
+        "no company pension, needs monthly income",
+        "retiring at 60 and wants salary-like cashflow",
+        "wants income to start after premiums finish",
+        "asked how long the payout lasts",
+        "wants to cover rent in retirement",
+        "has a lump sum from an MPF payout",
+        "wants income for 15 years only",
+        "worried about outliving savings",
+        "wants payout to age 110",
+        "planning retirement in Macau"
+      ],
+      "negativeSignalPhrases": [
+        "needs income to start immediately",
+        "wants to change the payout period later",
+        "needs the full capital back at any time"
+      ],
+      "clientProfileFit": [
+        "Pre-retirees aged 45 to 60 without a company pension",
+        "Clients converting a lump sum into regular income",
+        "Retirees who want income to continue to age 110",
+        "Parents buying a long-dated income for a child"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan converts a lump sum into Monthly Income for 10 years, 15 years or life to age 110.",
+      "verificationPrompts": [
+        "Confirm the retirement date and desired income start",
+        "Ask how long the client needs the income to last",
+        "Check whether the client needs the guaranteed portion only",
+        "Confirm the premium payment term the client can commit to"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "lifetime_limit",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "you can choose to receive Monthly Income for 10 years, 15 years, or until the age of 110, just like a regular salary",
+        "Golden Years Income Plan offers 3 choices of income periods (10 years, 15 years, or until the age of 110)",
+        "You can pre-set the amount of guaranteed Monthly Income at the time of your application. The amount of non-guaranteed Monthly Income may fluctuate during the income period."
+      ],
+      "notesForReviewer": "The brochure extract does not give the Monthly Income rate per premium unit, so actual payout levels cannot be quoted."
+    },
+    {
+      "trendId": "golden-years-income-plan_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Five USD premium terms",
+      "whatProductOffers": "USD policies offer 5 premium payment terms of 3, 5, 8, 12 and 18 years, while HKD and MOP policies use a 12-year term; premium amounts are guaranteed to remain level throughout the payment term.",
+      "keyFigures": [
+        {
+          "label": "USD premium payment terms",
+          "value": "5",
+          "condition": "3, 5, 8, 12 and 18 years"
+        },
+        {
+          "label": "HKD and MOP premium payment term",
+          "value": "12 years",
+          "condition": "Policies denominated in HK dollars or Macau pataca"
+        },
+        {
+          "label": "Premium payment modes",
+          "value": "4",
+          "condition": "Annually, semi-annually, quarterly, monthly"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The shorter terms of 3, 5, 8 and 18 years are available only on USD policies.",
+        "Premiums are level for the payment term but the extract gives no premium amounts.",
+        "Premium payment term and income period must be selected together from the product table."
+      ],
+      "clientSignalPhrases": [
+        "can only commit for 5 years",
+        "wants premiums finished before retirement",
+        "has USD savings already",
+        "asked for a short premium term",
+        "doesn't want a 12-year commitment",
+        "wants to pay annually",
+        "prefers monthly payments",
+        "selling a property and wants to pay in 3 years"
+      ],
+      "negativeSignalPhrases": [
+        "needs to stop premiums early",
+        "wants a single premium only",
+        "cannot commit to a fixed term"
+      ],
+      "clientProfileFit": [
+        "Clients with a defined lump sum or bonus cycle",
+        "Near-retirees who want premiums completed by retirement",
+        "USD savers wanting a shorter commitment"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the premium term can be matched to the client's cashflow, from 3 to 18 years on USD policies, with premiums guaranteed level.",
+      "verificationPrompts": [
+        "Confirm the currency before discussing premium terms",
+        "Check the client's maximum affordable annual premium",
+        "Confirm the client can sustain the term to completion"
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "the premium payment term for policies denominated in HK dollars or Macau pataca is 12 years, you may also select from 5 premium payment terms for policies denominated in US dollars",
+        "Premium amounts are guaranteed to remain level throughout the payment term.",
+        "Different premium payment modes (annually, semi-annually, quarterly and monthly) are available for this plan."
+      ],
+      "notesForReviewer": "The premium table in the source is partly garbled in extraction; confirm which income period pairs with each payment term."
+    },
+    {
+      "trendId": "golden-years-income-plan_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Guaranteed lump sum at income start",
+      "whatProductOffers": "At the start of the income period the policy pays a guaranteed cash payment in one lump sum equal to 10, 15 or 20 times the guaranteed Monthly Income, depending on the income period chosen.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed cash payment multiple",
+          "value": "10 times",
+          "condition": "10-year income period"
+        },
+        {
+          "label": "Guaranteed cash payment multiple",
+          "value": "15 times",
+          "condition": "15-year income period"
+        },
+        {
+          "label": "Guaranteed cash payment multiple",
+          "value": "20 times",
+          "condition": "Income period to age 110"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The payment is calculated on the guaranteed Monthly Income amount, not the total Monthly Income.",
+        "The client may take it in cash or leave it with AIA to earn interest.",
+        "Outstanding debt is deducted before payment."
+      ],
+      "clientSignalPhrases": [
+        "wants a cash lump sum at retirement",
+        "needs money for renovation when income starts",
+        "asked if there is a bonus at payout start",
+        "wants to clear a mortgage at 60",
+        "prefers a big payment then monthly income",
+        "wants cash for a medical procedure later",
+        "wants a lump sum when income starts",
+        "needs cash for a deposit at 60",
+        "asked if there is a payout at retirement start"
+      ],
+      "negativeSignalPhrases": [
+        "wants maximum monthly income instead of a lump sum",
+        "does not need a lump sum at retirement",
+        "wants the lump sum earlier than the income start"
+      ],
+      "clientProfileFit": [
+        "Retirees with a known expense at retirement",
+        "Clients who want a cash buffer when income begins",
+        "Planners who want both a lump sum and monthly income"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a guaranteed lump sum of 10, 15 or 20 times the guaranteed Monthly Income is paid when the income period starts.",
+      "verificationPrompts": [
+        "Ask what the client plans to do with the lump sum",
+        "Confirm the income period choice that sets the multiple",
+        "Check whether the client prefers cash or accumulation"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "You will receive a guaranteed cash payment in a lump sum at the start of the income period.",
+        "Guaranteed Monthly Income amount x 10",
+        "Guaranteed Monthly Income amount x 15",
+        "Guaranteed Monthly Income amount x 20"
+      ],
+      "notesForReviewer": "The extract confirms the multiples but not the exact timing date within the policy year."
+    },
+    {
+      "trendId": "golden-years-income-plan_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death and terminal illness benefits",
+      "whatProductOffers": "Pays a death benefit to the named beneficiary and provides a Terminal Illness Advance Payment Benefit if two registered medical practitioners confirm the insured is expected to pass away within 12 months.",
+      "keyFigures": [
+        {
+          "label": "Terminal illness confirmation",
+          "value": "2 registered medical practitioners",
+          "condition": "Expected death within 12 months"
+        },
+        {
+          "label": "Terminal Illness Advance Payment Benefit",
+          "value": "One-off advance payment",
+          "condition": "Subject to AIA underwriting decision"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The Terminal Illness Advance Payment Benefit is subject to AIA's underwriting decision.",
+        "Benefit amounts are set by tables that are not included in the extracted text.",
+        "All outstanding debt is deducted before death or terminal illness payment.",
+        "The death benefit calculation differs depending on whether death occurs before or after the income period starts."
+      ],
+      "clientSignalPhrases": [
+        "wants to leave something for spouse",
+        "worried about funeral costs",
+        "asked what happens if diagnosed terminal",
+        "wants income to continue for family",
+        "single breadwinner household",
+        "wants beneficiary to keep receiving income",
+        "concerned about medical bills at the end",
+        "wants spouse looked after",
+        "asked what the beneficiary gets"
+      ],
+      "negativeSignalPhrases": [
+        "no dependants",
+        "only wants investment return, no protection",
+        "needs a large death benefit"
+      ],
+      "clientProfileFit": [
+        "Married retirees supporting a spouse",
+        "Single-income households",
+        "Clients who want a small protection layer inside a savings plan"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan keeps a death benefit and a terminal illness advance payment alongside the retirement income.",
+      "verificationPrompts": [
+        "Confirm the beneficiary arrangement",
+        "Check the death benefit table for the chosen term",
+        "Ask whether the client expects a larger death benefit"
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "waiting_period",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "we will pay the death benefit to the person whom you select in your policy as beneficiary",
+        "two registered medical practitioners confirm that the insured is expected to pass away within 12 months due to a terminal illness",
+        "The Terminal Illness Advance Payment Benefit will be subject to our underwriting decision."
+      ],
+      "notesForReviewer": "Death benefit and terminal illness tables were not captured in the 6,000-character extract."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "golden-years-income-plan_income_or_lifestyle_support",
+    "bestForOneLiner": "A participating retirement income plan that pays Monthly Income for 10 years, 15 years or to age 110, with a guaranteed lump sum when income starts.",
+    "notSuitedWhen": [
+      "The client needs income to begin immediately",
+      "The client may need to change the income period after issue",
+      "The client wants full access to capital throughout",
+      "The client needs a large death benefit"
+    ],
+    "gapsInSourceMaterial": [
+      "No premium rates or minimum premium",
+      "No Monthly Income rate per premium unit",
+      "Death benefit and terminal illness benefit tables not extracted",
+      "No surrender value or policy loan terms"
+    ]
+  }
+}

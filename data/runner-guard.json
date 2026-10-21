@@ -1,0 +1,299 @@
+{
+  "productId": "runner-guard",
+  "productName": "Runner Guard",
+  "productType": "personal accident insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "runner-guard_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Event-day cover, single premium",
+      "whatProductOffers": "Short-term accident cover bought for a single running event, with benefit periods of 1 day, 3 days, 30 days or 90 days and a single premium payment.",
+      "keyFigures": [
+        {
+          "label": "Benefit periods",
+          "value": "1 day / 3 days / 30 days / 90 days",
+          "condition": "selected at application"
+        },
+        {
+          "label": "Premium payment mode",
+          "value": "Single premium",
+          "condition": "one-off payment"
+        },
+        {
+          "label": "Covered duration",
+          "value": "Assigned start time to finish line or withdrawal",
+          "condition": "includes immediate emergency medical assistance"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Cover starts at the assigned start time, not at registration or warm-up.",
+        "Award ceremonies and post-event activities are excluded.",
+        "Cover ends when the insured withdraws or crosses the finish line."
+      ],
+      "clientSignalPhrases": [
+        "running a marathon next month",
+        "just needs cover for race day",
+        "one-off race, not annual",
+        "trail race in November",
+        "charity run with colleagues",
+        "doesn't want a yearly policy",
+        "asked if race entry includes insurance",
+        "weekend race, quick cover"
+      ],
+      "negativeSignalPhrases": [
+        "wants year-round accident cover",
+        "wants cover for gym sessions",
+        "needs cover for a multi-sport event"
+      ],
+      "clientProfileFit": [
+        "Amateur runners entering one or two races a year",
+        "Charity run participants",
+        "Travellers doing an overseas marathon within the covered period"
+      ],
+      "priorityAlignment": [
+        "access",
+        "cost"
+      ],
+      "talkingPointTemplate": "Since {client_detail} only needs cover around race day, Runner Guard is bought per event with a single premium and runs from the start gun to the finish line.",
+      "verificationPrompts": [
+        "Confirm the event meets all eight covered-run criteria before submission.",
+        "Confirm which benefit period matches the race date and travel plans."
+      ],
+      "comparisonRows": [
+        "premium",
+        "network_access"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Period of Insurance (Benefit Term) 1 Day / 3 Days / 30 Days / 90 Days",
+        "Premium Payment Mode Single premium",
+        "Within the duration of a covered running event, starting from the assigned start time and ending when the insured withdraws from such event or crosses the finish line"
+      ],
+      "notesForReviewer": "Premium amounts are not in the supplied excerpt."
+    },
+    {
+      "trendId": "runner-guard_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Lump sum for running injuries",
+      "whatProductOffers": "Pays a lump sum for covered running injuries to help with treatment, recovery or time off work, including 100% of the sum assured for cardiac arrest, coma of at least 48 hours, permanent loss of limb or sight, or death.",
+      "keyFigures": [
+        {
+          "label": "Cardiac arrest / coma / permanent loss / death",
+          "value": "100% of sum assured",
+          "condition": "within the covered duration of participation"
+        },
+        {
+          "label": "Coma duration",
+          "value": "At least 48 hours",
+          "condition": "unconsciousness due to accident"
+        },
+        {
+          "label": "Exertional heat stroke",
+          "value": "HK$10,000 per accident",
+          "condition": "hospitalised at least 24 hours"
+        },
+        {
+          "label": "Tendon rupture / ligament tear",
+          "value": "10% of sum assured with surgery; HK$5,000 without surgery",
+          "condition": "covered injury during the event"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only the single highest-benefit injury is paid when multiple covered injuries occur in one accident.",
+        "The policy ends automatically once 100% of the sum assured is paid.",
+        "Injuries outside the covered duration, including warm-up before the assigned start time, are not covered."
+      ],
+      "clientSignalPhrases": [
+        "worried about losing income if injured",
+        "self-employed, can't afford time off",
+        "asked what happens if he tears a ligament",
+        "wants a lump sum, not bills",
+        "had a friend who tore an Achilles",
+        "needs cover for recovery time",
+        "training for a first marathon",
+        "wants cash if he can't run or work"
+      ],
+      "negativeSignalPhrases": [
+        "wants medical expense reimbursement only",
+        "wants cover for ordinary gym injuries",
+        "expects multiple payouts per accident"
+      ],
+      "clientProfileFit": [
+        "Self-employed runners with no sick leave",
+        "Competitive amateur runners doing multiple races",
+        "Clients whose income stops if they cannot walk or train"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a covered race injury pays a lump sum that can replace income during recovery, not just reimburse receipts.",
+      "verificationPrompts": [
+        "Confirm the benefit schedule percentages for each covered injury type.",
+        "Confirm whether the sum assured reduces after a partial payment."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "we will pay you a lump sum to help cover the cost of treatment, recovery or time off work",
+        "Runner Guard will pay 100% of the sum assured in the unfortunate event that happened within the Covered Duration of Participation"
+      ],
+      "notesForReviewer": "The Wild Nature Benefit details are cut off in the supplied excerpt."
+    },
+    {
+      "trendId": "runner-guard_high_annual_or_lifetime_limit",
+      "trendCategory": "high_annual_or_lifetime_limit",
+      "isNewCategory": false,
+      "trendName": "Up to HK$1,000,000 sum assured",
+      "whatProductOffers": "Two plan sizes, with Plan 1 at HK$500,000 sum assured and Plan 2 at HK$1,000,000 sum assured.",
+      "keyFigures": [
+        {
+          "label": "Plan 1 sum assured",
+          "value": "HK$500,000",
+          "condition": "age 18-70 at application"
+        },
+        {
+          "label": "Plan 2 sum assured",
+          "value": "HK$1,000,000",
+          "condition": "age 18-55 at application"
+        },
+        {
+          "label": "Currency",
+          "value": "HK$",
+          "condition": "Hong Kong dollar policies"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "This is a sum assured, not an annual or lifetime medical limit.",
+        "Plan 2 is only available to applicants aged 18-55.",
+        "The policy terminates once 100% of the sum assured is paid."
+      ],
+      "clientSignalPhrases": [
+        "wants a big lump sum",
+        "asked about the maximum cover",
+        "high earner, needs bigger cover",
+        "compared Plan 1 and Plan 2",
+        "wants HK$1m cover for race day",
+        "worried one injury could cost a lot",
+        "only 45, can still get Plan 2",
+        "needs a large payout if disabled"
+      ],
+      "negativeSignalPhrases": [
+        "wants the cheapest option only",
+        "over 55 and wants the HK$1m plan",
+        "needs medical expense limits instead"
+      ],
+      "clientProfileFit": [
+        "Higher-income runners wanting a larger lump sum",
+        "Applicants aged 18-55 who qualify for Plan 2",
+        "Clients doing ultra or trail races"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "If {client_detail} wants a meaningful payout rather than a token benefit, Plan 2 provides a HK$1,000,000 sum assured for a single race period.",
+      "verificationPrompts": [
+        "Confirm the applicant's age meets the Plan 2 eligibility range.",
+        "Confirm whether any sum assured limits apply per life across policies."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "lifetime_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Sum Assured HK$500,000 HK$1,000,000",
+        "Insured's Age of Application Age 18 - 70 Age 18 - 55"
+      ],
+      "notesForReviewer": "Sum assured is event-based, not an annual limit; mapped to this category for comparison only."
+    },
+    {
+      "trendId": "runner-guard_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Two plans, four durations",
+      "whatProductOffers": "Lets the client choose between two sum assured levels and four benefit periods to match a single race or a short race season.",
+      "keyFigures": [
+        {
+          "label": "Plan options",
+          "value": "2",
+          "condition": "Plan 1 or Plan 2"
+        },
+        {
+          "label": "Benefit period options",
+          "value": "4",
+          "condition": "1, 3, 30 or 90 days"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Plan 2 is restricted to applicants aged 18-55; Plan 1 to 18-70.",
+        "Each policy covers one event window only.",
+        "The event must satisfy all eight covered-run conditions."
+      ],
+      "clientSignalPhrases": [
+        "two races in one month",
+        "wants cover for the whole season",
+        "asked about 90-day option",
+        "only needs one day",
+        "running a 3-day stage race",
+        "wants to pick the cover level",
+        "compare the two plans",
+        "not sure how long cover lasts"
+      ],
+      "negativeSignalPhrases": [
+        "wants a multi-year policy",
+        "wants cover for non-running sports",
+        "needs cover for an event under 3,000m only"
+      ],
+      "clientProfileFit": [
+        "Runners doing a race series within 90 days",
+        "Travellers combining a race with a short trip",
+        "Clients choosing cover based on race distance and cost"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, we can match the 90-day option to a race season instead of paying for a full year.",
+      "verificationPrompts": [
+        "Confirm the exact dates each benefit period covers.",
+        "Confirm the event distance and altitude against the covered-run criteria."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Period of Insurance (Benefit Term) 1 Day / 3 Days / 30 Days / 90 Days",
+        "Sum Assured HK$500,000 HK$1,000,000"
+      ],
+      "notesForReviewer": "No premium differential between durations is given in the excerpt."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "runner-guard_fast_access_and_convenience",
+    "bestForOneLiner": "Short-term accident cover for a single running event, with HK$500,000 or HK$1,000,000 sum assured and 1 to 90 day benefit periods.",
+    "notSuitedWhen": [
+      "The client wants year-round accident cover",
+      "The event is a multi-discipline sport with running as only one element",
+      "The event is under 3,000m, above 2,000m altitude, or has fewer than 50 participants"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table for each plan and duration",
+      "Full Wild Nature Benefit schedule",
+      "Full exclusions and claims procedure"
+    ]
+  }
+}

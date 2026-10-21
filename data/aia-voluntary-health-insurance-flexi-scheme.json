@@ -1,0 +1,408 @@
+{
+  "productId": "aia-voluntary-health-insurance-flexi-scheme",
+  "productName": "AIA Voluntary Health Insurance Flexi Scheme",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-voluntary-health-insurance-flexi-scheme_high_annual_or_lifetime_limit",
+      "trendCategory": "high_annual_or_lifetime_limit",
+      "isNewCategory": false,
+      "trendName": "No annual or lifetime cap",
+      "whatProductOffers": "A VHIS-certified reimbursement plan with no annual benefit limit and no lifetime benefit limit, plus guaranteed lifetime renewal.",
+      "keyFigures": [
+        {
+          "label": "Annual benefit limit",
+          "value": "Nil",
+          "condition": ""
+        },
+        {
+          "label": "Lifetime benefit limit",
+          "value": "Nil",
+          "condition": ""
+        },
+        {
+          "label": "Renewal",
+          "value": "Guaranteed whole life",
+          "condition": ""
+        },
+        {
+          "label": "Age at application",
+          "value": "15 days to age 80",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "No annual or lifetime limit applies to the certified benefits, but per-item sublimits in the benefit schedule still apply.",
+        "Psychiatric treatments are excluded from the worldwide cover.",
+        "Supplemental major medical benefits are expressed per disability per policy year.",
+        "Premium is not guaranteed and can be adjusted by the insurer."
+      ],
+      "clientSignalPhrases": [
+        "worried about hitting a cap",
+        "wants lifetime cover",
+        "had a claim limited before",
+        "wants private hospital cover",
+        "planning for a long illness",
+        "family history of cancer",
+        "wants cover that does not run out",
+        "asked about lifetime limit",
+        "wants guaranteed renewal"
+      ],
+      "negativeSignalPhrases": [
+        "wants a fixed premium for life",
+        "wants a savings or investment element",
+        "only uses public hospitals",
+        "needs US treatment"
+      ],
+      "clientProfileFit": [
+        "Families wanting lifetime private cover",
+        "Clients aged 40-60 planning retirement cover",
+        "Existing VHIS Standard Plan holders upgrading"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, there is no annual or lifetime benefit limit and renewal is guaranteed for life, so the cover does not expire.",
+      "verificationPrompts": [
+        "Confirm the per-item sublimits in the benefit schedule.",
+        "Confirm the premium adjustment history and future loading rules.",
+        "Confirm whether the no-limit wording covers all core benefits or only the certified ones."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "lifetime_limit",
+        "room_level",
+        "renewability",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "lifetime renewal is guaranteed, with no annual benefit limit or lifetime benefit limit",
+        "Lifetime Benefit Limit: Nil",
+        "Annual Benefit Limit: Nil",
+        "Guaranteed Renewal: Whole Life"
+      ],
+      "notesForReviewer": "The benefit schedule with per-item sublimits is referenced but not included in the extract."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-flexi-scheme_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Tax deduction per relative",
+      "whatProductOffers": "Premiums qualify for VHIS tax deduction of up to HKD8,000 per insured person in each assessment year, where the insured is the taxpayer or a specified relative, with no cap on the number of specified relatives.",
+      "keyFigures": [
+        {
+          "label": "Tax deduction",
+          "value": "Up to HKD8,000 per insured person",
+          "condition": "each assessment year"
+        },
+        {
+          "label": "Eligible insured",
+          "value": "Taxpayer or specified relative",
+          "condition": "as defined in the Inland Revenue Ordinance"
+        },
+        {
+          "label": "Cap on relatives",
+          "value": "None",
+          "condition": "no cap on the number of specified relatives"
+        },
+        {
+          "label": "Plan options",
+          "value": "Ward / Semi-Private / Standard Private",
+          "condition": "HKD or USD certification"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The insured must be the taxpayer or a specified relative as defined in the Inland Revenue Ordinance.",
+        "Tax deduction reduces assessable income; it is not a direct deduction from tax payable.",
+        "The HKD8,000 applies per insured person, not per policy.",
+        "The policyholder must be the taxpayer."
+      ],
+      "clientSignalPhrases": [
+        "wants to cover parents",
+        "asked about tax season",
+        "has three kids",
+        "supporting elderly parents",
+        "wants a family medical plan",
+        "asked about the HKD8,000 deduction",
+        "self-employed and pays own tax",
+        "wants to insure the whole family",
+        "looking for a year-end tax move"
+      ],
+      "negativeSignalPhrases": [
+        "does not pay Hong Kong tax",
+        "needs group medical for employees",
+        "expects one deductible for the whole family"
+      ],
+      "clientProfileFit": [
+        "Taxpayers supporting parents",
+        "Parents insuring children",
+        "High-income self-employed clients"
+      ],
+      "priorityAlignment": [
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, each insured relative brings up to HKD8,000 of tax deduction, and there is no cap on how many relatives can be covered.",
+      "verificationPrompts": [
+        "Confirm the current IRD rules for specified relatives and the deduction cap.",
+        "Confirm the plan remains a certified VHIS plan at application.",
+        "Confirm the tax position with the client's accountant."
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Taxpayer who is the policyholder can apply for a tax deduction of up to HKD8,000 per insured person",
+        "the insured person of the Certified Plan should be the taxpayer himself or any specified relatives",
+        "there is no cap on the number of specified relatives"
+      ],
+      "notesForReviewer": "Tax rules can change; the brochure is not tax advice."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-flexi-scheme_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "Pre/post confinement outpatient cover",
+      "whatProductOffers": "Covers outpatient care before and after confinement or a day-case procedure, long-term dialysis, prescribed diagnostic imaging and prescribed non-surgical cancer treatments within the core benefits.",
+      "keyFigures": [
+        {
+          "label": "Outpatient cover",
+          "value": "Before and after confinement or day case procedure",
+          "condition": "time windows not stated in extract"
+        },
+        {
+          "label": "Dialysis",
+          "value": "Long term treatment covered",
+          "condition": ""
+        },
+        {
+          "label": "Cancer treatment",
+          "value": "Prescribed non-surgical cancer treatments",
+          "condition": ""
+        },
+        {
+          "label": "Imaging",
+          "value": "Prescribed diagnostic imaging tests",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Outpatient cover is linked to a confinement or day-case procedure; standalone outpatient visits are not covered.",
+        "Psychiatric treatment is excluded from the worldwide cover.",
+        "The number of days before and after confinement, and the sublimits, are in the benefit schedule and not in the extract."
+      ],
+      "clientSignalPhrases": [
+        "wants follow-up visits covered",
+        "has dialysis in the family",
+        "wants cancer treatment covered",
+        "asked about post-surgery check-ups",
+        "wants scans covered",
+        "worried about the gap after discharge",
+        "wants day-case procedures covered",
+        "asked if follow-up scans are covered"
+      ],
+      "negativeSignalPhrases": [
+        "wants a standalone outpatient plan",
+        "only needs a hospital cash benefit",
+        "wants dental and optical cover"
+      ],
+      "clientProfileFit": [
+        "Clients with chronic conditions",
+        "Cancer patients needing follow-up",
+        "Families with young children"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, follow-up visits around the hospital stay and long-term dialysis sit inside the core benefits, not as an optional extra.",
+      "verificationPrompts": [
+        "Confirm the number of days before and after confinement covered.",
+        "Confirm the dialysis sublimit per policy year.",
+        "Confirm whether day-case procedures need pre-approval."
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "annual_limit",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "outpatient care before and after confinement or day case procedure",
+        "long term treatment for dialysis",
+        "prescribed diagnostic imaging tests",
+        "prescribed non-surgical cancer treatments"
+      ],
+      "notesForReviewer": "Time windows and sublimits are in the separate benefit schedule, which was not extracted."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-flexi-scheme_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "No-claim discount up to 25%",
+      "whatProductOffers": "Gives a no-claim discount of up to 25% of the total premiums paid for the preceding policy year after 3 or more consecutive claim-free policy years, plus an instant 10% first-year discount for AIA Vitality members.",
+      "keyFigures": [
+        {
+          "label": "No-claim discount",
+          "value": "Up to 25% of total premiums paid for the preceding policy year",
+          "condition": "no claim in 3 or more consecutive policy years"
+        },
+        {
+          "label": "First-year discount",
+          "value": "10%",
+          "condition": "AIA Vitality members"
+        },
+        {
+          "label": "Plan tiers",
+          "value": "Ward / Semi-Private / Standard Private",
+          "condition": "three room levels"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The 25% discount requires 3 or more consecutive claim-free policy years.",
+        "The discount is applied at the next policy anniversary, not immediately.",
+        "The 10% first-year discount applies to AIA Vitality members only.",
+        "The no-claim discount is based on premiums paid in the preceding policy year."
+      ],
+      "clientSignalPhrases": [
+        "premium sensitive",
+        "healthy and rarely claims",
+        "asked about a no-claim bonus",
+        "wants to start with a ward plan",
+        "already an AIA Vitality member",
+        "budget for a family of four",
+        "wants a lower premium after a good year",
+        "young and no medical history"
+      ],
+      "negativeSignalPhrases": [
+        "expects a discount every year regardless of claims",
+        "has ongoing claims",
+        "wants guaranteed premiums"
+      ],
+      "clientProfileFit": [
+        "Young healthy clients",
+        "Budget-conscious families",
+        "AIA Vitality users"
+      ],
+      "priorityAlignment": [
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, three claim-free years can return up to 25% of last year's premium as a discount, on top of the 10% first-year Vitality discount.",
+      "verificationPrompts": [
+        "Confirm how the discount is calculated when premiums change.",
+        "Confirm whether a small claim resets the 3-year clock.",
+        "Confirm whether the discount applies to add-on premiums."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "No claim in 3 or more consecutive policy years entitles you with a premium discount on the next policy anniversary, up to 25% of the total premiums paid for the preceding policy year.",
+        "an instant 10% premium discount for the first year for AIA Vitality members"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-flexi-scheme_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Network privileges and cashless",
+      "whatProductOffers": "Using the medical network gives higher benefit limits, a lower coinsurance percentage on supplemental major medical benefits, medical expense pre-approval and an add-on cashless arrangement for day-case procedures.",
+      "keyFigures": [
+        {
+          "label": "Benefit limits",
+          "value": "Higher",
+          "condition": "using the medical network"
+        },
+        {
+          "label": "Coinsurance",
+          "value": "Lower percentage",
+          "condition": "supplemental major medical benefits"
+        },
+        {
+          "label": "Pre-approval",
+          "value": "Medical expense pre-approval available",
+          "condition": ""
+        },
+        {
+          "label": "Cashless",
+          "value": "Add-on arrangement for day case procedure",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Privileges apply only when the medical network is used.",
+        "The cashless arrangement is an add-on and applies to day-case procedures.",
+        "Network hospital list and the actual limits are not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "wants cashless admission",
+        "hates paying first and claiming",
+        "wants a network hospital",
+        "asked about pre-approval",
+        "wants a smooth claim process",
+        "had a slow claim before",
+        "wants a day-case procedure covered",
+        "wants a hospital close to home"
+      ],
+      "negativeSignalPhrases": [
+        "wants to choose any doctor",
+        "treats mainly overseas",
+        "needs psychiatric cover"
+      ],
+      "clientProfileFit": [
+        "Busy professionals",
+        "Clients who value predictable cash flow",
+        "Families near network hospitals"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, using the network gives higher limits, lower coinsurance and a cashless option for day cases, so there is less upfront cash.",
+      "verificationPrompts": [
+        "Confirm the network hospital list and whether the preferred doctor is included.",
+        "Confirm the coinsurance percentages inside and outside the network.",
+        "Confirm which day-case procedures qualify for cashless."
+      ],
+      "comparisonRows": [
+        "network_access",
+        "outpatient",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "If you select the service provided from our medical network, you can enjoy higher benefit limits, lower coinsurance percentage for supplemental major medical benefits",
+        "medical expense pre-approval application",
+        "add-on cashless arrangement for day case procedure"
+      ],
+      "notesForReviewer": "The size of the limit uplift and the coinsurance percentages are not quantified in the extract."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-voluntary-health-insurance-flexi-scheme_high_annual_or_lifetime_limit",
+    "bestForOneLiner": "A VHIS-certified lifetime medical plan with no annual or lifetime benefit limit and tax deduction for each insured relative.",
+    "notSuitedWhen": [
+      "The client wants a fixed premium that never changes.",
+      "The client wants a savings or investment return.",
+      "The client wants psychiatric treatment covered.",
+      "The client needs treatment in the United States."
+    ],
+    "gapsInSourceMaterial": [
+      "Benefit schedule with per-item sublimits",
+      "Premium table by age and room level",
+      "Pre- and post-confinement day windows",
+      "Network hospital list"
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "productId": "fortune-promise-savings-insurance-plan-2",
+  "productName": "Fortune Promise Savings Insurance Plan 2",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "fortune-promise-savings-insurance-plan-2_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Single premium with 5-year breakeven",
+      "whatProductOffers": "A participating whole-life plan funded by one lump-sum premium, with guaranteed cash value plus non-guaranteed Annual Dividends from the end of the 2nd policy year and a Terminal Dividend, illustrated to break even at the end of the 5th policy year.",
+      "keyFigures": [
+        {
+          "label": "Premium structure",
+          "value": "One-time single premium",
+          "condition": "no further premiums"
+        },
+        {
+          "label": "Projected break-even",
+          "value": "End of the 5th policy year",
+          "condition": "illustration only, not guaranteed"
+        },
+        {
+          "label": "Illustrated single premium",
+          "value": "US$80,000",
+          "condition": "example in brochure"
+        },
+        {
+          "label": "Projected total surrender value at end of year 40",
+          "value": "US$242,024",
+          "condition": "of which guaranteed cash value US$70,780 and non-guaranteed US$171,244"
+        },
+        {
+          "label": "Accumulation interest on Annual Dividends",
+          "value": "3.5% per annum",
+          "condition": "current rate, not guaranteed"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Break-even is not guaranteed and may be shorter or longer than illustrated.",
+        "The US$242,024 projection assumes no withdrawals, no policy loans and that the Terminal Dividend Lock-in Option is not exercised.",
+        "Guaranteed cash value at year 40 is only US$70,780 of the US$242,024 projected total; the majority is non-guaranteed.",
+        "Annual Dividends and the Terminal Dividend are declared at the company's sole discretion."
+      ],
+      "clientSignalPhrases": [
+        "has a lump sum to place",
+        "doesn't want annual premiums",
+        "wants a simple single-premium plan",
+        "wants capital growth for retirement",
+        "5-year breakeven sounds good",
+        "compare with a fixed deposit",
+        "wants a policy with no ongoing commitment",
+        "inheritance money to deploy",
+        "wants dividends on top of guarantee",
+        "long-term savings, 20+ years"
+      ],
+      "negativeSignalPhrases": [
+        "needs regular premium payments",
+        "needs income from year 1",
+        "cannot accept non-guaranteed returns"
+      ],
+      "clientProfileFit": [
+        "Clients with a maturing deposit",
+        "Retirees with a lump sum",
+        "Parents funding long-term goals"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, one premium is paid up front and the illustration breaks even at the end of year 5, after which the policy is projected to compound to US$242,024 by year 40.",
+      "verificationPrompts": [
+        "Confirm the projected break-even for the client's actual premium and age.",
+        "Confirm the guaranteed versus non-guaranteed split at the client's horizon.",
+        "Confirm the current dividend scale and accumulation rate."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"only requires a one-time premium payable in a lump sum, avoiding the obligation of long-term premium payments\"",
+        "\"Projected break-even point at the end of the 5th policy year\"",
+        "\"the projected total surrender value is US$242,024\""
+      ],
+      "notesForReviewer": "All projections are illustration-based and not guaranteed."
+    },
+    {
+      "trendId": "fortune-promise-savings-insurance-plan-2_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Withdrawal-based retirement income",
+      "whatProductOffers": "The brochure illustrates funding retirement by withdrawing US$7,200 per year from the 21st to the 40th policy year, US$144,000 in total, while leaving a projected US$242,024 for legacy at the end of year 40.",
+      "keyFigures": [
+        {
+          "label": "Illustrated annual withdrawal",
+          "value": "US$7,200 per year",
+          "condition": "policy years 21 to 40"
+        },
+        {
+          "label": "Total withdrawn",
+          "value": "US$144,000",
+          "condition": "over 20 years"
+        },
+        {
+          "label": "Remaining projected value",
+          "value": "US$242,024",
+          "condition": "end of 40th policy year, after withdrawals"
+        },
+        {
+          "label": "Withdrawal source order",
+          "value": "Accumulated Annual Dividends first, then guaranteed cash value and Terminal Dividend",
+          "condition": "per important notes"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Cash withdrawal amounts and the length of the withdrawal period are not guaranteed.",
+        "Withdrawals above accumulated dividends reduce the guaranteed cash value and the principal amount, which reduces future values and the death benefit.",
+        "The illustration assumes withdrawals start in policy year 21; earlier withdrawals would change the outcome.",
+        "The policy terminates when the total surrender value has been withdrawn entirely."
+      ],
+      "clientSignalPhrases": [
+        "wants retirement income from savings",
+        "needs US$7,200 a year",
+        "doesn't want an annuity",
+        "wants to draw down but keep a legacy",
+        "retiring in 20 years",
+        "wants flexible withdrawals",
+        "needs income and inheritance from one policy",
+        "can wait 20 years to draw",
+        "wants to control the drawdown",
+        "lump sum to fund retirement"
+      ],
+      "negativeSignalPhrases": [
+        "needs income starting now",
+        "wants a guaranteed withdrawal amount",
+        "wants a lifetime income guarantee"
+      ],
+      "clientProfileFit": [
+        "Pre-retirees aged 45-55",
+        "Clients wanting drawdown flexibility",
+        "Clients prioritising a legacy remainder"
+      ],
+      "priorityAlignment": [
+        "access",
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the illustration draws US$7,200 a year for 20 years and still leaves a projected US$242,024 at year 40, though neither figure is guaranteed.",
+      "verificationPrompts": [
+        "Confirm the projected value path if withdrawals start earlier or later.",
+        "Confirm the guaranteed cash value after the planned withdrawals.",
+        "Confirm the effect of withdrawals on the death benefit."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"From the 21st to 40th policy year, withdraw US$7,200 per year\"",
+        "\"Withdraw US$144,000 in total for retirement planning\"",
+        "\"The cash withdrawal amounts under Fortune Promise Savings Insurance Plan 2 are non-guaranteed\""
+      ],
+      "notesForReviewer": "Illustration only; withdrawal amounts and duration are not guaranteed."
+    },
+    {
+      "trendId": "fortune-promise-savings-insurance-plan-2_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Death benefit settlement option",
+      "whatProductOffers": "The plan includes a Death Benefit Settlement Option that lets the client pre-set how the death benefit is paid to beneficiaries, alongside the standard death benefit.",
+      "keyFigures": [
+        {
+          "label": "Feature",
+          "value": "Death Benefit Settlement Option",
+          "condition": "for flexible legacy planning"
+        },
+        {
+          "label": "Underlying plan",
+          "value": "Participating whole-life",
+          "condition": "cover for the entire lifespan of the insured"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The brochure excerpt does not list the settlement modes (lump sum, instalments, etc.) or the minimum amounts.",
+        "The death benefit is subject to outstanding debt deductions.",
+        "Settlement instructions are subject to the company's rules at claim time."
+      ],
+      "clientSignalPhrases": [
+        "wants to control how the kids get the money",
+        "doesn't want a lump sum to a young beneficiary",
+        "wants instalments",
+        "estate planning",
+        "worried about spendthrift heirs",
+        "wants a legacy with conditions",
+        "needs a death benefit for the family",
+        "wants to structure the payout",
+        "inheritance planning",
+        "wants the money paid over time"
+      ],
+      "negativeSignalPhrases": [
+        "wants a simple lump-sum payout",
+        "needs the death benefit to fund a business buyout",
+        "has no beneficiaries"
+      ],
+      "clientProfileFit": [
+        "Parents with young adult children",
+        "Estate planning clients",
+        "Clients worried about beneficiary money management"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the Death Benefit Settlement Option lets the payout be structured for the beneficiaries instead of arriving as a single lump sum.",
+      "verificationPrompts": [
+        "Confirm the available settlement modes and minimum instalment amounts.",
+        "Confirm whether settlement instructions can be changed after issue.",
+        "Confirm the death benefit amount at the client's horizon."
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Death Benefit with Death Benefit Settlement Option for flexible legacy planning\""
+      ],
+      "notesForReviewer": "Only the feature name is in the excerpt; mechanics are not described."
+    },
+    {
+      "trendId": "fortune-promise-savings-insurance-plan-2_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Single premium, no future calls",
+      "whatProductOffers": "The entire cost is a one-time premium, so there is no multi-year premium obligation and no risk of future premium increases or missed premium payments.",
+      "keyFigures": [
+        {
+          "label": "Premium payments",
+          "value": "One",
+          "condition": "payable in a lump sum"
+        },
+        {
+          "label": "Future premium obligation",
+          "value": "None",
+          "condition": "policy is fully funded at issue"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "A single premium removes premium-call risk but concentrates liquidity risk: the capital is committed at issue.",
+        "Early surrender may return considerably less than the premium paid.",
+        "Additional premiums are not described in the excerpt."
+      ],
+      "clientSignalPhrases": [
+        "doesn't want a 10-year commitment",
+        "worried about paying premiums in retirement",
+        "retiring, wants to settle it once",
+        "no income after retirement",
+        "wants to avoid lapse risk",
+        "one payment, done",
+        "hates annual premium reminders",
+        "wants the policy fully funded",
+        "lump sum from a bonus",
+        "simplifying finances"
+      ],
+      "negativeSignalPhrases": [
+        "wants to pay monthly from income",
+        "may need the capital back soon",
+        "wants to add premiums later"
+      ],
+      "clientProfileFit": [
+        "Retirees",
+        "Clients without stable future income",
+        "Clients simplifying their finances"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, one premium settles the policy, so there is no annual premium to fund after retirement and no lapse risk from missed payments.",
+      "verificationPrompts": [
+        "Confirm the minimum single premium.",
+        "Confirm the surrender value in years 1-5.",
+        "Confirm whether top-ups are permitted."
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "lifetime_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"only requires a one-time premium payable in a lump sum, avoiding the obligation of long-term premium payments\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "fortune-promise-savings-insurance-plan-2_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Terminal Dividend lock-in",
+      "whatProductOffers": "A Terminal Dividend Lock-in Option lets the client lock in the potential Terminal Dividend, converting a non-guaranteed entitlement into a locked-in amount.",
+      "keyFigures": [
+        {
+          "label": "Feature",
+          "value": "Terminal Dividend Lock-in Option",
+          "condition": "to realise potential returns"
+        },
+        {
+          "label": "Eligibility",
+          "value": "Terminal Dividend accrues from the end of the 2nd policy year",
+          "condition": "per plan terms"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The brochure excerpt does not state how much can be locked in, how often, or what happens to the remaining policy values.",
+        "Locking in is a one-way conversion in most designs; the excerpt does not confirm whether it is reversible.",
+        "The illustrated US$242,024 assumes the lock-in is not exercised."
+      ],
+      "clientSignalPhrases": [
+        "wants to lock in gains",
+        "worried the dividend will be cut",
+        "wants to realise the terminal bonus",
+        "market turned, wants to protect the value",
+        "needs certainty on part of the value",
+        "doesn't trust future dividends",
+        "wants to bank the bonus",
+        "planning to surrender later",
+        "wants a floor on the projected value",
+        "conservative after a good year"
+      ],
+      "negativeSignalPhrases": [
+        "wants full flexibility to reverse the lock-in",
+        "expects the lock-in to increase the death benefit",
+        "needs the cash immediately"
+      ],
+      "clientProfileFit": [
+        "Clients worried about dividend cuts",
+        "Clients nearing their horizon",
+        "Clients who want partial certainty"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the Terminal Dividend Lock-in Option converts part of the non-guaranteed Terminal Dividend into a locked-in amount, so a good year is not given back later.",
+      "verificationPrompts": [
+        "Confirm the lock-in percentage limits and frequency.",
+        "Confirm whether the lock-in is reversible.",
+        "Confirm the effect of a lock-in on future dividends and the death benefit."
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Terminal Dividend Lock-in Option to realise potential returns\""
+      ],
+      "notesForReviewer": "Only the feature name appears in the supplied excerpt; mechanics need the brochure or illustration."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "fortune-promise-savings-insurance-plan-2_savings_and_wealth_growth",
+    "bestForOneLiner": "A single-premium participating whole-life plan illustrated to break even at year 5, support US$7,200-a-year withdrawals for 20 years and still leave a projected US$242,024 at year 40.",
+    "notSuitedWhen": [
+      "The client needs income from year one",
+      "The client cannot accept non-guaranteed returns",
+      "The client may need the capital back within 5 years"
+    ],
+    "gapsInSourceMaterial": [
+      "Minimum single premium",
+      "Guaranteed cash value table by year",
+      "Terminal Dividend Lock-in mechanics",
+      "Full exclusions and surrender terms"
+    ]
+  }
+}

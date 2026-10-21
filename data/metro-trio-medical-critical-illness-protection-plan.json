@@ -1,0 +1,373 @@
+{
+  "productId": "metro-trio-medical-critical-illness-protection-plan",
+  "productName": "Metro-Trio Medical & Critical Illness Protection Plan",
+  "productType": "medical and critical illness insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "metro-trio-medical-critical-illness-protection-plan_pre_existing_or_chronic_support",
+      "trendCategory": "pre_existing_or_chronic_support",
+      "isNewCategory": false,
+      "trendName": "Cover with diabetes or hypertension",
+      "whatProductOffers": "Accepts applicants aged 40-60 who have diabetes, hypertension or hyperlipidaemia, including HbA1c as high as 10%, with cover guaranteed renewable to age 85.",
+      "keyFigures": [
+        {
+          "label": "Application age",
+          "value": "40-60",
+          "condition": "Insured's age at application"
+        },
+        {
+          "label": "HbA1c accepted",
+          "value": "Up to 10%",
+          "condition": "A chance to be covered; underwriting applies"
+        },
+        {
+          "label": "Renewability",
+          "value": "Guaranteed to age 85",
+          "condition": "Benefit term up to age 85"
+        },
+        {
+          "label": "Smoking status",
+          "value": "Non-smokers only",
+          "condition": "Application requirement"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Non-smokers only.",
+        "Age 40-60 at application.",
+        "Underwriting still applies; HbA1c up to 10% is not guaranteed acceptance.",
+        "Cover ends at age 85."
+      ],
+      "clientSignalPhrases": [
+        "diabetic since 2015",
+        "on blood pressure medication",
+        "cholesterol is high",
+        "rejected elsewhere",
+        "HbA1c 8.5",
+        "wants cover despite illness",
+        "the three high",
+        "doctor said pre-diabetic",
+        "insurer declined him"
+      ],
+      "negativeSignalPhrases": [
+        "smoker",
+        "under 40",
+        "wants standard cheap medical cover"
+      ],
+      "clientProfileFit": [
+        "Clients with controlled diabetes",
+        "Hypertension or high cholesterol patients",
+        "People declined by standard plans"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "Because {client_detail}, this plan is built for applicants with the three high rather than automatically excluding them.",
+      "verificationPrompts": [
+        "Confirm latest HbA1c and medication",
+        "Check smoking status",
+        "Confirm age at application"
+      ],
+      "comparisonRows": [
+        "waiting_period",
+        "annual_limit",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"individuals with HbA1c as high as 10% also has a chance to be covered\"",
+        "\"guaranteed to be renewable up to the insured's age of 85\""
+      ],
+      "notesForReviewer": "Acceptance is still subject to underwriting; the extract does not give decline criteria."
+    },
+    {
+      "trendId": "metro-trio-medical-critical-illness-protection-plan_high_annual_or_lifetime_limit",
+      "trendCategory": "high_annual_or_lifetime_limit",
+      "isNewCategory": false,
+      "trendName": "HK$1.5m medical limit",
+      "whatProductOffers": "Pays up to HK$500,000 on the ward plan or HK$1,500,000 on the standard private plan per confinement, covered surgical procedure or covered injury, with worldwide medical cover.",
+      "keyFigures": [
+        {
+          "label": "Ward plan limit",
+          "value": "HK$500,000 / US$62,500",
+          "condition": "Per confinement, covered surgical procedure or covered injury"
+        },
+        {
+          "label": "Standard private limit",
+          "value": "HK$1,500,000 / US$187,500",
+          "condition": "Per confinement, covered surgical procedure or covered injury"
+        },
+        {
+          "label": "Geographical cover",
+          "value": "Worldwide",
+          "condition": "Medical benefit"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The limit is per confinement, procedure or injury, not an annual or lifetime limit.",
+        "Room and board must be within the selected plan level.",
+        "Benefit schedule sublimits apply."
+      ],
+      "clientSignalPhrases": [
+        "worried about surgery costs",
+        "wants a private hospital",
+        "needs a big limit",
+        "had a big bill before",
+        "wants worldwide cover",
+        "operation coming up",
+        "family history of stroke",
+        "wants a room upgrade"
+      ],
+      "negativeSignalPhrases": [
+        "budget is limited",
+        "only needs outpatient",
+        "wants a full lifetime limit"
+      ],
+      "clientProfileFit": [
+        "Clients expecting surgery",
+        "Those wanting private room cover",
+        "Frequent travellers needing worldwide care"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan lifts medical cover to HK$1.5 million per confinement on the standard private option.",
+      "verificationPrompts": [
+        "Confirm the hospital and room level expected",
+        "Check whether treatment may happen overseas",
+        "Ask about planned surgery"
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "room_level",
+        "network_access"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Ward plan: US$62,500 or HK$500,000\"",
+        "\"Standard Private plan: US$187,500 or HK$1,500,000\""
+      ],
+      "notesForReviewer": "The plan has no stated annual or lifetime aggregate limit; the figure is per confinement/procedure/injury."
+    },
+    {
+      "trendId": "metro-trio-medical-critical-illness-protection-plan_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Critical illness lump sum added",
+      "whatProductOffers": "Adds lump-sum cover for 6 critical illnesses and 3 early-stage critical illnesses, including complications related to chronic diseases, cancer and carcinoma-in-situ, plus a death benefit.",
+      "keyFigures": [
+        {
+          "label": "Critical illnesses covered",
+          "value": "6",
+          "condition": "Plus 3 early-stage critical illnesses"
+        },
+        {
+          "label": "Lump sum",
+          "value": "Paid on a covered critical illness",
+          "condition": "Amount per benefit schedule"
+        },
+        {
+          "label": "Death benefit",
+          "value": "Included",
+          "condition": "Under the life protection element"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only 6 critical illnesses and 3 early-stage conditions; this is not a broad CI list.",
+        "Benefit amounts are not in the extracted text.",
+        "Waiting periods are not stated."
+      ],
+      "clientSignalPhrases": [
+        "wants CI cover too",
+        "diabetes complications worry me",
+        "family history of heart attack",
+        "wants a lump sum on diagnosis",
+        "needs a death benefit",
+        "one policy please",
+        "wants cancer cover",
+        "worried about kidney failure"
+      ],
+      "negativeSignalPhrases": [
+        "wants 50+ CI conditions",
+        "only needs medical reimbursement",
+        "wants pure savings"
+      ],
+      "clientProfileFit": [
+        "Chronic patients wanting CI cover",
+        "Clients seeking medical plus lump sum in one policy",
+        "Those needing death cover"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "Given {client_detail}, the plan pairs hospital reimbursement with a lump sum on six critical illnesses.",
+      "verificationPrompts": [
+        "Check which conditions the client fears most",
+        "Confirm need for a death benefit",
+        "Ask whether 6 CIs is enough"
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "annual_limit",
+        "waiting_period"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"cover 6 critical illnesses and 3 early stage critical illnesses including the complications related to chronic diseases, cancer and carcinoma-in-situ\"",
+        "\"death benefit\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "metro-trio-medical-critical-illness-protection-plan_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "Pre and post-surgery outpatient",
+      "whatProductOffers": "Extends cover beyond inpatient treatment to pre- and post-surgery outpatient consultations, emergency outpatient treatment, rehabilitation and long-term treatment, plus worldwide emergency assistance.",
+      "keyFigures": [
+        {
+          "label": "Extended benefits",
+          "value": "Pre- and post-surgery outpatient, emergency outpatient, rehabilitation, long-term treatment",
+          "condition": "Under the medical benefit"
+        },
+        {
+          "label": "Emergency assistance",
+          "value": "Worldwide",
+          "condition": "Included in other benefits"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Subject to benefit schedule limits.",
+        "This is not a general outpatient plan.",
+        "Amounts are not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "needs follow-up visits",
+        "surgery is scheduled",
+        "wants rehab covered",
+        "emergency abroad",
+        "post-op physio",
+        "wants continuity of care",
+        "specialist follow-up",
+        "travels after treatment"
+      ],
+      "negativeSignalPhrases": [
+        "wants unlimited GP visits",
+        "no planned surgery",
+        "needs dental cover"
+      ],
+      "clientProfileFit": [
+        "Clients facing surgery",
+        "Those needing post-operative rehab",
+        "Travellers wanting emergency cover"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "With {client_detail}, follow-up consultations and rehab after surgery stay within the same plan.",
+      "verificationPrompts": [
+        "Confirm whether surgery is planned",
+        "Ask about follow-up frequency",
+        "Check travel plans after treatment"
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "annual_limit",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"extended medical benefits for emergency outpatient treatment and rehabilitation purposes\"",
+        "\"pre- and post-surgery outpatient consultation, long term treatment and worldwide emergency assistance services\""
+      ],
+      "notesForReviewer": "No per-visit or annual outpatient limits are given in the extract."
+    },
+    {
+      "trendId": "metro-trio-medical-critical-illness-protection-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Healthier living raises reimbursement",
+      "whatProductOffers": "From the second policy year, the reimbursement percentage for eligible Part II expenses such as surgeon's fees, miscellaneous hospital expenses and specialist's fees can rise from 55% to 70% depending on health status.",
+      "keyFigures": [
+        {
+          "label": "Reimbursement rate",
+          "value": "55% rising to 70%",
+          "condition": "Part II eligible expenses; from the second policy year; depends on health status"
+        },
+        {
+          "label": "Programme",
+          "value": "AIA Vitality Super Medical Reward",
+          "condition": "Membership and health improvement required"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Applies only to Part II expenses.",
+        "Available from the second policy year.",
+        "Depends on health status and is not automatic.",
+        "AIA Vitality charges an annual membership fee."
+      ],
+      "clientSignalPhrases": [
+        "wants to improve health",
+        "already in AIA Vitality",
+        "walks daily",
+        "wants a reward for exercise",
+        "motivated by discounts",
+        "uses a health app",
+        "wants a better payout",
+        "recently diagnosed"
+      ],
+      "negativeSignalPhrases": [
+        "not interested in a wellness programme",
+        "wants a fixed payout",
+        "no smartphone"
+      ],
+      "clientProfileFit": [
+        "Motivated wellness-programme members",
+        "Clients trying to control a chronic condition",
+        "Health-app users"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "Because {client_detail}, improving their health status can lift reimbursement from 55% to 70%.",
+      "verificationPrompts": [
+        "Ask whether the client uses AIA Vitality",
+        "Confirm willingness to track health metrics",
+        "Check understanding that the uplift is conditional"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"may increase from 55% to 70%, depending on your health status\"",
+        "\"additional Super Medical Reward to enhance your medical benefits as your health improves\""
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "metro-trio-medical-critical-illness-protection-plan_pre_existing_or_chronic_support",
+    "bestForOneLiner": "A medical and critical illness plan designed for non-smokers aged 40-60 with diabetes, hypertension or hyperlipidaemia, with limits up to HK$1.5 million and cover to age 85.",
+    "notSuitedWhen": [
+      "The client is a smoker",
+      "The client is under 40 or already over 60",
+      "The client wants a broad 50+ condition critical illness list"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table",
+      "Full benefit schedule sublimits",
+      "Waiting periods and decline criteria"
+    ]
+  }
+}

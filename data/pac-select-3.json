@@ -1,0 +1,291 @@
+{
+  "productId": "pac-select-3",
+  "productName": "PAC Select 3",
+  "productType": "accident insurance (add-on plan)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "pac-select-3_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Accident death and disability cover",
+      "whatProductOffers": "Core Accidental Death & Dismemberment cover with a client-set sum assured, plus a monthly Permanent Total Disability benefit of 1% of that sum assured for up to 100 months.",
+      "keyFigures": [
+        {
+          "label": "Core cover",
+          "value": "Accidental Death & Dismemberment",
+          "condition": "Sum assured chosen by the client"
+        },
+        {
+          "label": "PTD payment",
+          "value": "1% of AD&D sum assured per month",
+          "condition": "Starting from the 13th month; up to 100 months"
+        },
+        {
+          "label": "PTD conditions",
+          "value": "Age 18+, disabled within 180 days, 12 consecutive months",
+          "condition": "As defined in the policy"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "PTD applies only to insureds aged 18 or above.",
+        "Disability must persist for 12 consecutive months.",
+        "No PTD payment if AD&D is payable for the same injury.",
+        "Sum assured is reduced after a payment."
+      ],
+      "clientSignalPhrases": [
+        "main breadwinner",
+        "works at height",
+        "worried about disability",
+        "wants income if disabled",
+        "manual worker",
+        "family depends on him",
+        "wants a custom sum assured",
+        "no employer cover"
+      ],
+      "negativeSignalPhrases": [
+        "wants medical bills only",
+        "needs illness cover",
+        "wants a savings plan"
+      ],
+      "clientProfileFit": [
+        "Breadwinners needing income protection",
+        "Manual and site workers",
+        "Clients wanting custom cover"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "Since {client_detail}, a permanent disability pays 1% of the chosen sum assured monthly for up to 100 months.",
+      "verificationPrompts": [
+        "Confirm the client's occupation",
+        "Ask what monthly income needs replacing",
+        "Check the sum assured the client can afford"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Each monthly payment equals to 1% of the sum assured of the Accidental Death & Dismemberment Benefit add-on plan\"",
+        "\"up to a maximum of 100 months\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "pac-select-3_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "Optional accident medical cover",
+      "whatProductOffers": "Optional Accidental Medical Expenses Reimbursement and Daily Hospital Income covers can be added to the core AD&D plan.",
+      "keyFigures": [
+        {
+          "label": "Optional covers",
+          "value": "Accidental medical expenses reimbursement + daily hospital income",
+          "condition": "Added to the core cover"
+        },
+        {
+          "label": "Core cover",
+          "value": "Accidental death and dismemberment",
+          "condition": "Required base"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Optional covers may require additional premium.",
+        "Benefit amounts are not in the extracted text.",
+        "Subject to policy terms."
+      ],
+      "clientSignalPhrases": [
+        "wants bills covered too",
+        "asks about hospital cash",
+        "wants a modular plan",
+        "budget for extras",
+        "needs accident medical",
+        "wants daily income",
+        "comparing add-ons",
+        "wants full accident cover"
+      ],
+      "negativeSignalPhrases": [
+        "core cover only",
+        "wants one fixed plan",
+        "no hospital concern"
+      ],
+      "clientProfileFit": [
+        "Clients wanting accident medical costs covered",
+        "Those building modular cover",
+        "Budget-conscious buyers starting with core"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the optional medical and hospital income covers sit on top of the core accident sum assured.",
+      "verificationPrompts": [
+        "Ask whether the client wants medical reimbursement",
+        "Check budget for optional covers",
+        "Confirm existing hospital cover"
+      ],
+      "comparisonRows": [
+        "add_ons",
+        "annual_limit",
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Additional Optional Covers: Accidental Medical Expenses Reimbursement Benefit + Daily Hospital income Benefit\""
+      ],
+      "notesForReviewer": "The extract gives no benefit amounts for the optional covers."
+    },
+    {
+      "trendId": "pac-select-3_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Set your own sum assured",
+      "whatProductOffers": "A modular accident add-on where the client sets the AD&D sum assured and chooses which optional covers to attach.",
+      "keyFigures": [
+        {
+          "label": "Structure",
+          "value": "Core AD&D plus 2 optional covers",
+          "condition": "Optional medical expenses and daily hospital income"
+        },
+        {
+          "label": "Sum assured",
+          "value": "Client-selected",
+          "condition": "Basis for AD&D and PTD benefits"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Must be attached to a basic plan as an add-on.",
+        "Sum assured is subject to underwriting and limits.",
+        "Optional covers are priced separately."
+      ],
+      "clientSignalPhrases": [
+        "wants control over cover",
+        "budget is tight",
+        "wants an add-on not standalone",
+        "already has a basic plan",
+        "wants to scale cover",
+        "asks about sum assured",
+        "wants a simple accident rider",
+        "comparing with standalone"
+      ],
+      "negativeSignalPhrases": [
+        "wants an all-in-one plan",
+        "needs standalone cover",
+        "wants a guaranteed package"
+      ],
+      "clientProfileFit": [
+        "Clients with an existing basic plan",
+        "Buyers wanting to tune premium",
+        "Young clients starting small"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "cost"
+      ],
+      "talkingPointTemplate": "Given {client_detail}, they can set the accident sum assured and add only the covers they need.",
+      "verificationPrompts": [
+        "Confirm the client's existing basic plan",
+        "Ask what premium budget they have",
+        "Check the sum assured needed"
+      ],
+      "comparisonRows": [
+        "add_ons",
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Set your own sum assured to suit your needs\"",
+        "\"Core Cover: Accidental Death & Dismemberment Benefit ... Additional Optional Covers\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "pac-select-3_income_or_lifestyle_support_double_indemnity",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Double payout on transport accidents",
+      "whatProductOffers": "Doubles the AD&D or PTD benefit for covered accidents on public transport, in a passenger elevator, in a fire at a theatre, hotel, school or hospital, for a pedestrian struck by a vehicle, or in a flood or landslide in Hong Kong or Macau.",
+      "keyFigures": [
+        {
+          "label": "Double indemnity",
+          "value": "2x AD&D or PTD benefit",
+          "condition": "Specified accident circumstances"
+        },
+        {
+          "label": "Covered transport",
+          "value": "Ferry, bus, coach, train/MTR, taxi, airplane",
+          "condition": "Fare-paying passenger"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only the listed circumstances qualify.",
+        "Elevators in mines or construction sites are excluded.",
+        "Fire must be in a listed venue.",
+        "Flood or landslide cover is limited to Hong Kong or Macau."
+      ],
+      "clientSignalPhrases": [
+        "takes the MTR daily",
+        "commutes by bus",
+        "travels by ferry",
+        "worried about taxi accidents",
+        "walks near traffic",
+        "frequent flyer",
+        "works in a theatre",
+        "lives in a landslide area"
+      ],
+      "negativeSignalPhrases": [
+        "works from home",
+        "no public transport use",
+        "wants simple cover"
+      ],
+      "clientProfileFit": [
+        "Daily public transport commuters",
+        "Frequent flyers",
+        "Urban pedestrians"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "Because {client_detail}, the accident benefit doubles on the transport they use every day.",
+      "verificationPrompts": [
+        "Ask about the daily commute",
+        "Check air travel frequency",
+        "Confirm awareness of the listed events"
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"PAC Select 3 will double the Accidental Death & Dismemberment Benefit or the Permanent Total Disability Benefit payable\"",
+        "\"a fare paying passenger travelling on marine, land or air public transportation\""
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "pac-select-3_income_or_lifestyle_support",
+    "bestForOneLiner": "A modular accident add-on with client-set AD&D cover, monthly permanent disability income and optional accident medical and hospital cash benefits.",
+    "notSuitedWhen": [
+      "The client needs a stand-alone policy",
+      "The client wants illness or hospital medical cover",
+      "The client needs savings or investment features"
+    ],
+    "gapsInSourceMaterial": [
+      "Benefit schedule amounts",
+      "Premium rates",
+      "Waiting periods and full exclusions"
+    ]
+  }
+}

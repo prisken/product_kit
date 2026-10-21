@@ -1,0 +1,288 @@
+{
+  "productId": "wealth-flexi-savings-insurance-plan",
+  "productName": "Wealth Flexi Savings Insurance Plan",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "wealth-flexi-savings-insurance-plan_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed plus non-guaranteed returns",
+      "whatProductOffers": "A participating whole-life plan offering both guaranteed and non-guaranteed returns, built on guaranteed cash value plus non-guaranteed reversionary bonus and terminal bonus.",
+      "keyFigures": [
+        {
+          "label": "Return structure",
+          "value": "Guaranteed and non-guaranteed",
+          "condition": "Participating whole-life plan"
+        },
+        {
+          "label": "Policy term",
+          "value": "Whole life",
+          "condition": "Lifelong cover"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Non-guaranteed bonuses depend on AIA's declarations and may be lower than illustrated.",
+        "The extract gives no premium, yield, break-even or surrender value figures.",
+        "Withdrawals reduce the principal amount and subsequent policy values."
+      ],
+      "clientSignalPhrases": [
+        "wants a mix of guaranteed and upside",
+        "has a long horizon for this money",
+        "wants whole life cover with savings",
+        "asked about reversionary bonus",
+        "wants to grow wealth for the next generation",
+        "has a lump sum to deploy",
+        "wants a plan that can last a lifetime",
+        "comparing with a deposit"
+      ],
+      "negativeSignalPhrases": [
+        "needs a fully guaranteed return",
+        "needs the money in 3 years",
+        "wants short-term trading gains"
+      ],
+      "clientProfileFit": [
+        "High-net-worth clients with a long horizon",
+        "Savers wanting a guaranteed floor plus bonuses",
+        "Families building multi-generational wealth"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan pairs guaranteed cash value with non-guaranteed bonuses over a whole-life horizon.",
+      "verificationPrompts": [
+        "Confirm the client's horizon is 10+ years",
+        "Check the client's tolerance for non-guaranteed values",
+        "Obtain the premium and bonus illustration"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Wealth Flexi Savings Insurance Plan is a participating whole-life insurance plan offering both guaranteed and non-guaranteed returns.",
+        "Guaranteed Cash Value",
+        "Non-guaranteed Reversionary Bonus and non-guaranteed Terminal Bonus"
+      ],
+      "notesForReviewer": "No numerical illustration in the extracted brochure text."
+    },
+    {
+      "trendId": "wealth-flexi-savings-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Withdrawal and bonus lock-in",
+      "whatProductOffers": "Flexi Withdrawal Option, Value Safeguard Option, Bonus Lock-in Option and Bonus Unlock Option give the owner control over when policy value is withdrawn or locked in.",
+      "keyFigures": [
+        {
+          "label": "Capital access options",
+          "value": "4",
+          "condition": "Flexi Withdrawal, Value Safeguard, Bonus Lock-in, Bonus Unlock"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Option mechanics, limits, minimum amounts and charges are not stated in the extracted text.",
+        "Withdrawal of guaranteed cash value reduces the principal amount and death benefit.",
+        "Bonus Unlock Option is referenced as pioneered by AIA in the Global Power Multi-Currency Plan 2."
+      ],
+      "clientSignalPhrases": [
+        "wants to take profit off the table",
+        "may need cash for a property in a few years",
+        "doesn't want to surrender the whole policy",
+        "asked about locking in bonuses",
+        "wants flexible access for business",
+        "wants to keep the policy but draw some value",
+        "wants to lock in some gains",
+        "may need cash for a property",
+        "asked about bonus lock-in"
+      ],
+      "negativeSignalPhrases": [
+        "wants a fixed annuity payout",
+        "needs full liquidity immediately",
+        "expects withdrawals with no effect on value"
+      ],
+      "clientProfileFit": [
+        "Business owners needing periodic liquidity",
+        "Clients with staged financial goals",
+        "Savers wanting upside with partial access"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan separates access from surrender, so part of the value can be withdrawn or locked in.",
+      "verificationPrompts": [
+        "Ask when the client may need cash",
+        "Obtain the withdrawal and lock-in terms",
+        "Confirm whether a lock-in suits the client's view"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Flexi Withdrawal Option",
+        "Value Safeguard Option",
+        "Bonus Lock-in Option",
+        "Bonus Unlock Option",
+        "Rare-in-market^"
+      ],
+      "notesForReviewer": "Names and market claims only; the extract does not explain how each option works."
+    },
+    {
+      "trendId": "wealth-flexi-savings-insurance-plan_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Future Wishes Arrangement",
+      "whatProductOffers": "A first-in-market value-added service that lets the policy owner pre-set different instructions for different specified triggering events in one integrated arrangement, alongside Transitional Owner Arrangement with Future Guard Option, Policy Split Option, Health Impairment Option, Death Benefit Settlement Option and Beneficiary Flexi Option.",
+      "keyFigures": [
+        {
+          "label": "Future Wishes Arrangement",
+          "value": "First-in-market",
+          "condition": "As of 1 June 2026, compared with Hong Kong major insurers"
+        },
+        {
+          "label": "Legacy options and services named",
+          "value": "6",
+          "condition": "Future Wishes, Transitional Owner with Future Guard, Policy Split, Health Impairment, Death Benefit Settlement, Beneficiary Flexi"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Future Wishes Arrangement is a value-added service, not a product feature, and is not offered under the policy contract.",
+        "Only specified plans and designated policies meeting eligibility requirements qualify; the policy must be issued in Hong Kong.",
+        "Not applicable to corporate-owned policies and trust-owner policies.",
+        "Application is subject to AIA approval, and AIA may withdraw or change the service at its discretion.",
+        "Future Wishes designations override existing contingent owner, contingent insured, designated ownership recipient and designated payment recipient records."
+      ],
+      "clientSignalPhrases": [
+        "wants instructions ready if something happens",
+        "worried about incapacity",
+        "wants to split the policy between children",
+        "asked about inheritance planning",
+        "wants to decide who takes over the policy",
+        "family business succession",
+        "wants different instructions for different events",
+        "has a child with special needs",
+        "wants to avoid probate delays"
+      ],
+      "negativeSignalPhrases": [
+        "no family or succession need",
+        "wants a plain policy with no services",
+        "corporate-owned policy"
+      ],
+      "clientProfileFit": [
+        "High-net-worth families with succession plans",
+        "Business owners planning ownership transition",
+        "Parents of children with health impairments",
+        "Clients wanting pre-set instructions for incapacity"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the Future Wishes Arrangement lets instructions be set in advance for different life events in one place.",
+      "verificationPrompts": [
+        "Confirm the policy is personally owned and issued in Hong Kong",
+        "Ask which triggering events the client wants covered",
+        "Check eligibility for Transitional Owner Arrangement",
+        "Confirm the client understands these are services, not contract terms"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Future Wishes Arrangement",
+        "Pre-set how your policy is managed upon the occurrence of a life-changing event",
+        "allows the policy owner to make different instructions for different specified triggering events in one integrated value-added service",
+        "It is a value-added service and not a product feature, therefore it is not offered under the policy contract"
+      ],
+      "notesForReviewer": "The brochure uses a first-in-market claim dated 1 June 2026; confirm the current status before quoting it."
+    },
+    {
+      "trendId": "wealth-flexi-savings-insurance-plan_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Currency exchange option",
+      "whatProductOffers": "A Currency Exchange Option is included, allowing policy value to be exchanged between currencies.",
+      "keyFigures": [
+        {
+          "label": "Currency Exchange Option",
+          "value": "Included",
+          "condition": "First-in-market claim referenced"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The extract does not list the available currencies.",
+        "Exchange rates, spreads, charges and timing are not stated.",
+        "The client bears currency risk."
+      ],
+      "clientSignalPhrases": [
+        "planning to move abroad",
+        "wants to hold USD",
+        "kid studying overseas",
+        "has expenses in another currency",
+        "worried about HKD",
+        "may emigrate",
+        "wants GBP exposure",
+        "has overseas property",
+        "spends part of the year abroad"
+      ],
+      "negativeSignalPhrases": [
+        "only wants HKD",
+        "no FX risk appetite",
+        "needs one currency throughout"
+      ],
+      "clientProfileFit": [
+        "Clients with overseas plans or expenses",
+        "Multi-currency savers"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the Currency Exchange Option allows the policy currency to be changed if plans change.",
+      "verificationPrompts": [
+        "Confirm which currencies are available",
+        "Check the client's future currency needs",
+        "Explain FX risk"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "Currency Exchange Option",
+        "Currency Exchange Option was pioneered by AIA in the Global Power Multi-Currency Plan on 1 June 2021"
+      ],
+      "notesForReviewer": "Currency list is missing from this brochure extract; do not assume the 9 currencies listed in the GlobalFlexi brochure apply to this plan."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "wealth-flexi-savings-insurance-plan_legacy_and_estate",
+    "bestForOneLiner": "A participating whole-life savings plan that pairs guaranteed and non-guaranteed returns with extensive withdrawal, currency and pre-set legacy arrangements.",
+    "notSuitedWhen": [
+      "The client needs documented short-term returns",
+      "The client has no legacy or succession objective",
+      "The client is not willing to accept non-guaranteed bonuses",
+      "The policy would be corporate-owned and needs the legacy services"
+    ],
+    "gapsInSourceMaterial": [
+      "No premium table or illustration",
+      "No currency list for the Currency Exchange Option",
+      "Option mechanics and charges not described",
+      "No surrender value or policy loan terms"
+    ]
+  }
+}

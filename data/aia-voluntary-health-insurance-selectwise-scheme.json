@@ -1,0 +1,383 @@
+{
+  "productId": "aia-voluntary-health-insurance-selectwise-scheme",
+  "productName": "AIA Voluntary Health Insurance SelectWise Scheme",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-voluntary-health-insurance-selectwise-scheme_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Affordable premium, upgraded room",
+      "whatProductOffers": "Positions the plan at sustainable and affordable premiums while allowing a more comfortable room type at SelectWise Designated Hospitals in Hong Kong, Macau and mainland China when the eligibility conditions are met.",
+      "keyFigures": [
+        {
+          "label": "Premium positioning",
+          "value": "Sustainable and affordable",
+          "condition": "no premium figure in the extract"
+        },
+        {
+          "label": "Room upgrade",
+          "value": "More comfortable room type",
+          "condition": "at SelectWise Designated Hospitals"
+        },
+        {
+          "label": "Hong Kong room",
+          "value": "Semi-private room",
+          "condition": "network doctors and pre-approved expenses"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The room upgrade requires confinement at a SelectWise Designated Hospital and meeting the eligibility requirements.",
+        "In Hong Kong the semi-private room requires all attending doctors to be network doctors and all expenses to be pre-approved.",
+        "Actual premium levels are not in the extracted text.",
+        "The plan is a reimbursement VHIS plan, not a cash-benefit plan."
+      ],
+      "clientSignalPhrases": [
+        "premium is too high elsewhere",
+        "wants a private room on a budget",
+        "asked about the cheapest VHIS",
+        "healthy but wants cover",
+        "young family on a tight budget",
+        "wants more than a ward",
+        "wants value for money",
+        "compared three VHIS plans already"
+      ],
+      "negativeSignalPhrases": [
+        "wants a guaranteed room type at any hospital",
+        "needs worldwide cover",
+        "wants a savings plan",
+        "refuses network doctors"
+      ],
+      "clientProfileFit": [
+        "Young families",
+        "First-time VHIS buyers",
+        "Budget-conscious professionals"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the premium stays at a sustainable level and a semi-private room is still available at a designated hospital when the network conditions are met.",
+      "verificationPrompts": [
+        "Confirm the current premium table by age and room type.",
+        "Confirm the exact eligibility rules for the room upgrade.",
+        "Confirm whether the premium is guaranteed or reviewable."
+      ],
+      "comparisonRows": [
+        "premium",
+        "room_level",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "This innovative medical plan provides you with medical protection at sustainable and affordable premiums",
+        "it may also allow you to stay in a comfortable room type if you choose to be confined in SelectWise Designated Hospitals in Hong Kong, Macau or mainland China, provided that certain eligibility requirements are met",
+        "Sustainable and affordable premiums with the option to stay in a comfortable room type during confinement"
+      ],
+      "notesForReviewer": "No premium numbers are given in the extract, so affordability cannot be quantified."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-selectwise-scheme_room_ward_level",
+      "trendCategory": "room_ward_level",
+      "isNewCategory": false,
+      "trendName": "Semi-private room at designated hospitals",
+      "whatProductOffers": "Allows a semi-private room in Hong Kong and Macau when confined at a SelectWise Designated Hospital with all attending doctors from the SelectWise Medical Network and all expenses pre-approved; in mainland China, two groups of designated hospitals offer comfortable room types.",
+      "keyFigures": [
+        {
+          "label": "Hong Kong and Macau room",
+          "value": "Semi-private room",
+          "condition": "designated hospital + network doctors + pre-approval"
+        },
+        {
+          "label": "Mainland China",
+          "value": "Two groups of SelectWise Designated Hospitals",
+          "condition": "comfortable room types"
+        },
+        {
+          "label": "Non-designated mainland hospitals",
+          "value": "Covered under the VHIS Standard Plan",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "In Hong Kong all three conditions must be met: designated hospital, network doctors, pre-approved expenses.",
+        "Treatment at non-designated mainland hospitals falls back to VHIS Standard Plan cover.",
+        "Room type is subject to hospital availability.",
+        "Eligibility requirements are set out on pages 5-6 of the brochure, which were not extracted."
+      ],
+      "clientSignalPhrases": [
+        "wants a semi-private room",
+        "hates ward stays",
+        "wants to choose the hospital",
+        "goes to mainland for treatment",
+        "wants privacy during confinement",
+        "wants a room upgrade without paying more",
+        "asked what room type is covered",
+        "asked about the designated hospital list"
+      ],
+      "negativeSignalPhrases": [
+        "wants a private room at any hospital",
+        "insists on a doctor outside the network",
+        "needs emergency admission without pre-approval"
+      ],
+      "clientProfileFit": [
+        "Clients who value privacy",
+        "Frequent mainland travellers",
+        "Families planning childbirth"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a semi-private room is available at designated hospitals in Hong Kong and Macau when the doctors are in the network and expenses are pre-approved.",
+      "verificationPrompts": [
+        "Confirm the designated hospital list in each city.",
+        "Confirm what happens if a non-network doctor is assigned during the stay.",
+        "Confirm whether the room upgrade applies to maternity stays."
+      ],
+      "comparisonRows": [
+        "room_level",
+        "network_access",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Eligible to stay in a semi-private room when you are confined in SelectWise Designated Hospitals in Hong Kong",
+        "all attending registered medical practitioners and surgeons who provide medical services during confinement are network doctors of SelectWise Medical Network",
+        "all medical expenses incurred during confinement have been pre-approved"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-selectwise-scheme_high_annual_or_lifetime_limit",
+      "trendCategory": "high_annual_or_lifetime_limit",
+      "isNewCategory": false,
+      "trendName": "HKD60m lifetime, HKD12m annual",
+      "whatProductOffers": "Provides a lifetime limit of up to HKD60 million and an annual limit of up to HKD12 million, with no itemised benefit sublimit for key medical expenses.",
+      "keyFigures": [
+        {
+          "label": "Lifetime limit",
+          "value": "Up to HKD60 million",
+          "condition": ""
+        },
+        {
+          "label": "Annual limit",
+          "value": "Up to HKD12 million",
+          "condition": ""
+        },
+        {
+          "label": "Itemised sublimit",
+          "value": "None for key medical expenses",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Subject to the benefit schedule and the designated hospital rules.",
+        "Mainland treatment outside designated hospitals is covered under the VHIS Standard Plan, with lower limits.",
+        "The extract does not state whether the limits are per policy or per insured."
+      ],
+      "clientSignalPhrases": [
+        "wants a big ceiling",
+        "worried about cancer costs",
+        "mentioned CAR-T therapy costs",
+        "wants no sublimits",
+        "wants private hospital cover for life",
+        "wants a high annual limit",
+        "worried about medical inflation",
+        "asked about the lifetime limit"
+      ],
+      "negativeSignalPhrases": [
+        "only needs a basic ward plan",
+        "wants a cash payout",
+        "needs US treatment"
+      ],
+      "clientProfileFit": [
+        "Clients wanting high ceilings at mid-market premiums",
+        "Families with cancer history",
+        "Professionals planning long-term private care"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the annual limit is HKD12 million and the lifetime limit HKD60 million, with no itemised sublimit on key expenses.",
+      "verificationPrompts": [
+        "Confirm the currency and whether limits are shared across benefits.",
+        "Confirm which expenses fall outside key medical expenses.",
+        "Confirm whether the limits reduce in mainland China."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "lifetime_limit",
+        "room_level"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Lifetime limit of up to HKD60 million and annual limit of up to HKD12 million",
+        "Extensive protection with no itemised benefit sublimit for key medical expenses"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-selectwise-scheme_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Mainland hospital network",
+      "whatProductOffers": "Covers treatment in mainland China through two groups of SelectWise Designated Hospitals with comfortable room types, while treatment at non-designated mainland hospitals is covered under the VHIS Standard Plan.",
+      "keyFigures": [
+        {
+          "label": "Mainland network",
+          "value": "Two groups of SelectWise Designated Hospitals",
+          "condition": "for selection"
+        },
+        {
+          "label": "Non-designated mainland",
+          "value": "Covered under the VHIS Standard Plan",
+          "condition": ""
+        },
+        {
+          "label": "Hong Kong and Macau",
+          "value": "SelectWise Designated Hospitals",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Cover at non-designated mainland hospitals is limited to the VHIS Standard Plan.",
+        "This is not worldwide cover; countries outside Hong Kong, Macau and mainland China are not addressed in the extract.",
+        "Eligibility conditions apply to the designated hospital groups.",
+        "Mainland cover details run to pages 20-26 of the brochure, which were not extracted."
+      ],
+      "clientSignalPhrases": [
+        "goes to Shenzhen for check-ups",
+        "wants mainland hospital cover",
+        "family lives in mainland China",
+        "wants shorter waiting times",
+        "retiring in the Greater Bay Area",
+        "works across the border",
+        "asked about mainland hospital bills",
+        "wants Hong Kong and mainland cover in one plan"
+      ],
+      "negativeSignalPhrases": [
+        "needs global cover",
+        "wants US hospitals",
+        "never travels to mainland China"
+      ],
+      "clientProfileFit": [
+        "Hong Kong residents working in the Greater Bay Area",
+        "Clients with family in mainland China",
+        "Retirees moving north"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, treatment at designated mainland hospitals is covered with a comfortable room type, and non-designated mainland hospitals fall back to the VHIS Standard Plan.",
+      "verificationPrompts": [
+        "Confirm the two hospital groups and the cities covered.",
+        "Confirm whether mainland treatment requires pre-approval.",
+        "Confirm the benefit limits that apply under the VHIS Standard Plan fallback."
+      ],
+      "comparisonRows": [
+        "network_access",
+        "room_level",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "We provide two groups of SelectWise Designated Hospitals in mainland China for selection.",
+        "If you confine or receive medical services in non-SelectWise Designated Hospitals in mainland China, you will be covered under the VHIS Standard Plan",
+        "30% of surveyed Hong Kong residents have sought medical treatment in mainland China, with 73% of them expressing satisfaction"
+      ],
+      "notesForReviewer": "The 30%/73% figures are market research cited by AIA, not product features."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-selectwise-scheme_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Network journey and pre-approval",
+      "whatProductOffers": "Provides a dedicated medical journey through the SelectWise Medical Network with pre-approval of medical expenses, which is also the condition for the semi-private room upgrade in Hong Kong.",
+      "keyFigures": [
+        {
+          "label": "Network",
+          "value": "SelectWise Medical Network",
+          "condition": "Hong Kong"
+        },
+        {
+          "label": "Pre-approval",
+          "value": "Required for the room upgrade",
+          "condition": ""
+        },
+        {
+          "label": "Doctors",
+          "value": "All attending registered practitioners and surgeons must be network doctors",
+          "condition": "for the room upgrade"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Pre-approval is a condition for the room upgrade, not an optional extra.",
+        "Care outside the network follows standard reimbursement.",
+        "The extract does not state the pre-approval turnaround time."
+      ],
+      "clientSignalPhrases": [
+        "wants cashless",
+        "wants pre-approval",
+        "hates claim paperwork",
+        "wants a case manager",
+        "busy schedule, no time for claims",
+        "wants the hospital bill settled directly",
+        "wants one point of contact",
+        "wants one contact for the admission"
+      ],
+      "negativeSignalPhrases": [
+        "wants complete doctor freedom",
+        "treats overseas outside the network"
+      ],
+      "clientProfileFit": [
+        "Busy professionals",
+        "Clients who want predictable costs",
+        "Families near network hospitals"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, pre-approval through the SelectWise network is what unlocks the semi-private room and keeps the bill predictable.",
+      "verificationPrompts": [
+        "Confirm the pre-approval turnaround time.",
+        "Confirm whether emergency admissions can be pre-approved retrospectively.",
+        "Confirm the scope of the network in the client's district."
+      ],
+      "comparisonRows": [
+        "network_access",
+        "outpatient"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Your dedicated medical journey connected by SelectWise Medical Network",
+        "all medical expenses incurred during confinement have been pre-approved",
+        "Care and convenience at every touchpoint of your medical journey through SelectWise Medical Network"
+      ],
+      "notesForReviewer": "The extract does not describe the operational service level behind the network journey."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-voluntary-health-insurance-selectwise-scheme_room_ward_level",
+    "bestForOneLiner": "A VHIS plan built around affordable premiums and a semi-private room at designated hospitals in Hong Kong, Macau and mainland China.",
+    "notSuitedWhen": [
+      "The client insists on any hospital and any doctor.",
+      "The client needs worldwide or US cover.",
+      "The client wants a lump-sum cash benefit rather than reimbursement.",
+      "The client cannot use pre-approval before admission."
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table by age and room type",
+      "Full eligibility rules for the room upgrade",
+      "Mainland benefit schedule pages 20-26",
+      "Complete designated hospital list"
+    ]
+  }
+}

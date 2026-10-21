@@ -1,0 +1,381 @@
+{
+  "productId": "global-power-multi-currency-savings-insurance-plan-3",
+  "productName": "Global Power Multi-Currency Savings Insurance Plan 3",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "global-power-multi-currency-savings-insurance-plan-3_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Up to 9 currency options",
+      "whatProductOffers": "The policy can be held in up to 9 currency options, and a Currency Exchange Option lets the client change the policy currency from the end of the 2nd policy year, described as the earliest time in the market.",
+      "keyFigures": [
+        {
+          "label": "Currency options",
+          "value": "Up to 9",
+          "condition": "per plan"
+        },
+        {
+          "label": "Currency Exchange Option",
+          "value": "Exercisable from the end of the 2nd policy year",
+          "condition": "earliest in market as of 15 September 2023"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Exchange is subject to the currencies then available and to the company's rules; the full list is not in the supplied excerpt.",
+        "Currency exchange may involve a spread or charge; the excerpt does not state the cost.",
+        "Changing currency changes the currency risk; it does not guarantee a better return.",
+        "The 'first-in-market' claim is as of 15 September 2023 and may no longer hold."
+      ],
+      "clientSignalPhrases": [
+        "child studying in the UK",
+        "moving to Australia",
+        "wants to hold USD and GBP",
+        "needs to switch currency later",
+        "paying overseas tuition",
+        "retiring in Canada",
+        "assets spread across countries",
+        "wants to hedge currency",
+        "emigrating in a few years",
+        "needs flexibility on policy currency"
+      ],
+      "negativeSignalPhrases": [
+        "wants a single HKD policy",
+        "needs the currency switched in year 1",
+        "wants FX trading"
+      ],
+      "clientProfileFit": [
+        "Parents funding overseas education",
+        "Clients emigrating or retiring abroad",
+        "Clients with multi-currency liabilities"
+      ],
+      "priorityAlignment": [
+        "access",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy can hold up to 9 currencies and switch currency from the end of year 2, which lines up with overseas tuition or a future move.",
+      "verificationPrompts": [
+        "Confirm the 9 available currencies and any exchange spread.",
+        "Confirm the minimum and maximum exchange amounts.",
+        "Confirm whether multiple exchanges are allowed."
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Up to 9 currency options for you to access the advantages of global currencies\"",
+        "\"Currency Exchange Option exercisable from the end of the 2nd policy year, being the earliest time in the market you can change your policy currency\""
+      ],
+      "notesForReviewer": "The 'earliest in market' comparison is dated 15 September 2023."
+    },
+    {
+      "trendId": "global-power-multi-currency-savings-insurance-plan-3_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Unlimited insured changes",
+      "whatProductOffers": "Change of Insured Option and Contingent Insured Option can each be exercised an unlimited number of times, so the policy can be kept in force across generations, supported by a choice of settlement options.",
+      "keyFigures": [
+        {
+          "label": "Change of Insured Option",
+          "value": "Unlimited number of times",
+          "condition": "per plan"
+        },
+        {
+          "label": "Contingent Insured Option",
+          "value": "Unlimited number of times",
+          "condition": "per plan"
+        },
+        {
+          "label": "Settlement options",
+          "value": "Client-selected",
+          "condition": "to pass wealth to future generations"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The new insured must meet the company's eligibility and underwriting rules; the excerpt does not state age limits.",
+        "Changing the insured does not reset the policy's value or charges but may affect the death benefit calculation.",
+        "Settlement option mechanics are not described in the supplied text."
+      ],
+      "clientSignalPhrases": [
+        "wants the policy to last generations",
+        "grandchild as future insured",
+        "wants to change the insured later",
+        "estate planning across generations",
+        "doesn't want the policy to end at death",
+        "wants a contingent insured",
+        "family trust planning",
+        "wants the policy to keep compounding",
+        "legacy for grandchildren",
+        "wants settlement in instalments"
+      ],
+      "negativeSignalPhrases": [
+        "wants a simple single-life policy",
+        "needs the death benefit now",
+        "wants a fixed insured with no changes"
+      ],
+      "clientProfileFit": [
+        "Grandparents planning for grandchildren",
+        "Families with trust structures",
+        "UHNW legacy planners"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the insured can be changed an unlimited number of times with a contingent insured named, so the policy can outlive the original life insured.",
+      "verificationPrompts": [
+        "Confirm eligibility and age limits for a new insured.",
+        "Confirm whether a change of insured triggers underwriting.",
+        "Confirm the settlement option choices available."
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "add_ons",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Change of Insured Option and Contingent Insured Option that can be exercised for an unlimited number of times\"",
+        "\"Choose your preferred settlement option to pass on your legacy to future generations as you wish\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "global-power-multi-currency-savings-insurance-plan-3_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Policy split and bonus unlock",
+      "whatProductOffers": "A Policy Split Option divides one policy into multiple policies for asset planning, and a first-in-market Bonus Unlock Option reallocates bonuses to pursue potential returns.",
+      "keyFigures": [
+        {
+          "label": "Policy Split Option",
+          "value": "Divide the policy into multiple policies",
+          "condition": "for asset planning"
+        },
+        {
+          "label": "Bonus Unlock Option",
+          "value": "Reallocate bonuses for potential returns",
+          "condition": "pioneered by AIA on 5 October 2022"
+        },
+        {
+          "label": "Bonus Lock-in Option",
+          "value": "Lock in potential gains",
+          "condition": "available"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Policy split may create minimum policy value requirements per resulting policy; the excerpt does not state them.",
+        "The Bonus Unlock Option changes the bonus structure and may reduce the guaranteed element.",
+        "Both options are subject to the company's rules and to the policy being in force at the time."
+      ],
+      "clientSignalPhrases": [
+        "wants to split the policy between kids",
+        "needs separate policies for each child",
+        "wants to lock in bonuses",
+        "wants to reallocate bonuses",
+        "asset planning with one policy",
+        "wants flexibility later",
+        "might need to divide the estate",
+        "wants to unlock bonus value",
+        "planning for two households",
+        "wants to restructure without surrendering"
+      ],
+      "negativeSignalPhrases": [
+        "wants one simple policy",
+        "needs a guaranteed fixed structure",
+        "wants to split in year 1"
+      ],
+      "clientProfileFit": [
+        "Parents splitting assets between children",
+        "Clients with changing estate plans",
+        "Clients wanting bonus flexibility"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy can be split into several policies for different beneficiaries, and bonuses can be locked in or unlocked as circumstances change.",
+      "verificationPrompts": [
+        "Confirm the minimum value per policy after a split.",
+        "Confirm how the Bonus Unlock Option affects guaranteed values.",
+        "Confirm the frequency limits for each option."
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Policy Split Option allows you to divide your policy into multiple policies for extra flexibility in asset planning\"",
+        "\"First-in-market Bonus Unlock Option for reallocating bonuses to enjoy potential returns\""
+      ],
+      "notesForReviewer": "First-in-market claim dated 5 October 2022."
+    },
+    {
+      "trendId": "global-power-multi-currency-savings-insurance-plan-3_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Long-term bonus accumulation",
+      "whatProductOffers": "A participating savings plan built for long-term wealth accumulation through Reversionary Bonus and Terminal Bonus, with a limited-offer 3-year premium payment term.",
+      "keyFigures": [
+        {
+          "label": "Premium payment term",
+          "value": "3 years",
+          "condition": "limited offer"
+        },
+        {
+          "label": "Bonus types",
+          "value": "Reversionary Bonus and Terminal Bonus",
+          "condition": "non-guaranteed"
+        },
+        {
+          "label": "Projected IRR",
+          "value": "Disclosed at the end of the 100th policy year",
+          "condition": "rounded, not guaranteed"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Reversionary and Terminal Bonuses are non-guaranteed and may vary year to year at the company's discretion.",
+        "The projected IRR at the end of the 100th policy year assumes all premiums are paid in full and no options are exercised.",
+        "The projected break-even year is not guaranteed.",
+        "The 3-year premium term is a limited offer and may be withdrawn."
+      ],
+      "clientSignalPhrases": [
+        "wants long-term compounding",
+        "can commit for 20+ years",
+        "wants a short premium term",
+        "3-year premium term appeals",
+        "wants bonuses on top of guarantees",
+        "planning for retirement in 30 years",
+        "wants to pass on a growing asset",
+        "doesn't want a 10-year premium term",
+        "wants global diversification plus growth",
+        "long horizon, high risk tolerance for non-guarantees"
+      ],
+      "negativeSignalPhrases": [
+        "needs the money in 5 years",
+        "wants guaranteed returns only",
+        "needs income now"
+      ],
+      "clientProfileFit": [
+        "Young professionals with a long horizon",
+        "Parents funding a future overseas education",
+        "Clients wanting short premium terms"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, three premiums fund a participating policy that compounds through Reversionary and Terminal Bonuses over the long term, with the bonus options available along the way.",
+      "verificationPrompts": [
+        "Confirm the current bonus scales and projected IRR for the client's profile.",
+        "Confirm the limited-offer 3-year term is still available.",
+        "Confirm the guaranteed versus non-guaranteed split at the client's horizon."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Enjoy long-term wealth accumulation and pass your legacy onto future generations\"",
+        "\"Limited offer: 3-year premium payment term\"",
+        "\"The total IRR at the end of 100th policy year is rounded to the nearest percentage and is not guaranteed\""
+      ],
+      "notesForReviewer": "IRR table values were cut off in the supplied excerpt."
+    },
+    {
+      "trendId": "global-power-multi-currency-savings-insurance-plan-3_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Mental incapacity protection",
+      "whatProductOffers": "A Mental Incapacity Option is included to shield loved ones if the policy owner loses mental capacity, alongside the death benefit paid to nominated beneficiaries.",
+      "keyFigures": [
+        {
+          "label": "Feature",
+          "value": "Mental Incapacity Option",
+          "condition": "per plan"
+        },
+        {
+          "label": "Death benefit",
+          "value": "Paid to the beneficiary(ies) designated",
+          "condition": "per policy terms"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The excerpt names the option but does not describe the trigger, the payout or who receives it.",
+        "The option is subject to the policy's terms and to medical evidence of incapacity.",
+        "It is not a substitute for a will or an enduring power of attorney."
+      ],
+      "clientSignalPhrases": [
+        "worried about dementia",
+        "wants protection if he loses capacity",
+        "family history of mental decline",
+        "wants the policy to help the spouse",
+        "estate planning with incapacity cover",
+        "wants a safeguard for old age",
+        "concerned about elder care",
+        "wants the family protected either way",
+        "planning for cognitive decline",
+        "wants more than a death benefit"
+      ],
+      "negativeSignalPhrases": [
+        "wants a critical illness payout",
+        "needs a legal power of attorney",
+        "wants a guaranteed incapacity income"
+      ],
+      "clientProfileFit": [
+        "Older policy owners",
+        "Clients with a family history of dementia",
+        "Estate planning clients"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the Mental Incapacity Option adds a layer of protection if the owner loses capacity, on top of the death benefit for the family.",
+      "verificationPrompts": [
+        "Confirm the exact trigger and benefit under the Mental Incapacity Option.",
+        "Confirm who receives the benefit and in what form.",
+        "Confirm the interaction with an enduring power of attorney."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "lifetime_limit"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "\"Shield your loved ones with Mental Incapacity Option\""
+      ],
+      "notesForReviewer": "Only the feature name is in the supplied text; no terms, trigger or amount. Treat as a mention, not a verified benefit."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "global-power-multi-currency-savings-insurance-plan-3_international_coverage",
+    "bestForOneLiner": "A multi-currency participating savings plan with up to 9 currencies, currency switching from the end of year 2, unlimited changes of insured and policy splitting.",
+    "notSuitedWhen": [
+      "The client needs a short-term home for cash",
+      "The client wants guaranteed returns only",
+      "The client needs income rather than accumulation"
+    ],
+    "gapsInSourceMaterial": [
+      "Full list of the 9 currencies and exchange charges",
+      "IRR table values",
+      "Minimum premium and policy values",
+      "Mental Incapacity Option terms",
+      "Full exclusions"
+    ]
+  }
+}

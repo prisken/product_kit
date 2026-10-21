@@ -1,0 +1,363 @@
+{
+  "productId": "prosperlife-insurance-plan",
+  "productName": "ProsperLife Insurance Plan",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "prosperlife-insurance-plan_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Whole-life cover plus accident rider",
+      "whatProductOffers": "Provides whole-life death protection to a chosen beneficiary and offers an optional Accidental Death Benefit rider paying 200% of the basic plan's sum assured, capped at US$1,000,000 across all such riders for the same insured.",
+      "keyFigures": [
+        {
+          "label": "Accidental Death Benefit rider",
+          "value": "200% of basic sum assured",
+          "condition": "On or before the earlier of end of 15th policy year and age 75"
+        },
+        {
+          "label": "Accident rider cap",
+          "value": "US$1,000,000",
+          "condition": "Across all Accidental Death Benefit (ProsperLife) Riders for the same insured"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Whole life",
+          "condition": "Basic plan"
+        },
+        {
+          "label": "Waiver of Premium Rider",
+          "value": "TPD before age 60",
+          "condition": "Subject to underwriting"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The Accidental Death Benefit rider is subject to underwriting, exclusions and the company's decision.",
+        "The 200% benefit applies only to a covered accidental death and only up to the earlier of the end of policy year 15 or age 75.",
+        "The US$1,000,000 cap is shared across all Accidental Death Benefit (ProsperLife) Riders for the same insured.",
+        "The Waiver of Premium Rider applies only if TPD occurs before age 60."
+      ],
+      "clientSignalPhrases": [
+        "young family",
+        "mortgage to protect",
+        "wants extra accident cover",
+        "main breadwinner",
+        "wants whole life not term",
+        "needs cover for life",
+        "wants rider for accidental death",
+        "planning for dependants"
+      ],
+      "negativeSignalPhrases": [
+        "needs term cover only",
+        "wants no underwriting"
+      ],
+      "clientProfileFit": [
+        "Families with dependent children",
+        "Mortgage holders wanting lifelong cover",
+        "Clients wanting an accident uplift on whole life"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the base policy is whole-life cover, and if an accident takes them before the earlier of year 15 or age 75, the rider doubles the sum assured up to US$1,000,000.",
+      "verificationPrompts": [
+        "Confirm the mortgage and income replacement need",
+        "Explain the 15-year / age-75 limit on the accident uplift",
+        "Check the shared US$1,000,000 cap across existing AIA riders"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Accidental Death Benefit (ProsperLife) Rider ... provides enhanced protection with up to 200% of the sum assured of the basic plan",
+        "on or before the earlier of (i) the end of the 15th policy year and (ii) age 75 of the insured",
+        "no more than US$1,000,000 can be claimed for accidental death benefit ... under all Accidental Death Benefit (ProsperLife) Riders"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "prosperlife-insurance-plan_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Beneficiary Flexi settlement",
+      "whatProductOffers": "Offers a Death Benefit Settlement Option plus a Beneficiary Flexi Option that lets the beneficiary choose how to receive the death benefit once they reach a Designated Age selected by the policy owner or are diagnosed with a Specified Illness.",
+      "keyFigures": [
+        {
+          "label": "Settlement choices",
+          "value": "Death Benefit Settlement Option and Beneficiary Flexi Option",
+          "condition": "Chosen by policy owner"
+        },
+        {
+          "label": "Beneficiary trigger",
+          "value": "Designated Age or Specified Illness",
+          "condition": "Under Beneficiary Flexi Option"
+        },
+        {
+          "label": "Feature status",
+          "value": "First-in-market",
+          "condition": "Company claim, compared with major HK insurers"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The first-in-market claim is AIA's own comparison and not independently verified.",
+        "The beneficiary can act only when the Designated Age is reached or a Specified Illness is diagnosed.",
+        "Detailed conditions and any limits are truncated in the captured text."
+      ],
+      "clientSignalPhrases": [
+        "wants control over how kids receive money",
+        "estate planning",
+        "beneficiary needs income not lump sum",
+        "worried about young beneficiary",
+        "special needs child",
+        "wants flexible payout",
+        "planning succession",
+        "wants beneficiary to choose"
+      ],
+      "negativeSignalPhrases": [
+        "wants a simple lump sum",
+        "no nominated beneficiary"
+      ],
+      "clientProfileFit": [
+        "Parents leaving money to adult children",
+        "Clients with a vulnerable beneficiary",
+        "Estate planners wanting staged or flexible distribution"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the beneficiary can decide at the designated age or on a specified illness whether to take the money as a lump sum or as income.",
+      "verificationPrompts": [
+        "Confirm the intended Designated Age",
+        "Ask whether the beneficiary should have choice or a fixed schedule",
+        "Read the full Beneficiary Flexi Option terms in the brochure"
+      ],
+      "comparisonRows": [
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Enjoy different choices of settlement options under the Death Benefit Settlement Option and Beneficiary Flexi Option",
+        "the policy owner allows the beneficiary to choose to receive the death benefit payment in accordance with the beneficiary's selected settlement option when the beneficiary has attained the Designated Age ... or ... diagnosed with a Specified Illness"
+      ],
+      "notesForReviewer": "The captured text is truncated before the detailed mechanics and limits."
+    },
+    {
+      "trendId": "prosperlife-insurance-plan_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Participating whole life returns",
+      "whatProductOffers": "A participating whole-life plan offering both guaranteed and non-guaranteed returns alongside life protection, with potential long-term growth from participating policy dividends.",
+      "keyFigures": [
+        {
+          "label": "Return types",
+          "value": "Guaranteed and non-guaranteed",
+          "condition": "Participating whole life"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Whole life",
+          "condition": "Long-term horizon"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The non-guaranteed portion depends on dividend declarations and can be lower than illustrated.",
+        "The captured text does not include any projected values, dividend scales or IRR.",
+        "Early surrender may return less than the premiums paid."
+      ],
+      "clientSignalPhrases": [
+        "wants savings with protection",
+        "long horizon",
+        "ok with non-guaranteed",
+        "wants participating policy",
+        "planning for retirement",
+        "wants one policy for protection and growth",
+        "has 15+ years",
+        "wants guaranteed plus upside"
+      ],
+      "negativeSignalPhrases": [
+        "needs guaranteed growth",
+        "needs money soon"
+      ],
+      "clientProfileFit": [
+        "Long-term savers wanting protection",
+        "Clients comfortable with participating policies",
+        "Retirement planners with a long horizon"
+      ],
+      "priorityAlignment": [
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan combines whole-life protection with a participating savings element, part guaranteed and part non-guaranteed.",
+      "verificationPrompts": [
+        "Ask about the client's time horizon and liquidity needs",
+        "Set expectations on non-guaranteed returns",
+        "Obtain the latest benefit illustration before comparison"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "a participating whole life insurance plan that offers life protection and potential long-term returns",
+        "Potential long-term returns with guaranteed and non-guaranteed returns"
+      ],
+      "notesForReviewer": "No numbers or dividend history in the captured text; treat as a qualitative trend."
+    },
+    {
+      "trendId": "prosperlife-insurance-plan_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "PRMP-eligible for retirement income",
+      "whatProductOffers": "The plan is an eligible life insurance plan under the Policy Reverse Mortgage Programme, allowing Hong Kong policyholders to apply to borrow against the policy for retirement cash flow.",
+      "keyFigures": [
+        {
+          "label": "Programme",
+          "value": "Policy Reverse Mortgage Programme",
+          "condition": "Eligible life insurance plan"
+        },
+        {
+          "label": "Eligibility scope",
+          "value": "Policies issued in Hong Kong",
+          "condition": "Per product page"
+        },
+        {
+          "label": "Loan approval",
+          "value": "Subject to HKMC criteria",
+          "condition": "Not guaranteed by product eligibility"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Product eligibility does not mean the PRMP application will be approved.",
+        "The policyholder and policy must still meet the PRMP eligibility criteria.",
+        "The programme is operated by HKMC Insurance Limited and terms can change.",
+        "Only policies issued in Hong Kong are eligible."
+      ],
+      "clientSignalPhrases": [
+        "asset rich cash poor",
+        "retired with a policy",
+        "wants retirement income",
+        "asked about reverse mortgage",
+        "needs cash without surrendering",
+        "owns property but low income",
+        "wants to keep cover while accessing cash",
+        "wants retirement cash from the policy"
+      ],
+      "negativeSignalPhrases": [
+        "needs immediate liquidity",
+        "policy issued outside Hong Kong"
+      ],
+      "clientProfileFit": [
+        "Retired policyholders needing cash flow",
+        "Asset-rich, income-poor clients",
+        "Clients wanting to keep cover while accessing value"
+      ],
+      "priorityAlignment": [
+        "access",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy can be used under the Policy Reverse Mortgage Programme to generate retirement cash without surrendering the cover, subject to HKMC approval.",
+      "verificationPrompts": [
+        "Confirm the policy is issued in Hong Kong",
+        "Explain that eligibility is not approval",
+        "Refer the client to HKMC for the loan criteria"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Policy Reverse Mortgage Programme - Eligible Life Insurance Plan",
+        "Wealth Elite Life Insurance Plan 3 is eligible life insurance plan under the Policy Reverse Mortgage Programme (Applicable to the policies issued in Hong Kong only)"
+      ],
+      "notesForReviewer": "The PRMP sentence appears in the product page and brochure header; loan mechanics are not in the captured text."
+    },
+    {
+      "trendId": "prosperlife-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Settlement and add-on choices",
+      "whatProductOffers": "Offers a choice of death benefit settlement options and optional accident, medical, critical illness and disability add-on plans that can be renewed after the basic plan is paid up.",
+      "keyFigures": [
+        {
+          "label": "Settlement options",
+          "value": "Death Benefit Settlement Option and Beneficiary Flexi Option",
+          "condition": "Policy owner chooses"
+        },
+        {
+          "label": "Add-on types",
+          "value": "4",
+          "condition": "Accident, medical, critical illness, disability"
+        },
+        {
+          "label": "Add-on renewal",
+          "value": "Until expiry after basic plan paid up",
+          "condition": "By continuing to pay add-on premiums"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Add-ons require additional premiums, underwriting and exclusions.",
+        "All add-on benefits terminate when the basic plan terminates.",
+        "Add-ons can be renewed only until their own expiry."
+      ],
+      "clientSignalPhrases": [
+        "wants to add medical later",
+        "wants flexible payout",
+        "needs CI rider",
+        "wants to tailor cover",
+        "may add accident cover later",
+        "wants options for beneficiary",
+        "prefers one base policy with riders",
+        "wants payout options"
+      ],
+      "negativeSignalPhrases": [
+        "wants a single fixed package",
+        "no interest in riders"
+      ],
+      "clientProfileFit": [
+        "Clients building cover in stages",
+        "Buyers wanting inheritance flexibility",
+        "Families likely to add medical or CI later"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, we can start with the whole-life base and add medical, CI or accident cover later, and choose how the death benefit is paid out.",
+      "verificationPrompts": [
+        "Ask which protections may be added later",
+        "Confirm the client understands add-ons are separately underwritten",
+        "Discuss the settlement option with the beneficiary in mind"
+      ],
+      "comparisonRows": [
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "you may also select from a range of optional add-on plans offering accident, medical, critical illness and disability protection",
+        "Once the basic plan is paid up, you can renew these optional add-on plans until their expiry by continuing to pay their respective premiums"
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "prosperlife-insurance-plan_family_protection",
+    "bestForOneLiner": "A participating whole-life plan with whole-life death benefit, an optional 200% accidental death uplift and beneficiary-directed settlement options.",
+    "notSuitedWhen": [
+      "Client needs pure term cover at the lowest cost",
+      "Client needs guaranteed dividend values",
+      "Client wants a short-term savings product"
+    ],
+    "gapsInSourceMaterial": [
+      "Issue ages, premium terms and premium table are not in the captured text",
+      "Guaranteed and non-guaranteed value illustrations are truncated",
+      "Beneficiary Flexi Option conditions and limits are not fully captured"
+    ]
+  }
+}

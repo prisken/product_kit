@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wizard API key</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .keycard{max-width:560px;margin:40px auto;background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 28px}
+    .keycard h1{font-size:22px;margin:0 0 6px;letter-spacing:-.02em}
+    .keycard p{color:var(--muted);font-size:13.5px;margin:0 0 18px}
+    .keycard input{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:9px;font:15px ui-monospace,Menlo,monospace}
+    .keycard input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+    .keycard .row{margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .ok{background:var(--green-bg);border:1px solid #abefc6;color:var(--green);border-radius:9px;padding:10px 12px;font-size:13.5px;margin-top:14px}
+    .bad{background:var(--red-bg);border:1px solid #fecdca;color:var(--red);border-radius:9px;padding:10px 12px;font-size:13.5px;margin-top:14px}
+    .fine{font-size:12px;color:var(--faint);margin-top:16px;line-height:1.5}
+  </style>
+</head>
+<body>
+  <div class="keycard">
+    <div class="eyebrow" style="display:flex;align-items:center;gap:10px">Local only <span class="lang-wrap" data-lang-toggle style="margin-left:auto"></span></div>
+    <h1 data-i18n="API key">DeepSeek API key</h1>
+    <p data-i18n="Paste the key here. It is written to .secrets.env on this Mac (chmod 600) and used by the local wizard server — it never enters chat. The key is also kept in this browser (localStorage) so the wizard can call the model directly and stop depending on the server process.">Paste the key here. It is written to <code>.secrets.env</code> on this Mac (chmod 600) and used by the local wizard server — it never enters chat. The key is also kept in this browser (localStorage) so the wizard can call the model directly and stop depending on the server process.</p>
+    <form id="f">
+      <input id="k" type="password" placeholder="sk-…" autocomplete="off" spellcheck="false" autocapitalize="off" required>
+      <div class="row">
+        <button class="btn" type="submit" id="go" data-i18n="Save &amp; test">Save &amp; test</button>
+        <span class="muted" data-i18n="One live test call is made to confirm the key works.">One live test call is made to confirm the key works.</span>
+      </div>
+    </form>
+    <div id="out"></div>
+    <div class="fine"><span data-i18n="The field is masked and never echoed back. Replace it any time by submitting again.">The field is masked and never echoed back. Replace it any time by submitting again.</span> <a href="wizard.html" data-i18n="Back to the wizard">Back to the wizard</a></div>
+  </div>
+  <script src="i18n.js?v=1792566101"></script>
+  <script>
+    const f = document.getElementById("f"), out = document.getElementById("out"), go = document.getElementById("go");
+    f.onsubmit = async (e) => {
+      e.preventDefault();
+      const key = document.getElementById("k").value.trim();
+      if (!key) return;
+      go.disabled = true; go.textContent = "Testing…"; out.innerHTML = "";
+      try {
+        const r = await fetch("/api/key", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ key }) });
+        const d = await r.json();
+        out.innerHTML = d.ok
+          ? (d.unverified
+              ? `<div class="ok" style="background:var(--amber-bg);border-color:#fedf89;color:#7a2e0e"><b>Saved, not yet verified.</b> ${String(d.warning || "")} Provider: ${d.provider} · model: ${d.model}. Test it in the wizard; paste again if it fails.</div>`
+              : `<div class="ok"><b>Saved.</b> Provider: ${d.provider} · model: ${d.model} · checked in ${d.ms} ms.</div>`)
+          : `<div class="bad"><b>Rejected:</b> ${String(d.error || "unknown error")}</div>`;
+        if (d.ok) {
+          try {
+            if (d.provider === "openrouter") localStorage.setItem("wiz_or_key", key);
+            else localStorage.setItem("wiz_ds_key", key);
+            localStorage.removeItem(d.provider === "openrouter" ? "wiz_ds_key" : "wiz_or_key");
+          } catch (e) { /* private mode */ }
+          document.getElementById("k").value = "";
+        }
+      } catch (err) {
+        out.innerHTML = `<div class="bad"><b>Could not save:</b> ${err.message}</div>`;
+      } finally {
+        go.disabled = false; go.textContent = "Save & test";
+      }
+    };
+  </script>
+</body>
+</html>

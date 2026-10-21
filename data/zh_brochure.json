@@ -1,0 +1,642 @@
+{
+ "products": {
+  "easyguard-term-life-plan": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "easyguard-term-life-plan_family_protection",
+     "offer": "假如受保人 （即保單內的受保障人士） 不幸身故 ， 我們將向您於保單指定的受益人 ， 支付身故賠償 ， 金額相等於保額的100%加650美元或5,000港元／澳門幣。我們支付身故賠償予受益人之前 ， 將先扣除保單內所有未向我們償還的款項。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "easyguard-term-life-plan_flexibility_and_customisation",
+     "offer": "欲享終身保障 ， 您可於受保人70歲生日後緊隨的保障週年日當日或之前將本計劃轉換為終身壽險計劃 ， 而毋須再次提供健康申報 ， 惟須繳付額外保費及受限於當時我們就此項權益可提供的一眾產品選擇而定 。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "easyguard-term-life-plan_premium_stability",
+     "offer": "即使受保人健康狀況有所改變，「守康易定期壽險計劃」都保證不會因而提高您的保費 ， 您可每年續保 ， 直至受保人85歲為止 。 下一個保單年度的續保保費將根據續保時受保人的年齡適用之保費率而定 （詳情請參閱重要資料內之 「保費調整 」 ）。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-flexi-scheme": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_high_annual_or_lifetime_limit",
+     "offer": "此計劃不設每年保障限額及終身保障限額，同時保證終身續保，並提供三種不同的計劃選項，",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_family_protection",
+     "offer": "保單持有人作為納稅人，可為其本人或任何一名指明親屬 *，即每名認可產品的受保人，申請每個課稅年度最多8,000 港元的扣稅額。指明親屬*數目不設上限。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_outpatient_and_followup",
+     "offer": "•  住院及日間手術\n•  訂明診斷成像檢測\n•  訂明非手術癌症治療\n•  入院前或出院後／日間手術前後的門診護理\n•  長期腎臟透析治療",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_budget_friendly_entry",
+     "offer": "無索償折扣 只要保單在連續3個保單年度或以上沒有作出賠償，在下一個保單週年日您將可\n獲得保費折扣，最高可獲上一個保單年度已繳保費之25%。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-flexi-scheme_fast_access_and_convenience",
+     "offer": "醫療網絡優惠 如選擇使用AIA醫療網絡提供的服務，您可享有以下優惠：\n•  較高的賠償限額\n•  較低的額外醫療保障共同保險百分比\n•  為醫療費用作預先批核申請\n•  為日間手術提供免找數服務",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "aia-voluntary-health-insurance-prime-scheme": {
+   "source": "aia_tc_pdf",
+   "trends": []
+  },
+  "aia-voluntary-health-insurance-privilege-scheme": {
+   "source": "aia_tc_pdf",
+   "trends": []
+  },
+  "aia-voluntary-health-insurance-standard-scheme": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_high_annual_or_lifetime_limit",
+     "offer": "此計劃不設終身保障限額，讓您毋須擔心未來會失去保障。每年保障限額高達420,000 港元，並將每年重設至原先限額。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_hospital_cost_protection",
+     "offer": "主要保障 •     住院保障包括病房及膳食費用及主診醫生巡房費等\n•     住院及日間手術\n•     訂明診斷成像檢測\n•     訂明非手術癌症治療\n•     入院前或出院後/日間手術前後的門診護理",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_pre_existing_or_chronic_support",
+     "offer": "即使後來發現投保時已患有病症，而當時您出於合理原因未有察覺，有關病症將會依然受保。此計劃會在保單生效首3 年的等候期期間，就有關病症提供部分保障，並由第4 個保單年度起提供全面保障。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_budget_friendly_entry",
+     "offer": "保單持有人作為納稅人，可為其本人或任何一名指明親屬* ，即每名認可產品的受保人，申請每個課稅年度最多8,000港元的扣稅額。指明親屬* 數目不設上限。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "aia-voluntary-health-insurance-standard-scheme_premium_stability",
+     "offer": "保證您的續保保費不會因您的索償記錄和身體狀況而調高。您可每年續保直至100歲。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "easyguard-care-essence": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "easyguard-care-essence_critical_illness_readiness",
+     "offer": "假如受保人 （即保單內受保障的人士） 確診受保的癌症 、心臟病或中風 ， 我們會支付一筆過的 「主要都市危疾保障」 ，金額將相等於您所選擇的 100%保額",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "easyguard-care-essence_budget_friendly_entry",
+     "offer": "「守康易危疾保」 提供重點保障切合您的預算 ， 並涵蓋香港其中三大最常見的危疾 ， 這是一項每年續保的計劃 ， 就癌症 、 心臟病及中風提供保障 ， 保費相宜而且保證續保至受保人85歲。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "easyguard-care-essence_premium_stability",
+     "offer": "即使受保人健康狀況有所改變 ，「守康易危疾保」都保證不會因而提高您的保費 ， 您可每年續保 ， 直至受保人85歲為止。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "easyguard-care-essence_family_protection",
+     "offer": "若 受 保 人不 幸 身 故，我 們 將 支 付650美元或 5,000港 元 ／澳 門幣之身故恩恤賠償予您指定的保單受益人 。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "easyguard-care-essence_flexibility_and_customisation",
+     "offer": "您可根據個人需要 ， 選擇以美元或港元作為保單貨幣。對於在澳門繕發的保單 ， 您更可選擇以澳門幣作為保單貨幣 。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "health-journey-guardian": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup",
+     "offer": "「全程守護健康保」提供的門診保障可讓您於優質醫療網絡享用普通科及專科醫生診症、中醫診症、物理治療、針灸、跌打及疫苗注射服務等。每保單年度可獲享高達30次的門診服務。",
+     "label": "",
+     "exclusions": [
+      "針灸、彼拉提健康運動、衝擊波 (包括由物理治療師進行之服務)，營養師諮詢，有關癌症的諮詢及治療。",
+      "於醫院(包括醫院的門診部)進行的診斷及影像檢查。"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_critical_illness_readiness",
+     "offer": "「全程守護健康保」能夠助您填補這個保障缺口，賠償因癌症相關的診斷、積極治療(包括標靶治療)、紓緩治療，以及監察檢查的費用，減輕任何潛在的財務壓力。計劃有3個計劃選項可供選擇，分別為普通房、半私家房及標準私家房，讓您享有更大靈活性，專心康復。",
+     "label": "",
+     "exclusions": [
+      "在組織病理學中分類為癌前病變腫瘤。",
+      "醫療實驗、未經證實或非主流醫療治療，或尚未由接受治療的當地政府、相關機構及／ 或當地認可醫學會批准之新型藥物或幹細胞治療。"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup_rehab",
+     "offer": "此計劃保障就癌症、中風、心臟病發作、腎衰竭或需要接受手術的受傷而進行的康復治療，由註冊保健員及註冊護士提供家中護理和個人護理的服務同樣獲得保障，幫助受保人重拾健康或安享晚年。",
+     "label": "",
+     "exclusions": [
+      "任何非醫療所需治療、檢測或服務。",
+      "已獲任何法律，或由任何政府、僱主或第三方提供的醫療或保險計劃賠償的合資格費用。"
+     ]
+    },
+    {
+     "trendId": "health-journey-guardian_premium_stability",
+     "offer": "「全程守護健康保」保證您的續保保費不會因您的索償紀錄或任何身體狀況的轉變而調高。您可每年續保直至終身，而您的續保保費將根據當時適用之保費釐定",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "health-journey-guardian_outpatient_and_followup_preventive",
+     "offer": "「全程守護健康保」能讓您及早預防疾病。每相隔3 個保單年度，您便可享有1次免費醫療檢查，以及在第5個保單年度後，享有一系列實報實銷之健康服務，包括婚前檢查及大腸內窺鏡檢查，讓您在計劃下以健康體魄盡享精彩人生，緊貼您的不同人生階段。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "here-for-you-refundable-accident-plus": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "here-for-you-refundable-accident-plus_hospital_cost_protection",
+     "offer": "若受保人不幸因意外受傷，我們會賠償意外事發日起計52週內所產生的醫療費用，惟須受限於計劃指定最高保障額。保障範圍涵蓋不同的醫療及服務，包括住院、外科手術、X 光檢查、物理治療及其他必須的治療措施。",
+     "label": "",
+     "exclusions": [
+      "跌打及脊醫治療並不包括在意外醫療賠償內。"
+     ]
+    },
+    {
+     "trendId": "here-for-you-refundable-accident-plus_income_or_lifestyle_support",
+     "offer": "如受保人因意外受傷而住院，我們會按住院日數提供現金賠償，每宗意外的最高賠償日數為90日。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "here-for-you-refundable-accident-plus_savings_and_wealth_growth",
+     "offer": "不論您有否就此保單作出任何索償，在16年保障期完結後您都將獲退還100%的已付保費總和不連利息，而保障將同時終止。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "here-for-you-refundable-accident-plus_family_protection",
+     "offer": "如您在為自己投保之餘，同時額外為一位或以上直系家屬投保，每位家屬將享受 15%的保費折扣優惠，惟投保計劃水平須相等或低於您的個人計劃。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "here-for-you-refundable-accident-plus_international_coverage",
+     "offer": "如受保人為香港或澳門永久居民，而在外地不幸遭逢意外或罹患疾病，我們會提供緊急醫療運送及運返、住院協助及中國支援卡，以保證支付給中國內地指定醫院的住院按金(所有由本公司或友邦保險有限公司繕發的保單的緊急支援服務個人賠償總額高達500,000港元／ 澳門幣)。我們亦提供環球24小時全球電話諮詢服務。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "metro-trio-medical-critical-illness-protection-plan": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "metro-trio-medical-critical-illness-protection-plan_pre_existing_or_chronic_support",
+     "offer": "此計劃為非吸煙人士提供貼心的醫療、危疾及人壽全方位保障，並保證續保至受保人85歲；糖化血色素高達10%的患者亦有機會受保。",
+     "label": "",
+     "exclusions": [
+      "任何受保前已存在的疾病，除非 (1) 該情況或疾病已於投保申請或健康證明完整及真實地披露；及 (2) 本公司並沒有就該情況或疾病在不保事項批註列明任何不保事項"
+     ]
+    },
+    {
+     "trendId": "metro-trio-medical-critical-illness-protection-plan_high_annual_or_lifetime_limit",
+     "offer": "醫療保障最高賠償總額 (每次住院／ 受保手術／ 受保受傷)\n- 普通房計劃：        62,500美元或500,000港元\n- 標準私家房計劃： 187,500美元或1,500,000港元",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "metro-trio-medical-critical-illness-protection-plan_critical_illness_readiness",
+     "offer": "危疾保障：涵蓋6種危疾及3種早期危疾，包括與長期疾病相關的併發症、癌症及原位癌等\n•  身故賠償",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "metro-trio-medical-critical-illness-protection-plan_outpatient_and_followup",
+     "offer": "延伸醫療保障，包括急症門診治療及康復治療等\n•  其他保障包括手術前／ 後門診諮詢、長期治療及環球緊急支援服務等",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "metro-trio-medical-critical-illness-protection-plan_flexibility_and_customisation",
+     "offer": "從第二個保單年度起，您就醫療賠償保障一覽表第II部分\n(如手術費、專科醫生費及住院雜費賠償等 ) 的醫療賠償\n百分比，將會按您的健康狀況的改善而提升，從原來的\n55%提升至最高70%。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "runner-guard": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "runner-guard_fast_access_and_convenience",
+     "offer": "保險有效期 (保障期) 1日／3日／30日／90日",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "runner-guard_income_or_lifestyle_support",
+     "offer": "如受保人於受保參與活動時段不幸發生以下情況， 「競跑保」會支付保額的100%作為賠償：\n• 心臟驟停，而其後存活；\n• 因意外而進入昏迷狀態，並持續最少48小時；\n• 永久喪失肢體或視力；或\n• 不幸身故。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "runner-guard_high_annual_or_lifetime_limit",
+     "offer": "計劃一 計劃二\n產品性質 一般保險計劃\n保額 500,000港元 1,000,000港元",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "runner-guard_flexibility_and_customisation",
+     "offer": "保險有效期 (保障期) 1日／3日／30日／90日",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "secure-first-plus": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "secure-first-plus_premium_stability",
+     "offer": "「意安心升級保障」以美元為保單貨幣，保費繳付期為12年。保費於保費繳付期內保證維持不變，讓您的財政更有預算。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "secure-first-plus_family_protection",
+     "offer": "如受保人在以下情況遇上意外而導致身故、斷肢或永久完全殘廢，我們將支付雙倍意外身故賠償、意外斷肢賠償或永久完全殘廢賠償：• 以乘客身份乘坐付款的海上、陸上及空中的公共交通工具，例如渡輪、巴士、旅遊巴士、火車／港鐵、的士或飛機等• 乘搭載客升降機(礦場及建築地盤之升降機除外)• 因戲院、公眾大禮堂、酒店、學校或醫院發生火警• 以行人身份在交通意外中受傷及／或受任何機動或動力車輛撞擊• 於香港或澳門因自然發生的水浸或山泥傾瀉而受傷",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "secure-first-plus_income_or_lifestyle_support",
+     "offer": "當該殘廢自確診後持續6個月，受保人在第7個月開始將可每月獲得相當於保額2%的賠償，最長可達50個月(當殘廢持續)，期間您可獲豁免繳交保費。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "secure-first-plus_international_coverage",
+     "offer": "如受保人為香港、澳門或中華人民共和國永久居民，本計劃將為受保人提供環球緊急支援服務，服務包括：• 緊急醫療運送及遺體運返，其個人賠償總額上限為625,000美元(包括由我們或友邦保險有限公司為保障同一受保人而繕發的所有保單)• 24小時全球電話諮詢服務",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "secure-first": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "secure-first_premium_stability",
+     "offer": "「意安心」保費繳付期為12年。保費於保費繳付期內保證維持不變，讓您的財政更有預算。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "secure-first_family_protection",
+     "offer": "如受保人(即保單內受保障的人士)不幸遭逢意外，並於180日內因而身故，「意安心」將向您指定的保單受益人支付一筆過的意外身故賠償，金額相等於現時保額。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "secure-first_budget_friendly_entry",
+     "offer": "如您選擇退保、或因未有繳交保費而致保單失效，或因非意外原因身故而令保單終止，我們將根據下表而向您支付退還保費。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "secure-first_fast_access_and_convenience",
+     "offer": "在首個保單年度結束時，我們將連續12年提供每年一次的免費健康檢查服務。檢查項目可在毋須作預先通知的情況下隨時作出修改。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "serene-life-serene-life-annual-dividends-macau": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_savings_and_wealth_growth",
+     "offer": "「樂怡人生」保障計劃系列為終身分紅保障計劃。兩個計劃均提供保證現金價值，助您累積財富，為自己和家人締造豐盛未來。",
+     "label": "",
+     "exclusions": [
+      "現時的紅利率並不反映未來表現亦並非保證。業務過去及現有表現不應解讀成未來表現的指標。",
+      "實際紅利派發並非保證，其金額由AIA全權決定。"
+     ]
+    },
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_legacy_and_estate",
+     "offer": "「樂怡人生」保障計劃的身故賠償將包括：保單保額及任何非保證終期紅利。於第50個保單年度，預期總身故賠償為175,280美元 (非保證身故賠償為125,280美元，保證身故賠償為50,000美元 )。",
+     "label": "",
+     "exclusions": [
+      "以上個案乃假設並只作舉例說明之用，實際紅利派發並非保證，其金額由AIA全權決定。",
+      "我們支付身故賠償予受益人前，將先扣除保單內所有未償還的欠款。"
+     ]
+    },
+    {
+     "trendId": "serene-life-serene-life-annual-dividends-macau_flexibility_and_customisation",
+     "offer": "本計劃備有3種保費繳付期，您可根據個人情況選擇所需，讓您安心策劃財務。兩個計劃版本迎合不同需求，您可根據個人需要選擇，享受靈活的財務規劃。 「樂怡人生」保障計劃為您提供較高的長線潛在總回報，而 「樂怡人生」保障計劃(週年紅利)則為您提供較高的資金流動性。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "silvery-protect": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "silvery-protect_hospital_cost_protection",
+     "offer": "如受保人因意外受傷 ， 我們會向您賠償意外發生日起52個星期內產生的合理及慣常的醫療費用 ， 包括一系列醫療所需的治療及醫療服務 ， 直至每宗意外的個人賠償額上限為止 。",
+     "label": "",
+     "exclusions": [
+      "此賠償只適用於意外發生後52個星期內因意外受傷而導致的合理及慣常的醫療費用 。"
+     ]
+    },
+    {
+     "trendId": "silvery-protect_income_or_lifestyle_support",
+     "offer": "一旦受保人遇上意外並在180日內由註冊醫生確認喪失獨立生存能力或永久性失去以下其中3項日常生活活動能力並持續連續6個月或以上 ， 我們將於持續傷殘期間每月支付 「失去日常生活活動能力償金」 ， 賠償可長達60個月或當受保人年滿80歲而終止 ， 並以較早者為準",
+     "label": "失去日常生活活動能力賠償",
+     "exclusions": [
+      "此賠償將於最多60個月賠償期滿或當受保人年滿80歲而終止，並以較早者為準。"
+     ]
+    },
+    {
+     "trendId": "silvery-protect_outpatient_and_followup",
+     "offer": "一系列醫療所需的治療及醫療服務包括但不限於住院 、 手術 、 跌打 、 針灸 、 物理治療及脊椎治療。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "silvery-protect_family_protection",
+     "offer": "「銀意保」 是專為銀髮族而設的完善方案 ， 受保人可享意外保障直至80歲 ， 計劃涵蓋骨折保障 、 為意外相關的醫療費用提供實報實銷賠償",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "silvery-protect_international_coverage",
+     "offer": "緊急醫療運送及遺體運返 ， 其個人賠償總額為5,000,000港元／ 澳門幣 （包括由我們或友邦保險有限公司為保障同一受保人而繕發的所有保單）",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "simply-love-encore-savings-insurance-plan-5": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_savings_and_wealth_growth",
+     "offer": "一次性繳付保費\n125,000美元\n預期於第5個保單年度\n終結時回本",
+     "label": "",
+     "exclusions": [
+      "此個案內的預期退保發還總額為保證現金價值 、 累積的非保證週年紅利及利息及非保證終期紅利之總和 。 於第40個保單年度 ， 預期退保發還總額為\n187,316美 元（ 保 證 現 金 價 值 為54,922美 元，非 保 證 退 保 發 還 金 額 為132,394美元） 。此預期保單價值及回本期乃根據現時的紅利率及週年紅利之積存息率\n每年3.5%計算 。現時的紅利率及息率並不反映未來表現亦並非保證。"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_legacy_and_estate",
+     "offer": "「簡愛 ‧延續」 儲蓄保險計劃5亦特設更改受保人\n選 項，讓 您 將 豐 厚 成 果 無 限 次 傳 承 後 代，而 第 二受\n保人選項能夠提供財富傳承保障 ， 免得被突如其來\n的意外打亂您的傳承大計 。",
+     "label": "",
+     "exclusions": [
+      "根據我們的批准 ， 您可透過更改受保人選項及／ 或第二受\n保人選項無限次更改受保人 。"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_flexibility_and_customisation",
+     "offer": "由第6至第40個保 單 年 度，\n每年提取6,250美元\n合共提取\n218,750美元",
+     "label": "自製退休收入並傳承下一代",
+     "exclusions": [
+      "「簡愛‧延續」 儲蓄保險計劃5之提取金額並非保證而提取現金之年期亦並非保證 ， 實際提取的金額及年期會根據實際支付之非保證利益而可能有所不同 。"
+     ]
+    },
+    {
+     "trendId": "simply-love-encore-savings-insurance-plan-5_income_or_lifestyle_support",
+     "offer": "失業延繳保費\n惠益\n面對挑戰仍能靈活應對\n(只適用於5年／10年保費繳付\n期的保單）",
+     "label": "",
+     "exclusions": [
+      "您於非自願性失業前必須連續不少於 24個 月 受 僱 於 同 一 僱 主，及\n合資格按香港或澳門（根據保單繕發地） 僱傭或勞工法例追討遣散\n費 。"
+     ]
+    }
+   ]
+  },
+  "super-good-health-medical-plan-2": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "super-good-health-medical-plan-2_hospital_cost_protection",
+     "offer": "主要保障 •  住院保障包括病房及膳食費用及醫生巡房費等\n•  入院及門診手術(包括於日間手術中心就診)\n•  延伸醫療保障，包括癌症治療及康復治療等\n•  其他保障包括優化賠償津貼惠益及環球緊急支援服務等",
+     "label": "",
+     "exclusions": [
+      "任何非醫療所需的治療、檢驗、服務或物品",
+      "任何在受保前已存在的疾病，或在受保人17歲前所顯現或已被診斷的先天性殘疾"
+     ]
+    },
+    {
+     "trendId": "super-good-health-medical-plan-2_room_ward_level",
+     "offer": "您可從三個住院計劃中選擇一個以配合您的預算\n及醫療需要。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "super-good-health-medical-plan-2_premium_stability",
+     "offer": "保證終身續保\n特級 「健康之寶」 醫療保障計劃2保證您的續保保費不會\n因您的索償記錄和身體狀況而調高。您可每年續保直至\n終身。續保保費將根據當時適用之保費表釐定。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "super-good-health-medical-plan-2_fast_access_and_convenience",
+     "offer": "您可憑本網絡卡享有計劃提供的\n所有醫療網絡保障。在本計劃生\n效180日之後，您只須完成簡單手\n續，便可憑本網絡卡預約於網絡\n內的診所及日間手術中心接受指\n定門診手術，並享有免找數服務，無需為繳費及日後的\n索償程序而操心。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "super-good-health-medical-plan-2_outpatient_and_followup",
+     "offer": "醫療網絡專享的保障項目，包括：\n-  專科醫生費用\n-  住院陪床惠益\n-  手術前、後的門診諮詢\n-  普通房計劃加入脊椎／ 物理治療師費用保障\n-  普通房計劃加入手術後每日家中看護費用賠償保障",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "wealth-enrich-savings-insurance-plan": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "wealth-enrich-savings-insurance-plan_savings_and_wealth_growth",
+     "offer": "「財富顯裕」儲蓄保險計劃既提供終身保障，也能讓您彈性理財，您可透過提取保單價值以應付多變的生活需求，為摯愛締造無憂未來。",
+     "label": "",
+     "exclusions": [
+      "此計劃的儲蓄部分涉及風險，可能會招致虧損。如於早年退保，您所收取的金額可能大幅少於已繳的保費。"
+     ]
+    },
+    {
+     "trendId": "wealth-enrich-savings-insurance-plan_flexibility_and_customisation",
+     "offer": "您可透過「財富顯裕」儲蓄保險計劃選擇一筆過提取保單價值，實現您的夢想；您亦可因應未來的個人需要，靈活提取保單價值。",
+     "label": "滿足多變需求　靈活提取價值",
+     "exclusions": [
+      "您可要求提取部分保證現金價值、非保證累積週年紅利及利息及非保證終期紅利，但您保單的未來價值將會隨之減少。在提取現金價值之後，保單的基本金額及身故賠償下的已付的一次性繳付基本保費將會減少。"
+     ]
+    },
+    {
+     "trendId": "wealth-enrich-savings-insurance-plan_legacy_and_estate",
+     "offer": "若受保人不幸身故及沒有第二受保人成為新的受保人，我們將支付身故賠償予您的指定保單受益人。",
+     "label": "",
+     "exclusions": [
+      "若受保人於保單生效起計一年內自殺身亡，我們就此保單的賠償責任只限退還扣除所有未償還的欠款額後的已付保費(不包括利息) 。"
+     ]
+    }
+   ]
+  },
+  "wealth-preserver-life-insurance-plan-5": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "wealth-preserver-life-insurance-plan-5_legacy_and_estate",
+     "offer": "AIA深明您希望能根據您的意願將財富妥善傳予後代，因此我們設計「 財富相傳」 人壽保險計劃 5，通過萬用壽險計劃為您帶來終身人壽保障，靈活安排資產分配的每一個細節，使您的心血代代承傳，惠澤至親。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "wealth-preserver-life-insurance-plan-5_savings_and_wealth_growth",
+     "offer": "在保單生效期內，「財富相傳」人壽保險計劃 5不單保障及留存財富，更提供每年2.00%的最低保證派息率，助您有效增值財富，締造寶貴心意，守護摯愛。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "wealth-preserver-life-insurance-plan-5_flexibility_and_customisation",
+     "offer": "我們瞭解您在保費繳付方面需要靈活安排，方可專注把握得來不易的機會，因此我們提供彈性保費繳付安排，您可自主決定繳付保費的金額及繳費時間安排，在累積財富的同時，亦無阻其他計劃。",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  },
+  "wealth-ultima-life-insurance-plan-2": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "wealth-ultima-life-insurance-plan-2_legacy_and_estate",
+     "offer": "此萬用壽險計劃專為超高資產淨值人士而設，提供10,000,00美元最低現時保額，為您帶來終身人壽保障，讓您靈活安排資產分配的每一個細節，確保您的財富代代承傳，守護至親。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "wealth-ultima-life-insurance-plan-2_savings_and_wealth_growth",
+     "offer": "在保單生效期內，「財富雋永」人壽保險計劃2不單保障及留存財富，更提供每年2.00% 的最低保證派息率，助您有效增值財富，締造寶貴心意，守護摯愛。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "wealth-ultima-life-insurance-plan-2_premium_stability",
+     "offer": "保險費用為保單費用之一，用以提供保單的保險成分，並按月支付。「財富雋永」人壽保險計劃2保單生效期內的保險費用根據保證率計算，不會突然增加，讓您的預算盡在掌握。",
+     "label": "定率保險費用，預算盡在掌握",
+     "exclusions": []
+    }
+   ]
+  },
+  "wisdom-term-life-plan": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "wisdom-term-life-plan_budget_friendly_entry",
+     "offer": "「摯誠定期壽險計劃」備有3個續保年期可供選擇：1 年、5年及20年。此計劃可作為基本計劃或附加契約，靈活方便。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "wisdom-term-life-plan_premium_stability",
+     "offer": "我們承諾，在每個續保年期內，保費會維持不變，而且在每個續保年期結束後，保證成功續保至85歲。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "wisdom-term-life-plan_flexibility_and_customisation",
+     "offer": "您可在經歷下列的人生大事時，以附加契約形式購買額外的定期壽險保障而毋須進一步申報健康狀況：• 受保人獲批樓宇按揭及提取按揭貸款 (適用於購買新住宅物業)；• 受保人結婚；或• 受保人的親生子女出生(不包括領養子女)。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "wisdom-term-life-plan_family_protection",
+     "offer": "若受保人 (即保單內受保障的人士 )不幸身故，我們將支付身故賠償予您指定的保單受益人。身故賠償將相等於100%保額。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "wisdom-term-life-plan_fast_access_and_convenience",
+     "offer": "若受保人不幸罹患末期疾病，而有關疾病獲專科之註冊醫生及我們委任之註冊醫生確認並且預期將導致受保人於12個月內死亡，本保單將預支一筆過，相等於100%保額的末期疾病利益，以補助醫療費用開支。",
+     "label": "",
+     "exclusions": [
+      "末期疾病的症狀或徵兆在保單繕發後90日或之前首次出現；或",
+      "受保人因患上末期疾病而預期死亡的12個月時段在受保人85歲生日後緊隨的保單週年日或之後出現；或"
+     ]
+    }
+   ]
+  },
+  "xtra-protect": {
+   "source": "aia_tc_pdf",
+   "trends": [
+    {
+     "trendId": "xtra-protect_hospital_cost_protection",
+     "offer": "如受保人因意外受傷，我們會向您賠償意外發生日起52個星期內產生的一系列合理及慣常的醫療費用，包括多項必須的治療及醫療服務，直至每宗意外的個人賠償額上限為止。一系列必須的治療及醫療服務包括但不限於住院、手術、跌打、針灸、物理治療及脊椎治療。",
+     "label": "",
+     "exclusions": [
+      "此賠償只適用於意外發生後 52個星期內因意外受傷而導致的合理及慣常的醫療費用。"
+     ]
+    },
+    {
+     "trendId": "xtra-protect_income_or_lifestyle_support",
+     "offer": "當該殘廢自確診後持續 6個月，您在第7個月開始將可每月獲得相當於保額 1%的賠償，最長可達 100個月（當該殘廢仍持續）。",
+     "label": "",
+     "exclusions": [
+      "如受保人不幸遇上意外，並於 180日內導致永久完全殘廢連續達6個月，「添意保」向您支付 「永久完全殘廢賠償」 ，在困難時刻為您與家人提供適切的財政支援。"
+     ]
+    },
+    {
+     "trendId": "xtra-protect_family_protection",
+     "offer": "如受保人 (即保單內受保障的人士) 不幸遇上意外並於意外發生日起計連續 180日內出現 「意外死亡及斷肢賠償保障一覽表」 所列之創傷，我們會根據保障一覽表向您支付一筆過的 「意外死亡及斷肢賠償」 ，減輕您與家人的財務負擔。",
+     "label": "",
+     "exclusions": [
+      "當我們就同一意外導致的任何殘廢支付 「意外死亡及斷肢賠償」 後，將不會提供 「永久完全殘廢賠償」 ，反之亦然。"
+     ]
+    },
+    {
+     "trendId": "xtra-protect_budget_friendly_entry",
+     "offer": "「添意保」 保費相宜，提供均衡意外保障至76歲，包括賠償治療、藥物及相關服務的開支，更就斷肢、傷殘甚至身故提供額外支援，助您加強現有的保障，填補您的保障需要，自然更加安心。",
+     "label": "",
+     "exclusions": []
+    },
+    {
+     "trendId": "xtra-protect_international_coverage",
+     "offer": "如受保人為香港或澳門永久居民，本計劃為受保人提供環球緊急支援服務，包括：• 緊急醫療運送及遺體運返，其個人賠償總額為5,000,000 港元／ 澳門幣(包括由我們或友邦保險有限公司為保障同一受保人而繕發的所有保單)• 24小時全球電話諮詢服務",
+     "label": "",
+     "exclusions": []
+    }
+   ]
+  }
+ }
+}

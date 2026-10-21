@@ -1,0 +1,235 @@
+{
+  "productId": "aia-assemble-critical-illness-insurance-plan",
+  "productName": "AIA Assemble Critical Illness Insurance Plan",
+  "productType": "critical illness insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-assemble-critical-illness-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Build-your-own CI plan",
+      "whatProductOffers": "Lets the client assemble the plan from compulsory and optional Covers, with total critical illness coverage set between 100% and a maximum of 2,500% of the Initial Sum Assured of the Life Cover.",
+      "keyFigures": [
+        { "label": "Coverage range", "value": "100% to a maximum of 2,500% of the Initial Sum Assured of the Life Cover in total", "condition": "total across selected Covers" },
+        { "label": "Compulsory Cover", "value": "Cancer Cover", "condition": "provided automatically" },
+        { "label": "Optional Covers", "value": "Heart-related, Nervous System-related and Other Illnesses", "condition": "each with its own Initial Sum Assured" },
+        { "label": "Exclusive Cover", "value": "provided automatically if all optional Covers are selected", "condition": "selection of Multiple Cancer Cover is not a prerequisite" }
+      ],
+      "exclusionsOrConditions": [
+        "Cancer Cover is compulsory and cannot be removed.",
+        "Total coverage cannot exceed 2,500% of the Initial Sum Assured of the Life Cover.",
+        "The exclusive Cover requires all optional Covers to be selected.",
+        "Waiting periods, underwriting rules and payout percentages for each Cover are not stated in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "already has CI but feels underinsured",
+        "wants to top up cancer only",
+        "family history of heart disease",
+        "doesn't want to pay for covers he won't use",
+        "asked if he can choose the covers",
+        "existing plan only covers major illnesses",
+        "wants more control over the plan",
+        "budget tight but wants CI",
+        "young and healthy, starting small",
+        "wants to bridge a specific gap"
+      ],
+      "negativeSignalPhrases": [
+        "wants a simple all-in-one CI plan",
+        "doesn't want to choose covers",
+        "only wants savings"
+      ],
+      "clientProfileFit": [
+        "existing CI policyholder with a coverage gap",
+        "budget-conscious young professional",
+        "client with a specific family health concern"
+      ],
+      "priorityAlignment": ["flexibility", "coverage", "cost"],
+      "talkingPointTemplate": "You can build the plan around the illnesses you care about, {client_detail}, instead of paying for covers you do not need.",
+      "verificationPrompts": [
+        "Confirm the existing CI sum assured and which illnesses are already covered.",
+        "Confirm which illnesses the client is most concerned about.",
+        "Check waiting periods, underwriting and payout rules for each selected Cover."
+      ],
+      "comparisonRows": ["ci_coverage", "add_ons", "premium"],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Mix your plan with different Covers to match your needs and budget",
+        "Set your critical illness coverage from 100% to a maximum of 2,500% of the Initial Sum Assured of the Life Cover in total",
+        "This Cover will be provided automatically if you have selected all optional Covers (but selection of Multiple Cancer Cover is not a prerequisite)"
+      ],
+      "notesForReviewer": "The extract is truncated before the Covers-in-Detail section; waiting periods, underwriting and payout percentages per Cover are not available here."
+    },
+    {
+      "trendId": "aia-assemble-critical-illness-insurance-plan_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "86 illnesses to age 100",
+      "whatProductOffers": "Covers up to 86 conditions: 58 critical illnesses (57 major and 1 minor), 22 early-stage critical illnesses and 6 severe child diseases, with critical illness protection up to age 100 of the insured.",
+      "keyFigures": [
+        { "label": "Total covered illnesses", "value": "up to 86", "condition": "as stated in the brochure" },
+        { "label": "Critical illnesses", "value": "58", "condition": "including 57 major illnesses and 1 minor illness" },
+        { "label": "Early-stage critical illnesses", "value": "22", "condition": "" },
+        { "label": "Severe child diseases", "value": "6", "condition": "" },
+        { "label": "Cover term", "value": "up to age 100 of the insured", "condition": "" }
+      ],
+      "exclusionsOrConditions": [
+        "Payout percentages for early-stage, minor and severe child diseases are not stated in the extracted text.",
+        "Definitions and exclusions for each illness are in the policy and are not in the extract.",
+        "Cover is subject to the policy's terms and underwriting."
+      ],
+      "clientSignalPhrases": [
+        "family history of cancer",
+        "worried about stroke",
+        "wants early-stage cover",
+        "has young kids",
+        "existing plan only covers major CI",
+        "wants cover until 100",
+        "worried about heart disease",
+        "mother had cancer",
+        "wants broader illness coverage",
+        "feels his current CI is too narrow"
+      ],
+      "negativeSignalPhrases": [
+        "already has strong CI cover",
+        "only wants savings",
+        "doesn't believe in CI"
+      ],
+      "clientProfileFit": [
+        "parents with young children",
+        "underinsured adults aged 30 to 50",
+        "clients with a family history of critical illness"
+      ],
+      "priorityAlignment": ["coverage"],
+      "talkingPointTemplate": "It covers up to 86 conditions, including early-stage and severe child diseases, and the critical illness protection can run to age 100.",
+      "verificationPrompts": [
+        "Confirm the client's existing CI coverage and whether early-stage conditions are already covered.",
+        "Confirm family history and the client's main health concerns.",
+        "Check the policy's definitions, exclusions and payout percentages by stage."
+      ],
+      "comparisonRows": ["ci_coverage", "lifetime_limit"],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Enjoy protection against up to 86 covered illnesses",
+        "58 critical illnesses (including 57 major illnesses and 1 minor illness), 22 early stage critical illnesses and 6 severe child diseases",
+        "Enjoy critical illness protection up to age 100 of the insured"
+      ],
+      "notesForReviewer": "The 86 illnesses and age-100 term are explicit; the extract does not give the payout percentage for early-stage, minor or severe child diseases."
+    },
+    {
+      "trendId": "aia-assemble-critical-illness-insurance-plan_critical_illness_readiness_multiple_cancer",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Five extra cancer claims",
+      "whatProductOffers": "The optional Multiple Cancer Cover provides up to 5 additional claims for cancer.",
+      "keyFigures": [
+        { "label": "Additional cancer claims", "value": "up to 5", "condition": "optional Multiple Cancer Cover" }
+      ],
+      "exclusionsOrConditions": [
+        "Multiple Cancer Cover is optional and must be selected.",
+        "The waiting period, claim interval and eligibility rules are not stated in the extracted text.",
+        "Claims are subject to the policy's cancer definition and claim conditions."
+      ],
+      "clientSignalPhrases": [
+        "cancer runs in the family",
+        "worried about recurrence",
+        "wants multiple cancer payouts",
+        "had cancer before",
+        "wants cover for cancer specifically",
+        "existing plan pays only once",
+        "mother had breast cancer",
+        "wants extra cancer protection"
+      ],
+      "negativeSignalPhrases": [
+        "already has multiple-claim cancer cover",
+        "only wants one lump sum",
+        "not worried about cancer"
+      ],
+      "clientProfileFit": [
+        "client with a family history of cancer",
+        "cancer survivor subject to underwriting",
+        "client whose current CI plan pays only once"
+      ],
+      "priorityAlignment": ["coverage"],
+      "talkingPointTemplate": "If cancer is the main worry, the optional Multiple Cancer Cover adds up to five additional claims.",
+      "verificationPrompts": [
+        "Confirm whether the client already has cancer cover and how many claims it allows.",
+        "Check whether recurrence, metastasis and new cancers qualify, and the waiting period.",
+        "Confirm underwriting requirements if the client has a cancer history."
+      ],
+      "comparisonRows": ["ci_coverage", "add_ons"],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Opt for Multiple Cancer Cover which provides up to 5 additional claims for cancer"
+      ],
+      "notesForReviewer": "The extract confirms up to 5 additional claims but not the waiting period, claim interval, or whether the cover applies to recurrence, metastasis or new cancers."
+    },
+    {
+      "trendId": "aia-assemble-critical-illness-insurance-plan_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Start at 100% cover",
+      "whatProductOffers": "Allows a starting point of 100% of the Initial Sum Assured of the Life Cover, with optional Covers added as budget allows; the brochure positions the plan for clients who need an affordable plan that does not blow their budget.",
+      "keyFigures": [
+        { "label": "Minimum total coverage", "value": "100% of the Initial Sum Assured of the Life Cover", "condition": "" },
+        { "label": "Maximum total coverage", "value": "2,500% of the Initial Sum Assured of the Life Cover", "condition": "total across selected Covers" }
+      ],
+      "exclusionsOrConditions": [
+        "Cancer Cover is compulsory, so the entry premium is not zero.",
+        "A lower sum assured means a lower payout.",
+        "No premium table or minimum premium is stated in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "budget is tight",
+        "young and healthy, just wants some cover",
+        "first CI plan",
+        "can't afford a big premium",
+        "wants to start small",
+        "only worried about cancer",
+        "needs to keep premium low",
+        "asked for the cheapest option"
+      ],
+      "negativeSignalPhrases": [
+        "wants maximum cover",
+        "premium is not a concern",
+        "wants a simple plan"
+      ],
+      "clientProfileFit": ["young professional", "first-time CI buyer", "budget-constrained client"],
+      "priorityAlignment": ["cost", "flexibility"],
+      "talkingPointTemplate": "You can start at 100% of the Life Cover sum assured and add covers later as your budget allows.",
+      "verificationPrompts": [
+        "Confirm the client's budget and the premium for the compulsory Cancer Cover.",
+        "Check the current illustration for the minimum premium; it is not in the extract.",
+        "Confirm the client understands a lower sum assured means a lower payout."
+      ],
+      "comparisonRows": ["premium", "ci_coverage", "add_ons"],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "you may also need an affordable plan that does not blow your available budget",
+        "Set your critical illness coverage from 100% to a maximum of 2,500% of the Initial Sum Assured of the Life Cover in total"
+      ],
+      "notesForReviewer": "The brochure calls the plan affordable but gives no premium figures; do not quote a premium until the current illustration is checked."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-assemble-critical-illness-insurance-plan_flexibility_and_customisation",
+    "bestForOneLiner": "Clients who already hold some critical illness cover but want to close a specific gap without buying a full new plan.",
+    "notSuitedWhen": [
+      "The client wants a simple off-the-shelf CI plan with no cover selection.",
+      "The client needs hospital or medical expense reimbursement rather than a lump sum.",
+      "The client wants a savings or wealth-growth product rather than protection.",
+      "The client has no budget for the compulsory Cancer Cover."
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table and minimum premium",
+      "Waiting periods for each Cover",
+      "Underwriting rules and pre-existing condition treatment",
+      "Payout percentages for early-stage, minor and severe child diseases",
+      "Full exclusions list"
+    ]
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "productId": "aia-voluntary-health-insurance-standard-scheme",
+  "productName": "AIA Voluntary Health Insurance Standard Scheme",
+  "productType": "medical insurance (reimbursement, VHIS Certified Standard Plan)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-voluntary-health-insurance-standard-scheme_high_annual_or_lifetime_limit",
+      "trendCategory": "high_annual_or_lifetime_limit",
+      "isNewCategory": false,
+      "trendName": "No lifetime limit, 420k yearly",
+      "whatProductOffers": "Reimbursement cover with an annual benefit limit of HKD420,000 per policy year and no lifetime benefit limit, guaranteed renewable up to the insured's age 100.",
+      "keyFigures": [
+        {
+          "label": "Annual benefit limit",
+          "value": "HKD420,000",
+          "condition": "per policy year"
+        },
+        {
+          "label": "Lifetime benefit limit",
+          "value": "Nil",
+          "condition": "no lifetime cap stated"
+        },
+        {
+          "label": "Guaranteed renewal",
+          "value": "to age 100",
+          "condition": "premium not raised for claims or health changes"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Benefit schedule sublimits apply per item (room & board, attending doctor's visit fee, etc.); the amounts are not in the extracted text.",
+        "Worldwide cover excludes psychiatric treatments.",
+        "Cover for pre-existing conditions is limited to unknown pre-existing conditions.",
+        "Renewal premium is based on the prevailing premium table, so age-related increases still apply."
+      ],
+      "clientSignalPhrases": [
+        "worried hospital bill will wipe savings",
+        "no lifetime cap?",
+        "420k a year enough for private hospital",
+        "wants cover that renews to 100",
+        "claims won't load my premium",
+        "first medical plan",
+        "wants VHIS certified plan",
+        "family of four, tax deduction",
+        "budget few thousand a year",
+        "public hospital wait too long"
+      ],
+      "negativeSignalPhrases": [
+        "needs a higher annual limit",
+        "wants single room cover",
+        "needs dental or maternity benefits",
+        "wants outpatient without hospital stay"
+      ],
+      "clientProfileFit": [
+        "First-time medical insurance buyers",
+        "Young families insuring several members for tax deduction",
+        "Budget-conscious clients who still want private-hospital access"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan pays up to HKD420,000 a policy year with no lifetime cap, so the cover does not run out after a big claim.",
+      "verificationPrompts": [
+        "Confirm the current annual limit and the itemised sublimits in the benefit schedule.",
+        "Confirm the waiting period applied to unknown pre-existing conditions.",
+        "Confirm the no-claims discount tiers and the AIA Vitality first-year discount still apply."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "lifetime_limit",
+        "waiting_period",
+        "renewability",
+        "outpatient"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Lifetime Benefit Limit: Nil. Annual Benefit Limit: HKD420,000 per policy year.",
+        "Guaranteed Renewal: Up to the insured person's age of 100."
+      ],
+      "notesForReviewer": "Per-item sublimits and the exact waiting period sit in the benefit schedule, which is not in the extracted text."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-standard-scheme_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "Inpatient and day case reimbursement",
+      "whatProductOffers": "Reimburses confinement benefits including room and board and attending doctor's visit fee, inpatient and day case procedures, prescribed diagnostic imaging tests, prescribed non-surgical cancer treatment, and outpatient care before and after confinement or a day case procedure.",
+      "keyFigures": [
+        {
+          "label": "Core benefits",
+          "value": "5 benefit groups",
+          "condition": "confinement, procedures, imaging, cancer treatment, pre/post outpatient"
+        },
+        {
+          "label": "Insured age at application",
+          "value": "15 days to age 80",
+          "condition": "new business"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Each benefit item is subject to its own sublimit in the benefit schedule; amounts are not in the extracted text.",
+        "Psychiatric treatments are excluded from the worldwide geographical cover.",
+        "Day case procedures are covered, but the procedure list is defined in the benefit schedule."
+      ],
+      "clientSignalPhrases": [
+        "wants day surgery covered",
+        "needs scans covered before surgery",
+        "cancer treatment costs add up",
+        "wants follow-up visits after discharge",
+        "private hospital bill stress",
+        "prefers reimbursement plan",
+        "no company medical cover",
+        "wants cover from day one",
+        "hospital bill shocked them"
+      ],
+      "negativeSignalPhrases": [
+        "expects a cash payout instead of reimbursement",
+        "wants psychiatric treatment covered",
+        "needs overseas maternity cover"
+      ],
+      "clientProfileFit": [
+        "Employees without adequate group medical cover",
+        "Clients who want scan and day-surgery costs reimbursed",
+        "Older applicants up to age 80"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "{client_detail} gets scans, day surgery and pre/post hospital visits reimbursed, not just the hospital bed.",
+      "verificationPrompts": [
+        "Confirm the sublimit for room and board and attending doctor's visit fee.",
+        "Confirm whether prescribed diagnostic imaging requires pre-approval.",
+        "Confirm the panel arrangement for day case procedures."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "outpatient",
+        "room_level",
+        "network_access"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Core Benefits: confinement benefits including room & board and attending doctor's visit fee, etc.; inpatient and day case procedure; prescribed diagnostic imaging tests; prescribed non-surgical cancer treatment; outpatient care before and after confinement or day case procedure."
+      ],
+      "notesForReviewer": "No dollar sublimits per benefit item in the extracted text."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-standard-scheme_pre_existing_or_chronic_support",
+      "trendCategory": "pre_existing_or_chronic_support",
+      "isNewCategory": false,
+      "trendName": "Covers unknown pre-existing conditions",
+      "whatProductOffers": "The plan states cover for unknown pre-existing conditions, alongside guaranteed renewal, as part of its VHIS Standard Plan certification.",
+      "keyFigures": [
+        {
+          "label": "Pre-existing cover",
+          "value": "unknown pre-existing conditions",
+          "condition": "known conditions are not covered"
+        },
+        {
+          "label": "Certification number",
+          "value": "S00013-01-000-02",
+          "condition": "VHIS Certified Standard Plan"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only unknown pre-existing conditions are covered; known pre-existing conditions are excluded.",
+        "The waiting period and any condition-specific limits are not stated in the extracted text.",
+        "Certification is for the Standard Plan level only, so benefits follow the VHIS Standard Plan minimum."
+      ],
+      "clientSignalPhrases": [
+        "never been diagnosed but worried",
+        "had a scan years ago, nothing found",
+        "worried about exclusions",
+        "wants cover without medical exam questions",
+        "existing condition?",
+        "switching from company plan",
+        "wants guaranteed renewal",
+        "afraid of being declined",
+        "condition runs in the family"
+      ],
+      "negativeSignalPhrases": [
+        "already diagnosed with a condition",
+        "needs cover for a known illness",
+        "expects full cover for chronic disease"
+      ],
+      "clientProfileFit": [
+        "Clients with no diagnosed conditions but anxious about exclusions",
+        "People leaving group medical cover",
+        "Applicants who fear being declined"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "If {client_detail} has never been diagnosed, unknown pre-existing conditions are covered rather than excluded.",
+      "verificationPrompts": [
+        "Confirm the definition of unknown pre-existing condition in the policy contract.",
+        "Confirm the waiting period before a pre-existing condition claim can be made.",
+        "Confirm whether the VHIS certification number matches the current certificate."
+      ],
+      "comparisonRows": [
+        "waiting_period",
+        "renewability",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "The AIA Voluntary Health Insurance Standard Scheme combines essential medical cover with guaranteed renewal to age 100, and no lifetime benefit limit, plus cover for unknown pre-existing conditions."
+      ],
+      "notesForReviewer": "Waiting period for pre-existing conditions not in the extracted text; verify in the policy contract."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-standard-scheme_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Tax deduction and no-claim discount",
+      "whatProductOffers": "Premiums are eligible for tax deduction of up to HKD8,000 per insured person per assessment year with no cap on the number of specified relatives, plus a no-claims discount of up to 15% and an instant 10% first-year discount for AIA Vitality members.",
+      "keyFigures": [
+        {
+          "label": "Tax deduction",
+          "value": "up to HKD8,000",
+          "condition": "per insured person per assessment year"
+        },
+        {
+          "label": "Tax deduction example",
+          "value": "HKD32,000",
+          "condition": "4 insured persons (HKD8,000 x 4)"
+        },
+        {
+          "label": "No-claim discount",
+          "value": "up to 15%",
+          "condition": "no claim in 3 or more consecutive policy years"
+        },
+        {
+          "label": "AIA Vitality first-year discount",
+          "value": "10%",
+          "condition": "AIA Vitality members, first year"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Tax deduction is a deduction from assessable income, not a direct deduction from tax payable.",
+        "The deduction requires the policyholder to be the taxpayer and the insured to be the taxpayer or a specified relative.",
+        "No-claim discount is applied on the next policy anniversary only after 3 or more consecutive claim-free policy years.",
+        "AIA Vitality membership carries an annual membership fee."
+      ],
+      "clientSignalPhrases": [
+        "wants tax deduction",
+        "how much can I deduct",
+        "insuring parents too",
+        "premium too high",
+        "no claims so far",
+        "wants discount for healthy living",
+        "AIA Vitality member",
+        "budget tight this year",
+        "family of four policies"
+      ],
+      "negativeSignalPhrases": [
+        "needs higher cover than Standard Plan",
+        "already maxed tax deduction",
+        "wants investment return"
+      ],
+      "clientProfileFit": [
+        "Taxpayers insuring themselves plus spouse, children or parents",
+        "Price-sensitive clients with claims-free history",
+        "Existing AIA Vitality members"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "{client_detail} can deduct up to HKD8,000 per insured person, and four insured persons take the household deduction to HKD32,000.",
+      "verificationPrompts": [
+        "Confirm the current tax deduction ceiling with the Inland Revenue Department guidance.",
+        "Confirm the no-claim discount is calculated on total premiums of the preceding policy year.",
+        "Confirm the AIA Vitality discount is still available at application."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Taxpayer who is the policyholder can apply for a tax deduction of up to HKD8,000 per insured person ... in each assessment year, and there is no cap on the number of specified relatives.",
+        "No claim in 3 or more consecutive policy years entitles you with a premium discount on the next policy anniversary, up to 15% of the total premiums paid for the preceding policy year."
+      ],
+      "notesForReviewer": "Premium levels are not in the extracted text, so affordability claims rely on the tax and discount figures only."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-standard-scheme_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Renewal not loaded for claims",
+      "whatProductOffers": "Guarantees renewal every year up to age 100 and states the renewal premium will not be raised because of claims made or changes in the insured's health condition.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed renewal",
+          "value": "to age 100",
+          "condition": "annual renewal"
+        },
+        {
+          "label": "Claims loading",
+          "value": "none",
+          "condition": "premium not raised for claims or health changes"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Renewal premium is based on the prevailing premium for the insured's attained age, so premiums still rise with age.",
+        "The insurer may revise premium rates generally; the guarantee covers claims and health status only.",
+        "The plan is not guaranteed to be renewable beyond age 100."
+      ],
+      "clientSignalPhrases": [
+        "afraid premium jumps after claim",
+        "wants lifetime renewability",
+        "had cancer, worried about renewal",
+        "wants premium certainty",
+        "planning to keep this long term",
+        "hates annual repricing",
+        "wants no re-underwriting",
+        "worried premium jumps",
+        "wants no loading after claim"
+      ],
+      "negativeSignalPhrases": [
+        "needs level premium for life",
+        "expects premium never to increase"
+      ],
+      "clientProfileFit": [
+        "Clients planning lifelong medical cover",
+        "People with past claims worried about loading",
+        "Older applicants wanting renewal certainty"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "Once {client_detail} is in, claims or a change in health will not push the renewal premium up; only age-based rates apply.",
+      "verificationPrompts": [
+        "Confirm the renewal premium basis and any general rate revision clause.",
+        "Confirm renewal is guaranteed to age 100 in the policy contract."
+      ],
+      "comparisonRows": [
+        "renewability",
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Guaranteed renewal up to age 100 ... guarantees that your premium for renewal will not be raised for any claim you have made, or any changes in your health condition."
+      ],
+      "notesForReviewer": "Premium table not in extracted text, so the age-based increase cannot be quantified."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-voluntary-health-insurance-standard-scheme_high_annual_or_lifetime_limit",
+    "bestForOneLiner": "A VHIS-certified Standard Plan with HKD420,000 a year, no lifetime cap and renewal to age 100.",
+    "notSuitedWhen": [
+      "The client needs cover above the VHIS Standard Plan benefit level or a single room.",
+      "The client wants dental, maternity or non-hospital outpatient benefits.",
+      "The client already has a known pre-existing condition needing cover."
+    ],
+    "gapsInSourceMaterial": [
+      "Per-benefit sublimits and room and board amounts",
+      "Waiting periods and pre-existing condition definition",
+      "Premium table by age"
+    ]
+  }
+}

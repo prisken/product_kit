@@ -1,0 +1,340 @@
+{
+  "productId": "forever-love-coupon-insurance-plan-5",
+  "productName": "Forever Love Coupon Insurance Plan 5",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "forever-love-coupon-insurance-plan-5_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed annual cash coupons",
+      "whatProductOffers": "A participating savings plan that pays guaranteed cash payments of 2.1% of the principal amount each policy year, plus an additional 0.4% of principal each year until the end of the 20th policy year.",
+      "keyFigures": [
+        {
+          "label": "Annual guaranteed cash payment",
+          "value": "2.1% of the principal amount",
+          "condition": "at the end of each policy year until the insured reaches age 100"
+        },
+        {
+          "label": "Additional guaranteed cash payment",
+          "value": "0.4% of the principal amount",
+          "condition": "at the end of each policy year until the end of the 20th policy year"
+        },
+        {
+          "label": "First payment",
+          "value": "End of 1st, 2nd or 3rd policy year",
+          "condition": "depending on 6, 10 or 15/20-year premium term"
+        },
+        {
+          "label": "Minimum principal amount",
+          "value": "US$5,000",
+          "condition": "policy denominated in US dollars"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The 2.1% and 0.4% are calculated on the principal amount, not on the accumulated value.",
+        "The principal amount is not payable as a death benefit except under the accidental death benefit.",
+        "Annual Dividends begin only from the end of the 10th policy year and are not guaranteed.",
+        "Terminal Dividend requires the policy to be in force for 10 years or more and is not guaranteed."
+      ],
+      "clientSignalPhrases": [
+        "wants regular cash back",
+        "needs annual income from savings",
+        "doesn't want to wait 10 years for a payout",
+        "coupon plan for retirement",
+        "wants guaranteed cash, not projections",
+        "income for parents",
+        "education fees each year",
+        "wants a savings plan that pays out",
+        "cash flow from a lump sum",
+        "hates policies with no payout until maturity"
+      ],
+      "negativeSignalPhrases": [
+        "wants maximum compounding, no withdrawals",
+        "needs a large lump sum at year 5",
+        "wants equity exposure"
+      ],
+      "clientProfileFit": [
+        "Parents funding annual school fees",
+        "Retirees wanting coupon income",
+        "Clients who prefer guaranteed cash over illustrations"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan pays 2.1% of the principal every year plus an extra 0.4% for the first 20 years, so there is cash coming back from year one.",
+      "verificationPrompts": [
+        "Confirm the first payment year for the chosen premium term.",
+        "Confirm the principal amount definition and whether it changes.",
+        "Confirm how accumulated coupons earn interest."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"2.1% of the principal amount paid at the end of each policy year\"",
+        "\"0.4% of the principal amount paid at the end of each policy year\"",
+        "\"starts from a minimum principal amount of US$5,000\""
+      ],
+      "notesForReviewer": "Brochure excerpt truncated at 6,000 characters; later pages not available."
+    },
+    {
+      "trendId": "forever-love-coupon-insurance-plan-5_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Waiver of premium on parent death",
+      "whatProductOffers": "The basic policy includes a Waiver of Premium on Death (Parents) or (Spouse) benefit: if the parent of an insured child or the spouse of an insured adult dies before age 80, all or part of future premiums are waived.",
+      "keyFigures": [
+        {
+          "label": "Waiver trigger",
+          "value": "Death of the insured child's parent, or the insured adult's spouse",
+          "condition": "before age 80"
+        },
+        {
+          "label": "Waiver scope",
+          "value": "All or part of future premiums for the basic plan",
+          "condition": "per benefit terms"
+        },
+        {
+          "label": "Child cover extension",
+          "value": "Premiums waived for the insured child until age 25",
+          "condition": "if the parent dies"
+        },
+        {
+          "label": "Qualifying period",
+          "value": "Policy must be in force for 2 years",
+          "condition": "before the benefit applies"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The parent or spouse must be age 50 or below at the time of application (the excerpt is cut off at this condition).",
+        "The benefit becomes effective only after the policy has been in force for 2 years.",
+        "Only all or part of future premiums are waived; the death benefit itself is unaffected.",
+        "No health information is required for this benefit."
+      ],
+      "clientSignalPhrases": [
+        "single parent, worried about the kids",
+        "what if I die, who pays the premium",
+        "spouse died, needs the policy kept alive",
+        "wants the cover to continue for the child",
+        "grandparent buying for a child",
+        "wants a safety net for school years",
+        "premium waiver matters",
+        "family protection built in",
+        "wants the policy to survive a death",
+        "young family, tight budget"
+      ],
+      "negativeSignalPhrases": [
+        "wants a cash payout on death of a parent",
+        "needs the waiver immediately",
+        "parent is over 50 at application"
+      ],
+      "clientProfileFit": [
+        "Single parents",
+        "Grandparents buying for grandchildren",
+        "Families with young children"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, if the parent or spouse dies before age 80, the remaining premiums are waived, so the child's policy stays in force without new money.",
+      "verificationPrompts": [
+        "Confirm the parent/spouse age-50 application condition and the exact wording.",
+        "Confirm whether the waiver covers all or only part of the premium.",
+        "Confirm the child cover end date at age 25."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"we will activate the Waiver of Premium on Death (Parents) or the Waiver of Premium on Death (Spouse)\"",
+        "\"waives all or part of the future policy premiums\"",
+        "\"will become effective once the policy has been in force for 2 years\""
+      ],
+      "notesForReviewer": "Text cuts off mid-condition ('at or below the age of 50 at the time'); confirm the full condition in the brochure."
+    },
+    {
+      "trendId": "forever-love-coupon-insurance-plan-5_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Death benefit and accidental cover",
+      "whatProductOffers": "On death the beneficiary receives the higher of the guaranteed cash value or 105% of total basic-plan premiums paid net of guaranteed cash payments, plus accumulated cash payments, accumulated dividends and any Terminal Dividend.",
+      "keyFigures": [
+        {
+          "label": "Death benefit floor",
+          "value": "Higher of guaranteed cash value or 105% of total premiums paid less guaranteed cash payments",
+          "condition": "plus accumulated amounts"
+        },
+        {
+          "label": "Accidental death benefit",
+          "value": "Principal amount of the basic plan",
+          "condition": "death from a covered accident within the first 12 months"
+        },
+        {
+          "label": "Accidental death cap",
+          "value": "US$100,000",
+          "condition": "maximum aggregate across all FLCP5 policies for the same insured"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The 105% floor is calculated after deducting guaranteed cash payments already paid.",
+        "The accidental death benefit applies only within the first 12 months and only for a covered accident.",
+        "The accidental death benefit is capped at US$100,000 aggregate per insured across all policies.",
+        "All outstanding debt is deducted before payment to the beneficiary."
+      ],
+      "clientSignalPhrases": [
+        "wants the premium back for the family",
+        "estate planning for the children",
+        "wants a death benefit plus coupons",
+        "worried about accidental death",
+        "needs a legacy for a spouse",
+        "wants the capital protected",
+        "single parent leaving money to kids",
+        "wants a policy that pays either way",
+        "family wealth transfer",
+        "wants the death benefit to include dividends"
+      ],
+      "negativeSignalPhrases": [
+        "wants a large accidental death multiple",
+        "needs pure term cover",
+        "wants the principal paid as a death benefit"
+      ],
+      "clientProfileFit": [
+        "Parents leaving a legacy to children",
+        "Couples wanting capital protection",
+        "Clients combining income and estate goals"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the death benefit is at least 105% of premiums paid net of coupons, so the family gets back more than the capital even after years of payouts.",
+      "verificationPrompts": [
+        "Confirm the death benefit calculation with the chosen premium term.",
+        "Confirm what counts as a covered accident for the first-12-month benefit.",
+        "Confirm the aggregate accidental death cap already used for the insured."
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"guaranteed cash value; or the remaining balance of 105% of the total premiums paid for your basic plan after the deduction of any guaranteed cash payments paid, whichever is higher\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "forever-love-coupon-insurance-plan-5_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Low entry, no medical exam",
+      "whatProductOffers": "The plan starts from a minimum principal amount of US$5,000, offers 6, 10, 15 or 20-year premium terms, and requires no medical examination for new applications within the aggregate premium limit set for each insured.",
+      "keyFigures": [
+        {
+          "label": "Minimum principal amount",
+          "value": "US$5,000",
+          "condition": "per policy"
+        },
+        {
+          "label": "Premium payment terms",
+          "value": "6 / 10 / 15 / 20 years",
+          "condition": "client selects"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to 65 (6-year term); 15 days to 60 (10-year); 15 days to 55 (15 and 20-year)",
+          "condition": "age at application"
+        },
+        {
+          "label": "Premium modes",
+          "value": "Annually, semi-annually, quarterly, monthly",
+          "condition": "available"
+        },
+        {
+          "label": "Medical examination",
+          "value": "Not required",
+          "condition": "subject to aggregate annual premium limit per insured"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "No medical exam applies only while total annual premiums stay within the aggregate limit set for each insured, subject to the company's prevailing rules.",
+        "Premiums are fixed throughout the chosen premium payment term.",
+        "The 20-year term is not available above age 55 at application.",
+        "The excerpt does not state the aggregate premium limit."
+      ],
+      "clientSignalPhrases": [
+        "small budget, wants to start",
+        "US$5,000 to start",
+        "no medical, health issues",
+        "wants a simple application",
+        "grandparent gifting a small policy",
+        "wants a 6-year premium term",
+        "doesn't want underwriting",
+        "entry-level savings plan",
+        "wants premiums fixed",
+        "young child as insured"
+      ],
+      "negativeSignalPhrases": [
+        "needs a large sum assured",
+        "has a serious health history outside the limit",
+        "wants a one-off single premium"
+      ],
+      "clientProfileFit": [
+        "First-time savers",
+        "Grandparents gifting to grandchildren",
+        "Clients wanting a small, simple policy"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the entry point is a US$5,000 principal amount with no medical exam inside the aggregate limit, over a 6, 10, 15 or 20-year premium term.",
+      "verificationPrompts": [
+        "Confirm the aggregate annual premium limit that avoids medicals.",
+        "Confirm the minimum premium for the chosen term.",
+        "Confirm issue-age limits for the selected premium term."
+      ],
+      "comparisonRows": [
+        "premium",
+        "waiting_period",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"starts from a minimum principal amount of US$5,000\"",
+        "\"No medical examination is required for new applications as long as the total annual premiums do not exceed the aggregate limit set for each insured\""
+      ],
+      "notesForReviewer": "Aggregate limit not quantified in the excerpt."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "forever-love-coupon-insurance-plan-5_savings_and_wealth_growth",
+    "bestForOneLiner": "A US-dollar participating savings plan from US$5,000 principal that pays guaranteed annual coupons of 2.1% plus 0.4%, with a built-in premium waiver if a parent or spouse dies.",
+    "notSuitedWhen": [
+      "The client wants maximum compounding with no payouts",
+      "The client needs a large single lump sum early",
+      "The client wants equity-linked returns"
+    ],
+    "gapsInSourceMaterial": [
+      "Full coupon tables by premium term",
+      "Aggregate premium limit for medical-free applications",
+      "Surrender value schedule",
+      "Complete exclusions and the cut-off waiver condition"
+    ]
+  }
+}

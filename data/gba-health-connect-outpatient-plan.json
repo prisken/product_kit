@@ -1,0 +1,230 @@
+{
+  "productId": "gba-health-connect-outpatient-plan",
+  "productName": "GBA Health Connect Outpatient Plan",
+  "productType": "medical insurance (network outpatient plan)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "gba-health-connect-outpatient-plan_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Cross-border GBA GP network",
+      "whatProductOffers": "Network general practitioner outpatient cover in Hong Kong, Macau and six designated Mainland GBA cities, usable at home or while travelling in the region.",
+      "keyFigures": [
+        {
+          "label": "Covered locations",
+          "value": "Hong Kong, Macau plus Guangzhou, Shenzhen, Zhuhai, Foshan, Dongguan and Zhongshan",
+          "condition": "Designated Mainland city list may be revised by AIA"
+        },
+        {
+          "label": "Maximum age at application",
+          "value": "75",
+          "condition": "Insured's age at application"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Online consultation with medication delivery is not available in Macau.",
+        "The insured must be physically in the same zone as the clinic providing the online consultation.",
+        "Online consultation is not applicable to an insured aged 5 or below on the consultation date.",
+        "Cover is limited to the plan's medical network and the designated city list can change."
+      ],
+      "clientSignalPhrases": [
+        "travels to Shenzhen every week",
+        "works across the border",
+        "retiring in Guangdong",
+        "family in Zhuhai",
+        "wants doctor cover in mainland",
+        "sees GP in Macau too",
+        "cross-border commuter",
+        "needs cover while travelling GBA",
+        "has a mainland apartment",
+        "worried about falling sick on business trips"
+      ],
+      "negativeSignalPhrases": [
+        "needs Hong Kong hospital cover",
+        "wants specialist outpatient anywhere",
+        "rarely leaves Hong Kong"
+      ],
+      "clientProfileFit": [
+        "Cross-border commuters and frequent GBA travellers",
+        "Hong Kong residents with family or a second home in the Mainland GBA",
+        "Retirees splitting time between Hong Kong and Guangdong"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "Because {client_detail}, this plan keeps GP visits covered in Hong Kong, Macau and the Mainland GBA cities they actually travel through.",
+      "verificationPrompts": [
+        "Confirm which GBA city the client spends time in",
+        "Check whether Macau cover matters to the client",
+        "Confirm the client accepts network clinics only"
+      ],
+      "comparisonRows": [
+        "network_access",
+        "outpatient",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"medical network outpatient insurance to cover not only general practitioner consultations in Hong Kong, but also in Macau and designated Mainland GBA cities\"",
+        "\"The designated Mainland GBA cities currently include Guangzhou, Shenzhen, Zhuhai, Foshan, Dongguan and Zhongshan.\""
+      ],
+      "notesForReviewer": "Per-visit benefit amounts and annual visit limits are not in the extracted text."
+    },
+    {
+      "trendId": "gba-health-connect-outpatient-plan_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "Two ways to see a GP",
+      "whatProductOffers": "Covers GP consultations either face to face with immediate medication or online with medication delivery; Plan 2 adds unlimited extra online consultations and one basic check-up per policy year.",
+      "keyFigures": [
+        {
+          "label": "Consultation channels",
+          "value": "2 (face-to-face or online)",
+          "condition": "Both through the plan's medical network"
+        },
+        {
+          "label": "Additional online consultations",
+          "value": "Unlimited",
+          "condition": "Plan 2 only, after the outpatient visit limit is used; designated Mainland GBA cities only"
+        },
+        {
+          "label": "Basic check-up",
+          "value": "1 per policy year",
+          "condition": "Plan 2 only; specific network clinics in designated Mainland GBA cities"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Value-added services apply to Plan 2 only.",
+        "Additional online consultations and the check-up are not available in Hong Kong or Macau.",
+        "Medication delivery must be in the same zone as the consulting clinic and timing depends on the consultation.",
+        "Online consultation excludes insureds aged 5 or below."
+      ],
+      "clientSignalPhrases": [
+        "wants a video doctor option",
+        "hates claim paperwork",
+        "needs medicine delivered",
+        "small kids at home",
+        "no time to sit in a clinic",
+        "uses telemedicine already",
+        "wants an annual check-up",
+        "is plan 2 worth it",
+        "GP cover is enough",
+        "wants cheap consult cover"
+      ],
+      "negativeSignalPhrases": [
+        "needs specialist care",
+        "wants hospitalisation cover",
+        "expects the check-up in Hong Kong"
+      ],
+      "clientProfileFit": [
+        "Young professionals with little time for clinic visits",
+        "Parents wanting quick GP access for mild illness",
+        "Clients who mainly need routine consultation cover"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "Since {client_detail}, two consultation channels with medication delivery fit treatment around their day.",
+      "verificationPrompts": [
+        "Confirm whether the client needs online consultations or face-to-face only",
+        "Check which city the client would use the check-up in",
+        "Confirm the client accepts the visit limit"
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "network_access",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"flexibility to arrange either face-to-face consultation with immediate medication or online consultation with medication delivery\"",
+        "\"unlimited additional general practitioner online consultation and a designated basic check-up service per policy year\""
+      ],
+      "notesForReviewer": "The number of included outpatient visits per policy year is not stated in the extracted text."
+    },
+    {
+      "trendId": "gba-health-connect-outpatient-plan_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "No-claim network access",
+      "whatProductOffers": "Members activate the plan on the medical network portal, book GP appointments, and present a Health Card at network clinics with no subsequent claim procedures.",
+      "keyFigures": [
+        {
+          "label": "Claim procedures",
+          "value": "None for network consultations",
+          "condition": "After activating the plan on the designated member portal"
+        },
+        {
+          "label": "Consultation privacy",
+          "value": "One consultation per room",
+          "condition": "Face-to-face consultations in Hong Kong, Macau and designated Mainland cities"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Network clinics only.",
+        "Portal activation is required before booking.",
+        "No cover outside the network."
+      ],
+      "clientSignalPhrases": [
+        "doesn't want to file claims",
+        "wants to just show a card",
+        "hates paperwork",
+        "needs an appointment quickly",
+        "wants a cashless experience",
+        "uses apps for everything",
+        "forgets to submit receipts",
+        "wants a simple process"
+      ],
+      "negativeSignalPhrases": [
+        "wants reimbursement for any doctor",
+        "sees a non-network doctor",
+        "needs emergency hospital admission"
+      ],
+      "clientProfileFit": [
+        "Paperwork-averse clients",
+        "Frequent travellers who want quick access",
+        "Digital-first customers"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, showing a Health Card at a network clinic replaces the usual claim submission.",
+      "verificationPrompts": [
+        "Check the client's nearest network clinic",
+        "Confirm the client can use the member portal",
+        "Confirm no need for reimbursement outside the network"
+      ],
+      "comparisonRows": [
+        "network_access",
+        "outpatient",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"By simply activating your plan on the medical network's designated member service online portal, you may start making appointments\"",
+        "\"No subsequent claim procedures will be required.\""
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "gba-health-connect-outpatient-plan_international_coverage",
+    "bestForOneLiner": "A network outpatient plan for GP cover across Hong Kong, Macau and six Mainland GBA cities, with face-to-face and online consultation options.",
+    "notSuitedWhen": [
+      "The client needs hospital, surgical or specialist inpatient cover",
+      "The client wants to see any doctor outside the network",
+      "The client lives outside Hong Kong, Macau and the covered GBA cities"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table",
+      "Per-visit and annual benefit limits",
+      "Full exclusions and waiting periods"
+    ]
+  }
+}

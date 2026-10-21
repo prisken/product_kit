@@ -1,0 +1,390 @@
+{
+  "productId": "here-for-you-refundable-accident-plus",
+  "productName": "Here For You Refundable Accident Plus",
+  "productType": "accident insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "here-for-you-refundable-accident-plus_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "Accident medical bills reimbursed",
+      "whatProductOffers": "Reimburses accident-related medical expenses incurred within 52 weeks, up to HK$/MOP1,200 to 5,800 per accident depending on plan, covering hospitalisation, surgery, X-ray and physiotherapy.",
+      "keyFigures": [
+        {
+          "label": "Accidental medical expenses",
+          "value": "HK$/MOP1,200 / 2,300 / 3,000 / 5,800 per accident",
+          "condition": "Plans 1 to 4"
+        },
+        {
+          "label": "Reimbursement window",
+          "value": "52 weeks after the accident",
+          "condition": "Expenses must be incurred within this period"
+        },
+        {
+          "label": "Bone-setting benefit",
+          "value": "HK$/MOP150 per visit",
+          "condition": "Max 1 visit per day and 6 visits per policy year"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Chinese bone-setting and chiropractor treatment are not covered under the medical expenses benefit.",
+        "Bone-setting is paid only under its separate benefit.",
+        "The per-accident cap applies."
+      ],
+      "clientSignalPhrases": [
+        "plays football at weekends",
+        "cycles to work",
+        "kids active in sports",
+        "had a fall last year",
+        "worried about clinic bills",
+        "wants accident cover",
+        "works on site",
+        "travels by motorbike",
+        "needs X-ray cover"
+      ],
+      "negativeSignalPhrases": [
+        "wants illness cover",
+        "needs a hospital plan",
+        "wants a high annual limit"
+      ],
+      "clientProfileFit": [
+        "Active individuals and sports players",
+        "Parents covering children",
+        "Manual or outdoor workers"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "Since {client_detail}, accident bills up to the plan limit are reimbursed for a year after the injury.",
+      "verificationPrompts": [
+        "Ask about the client's sports and commute",
+        "Confirm the expected medical cost level",
+        "Check whether bone-setting is a priority"
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "outpatient",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"reimburse the medical expenses incurred within 52 weeks after the accident, up to the maximum limit for the plan selected\"",
+        "\"Accidental Medical Expenses Reimbursement Benefit (per accident) 1,200 2,300 3,000 5,800\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "here-for-you-refundable-accident-plus_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Daily income and surgical cash",
+      "whatProductOffers": "Pays a daily hospital income benefit for accident-related hospitalisation up to 90 days per accident, a lump-sum in-patient surgical cash benefit, and an accidental TPD lump sum of up to HK$/MOP1,000,000.",
+      "keyFigures": [
+        {
+          "label": "Hospital income",
+          "value": "HK$/MOP250 / 400 / 450 / 700 per day",
+          "condition": "Plans 1 to 4; max 90 days per accident"
+        },
+        {
+          "label": "In-patient surgical cash",
+          "value": "HK$/MOP1,300 / 2,000 / 2,300 / 3,500 per confinement",
+          "condition": "Surgery within 180 days of the accident"
+        },
+        {
+          "label": "Accidental TPD",
+          "value": "HK$/MOP150,000 / 300,000 / 600,000 / 1,000,000",
+          "condition": "TPD on or before age 65; policy terminates after payment"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "TPD applies only on or before age 65 or for the specified losses/ADL inability for at least 6 months.",
+        "Surgical cash requires surgery within 180 days.",
+        "Hospital income is capped at 90 days per accident.",
+        "The policy terminates once the TPD benefit is paid."
+      ],
+      "clientSignalPhrases": [
+        "worried about lost income",
+        "self-employed with no sick pay",
+        "needs cash while hospitalised",
+        "family depends on his income",
+        "wants a lump sum if disabled",
+        "works a manual job",
+        "no employer benefits",
+        "wants daily cash"
+      ],
+      "negativeSignalPhrases": [
+        "only wants medical bills paid",
+        "already has generous sick leave",
+        "needs illness-related disability cover"
+      ],
+      "clientProfileFit": [
+        "Self-employed and gig workers",
+        "Household breadwinners",
+        "Workers without employer sick pay"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the daily and surgical cash benefits replace income while an accident keeps them out of work.",
+      "verificationPrompts": [
+        "Ask whether the client has paid sick leave",
+        "Confirm household income dependency",
+        "Check the client's age against the TPD age limit"
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "waiting_period",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"pay a daily income benefit for each day of hospitalisation and up to a maximum of 90 days per accident\"",
+        "\"Accidental Hospital Income Benefit (per day, up to a maximum of 90 days per accident) 250 400 450 700\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "here-for-you-refundable-accident-plus_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "100% premium refund at maturity",
+      "whatProductOffers": "A 16-year accident plan paid over 8 years that refunds 100% of total premiums paid, without interest, at the end of the policy term whether or not claims were made.",
+      "keyFigures": [
+        {
+          "label": "Policy term",
+          "value": "16 years",
+          "condition": "Cover ceases at the end of the term"
+        },
+        {
+          "label": "Premium payment term",
+          "value": "8 years",
+          "condition": "Premiums fixed throughout the payment period"
+        },
+        {
+          "label": "Maturity refund",
+          "value": "100% of total premiums paid",
+          "condition": "Without interest; whether or not claims were made"
+        },
+        {
+          "label": "Surrender value",
+          "value": "0% before year 6; 50% years 6-10; 80% years 11-15; 100% at year 16",
+          "condition": "Percentage of total premiums paid"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The refund is without interest.",
+        "Early surrender returns 0% before the 6th policy anniversary.",
+        "Cover ends when the refund is paid.",
+        "The premium is not a savings return."
+      ],
+      "clientSignalPhrases": [
+        "wants money back if no claim",
+        "hates losing premium",
+        "likes refundable plans",
+        "wants forced savings",
+        "planning a 16-year horizon",
+        "asks about surrender value",
+        "wants capital back",
+        "dislikes pure insurance"
+      ],
+      "negativeSignalPhrases": [
+        "wants investment growth",
+        "needs liquidity soon",
+        "wants whole life cover"
+      ],
+      "clientProfileFit": [
+        "Clients who dislike irrecoverable premiums",
+        "Budget planners with a 16-year horizon",
+        "Parents buying child accident cover"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "growth"
+      ],
+      "talkingPointTemplate": "Given {client_detail}, the plan returns every premium paid at year 16 even if claims were made along the way.",
+      "verificationPrompts": [
+        "Confirm the client can lock funds for 16 years",
+        "Check understanding that the refund pays no interest",
+        "Ask whether early surrender is likely"
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"we will refund 100% of your total premiums paid at the end of the policy term\"",
+        "\"You will pay just 8 years of premium for 16 years of broad accident protection.\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "here-for-you-refundable-accident-plus_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Cover spouse and children",
+      "whatProductOffers": "Offers four plan levels and lets the main insured cover a spouse aged 18-56 or a child from 15 days to 17, with a 15% premium discount for family members on the same or lower plan.",
+      "keyFigures": [
+        {
+          "label": "Plans",
+          "value": "4",
+          "condition": "Different cover levels"
+        },
+        {
+          "label": "Spouse age",
+          "value": "18-56",
+          "condition": "At policy issue"
+        },
+        {
+          "label": "Child age",
+          "value": "15 days to 17",
+          "condition": "At policy issue"
+        },
+        {
+          "label": "Family discount",
+          "value": "15%",
+          "condition": "Same or lower plan level; for the whole premium payment term"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The discount requires purchase at the same time and at the same or a lower plan level.",
+        "Child rates apply from 15 days to age 17.",
+        "Only immediate family members qualify."
+      ],
+      "clientSignalPhrases": [
+        "wants to cover the whole family",
+        "new baby at home",
+        "spouse has no accident cover",
+        "kids play sports",
+        "is there a family discount",
+        "buy together",
+        "cover a housewife",
+        "child cover is cheap"
+      ],
+      "negativeSignalPhrases": [
+        "single applicant only",
+        "needs cover past age 17 for the child",
+        "wants individual underwriting"
+      ],
+      "clientProfileFit": [
+        "Parents insuring children",
+        "Couples buying together",
+        "Families with active lifestyles"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "Since {client_detail}, adding the spouse and children at the same time cuts their premiums by 15%.",
+      "verificationPrompts": [
+        "Confirm ages of spouse and children",
+        "Check whether plans will be at the same level",
+        "Confirm purchase timing"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"if you purchase plans for one or more members of your immediate family at the same time as your own plan, they will enjoy a 15% discount\"",
+        "\"Spouse Age 18 - 56 ... Child 15 days to age 17\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "here-for-you-refundable-accident-plus_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Worldwide emergency assistance",
+      "whatProductOffers": "Provides 24/7 worldwide emergency assistance, including emergency medical evacuation and repatriation and hospitalisation assistance, up to HK$/MOP500,000 per life across all AIA policies.",
+      "keyFigures": [
+        {
+          "label": "Assistance limit",
+          "value": "HK$/MOP500,000 per life",
+          "condition": "Total across all policies issued by AIA/AIA Company Limited"
+        },
+        {
+          "label": "China Assist Card",
+          "value": "Hospital admission deposit guarantee",
+          "condition": "Appointed hospitals in Mainland China"
+        },
+        {
+          "label": "Hotline",
+          "value": "24 hours worldwide",
+          "condition": "Emergency support while travelling"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The limit is shared across all AIA policies for the same insured.",
+        "Applies when travelling outside Hong Kong or Macau.",
+        "These are assistance services, not a cash benefit for every expense."
+      ],
+      "clientSignalPhrases": [
+        "travels often",
+        "worried about an overseas accident",
+        "works in the mainland",
+        "family trips abroad",
+        "needs evacuation cover",
+        "ski trips",
+        "business travel",
+        "wants a hotline"
+      ],
+      "negativeSignalPhrases": [
+        "never travels",
+        "only wants local cover",
+        "already has travel insurance"
+      ],
+      "clientProfileFit": [
+        "Frequent travellers",
+        "Clients working in the Mainland",
+        "Families taking overseas holidays"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the 24/7 assistance line and evacuation cover apply wherever the accident happens.",
+      "verificationPrompts": [
+        "Ask about travel frequency and destinations",
+        "Confirm the client has no overlapping assistance cover",
+        "Check awareness of the shared limit"
+      ],
+      "comparisonRows": [
+        "network_access",
+        "annual_limit",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"emergency medical evacuation and repatriation, and hospitalisation assistance, including a China Assist Card\"",
+        "\"up to a maximum total value of HK$ / MOP500,000 in emergency assistance services per life under all policies\""
+      ],
+      "notesForReviewer": "The benefit is described as assistance services; cash reimbursement scope is not detailed in the extract."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "here-for-you-refundable-accident-plus_hospital_cost_protection",
+    "bestForOneLiner": "A 16-year refundable accident plan with four cover levels, accident medical reimbursement, daily hospital income and 100% premium refund at maturity.",
+    "notSuitedWhen": [
+      "The client needs illness or hospital medical cover",
+      "The client cannot commit premiums for 8 years",
+      "The client wants investment growth rather than a premium refund"
+    ],
+    "gapsInSourceMaterial": [
+      "Full premium table by age and plan",
+      "Waiting periods",
+      "Complete exclusions and claim definitions"
+    ]
+  }
+}

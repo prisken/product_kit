@@ -1,0 +1,147 @@
+{
+  "productId": "aia-voluntary-health-insurance-prime-scheme",
+  "productName": "AIA Voluntary Health Insurance Prime Scheme",
+  "productType": "medical insurance (VHIS certified, reimbursement)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-voluntary-health-insurance-prime-scheme_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Three annual deductible levels",
+      "whatProductOffers": "Lets the client choose between three annual deductible amounts in HKD or USD - HKD0 / USD0, HKD16,000 / USD2,000 or HKD25,000 / USD3,125 - under a VHIS-certified reimbursement plan.",
+      "keyFigures": [
+        {
+          "label": "Deductible options (HKD)",
+          "value": "HKD0 / HKD16,000 / HKD25,000",
+          "condition": "annual"
+        },
+        {
+          "label": "Deductible options (USD)",
+          "value": "USD0 / USD2,000 / USD3,125",
+          "condition": "annual"
+        },
+        {
+          "label": "Product nature",
+          "value": "Medical protection insurance plan (reimbursement)",
+          "condition": "VHIS certified"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only three deductible levels are shown on the product page.",
+        "The product page lists certain certification numbers as Not available for New Application.",
+        "Premium, benefit limits and exclusions were not available in the fetched copy."
+      ],
+      "clientSignalPhrases": [
+        "wants a high deductible to lower premium",
+        "asked about deductible options",
+        "wants a zero deductible",
+        "comparing VHIS deductible levels",
+        "healthy and wants to self-insure small bills",
+        "wants a quote at each deductible",
+        "asked if the deductible is annual",
+        "works in Macau and needs USD"
+      ],
+      "negativeSignalPhrases": [
+        "wants a deductible larger than HKD25,000",
+        "needs a full benefit schedule before deciding"
+      ],
+      "clientProfileFit": [
+        "Clients optimising premium against out-of-pocket cost",
+        "VHIS buyers comparing deductible levels"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the deductible can be set at zero, HKD16,000 or HKD25,000, so the premium can be traded against the first-part of the bill.",
+      "verificationPrompts": [
+        "Confirm the premium for each deductible level.",
+        "Confirm whether this scheme is open to new applications.",
+        "Confirm the full benefit schedule and room level."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "room_level"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "Annual Deductible Choices HKD USD - HKD 0 / USD 0 deductible, HKD 16,000 / USD 2,000 deductible, HKD 25,000 / USD 3,125 deductible",
+        "Product Nature: Medical protection insurance plan (Reimbursement)",
+        "Plan Type: Basic Plan and add-on plan"
+      ],
+      "notesForReviewer": "The assigned brochure slug is shared with the Flexi Scheme, so the 6,000-character brochure extract describes a different product and could not be used. The product page returned only the certification and deductible table; no premium, limits, room level or exclusions were available. Treat as weak evidence."
+    },
+    {
+      "trendId": "aia-voluntary-health-insurance-prime-scheme_flexibility_and_customisation_plan_structure",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Basic or add-on plan",
+      "whatProductOffers": "Can be issued either as a basic plan or as an add-on plan, according to the product page's plan type field.",
+      "keyFigures": [
+        {
+          "label": "Plan type",
+          "value": "Basic Plan and add-on plan",
+          "condition": ""
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The source gives only the plan-type label; which basic plans accept it as an add-on is not stated.",
+        "Certain certification numbers are listed as Not available for New Application."
+      ],
+      "clientSignalPhrases": [
+        "wants to add it to an existing plan",
+        "wants a standalone VHIS plan",
+        "asked whether it can be a rider",
+        "already has an AIA policy",
+        "wants to keep the current insurer",
+        "asked whether a rider is cheaper",
+        "does not want a new standalone policy",
+        "wants to add cover without a medical again"
+      ],
+      "negativeSignalPhrases": [
+        "needs a product that is open to new applications",
+        "wants a full standalone benefit schedule"
+      ],
+      "clientProfileFit": [
+        "Existing AIA policyholders looking for a rider"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, it can be taken as a basic plan or added to an eligible existing plan.",
+      "verificationPrompts": [
+        "Confirm which basic plans accept it as an add-on.",
+        "Confirm current availability for new applications."
+      ],
+      "comparisonRows": [
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "Plan Type: Basic Plan and add-on plan"
+      ],
+      "notesForReviewer": "Single-line evidence only; no brochure text was available for this product."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-voluntary-health-insurance-prime-scheme_flexibility_and_customisation",
+    "bestForOneLiner": "A VHIS-certified reimbursement plan with a choice of three annual deductible levels in HKD or USD.",
+    "notSuitedWhen": [
+      "The client needs a product that is confirmed open to new applications.",
+      "The client needs benefit limits or room level confirmed.",
+      "The client wants a deductible above HKD25,000."
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table",
+      "Annual and lifetime benefit limits",
+      "Room level and benefit schedule",
+      "Exclusions and waiting periods",
+      "Product-specific brochure text (slug collided with the Flexi Scheme)"
+    ]
+  }
+}

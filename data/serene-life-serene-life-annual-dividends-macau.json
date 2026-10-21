@@ -1,0 +1,245 @@
+{
+  "productId": "serene-life-serene-life-annual-dividends-macau",
+  "productName": "Serene Life / Serene Life (Annual Dividends)",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "serene-life-serene-life-annual-dividends-macau_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed value plus dividends",
+      "whatProductOffers": "A participating whole-life savings plan with guaranteed cash value plus non-guaranteed Terminal Dividend, or in the Annual Dividends version yearly dividends that can accumulate with interest.",
+      "keyFigures": [
+        {
+          "label": "Projected total surrender value, 50th year — Serene Life",
+          "value": "US$147,078",
+          "condition": "Age 30 male non-smoker, 5-year term, US$3,200 annual premium"
+        },
+        {
+          "label": "Projected total surrender value, 50th year — Annual Dividends",
+          "value": "US$115,466",
+          "condition": "Same example"
+        },
+        {
+          "label": "Guaranteed cash value",
+          "value": "US$21,798",
+          "condition": "Same example, at 50th policy year"
+        },
+        {
+          "label": "Assumed accumulation rate",
+          "value": "3.5% p.a.",
+          "condition": "Illustration only, non-guaranteed"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Dividends and Terminal Dividend are non-guaranteed and declared at AIA's discretion.",
+        "Illustrated values assume no withdrawals or policy loans and all premiums paid in full.",
+        "The policy must be surrendered to realise the illustrated surrender value.",
+        "The 3.5% p.a. accumulation rate is an illustration assumption, not a guarantee.",
+        "The captured brochure is the Macau version; Hong Kong terms may differ."
+      ],
+      "clientSignalPhrases": [
+        "long-term savings for kid",
+        "wants guaranteed cash value",
+        "comparing endowment plans",
+        "has 20+ year horizon",
+        "wants dividends",
+        "ok with non-guaranteed",
+        "wants US$ policy",
+        "planning education fund"
+      ],
+      "negativeSignalPhrases": [
+        "needs money in 5 years",
+        "wants fully guaranteed returns"
+      ],
+      "clientProfileFit": [
+        "Parents funding education",
+        "Long-term savers wanting a USD policy",
+        "Clients comparing participating savings plans"
+      ],
+      "priorityAlignment": [
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the illustration shows the guaranteed cash value plus non-guaranteed dividends, reaching about US$147,078 by the 50th policy year on the stated example.",
+      "verificationPrompts": [
+        "Confirm the client can hold for 20+ years",
+        "Explain that only the guaranteed cash value is certain",
+        "Obtain a personalised illustration for their age and premium"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "At the end of the 50th policy year, projected total surrender value will be US$147,078",
+        "guaranteed cash value plus any non-guaranteed Annual Dividends that have accumulated with any interest under the policy, plus any non-guaranteed Terminal Dividend",
+        "accumulation interest rate of 3.5% p.a. on Annual Dividends"
+      ],
+      "notesForReviewer": "Single hypothetical example only; not a quotation for the client."
+    },
+    {
+      "trendId": "serene-life-serene-life-annual-dividends-macau_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Death benefit up to 11x premiums",
+      "whatProductOffers": "Pays a death benefit of the sum assured plus non-guaranteed dividends; in the illustrated case the projected death benefit at the 50th policy year is US$175,280, described as up to 11 times total premiums paid.",
+      "keyFigures": [
+        {
+          "label": "Projected death benefit, 50th year — Serene Life",
+          "value": "US$175,280",
+          "condition": "Guaranteed US$50,000 + non-guaranteed US$125,280"
+        },
+        {
+          "label": "Projected death benefit, 50th year — Annual Dividends",
+          "value": "US$143,668",
+          "condition": "Guaranteed US$50,000 + non-guaranteed US$93,668"
+        },
+        {
+          "label": "Multiple of premiums",
+          "value": "Up to 11 times",
+          "condition": "Serene Life, same example"
+        },
+        {
+          "label": "Total premiums in example",
+          "value": "US$16,000",
+          "condition": "US$3,200 annually for 5 years"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The death benefit above the guaranteed amount is non-guaranteed.",
+        "The 11-times figure is based on one hypothetical example (age 30 male non-smoker, 5-year term).",
+        "Outstanding debt is deducted before payment.",
+        "The Death Benefit Settlement Option terms are not detailed in the captured text."
+      ],
+      "clientSignalPhrases": [
+        "wants to leave money to family",
+        "legacy planning",
+        "multi-generational",
+        "wants death benefit to grow",
+        "worried inflation erodes cover",
+        "wants whole life cover",
+        "planning for grandchildren",
+        "wants a settlement option"
+      ],
+      "negativeSignalPhrases": [
+        "needs pure protection at low cost",
+        "wants guaranteed death benefit only"
+      ],
+      "clientProfileFit": [
+        "Grandparents and parents planning a legacy",
+        "Clients wanting protection that grows",
+        "Families with a long horizon"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the illustrated death benefit reaches US$175,280 by year 50 — about 11 times the US$16,000 of premiums in the example — though most of that is non-guaranteed.",
+      "verificationPrompts": [
+        "Confirm the legacy objective and beneficiary",
+        "Stress that only US$50,000 is guaranteed in the example",
+        "Ask whether a settlement option is wanted"
+      ],
+      "comparisonRows": [
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "the projected total death benefit can be up to 11 times the total premiums paid",
+        "As of the 50th policy year, the projected total death benefit is US$175,280 (the non-guaranteed death benefit is US$125,280 and the guaranteed death benefit is US$50,000)"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "serene-life-serene-life-annual-dividends-macau_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Two versions, three terms",
+      "whatProductOffers": "Lets the client choose between Serene Life for higher long-term potential returns and Serene Life (Annual Dividends) for higher liquidity, across three premium payment terms.",
+      "keyFigures": [
+        {
+          "label": "Plan versions",
+          "value": "2",
+          "condition": "Serene Life / Serene Life (Annual Dividends)"
+        },
+        {
+          "label": "Premium payment terms",
+          "value": "3",
+          "condition": "Not enumerated in captured text"
+        },
+        {
+          "label": "Serene Life focus",
+          "value": "Higher total long-term potential returns",
+          "condition": "Lower liquidity"
+        },
+        {
+          "label": "Annual Dividends focus",
+          "value": "Higher liquidity",
+          "condition": "Lower long-term return potential"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The two versions trade off return potential against liquidity; the client cannot have both.",
+        "The captured text does not enumerate the three premium terms.",
+        "Switching between versions after issue is not described in the captured text.",
+        "The examples use a 5-year term at US$3,200 a year."
+      ],
+      "clientSignalPhrases": [
+        "may need cash earlier",
+        "wants short pay",
+        "unsure between savings and liquidity",
+        "wants flexibility on premiums",
+        "may need dividends as income",
+        "wants choice of term",
+        "needs liquidity but wants cover",
+        "wants dividends as an income option"
+      ],
+      "negativeSignalPhrases": [
+        "wants the highest possible return only",
+        "needs a single fixed structure"
+      ],
+      "clientProfileFit": [
+        "Clients unsure about liquidity needs",
+        "Retirees wanting dividend income",
+        "Savers who may need partial access"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, we can pick the version first — growth-oriented Serene Life or more liquid Annual Dividends — and then fit one of three payment terms.",
+      "verificationPrompts": [
+        "Ask whether the client may need to withdraw dividends",
+        "Confirm the preferred premium payment term",
+        "Compare both versions on the same illustration basis"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Serene Life provides you with higher total long-term potential returns, whereas Serene Life (Annual Dividends) provides higher liquidity",
+        "This plan offers 3 premium payment terms for you to choose from",
+        "Two plan versions catering to different financial planning needs"
+      ],
+      "notesForReviewer": "The three premium terms are not listed in the captured text."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "serene-life-serene-life-annual-dividends-macau_savings_and_wealth_growth",
+    "bestForOneLiner": "A whole-life participating series with two versions — one tilted to long-term returns, one to liquidity — over three premium terms.",
+    "notSuitedWhen": [
+      "Client needs protection rather than savings",
+      "Client cannot commit to a long premium term",
+      "Client needs guaranteed dividend amounts"
+    ],
+    "gapsInSourceMaterial": [
+      "The captured brochure is the Macau version; Hong Kong terms may differ",
+      "Only one age-30 male illustration is shown",
+      "Premium terms and full product mechanics are truncated"
+    ]
+  }
+}

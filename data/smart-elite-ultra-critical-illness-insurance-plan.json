@@ -1,0 +1,366 @@
+{
+  "productId": "smart-elite-ultra-critical-illness-insurance-plan",
+  "productName": "Smart Elite Ultra Critical Illness Insurance Plan",
+  "productType": "critical illness insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "smart-elite-ultra-critical-illness-insurance-plan_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "115 illnesses, up to 900% cover",
+      "whatProductOffers": "Covers 115 illnesses with multiple claims across 5 critical illness groups, providing up to 900% of the amount purchased in total, plus an extra 50% coverage booster.",
+      "keyFigures": [
+        {
+          "label": "Illnesses covered",
+          "value": "115",
+          "condition": "named conditions"
+        },
+        {
+          "label": "Total multiple cover",
+          "value": "Up to 900% of amount purchased",
+          "condition": "across all eligible claims"
+        },
+        {
+          "label": "Coverage booster",
+          "value": "Extra 50% protection",
+          "condition": "as stated in benefits highlight"
+        },
+        {
+          "label": "Critical illness groups",
+          "value": "5 groups",
+          "condition": "including cancer and heart"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "900% is an aggregate ceiling across multiple claims, not a single payout.",
+        "Each group and claim type has its own percentage cap.",
+        "Waiting periods between claims and the full claim conditions are not in the excerpt."
+      ],
+      "clientSignalPhrases": [
+        "wants multiple claims",
+        "worried about cancer coming back",
+        "asked about 900%",
+        "wants cover that pays more than once",
+        "family history of cancer and heart",
+        "wants a big total pool",
+        "compared with single-claim CI",
+        "young, wants long-term cover"
+      ],
+      "negativeSignalPhrases": [
+        "wants the cheapest single-claim plan",
+        "only needs one payout",
+        "needs hospital bill reimbursement"
+      ],
+      "clientProfileFit": [
+        "Clients wanting multi-claim CI protection",
+        "Buyers with strong family history of cancer or heart disease",
+        "Higher-budget clients aged 30-50"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan does not stop at one claim; it covers 115 illnesses with multiple claims up to 900% of the amount purchased.",
+      "verificationPrompts": [
+        "Confirm the claim percentages and waiting periods for each of the 5 groups.",
+        "Confirm how the 50% coverage booster is triggered."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "lifetime_limit",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "we also provide you multiple cover as high as 900% of the amount you purchased",
+        "115 illnesses protection with multiple cover up to 900% protection in total + Coverage booster extra 50% protection"
+      ],
+      "notesForReviewer": "The full multiple-claim table is cut off in the excerpt."
+    },
+    {
+      "trendId": "smart-elite-ultra-critical-illness-insurance-plan_critical_illness_readiness_recurrence",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Cancer 3x, heart 2x",
+      "whatProductOffers": "Pays multiple benefits for recurrence, with up to 3 times cover for cancer and up to 2 times cover for heart attack, alongside up to 300% for cancer and up to 200% for heart-related illnesses.",
+      "keyFigures": [
+        {
+          "label": "Cancer claims",
+          "value": "Up to 3 times",
+          "condition": "recurrence cover"
+        },
+        {
+          "label": "Heart attack claims",
+          "value": "Up to 2 times",
+          "condition": "recurrence cover"
+        },
+        {
+          "label": "Cancer protection",
+          "value": "Up to 300%",
+          "condition": "aggregate"
+        },
+        {
+          "label": "Heart protection",
+          "value": "Up to 200%",
+          "condition": "aggregate"
+        },
+        {
+          "label": "Other critical illness groups",
+          "value": "Up to 100% each",
+          "condition": "each of the other 4 groups"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Recurrence claims require the stated waiting period, which is not in the excerpt.",
+        "Cancer and heart caps are aggregate, not per diagnosis.",
+        "Other groups are capped at 100% each."
+      ],
+      "clientSignalPhrases": [
+        "cancer came back before",
+        "worried about recurrence",
+        "mother had breast cancer twice",
+        "wants a second payout",
+        "asked about heart attack again",
+        "wants cover for the same illness twice",
+        "family history of early heart attack",
+        "wants cancer cover above 100%"
+      ],
+      "negativeSignalPhrases": [
+        "wants a single-claim plan",
+        "already had a heart attack",
+        "only wants early stage cover"
+      ],
+      "clientProfileFit": [
+        "Cancer survivors who can still underwrite",
+        "Clients with strong family history of cancer or heart disease",
+        "Buyers wanting long-horizon multi-claim protection"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "Because {client_detail} is worried about recurrence, cancer is covered up to 3 times and heart attack up to 2 times, with up to 300% and 200% respectively.",
+      "verificationPrompts": [
+        "Confirm the waiting period between recurrence claims.",
+        "Confirm whether the 3 cancer claims must be different stages or can be the same."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Multiple cover for the recurrence of critical illness: up to 3 times cover for cancer and up to 2 times cover for heart attack",
+        "Cancer up to 300% protection for cancer ... Heart up to 200% protection for illnesses related to the heart"
+      ],
+      "notesForReviewer": "Waiting periods and recurrence definitions are not in the excerpt."
+    },
+    {
+      "trendId": "smart-elite-ultra-critical-illness-insurance-plan_pre_existing_or_chronic_support",
+      "trendCategory": "pre_existing_or_chronic_support",
+      "isNewCategory": false,
+      "trendName": "Benign, congenital and diabetes cover",
+      "whatProductOffers": "Extends cover to benign conditions that may raise cancer risk, undetected congenital conditions in children, and diabetes complications, which the brochure presents as first-in-market features.",
+      "keyFigures": [
+        {
+          "label": "Benign condition cover",
+          "value": "Included",
+          "condition": "e.g. Benign Hyperplasia of the mammary glands"
+        },
+        {
+          "label": "Congenital conditions",
+          "value": "Undetected congenital conditions in children",
+          "condition": "child cover"
+        },
+        {
+          "label": "Diabetes complications",
+          "value": "Covered",
+          "condition": "Insulin Dependent Diabetes Mellitus cover ceases at age 18"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Benign condition cover is limited to the named conditions in the policy.",
+        "Insulin Dependent Diabetes Mellitus cover ceases at age 18.",
+        "This is not cover for all pre-existing conditions; underwriting still applies."
+      ],
+      "clientSignalPhrases": [
+        "has benign breast lumps",
+        "fibroids found last year",
+        "family has diabetes",
+        "child born with a heart issue",
+        "worried about pre-existing conditions",
+        "wants cover despite benign findings",
+        "asked about diabetes complications",
+        "mother had benign breast disease"
+      ],
+      "negativeSignalPhrases": [
+        "already diagnosed with cancer",
+        "wants cover for any pre-existing illness",
+        "needs immediate cover with no underwriting"
+      ],
+      "clientProfileFit": [
+        "Women with benign breast conditions",
+        "Families with diabetic history",
+        "Parents of children with undetected congenital conditions"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail} with benign breast lumps, the plan is one of the first to cover benign conditions that can raise cancer risk, plus diabetes complications.",
+      "verificationPrompts": [
+        "Confirm the exact benign conditions covered and any extra loading.",
+        "Confirm the underwriting position for declared benign conditions."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "we are the first in the market to expand our protection to individuals with benign conditions that could potentially increase the risk of cancer",
+        "Cover for undetected congenital conditions in children",
+        "cover for diabetes complications"
+      ],
+      "notesForReviewer": "Pre-existing condition underwriting rules are not stated; this is not guaranteed acceptance."
+    },
+    {
+      "trendId": "smart-elite-ultra-critical-illness-insurance-plan_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Child premium waiver built in",
+      "whatProductOffers": "Includes an embedded premium waiver for the insured child if the policy owner passes away before age 75, with no extra health information required.",
+      "keyFigures": [
+        {
+          "label": "Premium waiver trigger",
+          "value": "Policy owner passes away before age 75",
+          "condition": "insured is a child"
+        },
+        {
+          "label": "Extra underwriting",
+          "value": "None required",
+          "condition": "embedded benefit"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Applies only where the insured child is covered under the policy.",
+        "Owner must pass away before age 75.",
+        "Waiver covers premiums, not a separate cash payout."
+      ],
+      "clientSignalPhrases": [
+        "buying for my child",
+        "worried what happens if I die",
+        "wants the child's cover to continue",
+        "single parent",
+        "wants no extra medical checks",
+        "asked about premium waiver for kids",
+        "planning a child's long-term cover",
+        "wants family protection built in"
+      ],
+      "negativeSignalPhrases": [
+        "no children",
+        "wants a cash payout on death",
+        "needs adult CI only"
+      ],
+      "clientProfileFit": [
+        "Parents insuring a child",
+        "Single parents",
+        "Families wanting the child's cover protected if the payer dies"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail} insuring a child, the plan automatically waives the child's premiums if the policy owner dies before 75, with no extra health information.",
+      "verificationPrompts": [
+        "Confirm the waiver applies to all future premiums until the policy matures.",
+        "Confirm the owner and insured definitions for the waiver."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "embedded premium waiver for insured child with no extra health information required (if the policy owner passes away before the age of 75)"
+      ],
+      "notesForReviewer": "No payout amount is attached; it is a waiver benefit."
+    },
+    {
+      "trendId": "smart-elite-ultra-critical-illness-insurance-plan_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "CI with long-term savings",
+      "whatProductOffers": "An integrated plan combining multiple-illness protection, life insurance and potential long-term savings in one policy.",
+      "keyFigures": [
+        {
+          "label": "Components",
+          "value": "Multiple illness protection + life insurance + potential long-term savings",
+          "condition": "single integrated plan"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Savings element is described as potential, not guaranteed.",
+        "No illustrated values, dividend scale or surrender values are in the excerpt.",
+        "Early surrender may return less than premiums paid."
+      ],
+      "clientSignalPhrases": [
+        "wants protection and savings",
+        "doesn't want pure term",
+        "asked about cash value",
+        "long-term plan",
+        "wants one policy for everything",
+        "planning 20 years ahead",
+        "wants life cover too",
+        "prefers integrated plan"
+      ],
+      "negativeSignalPhrases": [
+        "wants pure protection at lowest cost",
+        "needs liquidity",
+        "wants guaranteed returns"
+      ],
+      "clientProfileFit": [
+        "Long-horizon buyers wanting one integrated policy",
+        "Clients who dislike pure term cover",
+        "Higher-budget families combining CI and savings"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, this is one integrated plan that combines multiple-illness protection, life cover and potential long-term savings.",
+      "verificationPrompts": [
+        "Request the illustrated policy values and guaranteed versus non-guaranteed split.",
+        "Confirm surrender values at years 10, 20 and 30."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "an integrated plan created to offer you multiple illnesses protection, life insurance protection and potential long term savings"
+      ],
+      "notesForReviewer": "Very thin evidence: no savings figures, dividend scale or cash value illustration in the excerpt."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "smart-elite-ultra-critical-illness-insurance-plan_critical_illness_readiness",
+    "bestForOneLiner": "A multi-claim critical illness plan covering 115 illnesses with up to 900% total protection, 3 cancer claims and benign condition cover.",
+    "notSuitedWhen": [
+      "The client wants the lowest-premium single-claim CI plan",
+      "The client needs hospital bill reimbursement",
+      "The client needs guaranteed savings returns"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table and sum assured options",
+      "Multiple-claim waiting periods and definitions",
+      "Full benign and congenital condition lists",
+      "Savings illustration and surrender values"
+    ]
+  }
+}

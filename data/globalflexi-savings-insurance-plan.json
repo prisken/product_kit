@@ -1,0 +1,365 @@
+{
+  "productId": "globalflexi-savings-insurance-plan",
+  "productName": "GlobalFlexi Savings Insurance Plan",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "globalflexi-savings-insurance-plan_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed cash value plus bonuses",
+      "whatProductOffers": "Builds policy value from guaranteed cash value plus non-guaranteed reversionary bonus and non-guaranteed terminal bonus, with the bonus values available for withdrawal or left to accumulate.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed cash value",
+          "value": "Included",
+          "condition": "Basic plan"
+        },
+        {
+          "label": "Non-guaranteed bonuses",
+          "value": "Reversionary bonus and terminal bonus",
+          "condition": "Both non-guaranteed"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Reversionary bonus and terminal bonus are not guaranteed.",
+        "Withdrawing part of the guaranteed cash value reduces the principal amount, the total premiums paid used to calculate the death benefit, and subsequent policy values.",
+        "Amounts owed to AIA and outstanding policy debt are deducted before any payment."
+      ],
+      "clientSignalPhrases": [
+        "has a lump sum to park for 15 years",
+        "wants some guarantee, not pure funds",
+        "saving for kid's university",
+        "retirement top-up after selling a flat",
+        "asked whether bonuses are guaranteed",
+        "wants growth but not locked forever",
+        "already maxed MPF, looking for more",
+        "inherited cash and wants to preserve it",
+        "worried inflation is eating the deposit",
+        "prefers to hold some USD"
+      ],
+      "negativeSignalPhrases": [
+        "needs the money back in 2 to 3 years",
+        "wants a fixed guaranteed return every year",
+        "only trusts bank deposits",
+        "will not accept any non-guaranteed element"
+      ],
+      "clientProfileFit": [
+        "35 to 55 year-old savers with a 10 to 20 year horizon",
+        "Parents funding overseas education",
+        "Pre-retirees adding to retirement savings",
+        "Clients who want a guaranteed floor with bonus upside"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, this plan keeps a guaranteed cash value floor while adding non-guaranteed reversionary and terminal bonuses.",
+      "verificationPrompts": [
+        "Confirm the client's time horizon is at least 10 years",
+        "Ask whether any withdrawal is needed in the first 5 years",
+        "Confirm the client accepts non-guaranteed bonuses",
+        "Check which currency the client wants the policy in"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Guaranteed Cash Value",
+        "Non-guaranteed Reversionary Bonus and non-guaranteed Terminal Bonus",
+        "after withdrawal of part of the guaranteed cash value, the principal amount of the policy and the total premiums paid ... will be reduced"
+      ],
+      "notesForReviewer": "The extracted brochure text has no premium table, bonus scale or return illustration, so no yield figures can be quoted."
+    },
+    {
+      "trendId": "globalflexi-savings-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Withdrawal and bonus lock-in options",
+      "whatProductOffers": "Four named options control access to policy value: Flexi Withdrawal Option, Value Safeguard Option, Bonus Lock-in Option and Bonus Unlock Option, described in the brochure as rare-in-market.",
+      "keyFigures": [
+        {
+          "label": "Access options",
+          "value": "4",
+          "condition": "Flexi Withdrawal, Value Safeguard, Bonus Lock-in, Bonus Unlock"
+        },
+        {
+          "label": "Partial withdrawal",
+          "value": "Part or all of the cash value",
+          "condition": "Reversionary bonus value and/or guaranteed cash value"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Partial withdrawal of guaranteed cash value reduces the principal amount and death benefit.",
+        "Withdrawing all policy values ends the policy.",
+        "Option mechanics, limits, minimum amounts and any charges are not stated in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "may need cash in a few years but not now",
+        "wants to lock in some profit if markets rise",
+        "doesn't want everything tied up",
+        "asked if can take part of the bonus",
+        "planning a property purchase later",
+        "wants flexibility for business cashflow",
+        "retiring in stages, needs occasional withdrawals",
+        "worried about locking money for 20 years"
+      ],
+      "negativeSignalPhrases": [
+        "needs a fixed monthly payout",
+        "wants penalty-free full access in year 1",
+        "expects withdrawal without affecting death benefit"
+      ],
+      "clientProfileFit": [
+        "Business owners who may need periodic liquidity",
+        "Clients funding staged goals such as education or a property",
+        "Savers who want upside but dislike full lock-up"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the withdrawal and bonus lock-in options allow part of the value to be taken or protected without surrendering the whole policy.",
+      "verificationPrompts": [
+        "Ask when the client may first need cash",
+        "Check the minimum withdrawal and any charges",
+        "Confirm whether the client wants to lock in bonuses"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Flexi Withdrawal Option",
+        "Value Safeguard Option",
+        "Bonus Lock-in Option",
+        "Bonus Unlock Option",
+        "Rare-in-market^"
+      ],
+      "notesForReviewer": "The brochure extract lists the option names and the rare-in-market claim but not the mechanics, limits or fees of each option."
+    },
+    {
+      "trendId": "globalflexi-savings-insurance-plan_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Nine policy currencies",
+      "whatProductOffers": "The plan is available in 9 currencies, HK$, US$, GBP, EUR, SGD, CAD, AUD, RMB and MOP, and includes a Currency Exchange Option.",
+      "keyFigures": [
+        {
+          "label": "Policy currencies",
+          "value": "9",
+          "condition": "HK$, US$, GBP, EUR, SGD, CAD, AUD, RMB, MOP"
+        },
+        {
+          "label": "Currency Exchange Option",
+          "value": "Included",
+          "condition": "First-in-market claim referenced to AIA's Global Power Multi-Currency Plan"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Exchange rates and any currency exchange charges are not stated in the extracted text.",
+        "The client bears currency risk when policy currency differs from spending currency.",
+        "Availability of individual currencies at application is not confirmed in the extract."
+      ],
+      "clientSignalPhrases": [
+        "kid is studying in the UK",
+        "planning to retire in Canada",
+        "holding AUD from a property sale",
+        "wants a USD policy",
+        "may move to Singapore for work",
+        "has family in Australia",
+        "worried about HKD depreciation",
+        "needs to pay fees in GBP",
+        "wants to diversify currency"
+      ],
+      "negativeSignalPhrases": [
+        "only wants HKD and no FX risk",
+        "uncomfortable with exchange rate movement",
+        "needs the money in one currency only"
+      ],
+      "clientProfileFit": [
+        "Families with overseas education costs",
+        "Clients planning to emigrate or retire abroad",
+        "Savers with multi-currency income or assets"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy can be held in one of 9 currencies and switched through the Currency Exchange Option.",
+      "verificationPrompts": [
+        "Confirm the client's future spending currency",
+        "Ask whether the client understands FX risk",
+        "Check which currencies are open at application"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "9 Currencies",
+        "HK$ US$ GBP EUR SGD CAD AUD RMB MOP",
+        "Currency Exchange Option",
+        "Currency Exchange Option was pioneered by AIA in the Global Power Multi-Currency Plan on 1 June 2021"
+      ],
+      "notesForReviewer": "The extract shows the currency list and the option name but no exchange mechanics, spread or fee."
+    },
+    {
+      "trendId": "globalflexi-savings-insurance-plan_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Multi-generation legacy controls",
+      "whatProductOffers": "Health Impairment Option lets the policy owner designate up to 2 different designated recipients and elect both benefit payment and transfer of ownership at the same time; the plan also includes Policy Split Option, Beneficiary Flexi Option, Death Benefit Settlement Option and Transitional Owner Arrangement with Future Guard Option.",
+      "keyFigures": [
+        {
+          "label": "Designated recipients under Health Impairment Option",
+          "value": "Up to 2",
+          "condition": "Benefit payment and transfer of ownership can both be elected"
+        },
+        {
+          "label": "Legacy options named",
+          "value": "5",
+          "condition": "Policy Split, Beneficiary Flexi, Death Benefit Settlement, Transitional Owner with Future Guard, Health Impairment"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Transitional Owner Arrangement is a value-added service, not a product feature, and does not form part of the policy contract.",
+        "Transitional Owner Arrangement applies only to specified plans and designated policies meeting eligibility requirements; it is not available to corporate-owned policies.",
+        "Future Guard Option and Health Impairment Option are described as first-in-market as of the stated comparison date and against Hong Kong major insurers' products."
+      ],
+      "clientSignalPhrases": [
+        "wants to leave something for the grandkids",
+        "has a special needs child",
+        "worried about inheritance disputes",
+        "wants to split the policy between two children",
+        "asked about changing the insured later",
+        "family business succession",
+        "wants control over how the payout is received",
+        "second marriage, needs clear beneficiary planning",
+        "wants to transfer ownership if incapacitated"
+      ],
+      "negativeSignalPhrases": [
+        "no dependants and no legacy goal",
+        "wants a simple single beneficiary payout",
+        "needs the policy for own spending only"
+      ],
+      "clientProfileFit": [
+        "Wealthy families planning succession",
+        "Parents of children with health impairments",
+        "Clients with multiple beneficiaries and blended families"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy can be split, the insured changed and the payout instructed in advance rather than left to a single lump sum.",
+      "verificationPrompts": [
+        "Ask how many beneficiaries the client intends",
+        "Check whether the client needs ownership transfer on incapacity",
+        "Confirm the policy is not corporate-owned if Transitional Owner is needed"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Health Impairment Option",
+        "the policy owner can designate up to 2 different designated recipients and elect for both benefit payment and transfer of ownership under this option at the same time",
+        "Policy Split Option",
+        "Beneficiary Flexi Option",
+        "Death Benefit Settlement Option",
+        "Transitional Owner Arrangement is only available to specified insurance plans and designated policies which meet our eligibility requirements. It is not applicable to corporate owned policies."
+      ],
+      "notesForReviewer": "Eligibility rules and the actual payout mechanics of Policy Split, Beneficiary Flexi and Death Benefit Settlement are not described in the extracted text."
+    },
+    {
+      "trendId": "globalflexi-savings-insurance-plan_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Terminal illness advance payment",
+      "whatProductOffers": "A Terminal Illness Benefit is listed among the plan's protection features, described as first-in-market, allowing value to be released on terminal illness.",
+      "keyFigures": [
+        {
+          "label": "Terminal Illness Benefit",
+          "value": "Included",
+          "condition": "First-in-market claim per brochure footnote"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The benefit amount, definition of terminal illness, waiting period and claim conditions are not stated in the extracted text.",
+        "The brochure only lists the benefit name; it does not confirm whether the payment is an advance of policy value."
+      ],
+      "clientSignalPhrases": [
+        "family history of cancer",
+        "wants some protection if diagnosed terminal",
+        "doesn't want a standalone CI plan",
+        "asked what happens if seriously ill",
+        "wants savings with a protection angle",
+        "wants protection if something serious happens",
+        "family history of illness",
+        "asked about terminal illness payout",
+        "doesn't want a separate CI policy"
+      ],
+      "negativeSignalPhrases": [
+        "needs full critical illness cover",
+        "wants a diagnosed CI lump sum",
+        "expects medical coverage"
+      ],
+      "clientProfileFit": [
+        "Savers who want a protection feature without a separate CI policy",
+        "Older clients concerned about terminal illness",
+        "Clients focused mainly on wealth preservation"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan adds a terminal illness benefit on top of the savings value, although the amount is not confirmed in the brochure extract.",
+      "verificationPrompts": [
+        "Obtain the Terminal Illness Benefit definition and amount",
+        "Confirm whether the benefit advances or adds to policy value",
+        "Check any waiting period"
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "waiting_period"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Terminal Illness Benefit",
+        "First-in-market"
+      ],
+      "notesForReviewer": "Only the benefit name and first-in-market claim were extracted. Do not quote an amount or definition until the full brochure is reviewed."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "globalflexi-savings-insurance-plan_savings_and_wealth_growth",
+    "bestForOneLiner": "A multi-currency whole-life savings plan that combines guaranteed cash value, non-guaranteed bonuses and extensive withdrawal and legacy options.",
+    "notSuitedWhen": [
+      "The client needs the capital back within 2 to 3 years",
+      "The client requires a fully guaranteed return",
+      "The client wants a simple deposit with no insurance structure",
+      "The client has no interest in legacy or ownership-transfer features"
+    ],
+    "gapsInSourceMaterial": [
+      "No premium table or minimum premium",
+      "No bonus scales or illustrated returns",
+      "No charges, surrender values or policy loan terms",
+      "No Terminal Illness Benefit amount or definition"
+    ]
+  }
+}

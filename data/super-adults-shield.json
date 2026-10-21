@@ -1,0 +1,299 @@
+{
+  "productId": "super-adults-shield",
+  "productName": "Super Adults Shield",
+  "productType": "accident protection insurance plan",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "super-adults-shield_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Accident death and dismemberment to 76",
+      "whatProductOffers": "Pays a lump sum under the Accidental Death & Dismemberment Benefit for listed injuries occurring within 180 days of an accident, with cover to age 76 for applicants aged 18-65.",
+      "keyFigures": [
+        {
+          "label": "Issue age",
+          "value": "Age 18-65",
+          "condition": "at application"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Up to age 76",
+          "condition": "policy in force"
+        },
+        {
+          "label": "Claim window",
+          "value": "180 days after the accident",
+          "condition": "injury listed in the benefit schedule"
+        },
+        {
+          "label": "Currency",
+          "value": "HK$/MOP",
+          "condition": "policy currency"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Benefit is payable only for injuries listed in the Accidental Death & Dismemberment Benefit Schedule.",
+        "The injury must occur within 180 days of the accident.",
+        "Once 100% of the sum assured is paid, the policy ends."
+      ],
+      "clientSignalPhrases": [
+        "main earner in the family",
+        "wants accident cover until retirement",
+        "asked about dismemberment cover",
+        "works in construction",
+        "drives for a living",
+        "worried about a serious accident",
+        "wants a lump sum for the family",
+        "no company accident cover"
+      ],
+      "negativeSignalPhrases": [
+        "needs illness cover",
+        "wants investment returns",
+        "is over 65"
+      ],
+      "clientProfileFit": [
+        "Working adults aged 18-65 with dependants",
+        "Manual and transport workers",
+        "Clients without employer accident cover"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail} who supports the family, the plan pays a lump sum for accidental death or dismemberment and stays in force to age 76.",
+      "verificationPrompts": [
+        "Confirm the sum assured options and per-life maximum.",
+        "Confirm the benefit schedule percentages for each listed injury."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Insured's Age of Application Age 18 – 65",
+        "Benefit Term Up to the age of 76",
+        "we will pay a lump sum benefit according to the Benefit Schedule for the Accidental Death & Dismemberment Benefit"
+      ],
+      "notesForReviewer": "Brochure text is for the combined Super Shield series and is truncated; benefit schedule and sum assured options are missing."
+    },
+    {
+      "trendId": "super-adults-shield_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Monthly disability payment 100 months",
+      "whatProductOffers": "Pays 1% of the sum assured monthly from the 7th month for up to 100 months while permanent total disability continues after 6 consecutive months.",
+      "keyFigures": [
+        {
+          "label": "Monthly payment",
+          "value": "1% of the sum assured",
+          "condition": "from the 7th month"
+        },
+        {
+          "label": "Payment duration",
+          "value": "Up to 100 months",
+          "condition": "while disability continues"
+        },
+        {
+          "label": "Qualifying period",
+          "value": "6 consecutive months",
+          "condition": "totally and permanently disabled within 180 days of accident"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Disability must arise within 180 days of the accident and persist 6 consecutive months.",
+        "Payments cease if disability ends.",
+        "Permanent Total Disability Benefit is not paid after the Accidental Death & Dismemberment Benefit has been paid, and vice versa."
+      ],
+      "clientSignalPhrases": [
+        "worried about long-term disability",
+        "sole earner",
+        "manual worker",
+        "asked about monthly income",
+        "wants support if he can't work",
+        "family has no savings",
+        "needs income replacement",
+        "self-employed driver"
+      ],
+      "negativeSignalPhrases": [
+        "wants a one-off lump sum only",
+        "needs critical illness cover",
+        "expects payment immediately"
+      ],
+      "clientProfileFit": [
+        "Manual workers and drivers",
+        "Sole earners with dependent families",
+        "Clients without employer disability benefits"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "If {client_detail} is permanently disabled after an accident, the plan pays 1% of the sum assured every month for up to 100 months.",
+      "verificationPrompts": [
+        "Confirm the definition of total and permanent disability.",
+        "Confirm how the disability benefit reduces the remaining sum assured."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "the insured will receive a monthly payment equal to 1% of the sum assured beginning from the 7th month and continuing up to 100 months (while disability continues)"
+      ],
+      "notesForReviewer": "No income test or occupational class detail in the excerpt."
+    },
+    {
+      "trendId": "super-adults-shield_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "52 weeks of accident medical bills",
+      "whatProductOffers": "Reimburses reasonable and customary medical expenses incurred within 52 weeks of an accident, up to the maximum limit per accident.",
+      "keyFigures": [
+        {
+          "label": "Claim period",
+          "value": "52 weeks after the accident",
+          "condition": "treatment must be medically necessary"
+        },
+        {
+          "label": "Limit",
+          "value": "Maximum limit per accident per insured",
+          "condition": "amount per benefits schedule, not stated"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Reimbursement is capped per accident; the actual amount is not in the source.",
+        "Expenses must be reasonable and customary.",
+        "Only accident-related treatment is covered."
+      ],
+      "clientSignalPhrases": [
+        "wants hospital bills covered",
+        "asked about accident medical expenses",
+        "worried about surgery costs",
+        "wants receipts reimbursed",
+        "no hospital plan",
+        "needs cover for follow-up treatment",
+        "had a bad fall last year",
+        "wants both lump sum and bills"
+      ],
+      "negativeSignalPhrases": [
+        "wants illness hospital cover",
+        "needs a guaranteed annual limit",
+        "wants cashless hospital admission"
+      ],
+      "clientProfileFit": [
+        "Clients without a medical plan",
+        "Manual workers with accident exposure",
+        "Families wanting accident bill reimbursement"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail} with no hospital plan, accident medical bills are reimbursed for treatment within 52 weeks, on top of the lump-sum benefits.",
+      "verificationPrompts": [
+        "Confirm the per-accident maximum in the benefits schedule.",
+        "Confirm whether the medical reimbursement reduces the sum assured."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "outpatient",
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "we will reimburse the reasonable and customary medical expenses incurred within 52 weeks after the accident, up to the maximum limit per accident for the insured"
+      ],
+      "notesForReviewer": "The per-accident maximum is not stated in the supplied text."
+    },
+    {
+      "trendId": "super-adults-shield_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Counselling and worldwide assistance",
+      "whatProductOffers": "Adds psychological counselling services after a covered accident, a Well Being Program and 24-hour worldwide emergency assistance up to HK$/MOP5,000,000 per life.",
+      "keyFigures": [
+        {
+          "label": "Emergency assistance",
+          "value": "HK$/MOP5,000,000 per life",
+          "condition": "aggregate across AIA policies on the same insured"
+        },
+        {
+          "label": "Counselling",
+          "value": "Necessary psychological counselling expenses",
+          "condition": "per benefits schedule"
+        },
+        {
+          "label": "Well Being Program",
+          "value": "Included",
+          "condition": "program terms apply"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The assistance limit is shared across all AIA policies covering the same insured.",
+        "Counselling amount is per the benefits schedule, not stated in the source.",
+        "Available to permanent residents of Hong Kong or Macau for the assistance service."
+      ],
+      "clientSignalPhrases": [
+        "wants emotional support after accident",
+        "travels for work",
+        "asked about counselling",
+        "wants more than cash",
+        "worried about trauma",
+        "wants a 24-hour hotline",
+        "works across the border",
+        "values wellbeing perks"
+      ],
+      "negativeSignalPhrases": [
+        "only wants cash benefits",
+        "needs psychiatric treatment cover",
+        "never travels"
+      ],
+      "clientProfileFit": [
+        "Clients wanting accident support services, not just payout",
+        "Frequent travellers",
+        "Workers in high-stress or high-risk jobs"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan adds psychological counselling after an accident and a 24-hour worldwide assistance line, not just a cash payout.",
+      "verificationPrompts": [
+        "Confirm the counselling session limit and provider network.",
+        "Confirm what the Well Being Program includes for this plan."
+      ],
+      "comparisonRows": [
+        "premium",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "We will pay the necessary psychological counselling expenses according to the Benefits Schedule of Super Adults Shield.",
+        "The per life limit is up to HK$/MOP5,000,000 (under all policies held with us and AIA Company Limited covering the same insured)."
+      ],
+      "notesForReviewer": "Evidence comes from the product webpage footnotes and the combined Super Shield brochure; counselling limits and Well Being Program details are not stated."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "super-adults-shield_family_protection",
+    "bestForOneLiner": "An accident plan for ages 18-65 with death and dismemberment cover to age 76, monthly disability income and accident medical reimbursement.",
+    "notSuitedWhen": [
+      "The client is outside the 18-65 application age",
+      "The client needs illness or critical illness cover",
+      "The client wants cashless hospital admission"
+    ],
+    "gapsInSourceMaterial": [
+      "Sum assured options and premium table",
+      "Per-accident medical limit",
+      "Benefits schedule percentages",
+      "Full exclusions and waiting periods"
+    ]
+  }
+}

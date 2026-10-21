@@ -1,0 +1,305 @@
+{
+  "productId": "secure-first-plus",
+  "productName": "Secure First Plus",
+  "productType": "accident protection insurance plan",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "secure-first-plus_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Full premium refund, level premiums",
+      "whatProductOffers": "A US dollar accident plan with a 12-year premium term, guaranteed level premiums, and a cash benefit refunding up to 100% of total premiums paid.",
+      "keyFigures": [
+        {
+          "label": "Premium payment term",
+          "value": "12 years",
+          "condition": "fixed"
+        },
+        {
+          "label": "Cash benefit",
+          "value": "Up to 100% of total premiums paid",
+          "condition": "surrender, lapse or non-accidental death"
+        },
+        {
+          "label": "Currency",
+          "value": "US$",
+          "condition": "policy denominated in US dollars"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Refund follows a schedule by completed policy years.",
+        "Refund is of premiums paid to the basic plan with no extra premium loading and no interest.",
+        "Refund is reduced where accident benefits have already been paid."
+      ],
+      "clientSignalPhrases": [
+        "wants US dollar policy",
+        "asked about full refund",
+        "doesn't want to lose premiums",
+        "wants premiums fixed for 12 years",
+        "planning for kids' education abroad",
+        "holds USD savings",
+        "wants accident cover plus money back",
+        "compared with Secure First"
+      ],
+      "negativeSignalPhrases": [
+        "wants investment returns on the premium",
+        "needs RMB denominated cover",
+        "wants a shorter payment term"
+      ],
+      "clientProfileFit": [
+        "Clients with US dollar savings or liabilities",
+        "Families planning overseas education",
+        "Buyers who want a refund feature alongside accident cover"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan is in US dollars, premiums are fixed for 12 years, and up to 100% of premiums paid can come back on surrender.",
+      "verificationPrompts": [
+        "Show the refund percentage schedule by policy year.",
+        "Confirm the USD premium and whether currency risk applies to the client."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Secure First Plus offers up to 100% refund of premium with broad cover against accident throughout your life.",
+        "Premium amounts are guaranteed to remain level throughout the premium payment term."
+      ],
+      "notesForReviewer": "Refund schedule and premium table are cut off in the excerpt."
+    },
+    {
+      "trendId": "secure-first-plus_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Broad double indemnity triggers",
+      "whatProductOffers": "Pays accidental death cover for life and doubles the benefit for public transport (marine, land or air), passenger elevators, fire in public buildings, pedestrian traffic accidents and flooding or landslides in Hong Kong or Macau.",
+      "keyFigures": [
+        {
+          "label": "Claim window",
+          "value": "180 days after the accident",
+          "condition": "death due to accident"
+        },
+        {
+          "label": "Double indemnity",
+          "value": "2x the applicable benefit",
+          "condition": "one of the listed scenarios at time of accident"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 63",
+          "condition": "at policy issue"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Mine or construction site elevators are excluded.",
+        "Flooding or landslide trigger applies only in Hong Kong or Macau.",
+        "Double indemnity payment does not reduce the current sum assured or premium."
+      ],
+      "clientSignalPhrases": [
+        "drives and walks a lot",
+        "worried about typhoon season",
+        "takes ferries to work",
+        "wants double payout for transport accidents",
+        "family depends on his income",
+        "travels by plane often",
+        "asked about landslide cover",
+        "wants a simple life accident plan"
+      ],
+      "negativeSignalPhrases": [
+        "only wants medical reimbursement",
+        "needs critical illness cover",
+        "wants investment-linked returns"
+      ],
+      "clientProfileFit": [
+        "Commuters using ferries, buses, MTR or taxis",
+        "Clients in landslide or flooding-prone districts",
+        "Families wanting a larger death benefit for accidental causes"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the double indemnity list includes ferries, buses, MTR, taxis, planes, pedestrian accidents and flooding or landslides in Hong Kong, so the payout can be doubled.",
+      "verificationPrompts": [
+        "Confirm the sum assured and the per-life maximum.",
+        "Confirm the double indemnity wording for pedestrian and flooding claims."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "a fare paying passenger traveling on marine, land or air public transportation, e.g. ferry, bus, coach, train / MTR, taxi or airplane and etc.",
+        "a pedestrian injured in a traffic accident and / or struck by any motor-driven / powered vehicle",
+        "injured in natural flooding or landslide in Hong Kong or Macau"
+      ],
+      "notesForReviewer": "Accidental dismemberment schedule and sum assured limits are not in the excerpt."
+    },
+    {
+      "trendId": "secure-first-plus_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Monthly disability income",
+      "whatProductOffers": "Pays 2% of the sum assured monthly for up to 50 months after 6 consecutive months of permanent total disability, with premiums waived during the payment period.",
+      "keyFigures": [
+        {
+          "label": "Monthly payment",
+          "value": "2% of the sum assured",
+          "condition": "from the 7th month"
+        },
+        {
+          "label": "Payment duration",
+          "value": "Up to 50 months",
+          "condition": "while disability continues"
+        },
+        {
+          "label": "Qualifying period",
+          "value": "6 consecutive months",
+          "condition": "total and permanent disability within 180 days of accident"
+        },
+        {
+          "label": "Eligible age",
+          "value": "Age 18-76",
+          "condition": "for the disability benefit"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Disability must begin within 180 days of the accident and last 6 consecutive months.",
+        "Payments stop if disability ends.",
+        "Benefit reduces the current sum assured and future premiums."
+      ],
+      "clientSignalPhrases": [
+        "worried about being unable to work",
+        "sole income earner",
+        "self-employed",
+        "asked about monthly payout",
+        "wants income replacement, not a lump sum",
+        "manual job, higher accident risk",
+        "family has no other income",
+        "wants premiums waived if disabled"
+      ],
+      "negativeSignalPhrases": [
+        "wants a single lump sum only",
+        "needs critical illness cover",
+        "expects payment from month one"
+      ],
+      "clientProfileFit": [
+        "Manual workers and drivers",
+        "Sole earners with dependent families",
+        "Self-employed clients without employer sick pay"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "If {client_detail} cannot work after an accident, the plan pays 2% of the sum assured each month for up to 50 months and waives premiums meanwhile.",
+      "verificationPrompts": [
+        "Confirm the definition of permanent total disability in the policy.",
+        "Confirm how the monthly benefit interacts with the death benefit."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "the insured will receive a monthly payment equal to 2% of the sum assured beginning from the 7th month and continuing up to 50 months (while disability continues), and the premium will be waived during this period"
+      ],
+      "notesForReviewer": "Occupational definitions and any income test are not in the excerpt."
+    },
+    {
+      "trendId": "secure-first-plus_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "US$625,000 overseas assistance",
+      "whatProductOffers": "Provides worldwide emergency assistance including medical evacuation and repatriation of remains up to US$625,000 per life, plus a 24-hour worldwide telephone enquiry service.",
+      "keyFigures": [
+        {
+          "label": "Emergency assistance limit",
+          "value": "US$625,000 per life",
+          "condition": "aggregate across AIA policies on the same insured"
+        },
+        {
+          "label": "Availability",
+          "value": "24-hour worldwide",
+          "condition": "for permanent residents of HK, Macau or PRC"
+        },
+        {
+          "label": "Currency",
+          "value": "US$",
+          "condition": "limits stated in US dollars"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Limit is shared across all policies held with AIA covering the same insured.",
+        "Service covers evacuation and repatriation, not routine overseas medical bills.",
+        "Available to permanent residents of Hong Kong, Macau or the PRC."
+      ],
+      "clientSignalPhrases": [
+        "travels overseas for work",
+        "kids studying abroad",
+        "wants evacuation cover",
+        "asked about repatriation",
+        "frequent flyer",
+        "worried about accidents abroad",
+        "holds US dollar policy",
+        "wants a 24-hour hotline"
+      ],
+      "negativeSignalPhrases": [
+        "needs routine overseas medical cover",
+        "wants local hospital bills reimbursed",
+        "never travels"
+      ],
+      "clientProfileFit": [
+        "Frequent business travellers",
+        "Families with children studying overseas",
+        "Clients holding US dollar assets"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail} who travels often, the plan includes up to US$625,000 for emergency evacuation and repatriation anywhere in the world.",
+      "verificationPrompts": [
+        "Confirm the assistance provider and how to activate the service.",
+        "Confirm whether the limit is shared with the client's other AIA policies."
+      ],
+      "comparisonRows": [
+        "premium",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "emergency medical evacuation and repatriation of remains, with per life limit up to US$625,000 under all policies held with us and AIA Company Limited covering the same insured",
+        "24-hour worldwide telephone enquiry services"
+      ],
+      "notesForReviewer": "Assistance is a service benefit, not overseas medical expense reimbursement."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "secure-first-plus_premium_stability",
+    "bestForOneLiner": "A US dollar accident plan with 12-year level premiums, up to 100% premium refund, broad double indemnity and monthly disability income.",
+    "notSuitedWhen": [
+      "The client wants critical illness or hospital cover",
+      "The client needs RMB-denominated protection",
+      "The client expects guaranteed investment returns on premiums"
+    ],
+    "gapsInSourceMaterial": [
+      "Annual premium rate table",
+      "Sum assured limits by age",
+      "Refund percentage schedule",
+      "Full exclusions and disability definitions"
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "productId": "essence-on-your-side-insurance-plan",
+  "productName": "Essence – On Your Side Insurance Plan",
+  "productType": "critical illness insurance (participating, lump sum)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "essence-on-your-side-insurance-plan_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "58 illnesses plus prime-age booster",
+      "whatProductOffers": "Covers 58 critical illnesses (57 major and 1 minor) and adds a Prime Age Critical Illness Extra Coverage Booster of up to 40% of the Initial Sum Assured when a Critical Illness Benefit or Big 3 Critical Illness Shield Benefit is paid during the Designated Period.",
+      "keyFigures": [
+        {
+          "label": "Critical illnesses covered",
+          "value": "58",
+          "condition": "57 major illnesses and 1 minor illness"
+        },
+        {
+          "label": "Prime Age booster",
+          "value": "up to 40% of Initial Sum Assured",
+          "condition": "claim during the Designated Period"
+        },
+        {
+          "label": "Booster duration",
+          "value": "up to 365 days",
+          "condition": "as shown in plan highlights"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The Prime Age booster applies only to claims during the Designated Period; the period definition is not in the extracted text.",
+        "Advance payments for major or minor illness reduce the Current Sum Assured and future premiums.",
+        "The full 58-illness schedule and definitions are in the policy contract."
+      ],
+      "clientSignalPhrases": [
+        "wants broad CI cover",
+        "wants extra cover in my prime years",
+        "family history of critical illness",
+        "wants more than the big three",
+        "needs cover while kids are young",
+        "wants a safety net",
+        "comparing 58 vs 61 illnesses",
+        "wants lump sum on diagnosis",
+        "family history of cancer"
+      ],
+      "negativeSignalPhrases": [
+        "wants cheap single-condition cover",
+        "only wants cancer cover"
+      ],
+      "clientProfileFit": [
+        "Clients in their 30s-40s wanting peak-earning-year protection",
+        "Families wanting broad illness cover",
+        "Buyers comparing comprehensive CI plans"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, 58 illnesses are covered and a claim in the prime-age window adds up to 40% more.",
+      "verificationPrompts": [
+        "Confirm the Designated Period definition and end date.",
+        "Confirm the illness list and minor illness definition.",
+        "Confirm whether the booster applies to both Critical Illness Benefit and Big 3 Shield claims."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "The plan gives you extensive coverage for 58 critical illnesses",
+        "Additional payment up to 40% of the Initial Sum Assured when Critical Illness Benefit or Big 3 Critical Illness Shield Benefit is paid during the Designated Period"
+      ],
+      "notesForReviewer": "Designated Period definition and duration are not in the extracted text."
+    },
+    {
+      "trendId": "essence-on-your-side-insurance-plan_critical_illness_readiness_big3",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Extra claim for big three",
+      "whatProductOffers": "Provides a Big 3 Critical Illness Shield Benefit giving an additional claim for cancer, heart attack or stroke, on top of the Critical Illness Benefit.",
+      "keyFigures": [
+        {
+          "label": "Additional claim conditions",
+          "value": "cancer, heart attack, stroke",
+          "condition": "Big 3 Critical Illness Shield Benefit"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The additional claim amount is not stated in the extracted text.",
+        "The benefit applies only to the three named conditions, not all 58 illnesses.",
+        "Interaction with the Prime Age booster and total payout caps needs confirmation."
+      ],
+      "clientSignalPhrases": [
+        "worried cancer comes back",
+        "heart attack runs in the family",
+        "wants multiple claims allowed",
+        "one claim not enough",
+        "wants extra cover for the big three",
+        "stroke at 50 in the family",
+        "wants lump sum on diagnosis",
+        "family history of cancer",
+        "worried about income loss"
+      ],
+      "negativeSignalPhrases": [
+        "wants unlimited claims",
+        "expects every illness to pay twice"
+      ],
+      "clientProfileFit": [
+        "Clients with family history of cancer or cardiovascular disease",
+        "Buyers wanting more than a single-claim CI plan"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "{client_detail} can claim again for cancer, heart attack or stroke after the first critical illness claim.",
+      "verificationPrompts": [
+        "Confirm the Big 3 Shield benefit amount and waiting period between claims.",
+        "Confirm whether the shield is a separate sum assured or a percentage of the Initial Sum Assured."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Big 3 Critical Illness Shield Benefit: Additional claim for cancer, heart attack or stroke to provide extended coverage."
+      ],
+      "notesForReviewer": "Benefit amount and claim spacing are not in the extracted text."
+    },
+    {
+      "trendId": "essence-on-your-side-insurance-plan_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Participating plan with terminal bonus",
+      "whatProductOffers": "A participating plan providing life and critical illness cover with guaranteed cash value and a non-guaranteed Terminal Bonus that may be declared at least once per policy year after the policy has been in force for 5 years.",
+      "keyFigures": [
+        {
+          "label": "Terminal Bonus eligibility",
+          "value": "after 5 policy years",
+          "condition": "may be declared at least once per policy year"
+        },
+        {
+          "label": "Guaranteed cash value",
+          "value": "provided",
+          "condition": "participating plan"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The Terminal Bonus is non-cumulative and non-guaranteed; it may be zero.",
+        "Declaration depends on investment returns, claims experience and other factors.",
+        "Any advance illness payment reduces the sum assured and future bonuses."
+      ],
+      "clientSignalPhrases": [
+        "wants protection plus savings",
+        "doesn't want pure insurance",
+        "wants cash value",
+        "long-term horizon",
+        "wants a bonus on top",
+        "hates losing premium if no claim",
+        "hates losing premium",
+        "wants dividends",
+        "planning retirement"
+      ],
+      "negativeSignalPhrases": [
+        "needs pure protection at lowest cost",
+        "wants guaranteed returns"
+      ],
+      "clientProfileFit": [
+        "Clients wanting CI cover with a savings element",
+        "Long-term holders comfortable with non-guaranteed bonuses"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "{client_detail} keeps guaranteed cash value and may receive a terminal bonus after five years, on top of the illness cover.",
+      "verificationPrompts": [
+        "Request the illustration showing guaranteed and non-guaranteed values.",
+        "Confirm the bonus philosophy and current declared rates."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Essence - On Your Side Insurance Plan is a participating insurance plan that offers life insurance and critical illness protection. It offers guaranteed cash value and non-guaranteed Terminal Bonus. Terminal Bonus ... may be declared at least once per policy year after the basic policy has been in force for 5 years"
+      ],
+      "notesForReviewer": "No projected values or bonus rates in the extracted text."
+    },
+    {
+      "trendId": "essence-on-your-side-insurance-plan_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "40% extra death cover",
+      "whatProductOffers": "Adds a Whole Life Extra Coverage Booster for Death paying an additional amount to loved ones of up to 40% of the Initial Sum Assured on the death of the insured.",
+      "keyFigures": [
+        {
+          "label": "Death booster",
+          "value": "up to 40% of Initial Sum Assured",
+          "condition": "on death of the insured"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The booster is an additional payment on death and does not apply to illness claims.",
+        "It may be reduced by advance payments made under the policy.",
+        "The exact percentage and conditions are in the policy contract."
+      ],
+      "clientSignalPhrases": [
+        "wants more for the family",
+        "young children",
+        "main breadwinner",
+        "wants death cover with CI",
+        "parents depend on income",
+        "wants legacy for spouse",
+        "wants something for the family",
+        "young children at home",
+        "single income household"
+      ],
+      "negativeSignalPhrases": [
+        "needs a dedicated term life plan",
+        "wants estate planning tools"
+      ],
+      "clientProfileFit": [
+        "Breadwinners with dependants",
+        "Clients wanting CI and death cover in one policy"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "On top of illness cover, {client_detail}'s family receives up to 40% more of the sum assured if death occurs.",
+      "verificationPrompts": [
+        "Confirm the death booster percentage and any age limit.",
+        "Confirm how advance payments reduce the death benefit."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Whole Life Extra Coverage Booster for Death: Additional payment to your loved ones up to 40% of the Initial Sum Assured in the event of death of the insured"
+      ],
+      "notesForReviewer": "Eligibility conditions and age limits not in the extracted text."
+    },
+    {
+      "trendId": "essence-on-your-side-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "365-day premium grace period",
+      "whatProductOffers": "Extends the grace period for late premium payment to up to 365 days if a specified event occurs, described as rare-in-market as of 13 August 2025.",
+      "keyFigures": [
+        {
+          "label": "Grace period",
+          "value": "up to 365 days",
+          "condition": "specified event occurs"
+        },
+        {
+          "label": "Market comparison date",
+          "value": "13 August 2025",
+          "condition": "compared with major Hong Kong insurers"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The extension is subject to the insurer's approval and prevailing rules.",
+        "Only specified events qualify; the event list is in the policy contract and not in the extracted text.",
+        "The comparison is a point-in-time claim as of 13 August 2025."
+      ],
+      "clientSignalPhrases": [
+        "worried about missing premium",
+        "income unstable",
+        "job loss risk",
+        "wants flexibility if something happens",
+        "travels and forgets payments",
+        "wants policy not to lapse",
+        "wants to choose currency",
+        "wants options later",
+        "travels often"
+      ],
+      "negativeSignalPhrases": [
+        "wants premium holiday anytime",
+        "expects waiver without conditions"
+      ],
+      "clientProfileFit": [
+        "Clients with variable income",
+        "People facing possible job loss or major life events"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "If a specified event hits, {client_detail} gets up to 365 days to pay the premium instead of the usual grace period.",
+      "verificationPrompts": [
+        "Confirm the specified event list and approval process.",
+        "Confirm the standard grace period length for comparison."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Extension of grace period for premium payment: Up to 365 days of grace period for late premium payment if a specified event* occurs."
+      ],
+      "notesForReviewer": "Specified events are defined in the policy contract, not in the extracted text. One-Stop Oncology Service is a non-contractual value-added service and was not extracted as a trend."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "essence-on-your-side-insurance-plan_critical_illness_readiness",
+    "bestForOneLiner": "A participating critical illness plan covering 58 illnesses with extra prime-age and big-three claims.",
+    "notSuitedWhen": [
+      "The client wants the lowest-cost pure protection.",
+      "The client needs a large death benefit rather than illness cover.",
+      "The client refuses non-guaranteed bonuses."
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table and sum assured options",
+      "Designated Period definition",
+      "Big 3 Shield benefit amount"
+    ]
+  }
+}

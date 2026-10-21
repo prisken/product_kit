@@ -1,0 +1,385 @@
+{
+  "productId": "aia-deferred-annuity-plan-2",
+  "productName": "AIA Deferred Annuity Plan 2",
+  "productType": "annuity",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "aia-deferred-annuity-plan-2_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Guaranteed monthly retirement income",
+      "whatProductOffers": "A qualifying deferred annuity policy that converts savings into a level monthly annuity payment over a 10-year annuity period, with the guaranteed portion starting at a chosen age of 50, 55, 60, 65, 70 or 75.",
+      "keyFigures": [
+        {
+          "label": "Issue age",
+          "value": "18 to 70",
+          "condition": "age at application"
+        },
+        {
+          "label": "Annuity Payment Start Age",
+          "value": "50 / 55 / 60 / 65 / 70 / 75",
+          "condition": "client selects"
+        },
+        {
+          "label": "Annuity Period",
+          "value": "10 years",
+          "condition": "fixed"
+        },
+        {
+          "label": "Premium payment term",
+          "value": "5 years",
+          "condition": "annuity can start as early as the 6th year"
+        },
+        {
+          "label": "Payment pattern",
+          "value": "Level; fixed guaranteed monthly amount",
+          "condition": "during the annuity period"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only the guaranteed portion of the monthly annuity payment is guaranteed; the non-guaranteed portion depends on divisible surplus and may be zero.",
+        "The 10-year annuity period is fixed; the brochure excerpt does not describe a lifetime annuity option.",
+        "The annuitant must be the insured and is the person receiving the payment.",
+        "Guaranteed cash value reduces once the guaranteed monthly annuity payment begins."
+      ],
+      "clientSignalPhrases": [
+        "retiring at 60, needs monthly income",
+        "wants annuity starting at 65",
+        "needs a pension substitute",
+        "worried about outliving savings",
+        "wants guaranteed monthly payout",
+        "planning retirement income now",
+        "age 45, wants income at 50",
+        "needs to cover daily expenses in retirement",
+        "wants level income, not lump sum",
+        "QDAP for retirement"
+      ],
+      "negativeSignalPhrases": [
+        "wants a lump sum at retirement",
+        "needs income before age 50",
+        "wants full inflation-linked income"
+      ],
+      "clientProfileFit": [
+        "Clients aged 45-70 planning retirement income",
+        "Professionals without a company pension",
+        "Clients converting a maturing savings policy"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan turns savings into a level monthly annuity for 10 years starting at the chosen age of 50 to 75, giving a predictable retirement paycheque.",
+      "verificationPrompts": [
+        "Confirm the guaranteed monthly annuity amount for the client's age, sex and premium.",
+        "Confirm what happens at the end of the 10-year annuity period.",
+        "Confirm the split between guaranteed and non-guaranteed monthly annuity."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"provides guaranteed cash value and Monthly Annuity Payment for retirement\"",
+        "\"start receiving Monthly Annuity Payment at age 50, 55, 60, 65, 70 or 75\"",
+        "\"a fixed amount of guaranteed Monthly Annuity Payment will be paid monthly during the Annuity Period\""
+      ],
+      "notesForReviewer": "Annuity Period is 10 years, not lifetime, in the supplied text."
+    },
+    {
+      "trendId": "aia-deferred-annuity-plan-2_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Payment option flexibility",
+      "whatProductOffers": "The client can take the monthly annuity payment in cash or leave it to accumulate in the policy for potential interest, and can change the annuity payment option without an additional charge.",
+      "keyFigures": [
+        {
+          "label": "Annuity payment options",
+          "value": "Receive monthly, or accumulate in the policy",
+          "condition": "client selects"
+        },
+        {
+          "label": "Change of option",
+          "value": "Without additional charge",
+          "condition": "any time per brochure wording"
+        },
+        {
+          "label": "Premium payment term",
+          "value": "5 years",
+          "condition": "single option stated"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Accumulated payments may earn interest at rates determined by the company; the rate is not stated in the excerpt.",
+        "Changing the option does not change the guaranteed monthly amount already determined.",
+        "The 5-year premium term is the only term described in the excerpt; other terms may exist but are not in the text."
+      ],
+      "clientSignalPhrases": [
+        "not sure if he needs the income now",
+        "wants to accumulate then draw",
+        "may change his mind later",
+        "wants the option to switch",
+        "prefers monthly but might defer",
+        "wants flexibility without a fee",
+        "planning to work past 65",
+        "might delay retirement",
+        "doesn't want to lock the payout mode"
+      ],
+      "negativeSignalPhrases": [
+        "wants a guaranteed lifetime income",
+        "needs a fixed drawdown schedule",
+        "wants the highest immediate payout"
+      ],
+      "clientProfileFit": [
+        "Clients unsure of their retirement date",
+        "Clients still working past the start age",
+        "Clients building a bridge to retirement"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the monthly annuity can be taken in cash or left to accumulate, and the option can be changed later at no additional charge.",
+      "verificationPrompts": [
+        "Confirm whether accumulated annuity payments earn interest and at what rate.",
+        "Confirm how often the payment option can be changed.",
+        "Confirm whether the change affects the guaranteed amount."
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"you may choose to accumulate the Monthly Annuity Payment in your policy to potentially gain interest for your withdrawal later\"",
+        "\"You can change your annuity payment option without additional charge\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "aia-deferred-annuity-plan-2_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "QDAP tax deduction",
+      "whatProductOffers": "As a Qualifying Deferred Annuity Policy, premiums can be tax deductible up to HK$60,000 per taxpayer per year where the annuitant is the taxpayer or their spouse and that person has taxable income in the year.",
+      "keyFigures": [
+        {
+          "label": "Tax deduction cap",
+          "value": "Up to HK$60,000 per taxpayer each year",
+          "condition": "if eligible"
+        },
+        {
+          "label": "Eligibility condition",
+          "value": "Annuitant must be the taxpayer or the taxpayer's spouse",
+          "condition": "with taxable income in the taxation period"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Deduction requires the annuitant to be the policyholder or spouse and to have taxable income during the taxation period.",
+        "The HK$60,000 is a deduction cap, not a tax credit; the tax saved depends on the marginal rate.",
+        "Tax rules can change; the brochure directs clients to the IRD and their own tax advisers.",
+        "The deduction is per taxpayer per year, not per policy."
+      ],
+      "clientSignalPhrases": [
+        "wants a tax deduction",
+        "high earner, wants to reduce tax",
+        "QDAP for the tax break",
+        "married, spouse has income",
+        "already maxing MPF voluntary contributions",
+        "wants tax planning before year end",
+        "needs the deduction and retirement income",
+        "taxable income high this year",
+        "wants something the IRD recognises",
+        "pairing with a spouse's policy"
+      ],
+      "negativeSignalPhrases": [
+        "has no taxable income in Hong Kong",
+        "wants the annuitant to be a child",
+        "expects a tax credit rather than a deduction"
+      ],
+      "clientProfileFit": [
+        "Higher-rate taxpayers",
+        "Married couples with taxable income",
+        "Clients already using voluntary MPF contributions"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the QDAP status allows up to HK$60,000 of premium per taxpayer per year to be deducted, provided the annuitant is the client or spouse with taxable income.",
+      "verificationPrompts": [
+        "Confirm the client's and spouse's taxable income and existing QDAP deductions.",
+        "Confirm the annuitant meets the QDAP eligibility condition.",
+        "Confirm current IRD rules and the deduction ceiling for the year."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"AIA Deferred Annuity Plan 2 is a Qualifying Deferred Annuity Policy (\\\"QDAP\\\")\"",
+        "\"Tax deduction of up to HK$60,000 per taxpayer each year (if eligible)\""
+      ],
+      "notesForReviewer": "Tax treatment depends on IRD rules at the time of assessment."
+    },
+    {
+      "trendId": "aia-deferred-annuity-plan-2_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Terminal illness and unemployment relief",
+      "whatProductOffers": "The plan includes a Terminal Illness Benefit paying a one-off advance, and an Unemployment Benefit that extends the premium payment period from 31 days up to 365 days.",
+      "keyFigures": [
+        {
+          "label": "Terminal Illness Benefit",
+          "value": "One-off advance payment",
+          "condition": "per policy terms"
+        },
+        {
+          "label": "Unemployment Benefit",
+          "value": "Premium payment period extended by 31 to 365 days",
+          "condition": "on qualifying unemployment"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The terminal illness advance is subject to certification and reduces policy values; the excerpt does not state the advance amount.",
+        "The unemployment extension is a deferral of premium, not a waiver; missed premiums remain payable later.",
+        "Both benefits are subject to the policy's terms and conditions, which are not fully reproduced in the excerpt."
+      ],
+      "clientSignalPhrases": [
+        "worried about losing his job",
+        "wants a payment holiday if unemployed",
+        "diagnosed terminally ill",
+        "needs the premium deferred",
+        "retrenchment risk",
+        "wants a safety net during the premium term",
+        "company restructuring",
+        "wants protection if income stops",
+        "wants the policy to survive a job loss"
+      ],
+      "negativeSignalPhrases": [
+        "expects premiums to be waived permanently",
+        "wants unemployment income, not a deferral",
+        "is outside the qualifying conditions"
+      ],
+      "clientProfileFit": [
+        "Clients in cyclical industries",
+        "Mid-career professionals",
+        "Clients wanting premium-flexibility safeguards"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a spell of unemployment can push the premium payment period out by 31 to 365 days, so the policy is less likely to lapse while income is interrupted.",
+      "verificationPrompts": [
+        "Confirm the qualifying conditions for the Unemployment Benefit.",
+        "Confirm the Terminal Illness Benefit amount and certification process.",
+        "Confirm whether deferred premiums are collected later or capitalised."
+      ],
+      "comparisonRows": [
+        "waiting_period",
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Unemployment Benefit - extend premium payment period from 31 days up to 365 days\"",
+        "\"Terminal Illness Benefit - receive a one-off advance payment\""
+      ],
+      "notesForReviewer": "Benefit amounts are not quantified in the supplied excerpt."
+    },
+    {
+      "trendId": "aia-deferred-annuity-plan-2_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed and projected IRR",
+      "whatProductOffers": "The plan publishes a range of guaranteed and projected total internal rates of return at maturity by annuity start age, for a 45-year-old non-smoking male paying monthly.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed IRR at maturity",
+          "value": "0.10%-0.82% (start age 50) up to 1.84%-2.00% (start age 75)",
+          "condition": "45-year-old non-smoking male, 10-year annuity period"
+        },
+        {
+          "label": "Projected total IRR at maturity",
+          "value": "1.77%-2.41% (start age 50) up to 3.74%-3.87% (start age 75)",
+          "condition": "current dividend scale, not guaranteed"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Projected total IRR depends on the current dividend scale and non-guaranteed monthly annuity; it is not guaranteed.",
+        "IRR varies with insured's age at application, annuity payment start age and premium payment mode.",
+        "The quoted ranges assume monthly annuity payments are received by the annuitant.",
+        "Guaranteed IRR at start age 50 is as low as 0.10%, so early annuitisation materially reduces return."
+      ],
+      "clientSignalPhrases": [
+        "what's the IRR",
+        "compare with a bond",
+        "wants the numbers",
+        "guaranteed return matters",
+        "projected return looks decent",
+        "needs a yield above deposits",
+        "planning to annuitise at 70",
+        "wants the return table",
+        "sceptical about illustrations",
+        "comparing QDAP products"
+      ],
+      "negativeSignalPhrases": [
+        "expects the projected IRR to be guaranteed",
+        "wants equity-level returns",
+        "needs income at 50"
+      ],
+      "clientProfileFit": [
+        "Yield-focused retirement savers",
+        "Clients comparing QDAP illustrations",
+        "Clients deferring annuitisation to 70-75"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the guaranteed IRR at maturity runs up to 2.00% and the projected total IRR up to 3.87%, depending on the annuity start age chosen.",
+      "verificationPrompts": [
+        "Confirm the IRR table for the client's exact age, sex and premium mode.",
+        "Confirm the current dividend scale behind the projected IRR.",
+        "Confirm the annuity start age that produces the best IRR for the client."
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "lifetime_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"Range of Guaranteed IRR at maturity\" / \"Range of Projected Total IRR at maturity\"",
+        "\"The IRR at maturity varies with Insured's Age at Application, Annuity Payment Start Age and premium payment mode\""
+      ],
+      "notesForReviewer": "IRR table is illustrative and based on stated assumptions."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "aia-deferred-annuity-plan-2_income_or_lifestyle_support",
+    "bestForOneLiner": "A QDAP annuity that converts a 5-year premium term into a guaranteed level monthly income for 10 years from a chosen age of 50 to 75, with tax deduction up to HK$60,000.",
+    "notSuitedWhen": [
+      "The client needs income before age 50",
+      "The client wants a lifetime annuity rather than 10 years",
+      "The client has no Hong Kong taxable income and does not need the deduction"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium and annuity amount tables",
+      "Terminal Illness Benefit amount",
+      "Interest rate on accumulated annuity payments",
+      "Full exclusions and surrender terms"
+    ]
+  }
+}

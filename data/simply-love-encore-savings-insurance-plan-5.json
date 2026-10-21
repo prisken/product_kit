@@ -1,0 +1,374 @@
+{
+  "productId": "simply-love-encore-savings-insurance-plan-5",
+  "productName": "Simply Love Encore Savings Insurance Plan 5",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "simply-love-encore-savings-insurance-plan-5_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Break-even at five years",
+      "whatProductOffers": "A participating whole life plan providing guaranteed cash value, non-guaranteed annual dividends and non-guaranteed terminal dividend; the illustrated one-time premium case reaches its projected break-even point at the end of the 5th policy year.",
+      "keyFigures": [
+        {
+          "label": "Illustrated one-time premium",
+          "value": "US$125,000",
+          "condition": "Hypothetical example"
+        },
+        {
+          "label": "Projected break-even point",
+          "value": "End of 5th policy year",
+          "condition": "Based on current dividend scales, not guaranteed"
+        },
+        {
+          "label": "Projected total surrender value at 40th policy year",
+          "value": "US$187,316",
+          "condition": "Guaranteed US$54,922 plus non-guaranteed US$132,394"
+        },
+        {
+          "label": "Accumulation interest rate on Annual Dividends",
+          "value": "3.5% p.a.",
+          "condition": "Current rate, not guaranteed"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Annual Dividends and Terminal Dividend are non-guaranteed and declared at AIA's sole discretion.",
+        "The projected break-even point and values are illustrative only; the actual break-even may be shorter or longer.",
+        "The illustration assumes no policy loans, no Terminal Dividend Lock-in and all premiums paid in full when due.",
+        "To receive the illustrated amount the policy must be surrendered at the end of the relevant policy year.",
+        "Withdrawals reduce the principal amount and subsequent guaranteed cash value, dividends and death benefit."
+      ],
+      "clientSignalPhrases": [
+        "wants capital back in about 5 years",
+        "has US$125k sitting in a time deposit",
+        "wants better than deposit rates",
+        "asked about break-even",
+        "wants a one-time premium plan",
+        "planning for retirement in 20 years",
+        "wants to pass money to grandchildren",
+        "doesn't want to pay premiums every year",
+        "has USD from an inheritance",
+        "wants long-term compounding"
+      ],
+      "negativeSignalPhrases": [
+        "needs a guaranteed return with no variance",
+        "may need the full capital in 2 years",
+        "wants monthly income now",
+        "uncomfortable with non-guaranteed dividends"
+      ],
+      "clientProfileFit": [
+        "Clients with a one-time lump sum of around US$125,000",
+        "Savers with a 10 to 40 year horizon",
+        "Grandparents funding the next generation",
+        "Deposit holders seeking higher long-term potential"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the illustrated case breaks even at the end of the 5th policy year and compounds to a projected US$187,316 by year 40.",
+      "verificationPrompts": [
+        "Confirm the client can commit a one-time premium",
+        "Check the client's reaction to non-guaranteed dividends",
+        "Confirm the 5-year break-even is acceptable",
+        "Ask whether the client needs withdrawals before year 6"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Projected break-even point at the end of the 5th policy year",
+        "One-time premium US$125,000",
+        "As of the 40th policy year, the projected total surrender value is US$187,316 (the guaranteed cash value is US$54,922 and the non-guaranteed surrender value is US$132,394)",
+        "accumulation interest rate of 3.5% p.a. on Annual Dividends"
+      ],
+      "notesForReviewer": "All figures come from a single hypothetical illustration for a US$125,000 one-time premium; they are not product guarantees or a rate card."
+    },
+    {
+      "trendId": "simply-love-encore-savings-insurance-plan-5_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Unlimited change of insured",
+      "whatProductOffers": "Change of Insured Option and Contingent Insured Option allow the policy to be passed to future generations without limit, with a contingent insured protecting the policy if the insured dies unexpectedly.",
+      "keyFigures": [
+        {
+          "label": "Change of insured",
+          "value": "Unlimited",
+          "condition": "Through Change of Insured Option"
+        },
+        {
+          "label": "Contingent insured",
+          "value": "Supported",
+          "condition": "Contingent Insured Option"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The extract does not state age limits, insurability requirements or approval conditions for changing the insured.",
+        "The policy must remain in force for the options to apply.",
+        "Death Benefit Settlement Option terms are not detailed in the extract."
+      ],
+      "clientSignalPhrases": [
+        "wants to pass the policy to grandchildren",
+        "worried the policy ends when he dies",
+        "wants a policy that lasts generations",
+        "asked about changing the insured",
+        "has a young child",
+        "wants to keep the policy in the family",
+        "estate planning with a solicitor",
+        "wants a contingent insured",
+        "concerned about inheritance tax abroad"
+      ],
+      "negativeSignalPhrases": [
+        "wants the policy to end at death",
+        "no family to pass the policy to",
+        "needs a simple single-life policy"
+      ],
+      "clientProfileFit": [
+        "Grandparents and parents planning multi-generation wealth",
+        "Families with young children",
+        "Clients working with an estate planner",
+        "Policyholders who want the policy to outlive them"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy can be passed down indefinitely by changing the insured rather than paying out and restarting.",
+      "verificationPrompts": [
+        "Confirm the intended successor insured's age",
+        "Check insurability requirements for a change of insured",
+        "Ask whether a contingent insured should be named at application"
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Change of Insured Option and Contingent Insured Option to pass your legacy across future generations unlimitedly",
+        "your Simply Love Encore Savings Insurance Plan 5 policy can be passed onto future generations unlimitedly through the Change of Insured Option",
+        "the Contingent Insured Option protects your legacy from unexpected twists in life"
+      ],
+      "notesForReviewer": "The extract does not state whether a change of insured requires evidence of insurability or a minimum/maximum age."
+    },
+    {
+      "trendId": "simply-love-encore-savings-insurance-plan-5_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "DIY retirement withdrawals",
+      "whatProductOffers": "The illustrated case withdraws US$6,250 a year from policy year 6 to policy year 40, a total of US$218,750, while a projected US$187,316 remains at year 40 for the next generation.",
+      "keyFigures": [
+        {
+          "label": "Annual withdrawal",
+          "value": "US$6,250",
+          "condition": "From 6th to 40th policy year"
+        },
+        {
+          "label": "Total withdrawn",
+          "value": "US$218,750",
+          "condition": "Over 35 years"
+        },
+        {
+          "label": "Remaining projected total surrender value",
+          "value": "US$187,316",
+          "condition": "After withdrawal at 40th policy year"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The amount and length of cash withdrawal are non-guaranteed.",
+        "Withdrawals are deducted first from accumulated Annual Dividends with interest, then from guaranteed cash value and accrued Terminal Dividend.",
+        "Withdrawals reduce the principal amount and the death benefit.",
+        "The policy terminates when total surrender value is fully withdrawn."
+      ],
+      "clientSignalPhrases": [
+        "wants to draw 6k a year from the policy",
+        "wants retirement income and still leave something",
+        "asked if can withdraw annually",
+        "wants to top up income before MPF",
+        "needs flexible withdrawals, not fixed annuity",
+        "wants to retire at 60 and draw down slowly",
+        "wants both income and legacy",
+        "asked how long the money will last"
+      ],
+      "negativeSignalPhrases": [
+        "wants a guaranteed fixed payout amount",
+        "needs withdrawals from year 1",
+        "wants the policy untouched for legacy only"
+      ],
+      "clientProfileFit": [
+        "Retirees wanting drawdown rather than annuity",
+        "Clients who want income and a remaining legacy",
+        "Savers with other retirement income who need a top-up"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan can pay about US$6,250 a year from year 6 while still leaving a projected sum for the family.",
+      "verificationPrompts": [
+        "Confirm the client's required annual income",
+        "Check that withdrawals start no earlier than year 6 in the illustration",
+        "Explain that withdrawal amounts are not guaranteed"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "From the 6th to 40th policy year, withdraw US$6,250 per year",
+        "Withdraw US$218,750 in total for retirement planning",
+        "The remaining projected total surrender value will be US$187,316",
+        "The amount of cash withdrawal ... is non-guaranteed and the length of withdrawal period is non-guaranteed"
+      ],
+      "notesForReviewer": "The withdrawal pattern is a hypothetical illustration, not a plan entitlement; the source does not state minimum or maximum withdrawal rules."
+    },
+    {
+      "trendId": "simply-love-encore-savings-insurance-plan-5_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "No medical examination",
+      "whatProductOffers": "Applications can be made with no medical examinations required.",
+      "keyFigures": [
+        {
+          "label": "Medical examination",
+          "value": "Not required",
+          "condition": "Application for this plan"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The extract does not state whether a health declaration or underwriting still applies.",
+        "No medical examination does not mean guaranteed acceptance; eligibility rules are not in the extract."
+      ],
+      "clientSignalPhrases": [
+        "hates medical checks",
+        "older client, worried about underwriting",
+        "wants a quick application",
+        "has a minor health issue and wants to avoid a medical",
+        "busy professional, no time for tests",
+        "wants simple paperwork",
+        "no medical needed, right?",
+        "doesn't want blood tests",
+        "wants to apply without a check-up"
+      ],
+      "negativeSignalPhrases": [
+        "needs guaranteed acceptance despite poor health",
+        "expects no health questions at all",
+        "needs cover for an existing serious condition"
+      ],
+      "clientProfileFit": [
+        "Older savers who want to avoid medicals",
+        "Busy professionals wanting a simple application",
+        "Clients with minor health history who dislike tests"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the application needs no medical examination, which keeps the process simple.",
+      "verificationPrompts": [
+        "Confirm whether a health declaration is still required",
+        "Check the client's age against issue limits",
+        "Ask about any recent medical history"
+      ],
+      "comparisonRows": [
+        "premium",
+        "waiting_period",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Simply apply with no medical examinations required"
+      ],
+      "notesForReviewer": "The extract does not confirm whether underwriting or a health declaration still applies."
+    },
+    {
+      "trendId": "simply-love-encore-savings-insurance-plan-5_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Unemployment benefit cushion",
+      "whatProductOffers": "An Unemployment Benefit is included to give extra flexibility during tough times, applicable only to 5-year or 10-year premium payment policies.",
+      "keyFigures": [
+        {
+          "label": "Eligible premium payment terms",
+          "value": "5-year or 10-year",
+          "condition": "Unemployment Benefit applicability"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Not applicable to one-time premium policies.",
+        "The benefit amount, qualifying period and claim conditions are not stated in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "worried about losing his job",
+        "freelancer with unstable income",
+        "works in a volatile industry",
+        "asked what happens if he can't pay premiums",
+        "wants a premium holiday option",
+        "young family, single income",
+        "may lose his job",
+        "wants premium flexibility if unemployed",
+        "asked about unemployment cover"
+      ],
+      "negativeSignalPhrases": [
+        "choosing a one-time premium",
+        "wants investment return only",
+        "already has income protection cover"
+      ],
+      "clientProfileFit": [
+        "Professionals in cyclical industries",
+        "Single-income households on a 5 or 10-year premium term",
+        "Young families building a savings buffer"
+      ],
+      "priorityAlignment": [
+        "access",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the Unemployment Benefit adds a cushion if income stops during the premium term.",
+      "verificationPrompts": [
+        "Confirm the chosen premium payment term qualifies",
+        "Obtain the Unemployment Benefit definition and amount",
+        "Ask about the client's job stability"
+      ],
+      "comparisonRows": [
+        "premium",
+        "waiting_period",
+        "renewability"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Unemployment Benefit for extra flexibility during tough times",
+        "(applicable for a 5-year or 10-year premium payment policy only)"
+      ],
+      "notesForReviewer": "Only the benefit name and eligibility condition were extracted; the amount and claim mechanics are missing."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "simply-love-encore-savings-insurance-plan-5_legacy_and_estate",
+    "bestForOneLiner": "A participating whole-life savings plan that can be passed down indefinitely through a change of insured, with illustrated break-even at year 5 and flexible annual withdrawals.",
+    "notSuitedWhen": [
+      "The client needs guaranteed dividend amounts",
+      "The client needs income before the 6th policy year",
+      "The client has no legacy objective and needs pure liquidity",
+      "The client cannot accept a long holding period"
+    ],
+    "gapsInSourceMaterial": [
+      "No standard premium table beyond the single US$125,000 example",
+      "No dividend history or bonus scale",
+      "Unemployment Benefit amount and conditions not extracted",
+      "Change of insured eligibility rules not extracted"
+    ]
+  }
+}

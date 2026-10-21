@@ -1,0 +1,295 @@
+{
+  "productId": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi",
+  "productName": "OptimaCEO Medical Plan / OptimaCEO Medical Plan – First Gift",
+  "productType": "medical insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Advanced cancer treatment support",
+      "whatProductOffers": "Adds an experimental drugs benefit, cancer genomic testing and a Signature Healthcare Circle of multidisciplinary cancer specialists to whole-life medical cover.",
+      "keyFigures": [
+        {
+          "label": "Experimental drugs",
+          "value": "Benefit included",
+          "condition": "First-in-market as of 22 April 2024 per AIA"
+        },
+        {
+          "label": "Cancer genomic testing",
+          "value": "Service included",
+          "condition": "Value-added service"
+        },
+        {
+          "label": "Signature Healthcare Circle",
+          "value": "Multidisciplinary cancer network",
+          "condition": "Hong Kong; designated third-party providers"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Value-added services are not contractual benefits.",
+        "Signature Healthcare Circle is not available in Macau.",
+        "Benefit limits and definitions are not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "family history of cancer",
+        "worried about drug costs",
+        "wants experimental drugs",
+        "wants a genomic test",
+        "needs a cancer team",
+        "private hospital client",
+        "wants advanced treatment",
+        "wants a second opinion"
+      ],
+      "negativeSignalPhrases": [
+        "wants a basic hospital plan",
+        "budget is limited",
+        "only needs outpatient"
+      ],
+      "clientProfileFit": [
+        "High-net-worth clients wanting advanced cancer care",
+        "Clients with a family cancer history",
+        "Those wanting private multidisciplinary care"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan funds experimental drugs and genomic testing alongside a multidisciplinary cancer team.",
+      "verificationPrompts": [
+        "Ask about family cancer history",
+        "Confirm private hospital preference",
+        "Check whether experimental drug access matters"
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "annual_limit",
+        "network_access"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Experimental drugs benefit for your access to quality and state-of-the-art medical treatment\"",
+        "\"Signature Healthcare Circle 10 with multi-disciplinary cancer care professionals\""
+      ],
+      "notesForReviewer": "The extracted brochure pages are introductory; no dollar limits, room levels or benefit schedule are included."
+    },
+    {
+      "trendId": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Cashless and concierge access",
+      "whatProductOffers": "Provides pre-approval medical expense and cashless service, telemedicine for insureds in Hong Kong, Care Concierge support and a Wellness Relationship Manager.",
+      "keyFigures": [
+        {
+          "label": "Pre-approval",
+          "value": "Medical expense and cashless service",
+          "condition": "Before treatment"
+        },
+        {
+          "label": "Telemedicine",
+          "value": "Available",
+          "condition": "Only for insureds physically in Hong Kong"
+        },
+        {
+          "label": "Wellness Relationship Manager",
+          "value": "Personal guidance",
+          "condition": "Mental, physical and nutritional aspects"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Telemedicine is limited to insureds physically in Hong Kong.",
+        "Services are value-added and not contractual.",
+        "Care Concierge availability is subject to terms."
+      ],
+      "clientSignalPhrases": [
+        "wants cashless hospital admission",
+        "hates paying upfront",
+        "wants telemedicine",
+        "busy professional",
+        "wants a wellness coach",
+        "asks about concierge",
+        "private patient",
+        "wants pre-approval"
+      ],
+      "negativeSignalPhrases": [
+        "wants simple reimbursement",
+        "lives outside Hong Kong",
+        "distrusts added services"
+      ],
+      "clientProfileFit": [
+        "Busy professionals",
+        "Private hospital patients",
+        "Wellness-focused clients"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "Because {client_detail}, pre-approval and cashless admission remove the upfront payment step.",
+      "verificationPrompts": [
+        "Confirm the client is Hong Kong based",
+        "Ask whether cashless admission matters",
+        "Check interest in telemedicine"
+      ],
+      "comparisonRows": [
+        "network_access",
+        "outpatient",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Pre-approval - Medical Expense & Cashless Service ... Take control of your medical expenses before treatment\"",
+        "\"Telemedicine Service (only applicable to insured physically in Hong Kong)\""
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Cover newborn from pregnancy",
+      "whatProductOffers": "Lets an expectant mother aged 18-45 who already holds an OptimaCEO policy apply from the 22nd week of pregnancy for First Gift, covering the newborn for congenital conditions within 90 days after birth.",
+      "keyFigures": [
+        {
+          "label": "Application start",
+          "value": "22nd week of pregnancy",
+          "condition": "Mother aged 18-45; existing OptimaCEO insured with designated plan option"
+        },
+        {
+          "label": "Newborn cover",
+          "value": "Congenital conditions within 90 days after birth",
+          "condition": "Hospitalisation and surgical protection"
+        },
+        {
+          "label": "Simplified underwriting",
+          "value": "15 to 90 days after birth",
+          "condition": "For a designated medical policy for the newborn"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The mother must be 18-45 and an existing insured under a designated plan option.",
+        "The policy is issued only after the mother's policy cooling-off period.",
+        "The insured must be changed to the newborn before claims.",
+        "Birth must be notified within 30 days."
+      ],
+      "clientSignalPhrases": [
+        "expecting a baby",
+        "pregnant 24 weeks",
+        "worried about birth defects",
+        "wants the baby covered at birth",
+        "planning newborn cover",
+        "existing AIA client",
+        "wants congenital cover",
+        "first-time mother"
+      ],
+      "negativeSignalPhrases": [
+        "not pregnant",
+        "no existing OptimaCEO policy",
+        "wants a child-only policy"
+      ],
+      "clientProfileFit": [
+        "Expectant mothers already insured with AIA",
+        "Families planning a first child",
+        "Parents wanting congenital cover"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "Given {client_detail}, First Gift can start cover from the 22nd week of pregnancy and protect the newborn for congenital conditions.",
+      "verificationPrompts": [
+        "Confirm gestation week",
+        "Check the mother's existing OptimaCEO policy option",
+        "Confirm the 30-day birth notification requirement"
+      ],
+      "comparisonRows": [
+        "waiting_period",
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"starting from the 22nd week of pregnancy\"",
+        "\"coverage for congenital conditions within 90 days after birth\""
+      ],
+      "notesForReviewer": "First Gift is a separate policy with its own eligibility rules; the extract does not give its premium or benefit limits."
+    },
+    {
+      "trendId": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "24/7 worldwide assistance",
+      "whatProductOffers": "Includes a 24-hour worldwide emergency assistance hotline for medical support while abroad.",
+      "keyFigures": [
+        {
+          "label": "Assistance hotline",
+          "value": "24/7 worldwide",
+          "condition": "Emergency support while overseas"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "This is an assistance service only.",
+        "Benefit limits are not in the extracted text.",
+        "It is not a travel insurance policy."
+      ],
+      "clientSignalPhrases": [
+        "travels frequently",
+        "worried overseas",
+        "business trips",
+        "family abroad",
+        "wants evacuation",
+        "needs a hotline",
+        "lives part-time overseas",
+        "travels with kids"
+      ],
+      "negativeSignalPhrases": [
+        "never travels",
+        "already has travel cover",
+        "wants local cover only"
+      ],
+      "clientProfileFit": [
+        "Frequent international travellers",
+        "Families with relatives abroad",
+        "Globally mobile clients"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the worldwide hotline remains available wherever treatment is needed.",
+      "verificationPrompts": [
+        "Ask about travel frequency",
+        "Confirm existing travel cover",
+        "Check whether evacuation cover matters"
+      ],
+      "comparisonRows": [
+        "network_access",
+        "renewability",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "weak",
+      "sourceEvidence": [
+        "\"Worldwide Emergency Assistance ... 24-hour worldwide assistance hotline\""
+      ],
+      "notesForReviewer": "Only a one-line mention in the source; no limit or scope detail."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "optimaceo-pearl-medical-plan-optimaceo-pearl-medical-plan-fi_critical_illness_readiness",
+    "bestForOneLiner": "A whole-life medical plan with advanced cancer support, cashless access and an option to cover a newborn from the 22nd week of pregnancy.",
+    "notSuitedWhen": [
+      "The client needs a clearly capped hospital plan with published limits",
+      "The client is price-sensitive",
+      "The client wants a stand-alone cancer plan"
+    ],
+    "gapsInSourceMaterial": [
+      "Annual and lifetime benefit limits",
+      "Room and board levels",
+      "Premium table",
+      "Full exclusions and waiting periods"
+    ]
+  }
+}

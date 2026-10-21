@@ -1,0 +1,337 @@
+{
+  "productId": "executive-care-pro-critical-illness-insurance-plan-2",
+  "productName": "Executive Care Pro Critical Illness Insurance Plan 2",
+  "productType": "critical illness insurance (participating, lump sum)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "executive-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "61 illnesses covered to age 100",
+      "whatProductOffers": "Covers 61 critical illnesses made up of 53 major illnesses, 2 minor illnesses, 1 early stage critical illness, 4 severe child diseases and female carcinoma-in-situ, with protection up to age 100.",
+      "keyFigures": [
+        {
+          "label": "Critical illnesses covered",
+          "value": "61",
+          "condition": "53 major, 2 minor, 1 early stage, 4 severe child diseases, female carcinoma-in-situ"
+        },
+        {
+          "label": "Protection period",
+          "value": "to age 100",
+          "condition": "critical illness protection"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Total claims other than the male cancer extra benefit cannot exceed 100% of the Initial Sum Assured, excluding Terminal Dividend.",
+        "Advance payments reduce the Current Sum Assured, premium, guaranteed cash value and future dividends.",
+        "The covered illness schedule and definitions are in the policy contract."
+      ],
+      "clientSignalPhrases": [
+        "wants comprehensive CI cover",
+        "wants cover to 100",
+        "family history of illness",
+        "wants early stage covered too",
+        "worried about child diseases",
+        "wants one plan for everything",
+        "comparing 61 illnesses",
+        "wants lump sum on diagnosis",
+        "family history of cancer"
+      ],
+      "negativeSignalPhrases": [
+        "wants cheap cancer-only cover",
+        "needs hospital bill reimbursement"
+      ],
+      "clientProfileFit": [
+        "Parents wanting child disease cover alongside adult CI",
+        "Clients wanting lifelong CI protection",
+        "Buyers comparing broad illness schedules"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, 61 conditions are covered from early stage through major illness, up to age 100.",
+      "verificationPrompts": [
+        "Confirm the 61-illness schedule and the definition of each category.",
+        "Confirm the claim limits across categories.",
+        "Confirm the severe child disease definitions and age limits."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Executive Care Pro Critical Illness Insurance Plan 2 provides you with critical illness protections up to the age of 100. It covers 53 major illnesses, 2 minor illnesses, 1 early stage critical illness, 4 severe child diseases and female Carcinoma-in-situ."
+      ],
+      "notesForReviewer": "Illness definitions and claim percentages per category are not in the extracted text."
+    },
+    {
+      "trendId": "executive-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness_male_cancer",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Extra 10% for male cancer",
+      "whatProductOffers": "Pays an extra 10% of the major illness benefit amount if the insured is diagnosed with testicular or prostate cancer after his 18th birthday, on top of the major illness benefit.",
+      "keyFigures": [
+        {
+          "label": "Extra payment",
+          "value": "10% of major illness benefit",
+          "condition": "testicular or prostate cancer after age 18"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Applies only to male insureds and only to testicular and prostate cancer.",
+        "The extra benefit is paid in addition to the major illness benefit and sits outside the 100% Initial Sum Assured cap.",
+        "Diagnosis must occur after the insured's 18th birthday."
+      ],
+      "clientSignalPhrases": [
+        "male client, family history of prostate cancer",
+        "wants extra cancer payout",
+        "young son, wants cover early",
+        "worried about testicular cancer",
+        "wants more than standard CI",
+        "wants lump sum on diagnosis",
+        "family history of cancer",
+        "worried about income loss",
+        "wants cash to choose treatment"
+      ],
+      "negativeSignalPhrases": [
+        "female client",
+        "wants extra cover for other cancers"
+      ],
+      "clientProfileFit": [
+        "Male clients with family history of prostate cancer",
+        "Parents insuring sons"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For a male client like {client_detail}, a prostate or testicular cancer diagnosis pays an extra 10% on top of the major illness benefit.",
+      "verificationPrompts": [
+        "Confirm the male cancer benefit definition and whether it applies to early stage diagnoses.",
+        "Confirm the benefit is outside the 100% Initial Sum Assured cap."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "If the insured is diagnosed with male cancer (i.e. testicular and prostate cancer) after his 18th birthday, in addition to the benefit for major illness, we will pay an extra 10% of benefit amount paid under major illness."
+      ],
+      "notesForReviewer": "Only two cancer sites qualify."
+    },
+    {
+      "trendId": "executive-care-pro-critical-illness-insurance-plan-2_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Dividends plus terminal dividend",
+      "whatProductOffers": "A participating plan that accumulates wealth through guaranteed cash value, non-guaranteed Annual Dividends credited each policy year, and a one-off non-guaranteed Terminal Dividend once the policy has been in force for 10 years.",
+      "keyFigures": [
+        {
+          "label": "Terminal Dividend eligibility",
+          "value": "after 10 policy years",
+          "condition": "non-guaranteed, one-off"
+        },
+        {
+          "label": "Annual Dividends",
+          "value": "credited each policy year",
+          "condition": "non-guaranteed, accumulate with interest"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Annual and Terminal Dividends are non-guaranteed and may be lower than illustrated, including zero.",
+        "The Terminal Dividend requires the policy to have been in force for 10 years.",
+        "Advance illness payments reduce cash value and future dividends."
+      ],
+      "clientSignalPhrases": [
+        "wants protection and savings",
+        "wants dividends",
+        "long-term plan for retirement",
+        "doesn't want money wasted if no claim",
+        "wants cash value to grow",
+        "planning 20 years ahead",
+        "wants protection plus savings",
+        "wants cash value",
+        "long-term horizon"
+      ],
+      "negativeSignalPhrases": [
+        "wants guaranteed returns only",
+        "needs short-term liquidity"
+      ],
+      "clientProfileFit": [
+        "Long-term savers wanting CI cover",
+        "Clients building retirement assets alongside protection"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "{client_detail} builds guaranteed cash value plus annual dividends, with a terminal dividend after ten years.",
+      "verificationPrompts": [
+        "Request the benefit illustration with guaranteed and non-guaranteed values.",
+        "Confirm the current dividend history and bonus philosophy."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Executive Care Pro Critical Illness Insurance Plan 2 offers guaranteed cash value and non-guaranteed Annual Dividends.",
+        "a one-off non-guaranteed cash amount, called a Terminal Dividend, provided that the policy has been in force for 10 years."
+      ],
+      "notesForReviewer": "No illustrated values or dividend rates in the extracted text."
+    },
+    {
+      "trendId": "executive-care-pro-critical-illness-insurance-plan-2_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Premium waived after major claim",
+      "whatProductOffers": "Waives subsequent premiums on the basic policy after a major illness claim, while attached add-on plans remain in force if their own premiums continue to be paid.",
+      "keyFigures": [
+        {
+          "label": "Premium waiver",
+          "value": "subsequent basic policy premiums waived",
+          "condition": "after a major illness claim"
+        },
+        {
+          "label": "Add-on plans",
+          "value": "remain in force",
+          "condition": "if their premiums continue to be paid"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The waiver applies to the basic policy only, not to add-on premiums.",
+        "Add-on plans continue only while their premiums are paid.",
+        "The waiver is triggered by a major illness claim, not a minor illness or early stage claim."
+      ],
+      "clientSignalPhrases": [
+        "worried about paying premium after diagnosis",
+        "wants cover to continue after claim",
+        "income stops after illness",
+        "wants no more premiums if seriously ill",
+        "keep add-ons going",
+        "worried premium jumps",
+        "wants no loading after claim",
+        "plans to keep long term",
+        "hates repricing"
+      ],
+      "negativeSignalPhrases": [
+        "expects premiums waived after any claim",
+        "wants a refund of premiums"
+      ],
+      "clientProfileFit": [
+        "Clients worried about premium affordability after diagnosis",
+        "Policyholders with multiple add-on riders"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "After a major illness claim, {client_detail} stops paying premiums on the basic plan while the cover stays in force.",
+      "verificationPrompts": [
+        "Confirm which claim categories trigger the waiver.",
+        "Confirm the treatment of add-on premiums after the waiver."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "In case of any major illness claims made, the subsequent premium of the basic policy will be waived. Add-on plans (if any) attached to the basic policy will remain in force and provide cover if their respective premiums continue to be paid."
+      ],
+      "notesForReviewer": "Waiver is on the basic policy only."
+    },
+    {
+      "trendId": "executive-care-pro-critical-illness-insurance-plan-2_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death benefit with dividends",
+      "whatProductOffers": "Pays a death benefit comprising the Current Sum Assured, accumulated Annual Dividends with interest, and a one-off Terminal Dividend if the policy has been in force for 10 years; the plan also covers 4 severe child diseases.",
+      "keyFigures": [
+        {
+          "label": "Death benefit components",
+          "value": "3",
+          "condition": "Current Sum Assured + accumulated Annual Dividends + Terminal Dividend"
+        },
+        {
+          "label": "Terminal Dividend",
+          "value": "after 10 policy years",
+          "condition": "one-off, non-guaranteed"
+        },
+        {
+          "label": "Severe child diseases",
+          "value": "4",
+          "condition": "covered within the 61 illnesses"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Outstanding debt under the policy is deducted before payment.",
+        "Terminal Dividend applies only if the policy has been in force for 10 years.",
+        "Death benefit is reduced by any advance payments already made."
+      ],
+      "clientSignalPhrases": [
+        "wants death cover for family",
+        "young children at home",
+        "wants child illness covered",
+        "single income household",
+        "wants legacy plus protection",
+        "parents want grandchildren covered",
+        "wants something for the family",
+        "main breadwinner",
+        "parents depend on me"
+      ],
+      "negativeSignalPhrases": [
+        "needs a large standalone term cover",
+        "wants estate planning structures"
+      ],
+      "clientProfileFit": [
+        "Parents wanting child disease and death cover in one policy",
+        "Breadwinners with dependants"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "{client_detail}'s family receives the sum assured plus accumulated dividends and any terminal dividend on death.",
+      "verificationPrompts": [
+        "Confirm the severe child disease definitions and age limits.",
+        "Confirm how advance payments reduce the death benefit.",
+        "Confirm the Terminal Dividend condition."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "The death benefit will include: i. Current Sum Assured; ii. non-guaranteed cash amounts distributed on a yearly basis, called Annual Dividends ... iii. a one-off non-guaranteed cash amount, called a Terminal Dividend, provided that the policy has been in force for 10 years.",
+        "It covers 53 major illnesses, 2 minor illnesses, 1 early stage critical illness, 4 severe child diseases and female Carcinoma-in-situ."
+      ],
+      "notesForReviewer": "Severe child disease details are not in the extracted text."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "executive-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness",
+    "bestForOneLiner": "A participating CI plan covering 61 conditions to age 100 with dividends and a male cancer extra benefit.",
+    "notSuitedWhen": [
+      "The client wants pure low-cost protection with no savings element.",
+      "The client needs medical bill reimbursement.",
+      "The client needs a large standalone death benefit."
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table and sum assured options",
+      "Illness definitions and benefit percentages per category",
+      "Illustrated cash value and dividend figures"
+    ]
+  }
+}

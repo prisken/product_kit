@@ -1,0 +1,166 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AIA Meeting Wizard — system notes</title><style>
+:root{--ink:#101828;--muted:#475467;--line:#e4e7ec;--accent:#c8102e;--bg:#fbfcfd;--code:#f2f4f7}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+main{max-width:840px;margin:0 auto;padding:48px 28px 90px}
+h1{font-size:32px;letter-spacing:-.02em;margin:0 0 6px}h2{font-size:21px;margin:38px 0 10px;padding-top:14px;border-top:1px solid var(--line)}h3{font-size:16.5px;margin:24px 0 6px}
+code{background:var(--code);padding:1px 5px;border-radius:4px;font:.9em ui-monospace,Menlo,monospace}
+pre{background:#0f172a;color:#e6edf7;border-radius:10px;padding:14px 16px;overflow:auto;font-size:12.5px}pre code{background:none;padding:0;color:inherit}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:#f9fafb;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+ol,ul{padding-left:22px}a{color:var(--accent)}
+</style></head><body><main><h1>AIA Meeting Wizard — system notes</h1>
+
+<p>_Last updated: 21 Oct 2026 · local build at <code>sales-kits/trends-review/</code>_</p>
+
+<h2>1. What this site is</h2>
+
+<p>A <strong>first-meeting tool</strong> for an AIA agent. It turns messy meeting notes into:</p>
+
+<ol><li>a read of what the client actually needs (not what he said he wants),</li><li>a <strong>future state</strong> — the same life events with and without cover,</li><li>a <strong>sequenced plan</strong> with a named product per move and the reasoning for it,</li><li>the open questions and the things to verify before anything is promised.</li></ol>
+
+<p>Design stance: <strong>show the client what he can be, not what he is.</strong> Protection only — no savings</p>
+<p>projections, no illustrated returns, no tax claims.</p>
+
+<p>Not in scope (deliberately, for now): follow-up cadence, premium quotes, policy servicing,</p>
+<p>multi-meeting history.</p>
+
+<h2>2. How it runs</h2>
+
+<table><thead><tr><th>Piece</th><th>Detail</th></tr></thead><tbody><tr><td>Server</td><td><code>serve_wizard.mjs</code>, node, <code>127.0.0.1:8899</code>, no dependencies</td></tr><tr><td>Portal</td><td>Control UI portal <code>p8899</code> → <code>http://127.0.0.1:59080</code></td></tr><tr><td>Model call</td><td><strong>from the browser</strong> to <code>api.deepseek.com</code> (CORS-allowed for this origin)</td></tr><tr><td>Key</td><td><code>GET /api/local-key</code> (loopback only) hands the key to the page once → <code>localStorage</code></td></tr><tr><td>Fallback</td><td><code>POST /api/intake</code> on the server (often 407s — egress proxy credentials expire)</td></tr><tr><td>Watchdog</td><td><code>watchdog.sh</code> + 15-min automation; restarts the server when the proxy rotates</td></tr><tr><td>Data</td><td><code>data/catalog.json</code> — 57 AIA HK products, compiled from <code>data/*.json</code></td></tr></tbody></table>
+
+<p>Why the browser makes the call: the local egress proxy issues <strong>short-lived credentials</strong>.</p>
+<p>A long-running daemon cannot keep one valid, so every server-side call eventually fails</p>
+<p>with <code>CONNECT tunnel failed, 407</code>. The browser has no such proxy, so the call is stable.</p>
+
+<h2>3. The flow — six steps</h2>
+
+<h3>Step 1 — Intake</h3>
+<p>Input: free-text notes (English, Cantonese, mixed) + optional fields</p>
+<p>(owner type, existing cover, age band, smoker, budget).</p>
+
+<p>Output: an <strong>AI brief</strong></p>
+<pre><code>{
+  &quot;summary&quot;: &quot;one or two neutral sentences&quot;,
+  &quot;lanes&quot;: [&quot;term_life&quot;, &quot;medical&quot;, &quot;ci&quot;, &quot;savings&quot;],
+  &quot;needs&quot;: [&quot;family_protection&quot;, &quot;hospital_cost_protection&quot;, &quot;critical_illness_readiness&quot;, &quot;savings_and_wealth_growth&quot;],
+  &quot;searchTerms&quot;: [&quot;death benefit&quot;, &quot;hospital cover&quot;, &quot;critical illness&quot;, &quot;savings plan&quot;],
+  &quot;profile&quot;: { &quot;ageBand&quot;: &quot;&quot;, &quot;smoker&quot;: &quot;&quot;, &quot;ownerType&quot;: &quot;&quot;, &quot;existingCover&quot;: &quot;&quot;, &quot;budget&quot;: &quot;&quot; },
+  &quot;missing&quot;: [&quot;questions the agent still must ask&quot;]
+}</code></pre>
+<p>Model: <code>deepseek-chat</code>, temperature 0, JSON mode. The brief is a <strong>translation layer</strong> —</p>
+<p>it converts the client&#x27;s words into brochure vocabulary. It never picks a product.</p>
+
+<h3>Step 2 — Lane</h3>
+<p>Which product families are in play: <code>term_life</code>, <code>medical</code>, <code>ci</code>, <code>savings</code> (also</p>
+<p><code>whole_life</code>, <code>accident</code>, <code>ilas</code>). Pre-selected from the brief, editable.</p>
+
+<h3>Step 3 — Confirm needs</h3>
+<p>Need categories, not products. Each card shows the score, the phrase that matched, and</p>
+<p><strong>don&#x27;t-push</strong> chips (contradictions). The agent unchecks what the notes don&#x27;t support.</p>
+<p>Everything downstream filters on this confirmed list.</p>
+
+<h3>Step 4 — Future state  ← the core screen</h3>
+<p><strong>Confirmed / Not known yet</strong> — facts vs gaps. Unknowns are chips, never assumptions.</p>
+
+<p><strong>Two tracks</strong> — <code>12 months · 5 years · 10 years</code>:</p>
+<ul><li>*If nothing changes*: what the absence of cover does to savings and the house plan.</li><li>*If we act*: names the actual products in force at each horizon, including the savings</li></ul>
+<p>  move at year 10 (&quot;Deposit funded on schedule by &lt;plan&gt;, with protection still running&quot;).</p>
+
+<p><strong>The moves</strong> — one per lane, in order: income → hospital → CI → savings.</p>
+<p>Each move shows:</p>
+<ul><li>the chosen product, its <strong>what this actually does</strong> sentence,</li><li>a <strong>Check:</strong> line (who it is wrong for / what is missing from the extract),</li><li><code>system pick</code> vs <code>your pick</code>, with a trade-off for each when they differ,</li><li>2–3 suggested candidates with <strong>Fit</strong> and <strong>Trade-off</strong>,</li><li><strong>Show all N products in this category</strong> for a manual choice.</li></ul>
+
+<p>Output: <code>state.moves[]</code> + <code>state.picks{}</code> — the spine for the rest.</p>
+
+<h3>Step 5 — Narrow</h3>
+<p>Questions grouped by move, generated from <strong>the chosen product&#x27;s</strong> verification points plus</p>
+<p>the plan&#x27;s unknowns (age, smoker, existing cover, budget). Answers are optional and stored</p>
+<p>per question.</p>
+
+<h3>Step 6 — Compare  ← last step</h3>
+<ol><li><strong>System recommendation vs your pick</strong> — table: Move · System suggested · You picked ·</li></ol>
+<p>   Why the system suggested it (with a <code>changed</code> badge).</p>
+<ol><li><strong>Per move</strong> — chosen vs the alternatives you did not pick, dimension by dimension, with</li></ol>
+<p>   the product&#x27;s actual offer text and an evidence badge. Rows nobody can answer are dropped.</p>
+<ol><li><strong>Actions</strong> — <code>Use this instead</code> (swaps the pick and propagates), <code>Flag what to verify</code></li></ol>
+<p>   (chips → card), <code>Why this pick</code> (free text → card).</p>
+
+<p><strong>Finish</strong> (the Continue button on this step) generates the plan summary, copies it to the</p>
+<p>clipboard, and shows a Copy again / Download .txt banner. There is no step 7.</p>
+
+<h2>4. What it outputs</h2>
+
+<p>The finished plan text:</p>
+<pre><code>AIA meeting card — plan (local matcher, not advice)
+
+Future state: acting today, the first serious event is paid by a policy, not the savings.
+
+THE PLAN
+1. Protect the income — EasyGuard Term Life Plan
+   &lt;what it does&gt;
+   Check: &lt;trade-off&gt;
+   Why we chose it: &lt;agent&#x27;s reason&gt;
+2. Stop hospital bills eating savings — VHIS Privilege Ultra
+3. Put a lump sum behind a diagnosis — Smart Elite Ultra CI
+4. Fund the goal on a date — &lt;savings plan&gt;
+
+DEFERRED: &lt;confirmed needs with no product&gt;
+
+TO VERIFY
+- annual limit (medical)
+- waiting period (ci)
+
+NEXT ACTIONS
+- Retrieve his existing policy schedule before quoting anything.
+- Apply for ... — underwriting and medical first.
+- Book the review in 12 months ...</code></pre>
+
+<p>Also produced: the on-screen plan (printable) and the evidence trail behind every claim.</p>
+
+<h2>5. Data model</h2>
+
+<pre><code>state = {
+  notes, fields,                 // raw input
+  aiBrief,                       // step 1 output
+  selectedLanes, confirmedNeeds, // steps 2–3
+  moves: [{ lane, title, plain, top[], all[], def, chosen }],  // step 4
+  picks: { [lane]: productId },  // agent&#x27;s choices
+  answers: {},                   // step 5
+  checks: [&quot;ci:waiting_period&quot;], // step 6 flags
+  reasons: { [lane]: &quot;...&quot; },    // step 6 notes
+  finished, finalText
+}</code></pre>
+
+<p>Product object (from the catalogue): `productId, productName, lane, productType,</p>
+<p>bestFor, notSuitedWhen[], gaps[], trends[]<code> where each trend has </code>trendName,</p>
+<p>whatProductOffers, keyFigures[], comparisonRows[], verificationPrompts[],</p>
+<p>evidenceStrength, sourceEvidence[]`.</p>
+
+<h2>6. Rules the system enforces</h2>
+
+<ul><li><strong>Evidence gate</strong> — a product whose evidence is weak (<code>hasWeakOnly</code>) can never be the</li></ul>
+<p>  default pick; it is labelled <code>verify first</code>.</p>
+<ul><li><strong>No invented numbers</strong> — amounts come from the notes or the brochure. Unknowns stay</li></ul>
+<p>  unknown and become questions.</p>
+<ul><li><strong>No tax claims</strong> — tax/deduction trends are filtered out of every client-facing string.</li><li><strong>No savings projections</strong> — the savings move is described by what it does, not by an</li></ul>
+<p>  illustrated value.</p>
+<ul><li><strong>Deferred is visible</strong> — a confirmed need with no product is listed, not dropped.</li><li><strong>Weak or missing data degrades honestly</strong> — &quot;not in extract&quot;, never a guess.</li></ul>
+
+<h2>7. Files</h2>
+
+<table><thead><tr><th>File</th><th>Role</th></tr></thead><tbody><tr><td><code>wizard.html</code></td><td>the six-step UI</td></tr><tr><td><code>wizard.js</code></td><td>state, steps, plan building, rendering</td></tr><tr><td><code>matcher.js</code></td><td>phrase matcher, lanes, needs, ranking, evidence gating</td></tr><tr><td><code>prompt.js</code></td><td>shared intake prompt + canonical lane/need lists</td></tr><tr><td><code>serve_wizard.mjs</code></td><td>static server, intake, local-key, health, follow-up APIs</td></tr><tr><td><code>followup_store.mjs</code></td><td>scrypt login, AES-GCM snapshots, sqlite, runbook, reengage</td></tr><tr><td><code>clients.html</code> / <code>followup.js</code></td><td>follow-up dashboard (copy-only drafts)</td></tr><tr><td><code>FOLLOWUP_SPEC.md</code></td><td>locked v1 spec</td></tr><tr><td><code>restart_wizard.sh</code> / <code>watchdog.sh</code></td><td>keep the server alive across proxy rotation</td></tr><tr><td><code>data/catalog.json</code></td><td>57 products, compiled</td></tr><tr><td><code>data/followup.sqlite</code></td><td>encrypted client store (gitignored)</td></tr><tr><td><code>index.html</code></td><td>catalogue library (browse every product)</td></tr><tr><td><code>compile_catalog.py</code></td><td>rebuilds the catalogue from <code>data/*.json</code></td></tr></tbody></table>
+
+<h2>8. Known limits</h2>
+
+<ol><li><strong>No premium.</strong> Budget is a comfort boundary (<code>too_tight / ok / flexible</code>), never a quote.</li><li><strong>Compare uses offer text</strong>, not a normalised benefit table.</li><li><strong>Savings lane is thin</strong> — ranks on goal language, not horizon maths.</li><li><strong>v1 is loopback-only.</strong> Homemade login is acceptable because the server binds 127.0.0.1.</li></ol>
+<p>   Internet deploy needs a hosted auth provider.</p>
+<ol><li><strong>The system never sends.</strong> “Sent” is an agent attestation.</li></ol>
+
+<h2>9. Persistence + follow-up (shipped)</h2>
+
+<p>Finish copies the plan. <strong>Save client</strong> on Compare stores a frozen snapshot (consent required).</p>
+<p>Wizard locks. Follow-up is a deterministic checklist: copy draft → you send it → mark Sent.</p>
+<p>Sent schedules one reengage in 3 days (max 2). Done/Blocked cancels it. Gate D opens only with</p>
+<p>a comfort answer <strong>plus Done</strong>. See <code>FOLLOWUP_SPEC.md</code>.</p>
+</main></body></html>

@@ -1,0 +1,345 @@
+{
+  "productId": "prime-care-pro-critical-illness-insurance-plan-2",
+  "productName": "Prime Care Pro Critical Illness Insurance Plan 2",
+  "productType": "critical illness insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "prime-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "100 illnesses covered to age 100",
+      "whatProductOffers": "A participating critical illness plan covering 54 critical illnesses, 7 severe child diseases and 39 early stage critical illnesses, with cover to age 100 and a lump-sum payout on diagnosis.",
+      "keyFigures": [
+        {
+          "label": "Total illnesses covered",
+          "value": "100",
+          "condition": "54 critical + 7 severe child diseases + 39 early stage"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Up to age 100",
+          "condition": "policy must remain in force"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 65",
+          "condition": "at policy issue"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Cover is limited to the 100 named illnesses in the policy; conditions outside the list are not payable.",
+        "Benefit term runs to age 100 only while premiums are paid and the policy is in force.",
+        "Brochure excerpt does not state a waiting period or the full exclusions list."
+      ],
+      "clientSignalPhrases": [
+        "wants all-round CI cover",
+        "worried about cancer in the family",
+        "asked how many illnesses are covered",
+        "wants cover that lasts to 100",
+        "early stage also covered?",
+        "one lump sum on diagnosis",
+        "doesn't want a hospital plan",
+        "mid-30s, no cover yet",
+        "wants cover for child diseases too",
+        "compared with other CI plans"
+      ],
+      "negativeSignalPhrases": [
+        "only wants hospital bill reimbursement",
+        "needs cover starting today for an existing condition",
+        "budget under HK$1,000 a month"
+      ],
+      "clientProfileFit": [
+        "Working adults aged 25-50 with no existing critical illness cover",
+        "Parents who want cover for severe child diseases as well as adult conditions",
+        "Clients who prefer a lump sum over medical bill reimbursement"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "It covers 100 illnesses in one plan, so if {client_detail} is diagnosed with a covered critical or early stage illness, the payout is a lump sum they can use however they need.",
+      "verificationPrompts": [
+        "Confirm the full 100-illness list and any waiting period in the policy contract.",
+        "Confirm whether the sum assured is level or can be adjusted."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "lifetime_limit",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "It covers 54 critical illnesses, 7 severe child diseases and 39 early stage critical illnesses, giving you support even for conditions like Carcinoma-in-situ.",
+        "Prime Care Pro Critical Illness Insurance Plan 2 provides critical illness protection up to the age of 100."
+      ],
+      "notesForReviewer": "Brochure text supplied is truncated at 6,000 characters; the benefits schedule and premium table were not included."
+    },
+    {
+      "trendId": "prime-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness_early_stage",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Early stage CI advance payments",
+      "whatProductOffers": "Pays an advance payment for 39 early stage critical illnesses including carcinoma-in-situ, with up to 2 advance payments where carcinoma-in-situ is diagnosed in 2 different organ groups.",
+      "keyFigures": [
+        {
+          "label": "Early stage illnesses covered",
+          "value": "39",
+          "condition": "named early stage conditions"
+        },
+        {
+          "label": "Advance payments for carcinoma-in-situ",
+          "value": "Up to 2",
+          "condition": "diagnosed in 2 different organ groups"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Advance payments reduce the sum assured available for later claims.",
+        "Multiple payments for carcinoma-in-situ require diagnosis in 2 different organ groups.",
+        "Brochure excerpt does not state the advance payment percentage."
+      ],
+      "clientSignalPhrases": [
+        "what if it's found early",
+        "cancer screening came back abnormal",
+        "wants cover before it's serious",
+        "asked about carcinoma-in-situ",
+        "family history of breast cancer",
+        "doesn't want to wait until stage 3",
+        "early stage payout?",
+        "wants a second payout if it comes back elsewhere"
+      ],
+      "negativeSignalPhrases": [
+        "only cares about late-stage cover",
+        "wants full sum assured for early stage",
+        "already diagnosed with carcinoma-in-situ"
+      ],
+      "clientProfileFit": [
+        "Clients with family history who prioritise early diagnosis",
+        "Women who want carcinoma-in-situ and breast-related cover",
+        "Clients who value staged payouts over a single claim"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "Because {client_detail} is worried about early diagnosis, the plan pays an advance benefit at early stage, including up to two payments for carcinoma-in-situ in different organ groups.",
+      "verificationPrompts": [
+        "Confirm the advance payment percentage and its effect on the remaining sum assured.",
+        "Confirm the exact organ group definitions for the 2-payment carcinoma-in-situ benefit."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "It also provides cover for Carcinoma-in-situ by up to 2 advance payments if it is diagnosed in 2 different organ groups.",
+        "This plan also provides cover for diabetic complications such as Diabetic Retinopathy and Endovascular Treatment of Peripheral Arterial Disease."
+      ],
+      "notesForReviewer": "Advance payment percentages and the organ-group table are not in the supplied excerpt."
+    },
+    {
+      "trendId": "prime-care-pro-critical-illness-insurance-plan-2_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Participating plan with dividends",
+      "whatProductOffers": "A participating plan that pays non-guaranteed annual dividends which accumulate with interest, alongside critical illness cover.",
+      "keyFigures": [
+        {
+          "label": "Dividend type",
+          "value": "Annual Dividends",
+          "condition": "non-guaranteed, declared yearly"
+        },
+        {
+          "label": "Accumulation",
+          "value": "Dividends accumulate with interest",
+          "condition": "while policy in force"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Annual dividends and the one-off non-guaranteed amount are not guaranteed and may be zero.",
+        "Illustrated values in the brochure are not a forecast of future performance.",
+        "Surrendering early may return less than total premiums paid."
+      ],
+      "clientSignalPhrases": [
+        "wants protection plus something back",
+        "doesn't like pure term cover",
+        "asked about dividends",
+        "wants long-term value",
+        "planning for retirement too",
+        "whole life CI with savings",
+        "prefers a participating plan",
+        "wants to leave something for the kids"
+      ],
+      "negativeSignalPhrases": [
+        "wants maximum cover for lowest premium",
+        "only wants pure protection",
+        "needs guaranteed returns"
+      ],
+      "clientProfileFit": [
+        "Clients who want cover plus a savings component",
+        "Long-horizon buyers aged 30-45",
+        "Clients already maxing pure term cover"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, this is a participating plan, so on top of the illness payout there are annual dividends that accumulate with interest if not withdrawn.",
+      "verificationPrompts": [
+        "Pull the current dividend illustration and show guaranteed versus non-guaranteed columns.",
+        "Confirm surrender value at years 5, 10 and 20."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "non-guaranteed cash amounts distributed on a yearly basis, called Annual Dividends, which have accumulated with interest under this policy",
+        "a participating insurance plan that provides you with life insurance, critical illness protection in lump sum payment and potential wealth accumulation"
+      ],
+      "notesForReviewer": "No dividend scale or illustrated values appear in the supplied 6,000-character excerpt."
+    },
+    {
+      "trendId": "prime-care-pro-critical-illness-insurance-plan-2_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death benefit with dividends",
+      "whatProductOffers": "Pays a death benefit equal to the current sum assured plus accumulated annual dividends and a one-off non-guaranteed amount to a nominated beneficiary.",
+      "keyFigures": [
+        {
+          "label": "Death benefit components",
+          "value": "Current Sum Assured + accumulated Annual Dividends + one-off non-guaranteed amount",
+          "condition": "insured passes away while policy in force"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The one-off amount is non-guaranteed.",
+        "Death benefit is reduced by any critical illness benefits already paid.",
+        "Suicide, non-disclosure and other standard policy exclusions are not detailed in the excerpt."
+      ],
+      "clientSignalPhrases": [
+        "main breadwinner",
+        "two young kids",
+        "wants something for the family",
+        "mortgage still running",
+        "asked what happens if he dies",
+        "wants cover that pays the wife",
+        "planning estate",
+        "no dependants cover yet"
+      ],
+      "negativeSignalPhrases": [
+        "single with no dependants",
+        "only wants illness cover",
+        "already has a separate term life plan"
+      ],
+      "clientProfileFit": [
+        "Parents with dependent children",
+        "Sole or main income earner in the household",
+        "Clients with an outstanding mortgage"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "growth"
+      ],
+      "talkingPointTemplate": "Since {client_detail} is the main earner, the same plan also pays a death benefit of the current sum assured plus accumulated dividends to the nominated beneficiary.",
+      "verificationPrompts": [
+        "Confirm how previous critical illness claims reduce the death benefit.",
+        "Confirm beneficiary nomination process."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "lifetime_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "The death benefit will include: i. Current Sum Assured; ii. non-guaranteed cash amounts distributed on a yearly basis, called Annual Dividends, which have accumulated with interest under this policy"
+      ],
+      "notesForReviewer": "Excerpt cuts off mid-sentence at the third death benefit component."
+    },
+    {
+      "trendId": "prime-care-pro-critical-illness-insurance-plan-2_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Premium waived after major claim",
+      "whatProductOffers": "Waives the subsequent premiums of the basic policy once a major illness claim is paid, and offers 3 premium payment terms from 10 to 25 years.",
+      "keyFigures": [
+        {
+          "label": "Premium payment terms",
+          "value": "3 options",
+          "condition": "from 10 to 25 years"
+        },
+        {
+          "label": "Premium waiver",
+          "value": "Subsequent basic policy premiums waived",
+          "condition": "after any major illness claim is made"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Waiver applies to the basic policy only, not necessarily to riders.",
+        "The exact payment terms available depend on the plan version and issue age.",
+        "Premium amounts are not stated in the supplied excerpt."
+      ],
+      "clientSignalPhrases": [
+        "worried about paying after diagnosis",
+        "wants premiums to stop if sick",
+        "asked about premium waiver",
+        "fixed budget every month",
+        "wants to finish paying before retirement",
+        "can choose 10 or 25 years?",
+        "doesn't want to lapse after a claim",
+        "wants level premiums for 10 years"
+      ],
+      "negativeSignalPhrases": [
+        "wants the shortest possible payment term only",
+        "needs a guaranteed premium for life",
+        "only interested in single premium"
+      ],
+      "clientProfileFit": [
+        "Clients on a fixed monthly budget",
+        "Buyers in their 40s who want premiums finished before retirement",
+        "Clients worried about lapsing after a health event"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "If {client_detail} makes a major illness claim, the remaining premiums on the basic policy are waived, so cover does not lapse when income is stretched.",
+      "verificationPrompts": [
+        "Confirm the waiver wording and whether riders are included.",
+        "Confirm which of the 3 payment terms apply at the client's issue age."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "If any major illness claims are made, the subsequent premium of the basic policy will be waived",
+        "You can choose among 3 premium payment terms from 10 to 25 years"
+      ],
+      "notesForReviewer": "Premium waiver and payment-term wording comes from the AIA product webpage, not the truncated brochure text."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "prime-care-pro-critical-illness-insurance-plan-2_critical_illness_readiness",
+    "bestForOneLiner": "A participating critical illness plan covering 100 illnesses to age 100, with early stage advance payments and accumulated dividends.",
+    "notSuitedWhen": [
+      "The client wants reimbursement of hospital bills rather than a lump sum",
+      "The client needs cover for an existing or pre-diagnosed condition",
+      "The client wants the lowest-cost pure protection with no savings element"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium rate table and sum assured limits",
+      "Full exclusions and waiting period",
+      "Advance payment percentages for early stage conditions",
+      "Dividend illustration values"
+    ]
+  }
+}

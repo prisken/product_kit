@@ -1,0 +1,405 @@
+{
+  "productId": "super-good-health-medical-plan-2",
+  "productName": "Super Good Health Medical Plan 2",
+  "productType": "medical insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "super-good-health-medical-plan-2_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "Hospital bills reimbursed worldwide",
+      "whatProductOffers": "Reimburses confinement (room and board, physician's visits), inpatient and outpatient surgery including day surgery, cancer treatment and rehabilitation, plus a cash subsidy and worldwide emergency assistance.",
+      "keyFigures": [
+        {
+          "label": "Geographical cover",
+          "value": "Worldwide",
+          "condition": "All plan options"
+        },
+        {
+          "label": "Plan options",
+          "value": "3",
+          "condition": "Ward, Semi-Private, Standard Private"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 70",
+          "condition": "At application"
+        },
+        {
+          "label": "Core benefit groups",
+          "value": "Confinement; inpatient and outpatient surgery; extended medical for cancer and rehabilitation; cash subsidy",
+          "condition": "Per Benefits Schedule"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Reimbursement is subject to the per-item limits in the Benefits Schedule, which are not in the captured text.",
+        "Extended medical benefits for cancer treatment and rehabilitation apply only as specified in the Benefits Schedule.",
+        "Cover beyond the core confinement and surgical limits requires the optional Supplemental Major Medical Benefits (SMM)."
+      ],
+      "clientSignalPhrases": [
+        "wants hospital bills covered",
+        "asked about cancer treatment cover",
+        "needs surgery cover",
+        "worried about medical costs",
+        "wants worldwide medical cover",
+        "no company medical plan",
+        "asked about day surgery",
+        "wants rehab covered",
+        "private hospital bills too high",
+        "looking for reimbursement not lump sum"
+      ],
+      "negativeSignalPhrases": [
+        "wants a fixed cash payout, not reimbursement",
+        "already fully covered by an employer plan",
+        "only needs accident cover"
+      ],
+      "clientProfileFit": [
+        "Working adults without adequate group medical cover",
+        "Families wanting cancer and surgery costs covered",
+        "Frequent travellers wanting worldwide cover"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan reimburses the actual hospital bill — room, surgery, cancer treatment and rehab — rather than paying a fixed lump sum.",
+      "verificationPrompts": [
+        "Confirm whether the client wants reimbursement cover or a cash/CI payout",
+        "Check existing employer or personal medical cover to avoid duplicate indemnity cover",
+        "Ask whether day-surgery or cancer treatment is a near-term concern"
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "lifetime_limit",
+        "room_level",
+        "outpatient",
+        "network_access"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Product Nature: Medical protection insurance plan (Reimbursement)",
+        "Geographical Cover: Worldwide",
+        "Confinement Benefits including room & board and physician's visit, etc.; inpatient and outpatient surgery (including visit to day surgery centre); extended medical benefits for cancer treatment and rehabilitation purpose"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "super-good-health-medical-plan-2_room_ward_level",
+      "trendCategory": "room_ward_level",
+      "isNewCategory": false,
+      "trendName": "Three hospital room tiers",
+      "whatProductOffers": "Lets the policyholder choose Ward, Semi-Private or Standard Private accommodation at application, so the room entitlement matches budget and expected comfort.",
+      "keyFigures": [
+        {
+          "label": "Plan options",
+          "value": "3",
+          "condition": "Ward / Semi-Private / Standard Private"
+        },
+        {
+          "label": "Case management",
+          "value": "Included",
+          "condition": "Standard Private plan only"
+        },
+        {
+          "label": "Ward-plan extras",
+          "value": "Chiropractor/physiotherapist and daily home nursing after surgery",
+          "condition": "Ward plan, within network"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Room entitlement is tied to the selected plan option.",
+        "The captured brochure does not state the daily room and board limits or any reimbursement adjustment for upgrading room level.",
+        "Personal Medical Case Management applies to the Standard Private plan only.",
+        "Some network privileges (chiropractor/physiotherapist, daily home nursing after surgery) are specified for the Ward plan."
+      ],
+      "clientSignalPhrases": [
+        "asked about private room",
+        "wants ward plan to save",
+        "family wants semi-private",
+        "budget tight for medical cover",
+        "comparing room levels",
+        "only upgrades room occasionally",
+        "wants Standard Private",
+        "first medical policy"
+      ],
+      "negativeSignalPhrases": [
+        "only wants the cheapest possible plan",
+        "no preference on room type",
+        "already has private-room cover at work"
+      ],
+      "clientProfileFit": [
+        "Budget-conscious clients choosing Ward",
+        "Mid-market families choosing Semi-Private",
+        "Clients wanting private comfort and case management"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, we can pick the room tier first — Ward, Semi-Private or Standard Private — and the rest of the plan follows that choice.",
+      "verificationPrompts": [
+        "Confirm the room level the client expects to use",
+        "Check whether the hospital they prefer falls within the chosen tier",
+        "Ask whether a private room is a hard requirement"
+      ],
+      "comparisonRows": [
+        "room_level",
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Plan Option: Ward plan, Semi-Private plan, Standard Private plan",
+        "You can also choose from three plan options for hospital accommodation according to your budget and medical needs",
+        "Personal Medical Case Management (applicable to Standard Private plan)"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "super-good-health-medical-plan-2_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Guaranteed lifetime renewal, no claims loading",
+      "whatProductOffers": "Guarantees renewal every year for life and states the renewal premium will not be raised because of claims made or changes in health; a no-claim bonus refunds 5%, 10% or 15% of the preceding cover year's premiums after 3, 4 or 5+ claim-free years.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed renewal",
+          "value": "Every year for life",
+          "condition": "Not affected by claims or health changes"
+        },
+        {
+          "label": "No-claim bonus",
+          "value": "5% / 10% / 15%",
+          "condition": "3 / 4 / 5+ consecutive claim-free policy years"
+        },
+        {
+          "label": "Premium loading",
+          "value": "None for claims or health changes",
+          "condition": "Renewal premium still follows prevailing rates"
+        },
+        {
+          "label": "Bonus basis",
+          "value": "Total premiums paid for the preceding cover year",
+          "condition": "Refund percentage per tier"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Renewal premium is based on the prevailing premium rates at renewal, so it can still change with age and medical inflation.",
+        "The no-claim bonus is a refund of a percentage of premiums, not a discount on the renewal rate.",
+        "Specified outpatient surgery at network clinics or a top-up subsidy claim does not affect bonus eligibility."
+      ],
+      "clientSignalPhrases": [
+        "worried premium rises after claim",
+        "had a claim last year",
+        "wants guaranteed renewal",
+        "asked about no-claim bonus",
+        "hates re-underwriting",
+        "wants cover for life",
+        "condition is stable now",
+        "fears policy being cancelled"
+      ],
+      "negativeSignalPhrases": [
+        "wants a level premium guaranteed for life",
+        "only needs cover for a year or two"
+      ],
+      "clientProfileFit": [
+        "Clients with past claims worried about loading",
+        "Long-term policyholders wanting renewal certainty",
+        "Clients in stable health who expect few claims"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the key point is that a claim or a change in health will not be used to load or cancel the renewal — the rate still follows the standard age table.",
+      "verificationPrompts": [
+        "Confirm the client understands renewal rates are not fixed for life",
+        "Ask whether they have prior claims that caused loading elsewhere",
+        "Check the client's expectation on premium at older ages"
+      ],
+      "comparisonRows": [
+        "renewability",
+        "premium",
+        "annual_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "guarantees that your premium for renewal will not be raised for any claim you have made, or any changes in your health condition",
+        "You can renew your cover every year for life. Renewal premium will be based on the prevailing premium rates at the time of renewal.",
+        "No claim in 3 or more consecutive cover years entitles you with a bonus up to 15% of the total premiums paid for the preceding cover year"
+      ],
+      "notesForReviewer": "The exact interaction between the no-claim refund and any future rate changes is not spelled out in the captured text."
+    },
+    {
+      "trendId": "super-good-health-medical-plan-2_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Cashless network day surgery",
+      "whatProductOffers": "An electronic network card gives access to network clinics and day surgery centres with a cashless arrangement for specified outpatient surgery once the plan has been in force 180 days, plus higher limits and reimbursement percentages inside the network.",
+      "keyFigures": [
+        {
+          "label": "Cashless eligibility",
+          "value": "After 180 days in force",
+          "condition": "Service must be arranged successfully"
+        },
+        {
+          "label": "Network benefit",
+          "value": "Higher maximum limits for core benefits",
+          "condition": "Within designated network"
+        },
+        {
+          "label": "SMM in network",
+          "value": "Higher reimbursement percentage",
+          "condition": "Only if SMM is selected"
+        },
+        {
+          "label": "Scope",
+          "value": "Specified outpatient surgery",
+          "condition": "Network clinics and day surgery centres"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Network service is provided in Hong Kong by a designated service provider and is not applicable to Macau.",
+        "Cashless treatment must be arranged successfully in advance through the network.",
+        "Only specified outpatient surgery at network clinics and day surgery centres is covered cashless.",
+        "Higher SMM reimbursement applies only where the optional SMM benefit is in force."
+      ],
+      "clientSignalPhrases": [
+        "wants cashless hospital",
+        "hates paperwork",
+        "day surgery next month",
+        "wants panel specialist",
+        "asked about network card",
+        "prefers not to pay upfront",
+        "wants higher limits",
+        "uses AIA network doctors"
+      ],
+      "negativeSignalPhrases": [
+        "needs treatment outside Hong Kong",
+        "wants free choice of any doctor"
+      ],
+      "clientProfileFit": [
+        "Busy professionals valuing convenience",
+        "Clients who dislike upfront payment and claims",
+        "Clients already using the AIA provider network"
+      ],
+      "priorityAlignment": [
+        "access",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the network card turns a day-surgery claim into a cashless visit — no bill to settle and no claim form afterwards.",
+      "verificationPrompts": [
+        "Confirm the client's preferred clinic or day surgery centre is in the network",
+        "Check that 180 days have passed before relying on cashless service",
+        "Confirm whether SMM is being added for the higher network reimbursement"
+      ],
+      "comparisonRows": [
+        "network_access",
+        "outpatient",
+        "waiting_period"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "When this plan has been in effect for 180 days and once the service is arranged successfully, you can book for specified outpatient surgery at the network clinics and day surgery centre on a cashless basis",
+        "If you select the service provided from our medical network, you can enjoy ... higher maximum benefit limits for core benefits; higher reimbursement percentage under our SMM benefit"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "super-good-health-medical-plan-2_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "Pre/post-surgery outpatient support",
+      "whatProductOffers": "Network privileges cover specialist fees, a hospital companion bed, outpatient consultations before and after surgery, chiropractic/physiotherapy under the Ward plan, and daily home nursing after surgery under the Ward plan.",
+      "keyFigures": [
+        {
+          "label": "Network outpatient",
+          "value": "Pre- and post-surgery consultations",
+          "condition": "Within designated network"
+        },
+        {
+          "label": "Specialist fees",
+          "value": "Covered as a network benefit",
+          "condition": "Within designated network"
+        },
+        {
+          "label": "Allied health",
+          "value": "Chiropractor and physiotherapist",
+          "condition": "Ward plan, within network"
+        },
+        {
+          "label": "Post-surgery",
+          "value": "Daily home nursing",
+          "condition": "Ward plan, within network"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "These are network privileges and apply only with the designated service provider.",
+        "Chiropractor/physiotherapist consultations and daily home nursing after surgery are specified for the Ward plan.",
+        "Network service is not applicable to the Macau region.",
+        "The dollar limits for each item sit in the Benefits Schedule and are not in the captured text."
+      ],
+      "clientSignalPhrases": [
+        "needs follow-up visits covered",
+        "physio after surgery",
+        "wants specialist fees covered",
+        "home nursing after an operation",
+        "asked about pre-op consultation",
+        "wants companion bed covered",
+        "post-surgery care at home",
+        "wants outpatient follow-ups"
+      ],
+      "negativeSignalPhrases": [
+        "does not want network restrictions",
+        "only wants inpatient cover"
+      ],
+      "clientProfileFit": [
+        "Clients facing surgery and follow-up",
+        "Families needing post-operative home help",
+        "Ward-plan buyers wanting allied health cover"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan does not stop at the hospital door — pre- and post-surgery consultations and, on the Ward plan, physio and home nursing are built into the network.",
+      "verificationPrompts": [
+        "Ask whether surgery and follow-up are expected in the next year",
+        "Confirm the client is willing to use network providers",
+        "Check whether the Ward plan's allied-health extras matter to them"
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "network_access",
+        "room_level"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "exclusive benefits including specialist's fees and outpatient consultations before and after surgery",
+        "chiropractor / physiotherapist consultation charges are also covered under Ward plan",
+        "cost for daily home nursing after surgery is also covered under Ward plan"
+      ],
+      "notesForReviewer": "Benefit limits for each outpatient item are not in the captured text."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "super-good-health-medical-plan-2_hospital_cost_protection",
+    "bestForOneLiner": "A reimbursement medical plan with three room tiers, lifetime guaranteed renewal and a network that adds limits and cashless day surgery.",
+    "notSuitedWhen": [
+      "Client wants a fixed cash payout rather than reimbursement of actual bills",
+      "Client needs cover for a condition excluded as pre-existing",
+      "Client wants a premium that never changes with age"
+    ],
+    "gapsInSourceMaterial": [
+      "Dollar benefit limits and annual/lifetime caps are in the Benefits Schedule, not the captured text",
+      "Waiting periods and pre-existing condition exclusions are not captured",
+      "Premium table by age and plan option is not captured"
+    ]
+  }
+}

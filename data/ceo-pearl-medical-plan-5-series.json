@@ -1,0 +1,355 @@
+{
+  "productId": "ceo-pearl-medical-plan-5-series",
+  "productName": "CEO Pearl Medical Plan 5 Series",
+  "productType": "medical insurance (reimbursement, high-end)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "ceo-pearl-medical-plan-5-series_high_annual_or_lifetime_limit",
+      "trendCategory": "high_annual_or_lifetime_limit",
+      "isNewCategory": false,
+      "trendName": "HK$50m lifetime, HK$20m yearly",
+      "whatProductOffers": "Provides lifetime cover of HK$50,000,000 with an annual limit of HK$20,000,000; the Worldwide version is denominated in US$ at US$6,250,000 lifetime and US$2,500,000 annual limits.",
+      "keyFigures": [
+        {
+          "label": "Overall lifetime limit",
+          "value": "HK$50,000,000",
+          "condition": "CEO Pearl Medical Plan 5"
+        },
+        {
+          "label": "Annual limit",
+          "value": "HK$20,000,000",
+          "condition": "per policy year"
+        },
+        {
+          "label": "Lifetime limit (worldwide)",
+          "value": "US$6,250,000",
+          "condition": "CEO Pearl Medical Plan (Worldwide) 5"
+        },
+        {
+          "label": "Annual limit (worldwide)",
+          "value": "US$2,500,000",
+          "condition": "CEO Pearl Medical Plan (Worldwide) 5"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The figures are plan maximums; individual benefit items follow the benefits schedule sublimits.",
+        "Annual deductible choices of 0 / 16,000 / 25,000 / 50,000 (HK$) reduce the reimbursed amount.",
+        "The applicable limit set depends on the plan version and currency."
+      ],
+      "clientSignalPhrases": [
+        "wants the highest limit available",
+        "senior executive package",
+        "one serious illness could cost millions",
+        "wants cover that never runs out",
+        "family history of expensive treatment",
+        "wants private hospital with big limit",
+        "50 million lifetime",
+        "top-tier medical plan",
+        "worried limit runs out"
+      ],
+      "negativeSignalPhrases": [
+        "budget is tight",
+        "only wants basic hospital cover"
+      ],
+      "clientProfileFit": [
+        "Senior executives and high-net-worth clients",
+        "Families wanting maximum lifetime capacity",
+        "Clients planning for cancer or dialysis costs over years"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "{client_detail} gets a HK$50,000,000 lifetime limit with HK$20,000,000 usable in a single year.",
+      "verificationPrompts": [
+        "Confirm the limit set for the chosen plan version and currency.",
+        "Confirm the benefits schedule sublimits beneath the annual limit.",
+        "Confirm how the deductible interacts with the annual limit."
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "annual_limit",
+        "room_level"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "CEO Pearl Medical Plan 5 / CEO Pearl Medical Plan (Worldwide) 5 is a medical protection insurance plan that provides lifetime cover up to HK$50,000,000.",
+        "Overall Lifetime Limit ... Annual Limit ... HK$ 50,000,000 / 20,000,000 ... US$ 6,250,000 / 2,500,000"
+      ],
+      "notesForReviewer": "The extracted table is compressed; confirm the annual/lifetime pairing in the benefits schedule."
+    },
+    {
+      "trendId": "ceo-pearl-medical-plan-5-series_room_ward_level",
+      "trendCategory": "room_ward_level",
+      "isNewCategory": false,
+      "trendName": "Standard private room cover",
+      "whatProductOffers": "Covers hospital stay at the standard private room level under both the Hong Kong and Worldwide versions.",
+      "keyFigures": [
+        {
+          "label": "Room type",
+          "value": "standard private room",
+          "condition": "both plan versions"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Reimbursement follows the standard private room rate; higher room classes are not fully covered.",
+        "The daily room and board sublimit is not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "wants a private room",
+        "refuses ward",
+        "wants privacy during recovery",
+        "private hospital only",
+        "family wants to stay overnight",
+        "wants private room",
+        "hates ward",
+        "wants privacy",
+        "upgraded room last stay"
+      ],
+      "negativeSignalPhrases": [
+        "public hospital is fine",
+        "wants suite-level cover"
+      ],
+      "clientProfileFit": [
+        "Clients who insist on private rooms",
+        "Executives wanting privacy during treatment"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "{client_detail} is covered at the standard private room level, not a shared ward.",
+      "verificationPrompts": [
+        "Confirm the daily room and board sublimit.",
+        "Confirm reimbursement treatment for higher room classes."
+      ],
+      "comparisonRows": [
+        "room_level",
+        "annual_limit",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Room Type: Standard private room",
+        "worldwide cover for hospital stay"
+      ],
+      "notesForReviewer": "Per-day room sublimit not in the extracted text."
+    },
+    {
+      "trendId": "ceo-pearl-medical-plan-5-series_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Worldwide with US option",
+      "whatProductOffers": "Covers hospital treatment worldwide, with the Worldwide version including the United States and the other version covering worldwide excluding the United States, plus global emergency treatment and worldwide emergency assistance.",
+      "keyFigures": [
+        {
+          "label": "Geographical cover",
+          "value": "Worldwide",
+          "condition": "CEO Pearl Medical Plan (Worldwide) 5"
+        },
+        {
+          "label": "Geographical cover",
+          "value": "Worldwide excluding the United States",
+          "condition": "CEO Pearl Medical Plan 5"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "US treatment is only covered under the Worldwide version.",
+        "Global emergency treatment and assistance are subject to benefits schedule limits.",
+        "Pre-approval rules for elective overseas treatment are not stated in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "travels to the US for work",
+        "children studying overseas",
+        "wants treatment in Singapore",
+        "works across the border",
+        "family may emigrate",
+        "wants global emergency cover",
+        "works overseas",
+        "children studying abroad",
+        "travels for work"
+      ],
+      "negativeSignalPhrases": [
+        "never travels",
+        "wants Hong Kong-only pricing"
+      ],
+      "clientProfileFit": [
+        "Globally mobile executives",
+        "Families with members studying or living abroad"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "{client_detail} can pick worldwide cover including the US, with emergency assistance wherever they are.",
+      "verificationPrompts": [
+        "Confirm whether US treatment is included.",
+        "Confirm overseas pre-approval requirements.",
+        "Confirm emergency assistance limits."
+      ],
+      "comparisonRows": [
+        "network_access",
+        "annual_limit",
+        "room_level"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Geographical Cover: Worldwide / Worldwide excluding the United States",
+        "global emergency treatment and worldwide emergency assistance services"
+      ],
+      "notesForReviewer": "Overseas claim mechanics not in the extracted text."
+    },
+    {
+      "trendId": "ceo-pearl-medical-plan-5-series_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Deductible cut up to 100%",
+      "whatProductOffers": "Guarantees renewal every year for life without premium loading for claims or health changes, and discounts the selected annual deductible by 10% for each two consecutive claim-free cover years, up to 100%.",
+      "keyFigures": [
+        {
+          "label": "No-claim deductible discount",
+          "value": "10%",
+          "condition": "every two consecutive claim-free cover years"
+        },
+        {
+          "label": "Maximum discount",
+          "value": "100%",
+          "condition": "deductible can be reduced to zero"
+        },
+        {
+          "label": "Reset",
+          "value": "0% discount",
+          "condition": "next cover year after a claim payment"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The discount resets to 0% in the next cover year after a claim payment.",
+        "Hospital cash, lower room class cash, day surgery and emergency assistance benefits do not affect eligibility.",
+        "Renewal premium follows prevailing rates, so age-related increases still apply."
+      ],
+      "clientSignalPhrases": [
+        "healthy and never claims",
+        "wants deductible to shrink",
+        "chose high deductible to save premium",
+        "long-term client",
+        "wants reward for no claims",
+        "premium creep worries me",
+        "worried premium jumps",
+        "wants no loading after claim",
+        "plans to keep long term"
+      ],
+      "negativeSignalPhrases": [
+        "claims every year",
+        "expects premium to stay flat for life"
+      ],
+      "clientProfileFit": [
+        "Healthy clients using a deductible to reduce premium",
+        "Long-term holders with low claim frequency"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "If {client_detail} does not claim, the deductible falls 10% every two years and can reach zero.",
+      "verificationPrompts": [
+        "Confirm the deductible options and the premium saved at each level.",
+        "Confirm which claim types reset the discount."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "If no claim is made for two consecutive cover years ... offers a 10% discount on your selected deductible choice in the following cover year ... can reach up to 100%, meaning that the deductible amount can be reduced to zero."
+      ],
+      "notesForReviewer": "Premium figures are not in the extracted text."
+    },
+    {
+      "trendId": "ceo-pearl-medical-plan-5-series_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Disability subsidy and home care",
+      "whatProductOffers": "Pays HK$5,000 per month for up to 24 months if the insured cannot take care of themselves for at least 6 uninterrupted months, and covers occupational-therapist-approved home modifications and therapies after a stroke.",
+      "keyFigures": [
+        {
+          "label": "Disability subsidy",
+          "value": "HK$5,000 per month",
+          "condition": "up to 24 months"
+        },
+        {
+          "label": "Trigger",
+          "value": "unable to self-care for 6 uninterrupted months",
+          "condition": "self-care capability"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The subsidy requires at least 6 uninterrupted months of inability to self-care.",
+        "Maximum payout is 24 months at HK$5,000.",
+        "Home facility enhancements require occupational therapist approval.",
+        "Cancer treatment, dialysis and stroke rehabilitation benefits follow benefits schedule limits."
+      ],
+      "clientSignalPhrases": [
+        "stroke rehabilitation costs",
+        "needs help at home after stroke",
+        "who pays the bills if I can't work",
+        "wants more than hospital reimbursement",
+        "elderly parents",
+        "needs physiotherapy and speech therapy",
+        "who pays if I can't work",
+        "worried about rehab costs",
+        "needs home modifications"
+      ],
+      "negativeSignalPhrases": [
+        "wants full income replacement",
+        "needs long-term care insurance"
+      ],
+      "clientProfileFit": [
+        "Clients with stroke or cardiovascular family history",
+        "Main earners wanting rehabilitation support",
+        "Older applicants planning care at home"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "If {client_detail} cannot self-care for six months, HK$5,000 a month continues for up to 24 months on top of treatment cover.",
+      "verificationPrompts": [
+        "Confirm the self-care definition used for the subsidy.",
+        "Confirm whether the subsidy is paid in addition to hospital reimbursement.",
+        "Confirm the covered home enhancements and therapy list."
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "annual_limit",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "if you become unable to take care of yourself for at least 6 uninterrupted months, we will provide a disability subsidy of HK$5,000 per month to you for up to 24 months",
+        "home facility enhancements approved by occupational therapists - widening of corridors, adapting bathroom facilities and purchasing specialised furniture"
+      ],
+      "notesForReviewer": "The brochure lists no optional outpatient or dental benefits for this plan; do not assume they exist."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "ceo-pearl-medical-plan-5-series_high_annual_or_lifetime_limit",
+    "bestForOneLiner": "A high-end worldwide medical plan with a HK$50,000,000 lifetime limit and standard private room cover.",
+    "notSuitedWhen": [
+      "The client needs outpatient or dental benefits, which are not listed for this plan.",
+      "The client only needs Hong Kong treatment at a lower premium.",
+      "The client wants a lump-sum payout rather than reimbursement."
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table by age",
+      "Per-benefit sublimits in the benefits schedule",
+      "Confirmation that no outpatient or dental options exist for this version"
+    ]
+  }
+}

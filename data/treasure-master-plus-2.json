@@ -1,0 +1,297 @@
+{
+  "productId": "treasure-master-plus-2",
+  "productName": "Treasure Master Plus 2",
+  "productType": "investment-linked assurance scheme (ILAS)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "treasure-master-plus-2_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Fund-linked growth potential",
+      "whatProductOffers": "An ILAS that allocates the single premium, after an upfront charge, to notional units of SFC-authorised investment options, so policy value follows the performance of the selected options.",
+      "keyFigures": [
+        {
+          "label": "Premium type",
+          "value": "Single premium",
+          "condition": "Required"
+        },
+        {
+          "label": "Investment options",
+          "value": "SFC-authorised funds",
+          "condition": "Under the Code on Unit Trusts and Mutual Funds"
+        },
+        {
+          "label": "Upfront charge",
+          "value": "1.35% per annum",
+          "condition": "6.75% in total of the single premium"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Principal is at risk and subject to AIA's credit risk.",
+        "Returns are lower than the return of the corresponding underlying funds because of fees and charges.",
+        "The extract does not name the available funds or their risk profiles.",
+        "An 8-year holding period is indicated; the plan is not suitable for shorter horizons."
+      ],
+      "clientSignalPhrases": [
+        "wants fund choice inside an insurance policy",
+        "has a lump sum for long-term investment",
+        "wants equity exposure with life cover",
+        "asked about ILAS",
+        "wants to switch funds later",
+        "comfortable with market risk",
+        "wants a single premium investment",
+        "has an 8 to 10 year horizon"
+      ],
+      "negativeSignalPhrases": [
+        "wants capital guaranteed",
+        "needs the money within 5 years",
+        "cannot accept investment losses",
+        "only wants bank deposits"
+      ],
+      "clientProfileFit": [
+        "Experienced investors wanting fund selection",
+        "Clients with a long-term single premium",
+        "Investors who want life cover alongside funds"
+      ],
+      "priorityAlignment": [
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the single premium is allocated to chosen SFC-authorised funds, so growth depends on fund performance rather than a declared bonus.",
+      "verificationPrompts": [
+        "Confirm the client accepts market risk",
+        "Check the 8-year minimum horizon",
+        "Review the fund list and risk profile",
+        "Explain the 6.75% total upfront charge"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Your principal will be at risk and subject to the credit risks of AIA International Limited",
+        "This ILAS policy is subject to an upfront charge of 1.35% per annum (i.e. 6.75% in total) of the single premium",
+        "funds authorised by the Securities and Futures Commission of Hong Kong ... pursuant to the Code on Unit Trusts and Mutual Funds",
+        "If you are not prepared to hold your policy for at least 8 years, this policy is not suitable for you"
+      ],
+      "notesForReviewer": "No fund list, past performance or projection in the extract; the 8-year point is a suitability warning, not a guaranteed break-even."
+    },
+    {
+      "trendId": "treasure-master-plus-2_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Switch investment options",
+      "whatProductOffers": "The client can switch between investment options over time to suit changes in investment plan and risk profile, and can make partial withdrawals subject to conditions.",
+      "keyFigures": [
+        {
+          "label": "Investment options",
+          "value": "SFC-authorised funds",
+          "condition": "Listed in the investment options brochure"
+        },
+        {
+          "label": "Partial withdrawal",
+          "value": "Available",
+          "condition": "Subject to conditions and charges"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Partial withdrawals reduce the death benefit and the amount of any loyalty bonus.",
+        "Partial withdrawals may affect the sustainability of the policy because the account value falls.",
+        "Early surrender in the first 5 policy years carries a surrender charge of up to 6% of the single premium.",
+        "Switching fees or limits are not stated in the extract."
+      ],
+      "clientSignalPhrases": [
+        "wants to change funds when markets move",
+        "wants to de-risk closer to retirement",
+        "asked about switching fees",
+        "wants some liquidity from the policy",
+        "has a view on US versus Asia funds",
+        "wants to rebalance",
+        "wants to switch funds",
+        "asked about fund switching cost",
+        "wants to rebalance yearly"
+      ],
+      "negativeSignalPhrases": [
+        "wants a fixed allocation",
+        "never wants to review investments",
+        "needs penalty-free exit in year 2"
+      ],
+      "clientProfileFit": [
+        "Investors who actively review allocations",
+        "Clients wanting to de-risk over time",
+        "Investors with a view on asset allocation"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the fund allocation can be switched as the client's risk profile changes, with partial withdrawals available at a cost to policy value.",
+      "verificationPrompts": [
+        "Check the current switch fee and minimum switch amount",
+        "Confirm the client's appetite for ongoing fund decisions",
+        "Explain the surrender charge period"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "You may switch between Investment Options over time to suit your investment plan and risk profile.",
+        "You may request to make partial withdrawal subject to conditions; or early surrender your Basic Policy subject to conditions and any applicable surrender charge.",
+        "a surrender charge of up to 6% of the single premium for the first 5 Policy Years"
+      ],
+      "notesForReviewer": "Switch mechanics and fees are not in the extract; confirm from the full product brochure."
+    },
+    {
+      "trendId": "treasure-master-plus-2_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death benefit 105% of account",
+      "whatProductOffers": "On death on or before the policy anniversary following the insured's 80th birthday, the plan pays the higher of 100% of the single premium less partial withdrawals, or 105% of the account value; after that date it pays 105% of the account value.",
+      "keyFigures": [
+        {
+          "label": "Death benefit before age 80",
+          "value": "Higher of 100% of single premium less withdrawals, or 105% of account value",
+          "condition": "No surviving contingent insured"
+        },
+        {
+          "label": "Death benefit after age 80",
+          "value": "105% of account value",
+          "condition": "No surviving contingent insured"
+        },
+        {
+          "label": "Life protection level",
+          "value": "Low",
+          "condition": "Per product key facts"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Life protection is low by design.",
+        "Cost of insurance is deducted from the policy and may increase significantly as the insured ages or if investments lose value.",
+        "A named and surviving contingent insured who becomes the new insured changes the death benefit position.",
+        "Partial withdrawals reduce the death benefit."
+      ],
+      "clientSignalPhrases": [
+        "wants some death cover with the investment",
+        "has a family but mainly wants growth",
+        "asked about the death benefit",
+        "wants 105% of account value",
+        "single premium investment for the family",
+        "wants some death cover",
+        "asked about 105% of account value",
+        "has a spouse",
+        "wants protection with investment"
+      ],
+      "negativeSignalPhrases": [
+        "needs a large death benefit",
+        "wants protection-focused cover",
+        "wants guaranteed inheritance amount"
+      ],
+      "clientProfileFit": [
+        "Investors wanting a modest death benefit wrapper",
+        "Clients with dependants but a growth focus",
+        "Single premium investors aged under 80"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the death benefit pays at least 105% of the account value, which is modest but higher than the account value alone.",
+      "verificationPrompts": [
+        "Confirm the client is not relying on this for protection",
+        "Explain that COI is deducted from the account",
+        "Check whether a contingent insured is named"
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "The higher of: (i) 100% of the single premium – the sum of all the partial withdrawals paid to the policyholder; and (ii) 105% of the Account Value",
+        "If the insured passes away after the Policy Anniversary on or immediately following the insured's eightieth birthday ... 105% of the Account Value",
+        "Low protection"
+      ],
+      "notesForReviewer": "Death benefit is expressed as a formula, not a fixed sum; no worked example in the extract."
+    },
+    {
+      "trendId": "treasure-master-plus-2_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "Three policy currencies",
+      "whatProductOffers": "The policy can be issued in US dollars, Hong Kong dollars or renminbi.",
+      "keyFigures": [
+        {
+          "label": "Policy currencies",
+          "value": "3",
+          "condition": "USD, HKD, RMB"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The client bears currency risk where assets and spending currency differ.",
+        "Charges and fund values are denominated in the policy currency.",
+        "The extract does not describe any currency switching feature."
+      ],
+      "clientSignalPhrases": [
+        "wants RMB exposure",
+        "has USD savings",
+        "wants to hold the policy in HKD",
+        "plans to spend in RMB",
+        "wants a multi-currency option",
+        "wants RMB policy",
+        "may spend in RMB",
+        "asked about currency choice"
+      ],
+      "negativeSignalPhrases": [
+        "only wants one currency and no FX risk",
+        "needs a currency switch feature",
+        "cannot accept exchange rate movement"
+      ],
+      "clientProfileFit": [
+        "Clients with RMB or USD liabilities",
+        "Investors diversifying currency exposure"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy can be denominated in USD, HKD or RMB to match the currency of future spending.",
+      "verificationPrompts": [
+        "Confirm the client's spending currency",
+        "Explain FX risk on fund values"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Policy currency: USD / HKD / RMB"
+      ],
+      "notesForReviewer": "Currency choice is stated in the quick facts; no currency switch option is described."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "treasure-master-plus-2_savings_and_wealth_growth",
+    "bestForOneLiner": "A single-premium investment-linked assurance policy that invests in SFC-authorised funds with low life protection and charges that make an 8-year horizon essential.",
+    "notSuitedWhen": [
+      "The client needs capital protection",
+      "The client may exit within 5 years because of the surrender charge",
+      "The client wants a protection-led policy",
+      "The client cannot tolerate investment losses or ongoing fund decisions"
+    ],
+    "gapsInSourceMaterial": [
+      "No list of investment options or fund risk ratings",
+      "No account value or performance illustration",
+      "No full table of account value charge or COI rates",
+      "Switch fees and minimum withdrawal rules not extracted"
+    ]
+  }
+}

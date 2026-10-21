@@ -1,0 +1,365 @@
+{
+  "productId": "silvery-protect",
+  "productName": "Silvery Protect",
+  "productType": "accident protection insurance plan",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "silvery-protect_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "HK$20,000 accident medical per accident",
+      "whatProductOffers": "Reimburses reasonable and customary accident-related medical expenses up to HK$/MOP20,000 per accident, for treatment incurred within 52 weeks of the accident.",
+      "keyFigures": [
+        {
+          "label": "Accident medical reimbursement",
+          "value": "Up to HK$/MOP20,000 per accident",
+          "condition": "per insured, per accident"
+        },
+        {
+          "label": "Claim period",
+          "value": "Within 52 weeks of the accident",
+          "condition": "treatment must be medically necessary"
+        },
+        {
+          "label": "Personal accident protection",
+          "value": "Up to HK$/MOP1,000,000",
+          "condition": "plan dependent"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Reimbursement is capped per accident, not per year.",
+        "Expenses must be reasonable and customary.",
+        "Only accident-related treatment is covered; illness is not."
+      ],
+      "clientSignalPhrases": [
+        "mum fell at home",
+        "worried about hospital bills after a fall",
+        "elderly parent living alone",
+        "asked what accidents cover",
+        "wants bills reimbursed",
+        "father had a hip fracture",
+        "needs cover after retirement",
+        "wants cash for physio"
+      ],
+      "negativeSignalPhrases": [
+        "needs illness or hospitalisation cover",
+        "wants a lump sum only",
+        "parent already in a care home"
+      ],
+      "clientProfileFit": [
+        "Seniors aged 66-75 living independently",
+        "Adult children buying cover for parents",
+        "Retirees who want accident bill reimbursement"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, accident medical bills are reimbursed up to HK$20,000 per accident for treatment within 52 weeks, which covers the physio and follow-up visits after a fall.",
+      "verificationPrompts": [
+        "Confirm which treatments and providers qualify for reimbursement.",
+        "Confirm whether the limit is per accident or per policy year."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "outpatient",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "A wide range of medical expenses are reimbursable for accident care, up to HK$/MOP20,000 per accident",
+        "we will reimburse the reasonable and customary medical expenses incurred within 52 weeks from the date of an accident, up to the maximum limit per accident"
+      ],
+      "notesForReviewer": "The benefits schedule with per-item sub-limits is not in the excerpt."
+    },
+    {
+      "trendId": "silvery-protect_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Hospital income and ADL support",
+      "whatProductOffers": "Plan 2 adds accident hospital income and ICU benefits for up to 60 days per accident, plus a Loss of Daily Living Activities benefit payable up to 60 months or age 80.",
+      "keyFigures": [
+        {
+          "label": "Hospital income duration",
+          "value": "Up to 60 days",
+          "condition": "same accident, Plan 2 only"
+        },
+        {
+          "label": "ICU benefit duration",
+          "value": "Up to 60 days",
+          "condition": "same accident, Plan 2 only"
+        },
+        {
+          "label": "ADL benefit duration",
+          "value": "Up to 60 months or age 80, whichever earlier",
+          "condition": "loss of 3 of 6 ADLs for at least 6 months"
+        },
+        {
+          "label": "ADL claim window",
+          "value": "Within 180 days after the accident",
+          "condition": "confirmed by a registered medical practitioner"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Hospital income and ICU benefits are Plan 2 only.",
+        "ICU benefit is payable only if hospital income is also payable for the same confinement.",
+        "Paying the ADL benefit terminates the policy.",
+        "ADL benefit requires loss of at least 3 of 6 listed daily living activities for 6 continuous months."
+      ],
+      "clientSignalPhrases": [
+        "needs daily help after a fall",
+        "worried about long recovery",
+        "wants income while hospitalised",
+        "parent needs a helper",
+        "asked about ICU cover",
+        "stroke risk in the family",
+        "wants monthly support, not a lump sum",
+        "concerned about care costs"
+      ],
+      "negativeSignalPhrases": [
+        "wants only medical bill reimbursement",
+        "needs critical illness cover",
+        "parent already needs ADL assistance"
+      ],
+      "clientProfileFit": [
+        "Seniors wanting income support during hospital stays",
+        "Families planning for long-term care costs",
+        "Clients choosing Plan 2 for broader benefits"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "If {client_detail} ends up in hospital or loses daily living independence, Plan 2 pays hospital income and ICU benefits daily and an ADL benefit for up to 60 months.",
+      "verificationPrompts": [
+        "Confirm the daily hospital income and ICU amounts in the benefits schedule.",
+        "Confirm how the ADL benefit amount is calculated."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "outpatient",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "we will pay an accidental hospital income benefit, up to 60 days for the same accident",
+        "This benefit will be paid for up to 60 months while the disability continues, or the insured reached age 80, whichever is earlier"
+      ],
+      "notesForReviewer": "Daily benefit amounts are not given in the supplied excerpt."
+    },
+    {
+      "trendId": "silvery-protect_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "Physio, acupuncture and chiropractic covered",
+      "whatProductOffers": "Reimburses accident-related bone-setting, acupuncture, physiotherapy and chiropractic treatment within the HK$20,000 per accident limit, and pays a lump sum for fractures, dislocations, internal injury or burns within 90 days.",
+      "keyFigures": [
+        {
+          "label": "Covered follow-up therapies",
+          "value": "Bone-setting, acupuncture, physiotherapy, chiropractic",
+          "condition": "medically necessary, within 52 weeks"
+        },
+        {
+          "label": "Broken bones and major injuries",
+          "value": "Lump sum per benefits schedule",
+          "condition": "injury within 90 days of the accident"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Follow-up therapies share the HK$20,000 per accident limit.",
+        "Broken bone benefit requires the injury within 90 days.",
+        "Benefit amount depends on the injury schedule, which is not in the excerpt."
+      ],
+      "clientSignalPhrases": [
+        "needs physio after a fall",
+        "sees a chiropractor regularly",
+        "wants acupuncture covered",
+        "had a wrist fracture",
+        "recovering from a dislocation",
+        "prefers Chinese medicine treatment",
+        "wants follow-up visits covered",
+        "worried about rehab costs"
+      ],
+      "negativeSignalPhrases": [
+        "wants illness-related physio",
+        "needs unlimited sessions",
+        "wants a lump sum only"
+      ],
+      "clientProfileFit": [
+        "Active seniors who use physio or chiropractic care",
+        "Clients recovering from fractures or dislocations",
+        "Seniors who prefer Chinese medicine and bone-setting"
+      ],
+      "priorityAlignment": [
+        "access",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail} who already sees a physio, the plan reimburses bone-setting, acupuncture, physiotherapy and chiropractic within the accident limit.",
+      "verificationPrompts": [
+        "Confirm whether provider referrals are required.",
+        "Confirm the broken bone benefit amounts by injury type."
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "annual_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "A range of medically necessary treatments and services are covered, including but not limited to hospitalisation, surgery, bone-setting, acupuncture, physiotherapy and chiropractic treatment."
+      ],
+      "notesForReviewer": "No separate outpatient sub-limit is stated; therapies share the per-accident maximum."
+    },
+    {
+      "trendId": "silvery-protect_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Accident cover to age 80",
+      "whatProductOffers": "Offers personal accident protection up to HK$/MOP1,000,000 for applicants aged 66-75, with cover continuing to age 80 and a compassionate death benefit.",
+      "keyFigures": [
+        {
+          "label": "Issue age",
+          "value": "Age 66-75",
+          "condition": "at application"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Up to age 80",
+          "condition": "policy in force"
+        },
+        {
+          "label": "Personal accident protection",
+          "value": "Up to HK$/MOP1,000,000",
+          "condition": "plan and sum assured selected"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Applicants must be aged 66-75 at application; cover ends at age 80.",
+        "Sum assured depends on the plan selected and underwriting.",
+        "Compassionate death benefit terms are not detailed in the excerpt."
+      ],
+      "clientSignalPhrases": [
+        "dad is 68 and uninsured",
+        "parents have no accident cover",
+        "wants cover for mum in her 70s",
+        "retired, no company cover",
+        "wants something until 80",
+        "worried about elderly accidents",
+        "buying for elderly parents",
+        "asked if 70-year-old can apply"
+      ],
+      "negativeSignalPhrases": [
+        "parent is 81",
+        "wants cover from birth",
+        "needs illness cover instead"
+      ],
+      "clientProfileFit": [
+        "Seniors aged 66-75 with no employer cover",
+        "Adult children arranging parents' protection",
+        "Retirees wanting cover through their 70s"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail} who is 68 and retired, this is one of the few plans that accepts applicants up to 75 and covers them to age 80.",
+      "verificationPrompts": [
+        "Confirm the maximum sum assured available at the applicant's age.",
+        "Confirm whether medical underwriting applies at 66-75."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Insured's Age at Application Age 66 – 75",
+        "Benefit Term Up to age 80",
+        "Personal accident protection up to HK$/MOP1,000,000"
+      ],
+      "notesForReviewer": "Underwriting requirements for this age band are not stated."
+    },
+    {
+      "trendId": "silvery-protect_international_coverage",
+      "trendCategory": "international_coverage",
+      "isNewCategory": false,
+      "trendName": "HK$5m worldwide emergency assistance",
+      "whatProductOffers": "Provides worldwide emergency medical evacuation and repatriation of remains up to HK$/MOP5,000,000 per life, plus a 24-hour worldwide telephone enquiry service.",
+      "keyFigures": [
+        {
+          "label": "Emergency assistance limit",
+          "value": "HK$/MOP5,000,000 per life",
+          "condition": "aggregate across AIA policies on the same insured"
+        },
+        {
+          "label": "Availability",
+          "value": "24-hour worldwide",
+          "condition": "for permanent residents of Hong Kong or Macau"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Limit is shared across all AIA policies covering the same insured.",
+        "Covers evacuation and repatriation, not routine overseas medical treatment.",
+        "Only for permanent residents of Hong Kong or Macau."
+      ],
+      "clientSignalPhrases": [
+        "parents travel to see grandkids",
+        "worried about overseas accidents",
+        "snowbirds in winter",
+        "wants evacuation cover for mum",
+        "travels to China often",
+        "asked about repatriation",
+        "wants a 24-hour hotline",
+        "family lives abroad"
+      ],
+      "negativeSignalPhrases": [
+        "needs overseas hospital bills paid",
+        "never leaves Hong Kong",
+        "wants local clinic cover only"
+      ],
+      "clientProfileFit": [
+        "Seniors who travel to visit family abroad",
+        "Retirees spending part of the year overseas",
+        "Families wanting evacuation support for elderly parents"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "Because {client_detail} travels to visit grandchildren, the plan includes up to HK$5,000,000 for emergency evacuation and repatriation worldwide.",
+      "verificationPrompts": [
+        "Confirm how the assistance service is activated overseas.",
+        "Confirm whether the limit is shared with other AIA policies."
+      ],
+      "comparisonRows": [
+        "network_access",
+        "annual_limit"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "emergency medical evacuation and repatriation of remains, with a per life limit of up to HK$/MOP5,000,000 (under all policies held with us and AIA Company Limited covering the same insured)"
+      ],
+      "notesForReviewer": "This is an assistance service, not overseas medical expense cover."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "silvery-protect_hospital_cost_protection",
+    "bestForOneLiner": "An accident plan for ages 66-75 with HK$20,000 per-accident medical reimbursement, hospital and ICU income, and cover to age 80.",
+    "notSuitedWhen": [
+      "The applicant is under 66 or over 75",
+      "The client needs illness or critical illness cover",
+      "The client wants cover beyond age 80"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table and sum assured options",
+      "Per-item benefit schedule and sub-limits",
+      "Full exclusions and underwriting rules",
+      "Compassionate death benefit amount"
+    ]
+  }
+}

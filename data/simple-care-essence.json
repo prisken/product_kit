@@ -1,0 +1,296 @@
+{
+  "productId": "simple-care-essence",
+  "productName": "Simple Care Essence",
+  "productType": "critical illness insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "simple-care-essence_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "5-year renewable, 20% discount",
+      "whatProductOffers": "A 5-year renewable critical illness plan positioned as budget-friendly, with a permanent 20% premium discount above a specified sum assured and an instant 10% first-year discount for AIA Vitality members.",
+      "keyFigures": [
+        {
+          "label": "Renewal term",
+          "value": "5 years",
+          "condition": "renewable plan"
+        },
+        {
+          "label": "Permanent premium discount",
+          "value": "20%",
+          "condition": "above a specified sum assured, standard premiums only"
+        },
+        {
+          "label": "First-year discount",
+          "value": "10%",
+          "condition": "AIA Vitality members, first year only"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Discounts apply to standard premiums only, not extra premiums from loading.",
+        "The 20% discount requires a sum assured above a specified threshold.",
+        "AIA Vitality charges an annual membership fee and must be renewed on time.",
+        "Premium is not guaranteed beyond each 5-year renewal period."
+      ],
+      "clientSignalPhrases": [
+        "tight budget",
+        "just started working",
+        "wants cheap CI cover",
+        "can't afford whole life",
+        "asked about renewal",
+        "wants to try CI cover first",
+        "young couple, low income",
+        "wants a discount",
+        "already on AIA Vitality"
+      ],
+      "negativeSignalPhrases": [
+        "wants premiums fixed for life",
+        "needs guaranteed renewability to 100",
+        "wants a savings plan"
+      ],
+      "clientProfileFit": [
+        "Young adults entering the workforce",
+        "Budget-constrained families needing basic CI cover",
+        "Existing AIA Vitality members"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail} on a tight budget, this is a 5-year renewable CI plan with a 20% permanent discount above the specified sum assured and 10% off the first year with AIA Vitality.",
+      "verificationPrompts": [
+        "Confirm the specified sum assured threshold for the 20% discount.",
+        "Show the renewal premium at the 5-year mark and the maximum renewal age."
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability",
+        "ci_coverage"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Giving you budget-friendly protection against a broad range of health challenges, Simple Care Essence is a 5-year renewable plan",
+        "You can enjoy a permanent 20% premium discount^ above a specified sum assured, and an instant 10% premium discount for the first year if you join AIA Vitality."
+      ],
+      "notesForReviewer": "The specified sum assured threshold and actual premium tables are not in the excerpt."
+    },
+    {
+      "trendId": "simple-care-essence_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "115 illnesses, early to late stage",
+      "whatProductOffers": "Covers 115 major and minor illnesses, including early and late-stage critical illnesses and severe child diseases, with a lump-sum payout and life protection.",
+      "keyFigures": [
+        {
+          "label": "Illnesses covered",
+          "value": "115",
+          "condition": "major and minor illnesses"
+        },
+        {
+          "label": "Coverage scope",
+          "value": "Early and late-stage critical illnesses plus severe child diseases",
+          "condition": "named conditions"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Up to age 80",
+          "condition": "policy in force"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 65",
+          "condition": "at application"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Cover is limited to the 115 named illnesses.",
+        "Benefit term ends at age 80, not whole life.",
+        "Waiting period and exclusions are not stated in the excerpt."
+      ],
+      "clientSignalPhrases": [
+        "wants wide illness cover",
+        "family history of cancer",
+        "asked how many illnesses",
+        "wants early stage covered",
+        "has a young child",
+        "needs cover until 80",
+        "wants a lump sum",
+        "compared with whole life CI"
+      ],
+      "negativeSignalPhrases": [
+        "wants lifetime cover to 100",
+        "needs savings growth",
+        "only wants hospital reimbursement"
+      ],
+      "clientProfileFit": [
+        "Parents wanting child disease cover",
+        "Adults 30-50 needing broad CI cover on a budget",
+        "Clients who want early stage cover without whole life premiums"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, one plan covers 115 illnesses including early stage conditions and severe child diseases, up to age 80.",
+      "verificationPrompts": [
+        "Confirm the breakdown of major versus minor illnesses.",
+        "Confirm the waiting period for early stage conditions."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "lifetime_limit"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "This plan also offers life protection ... Simple Care Essence is a 5-year renewable plan that covers as many as 115 major and minor illnesses, including early and late-stage critical illnesses and severe child diseases."
+      ],
+      "notesForReviewer": "The illness list and payout percentages are not in the excerpt."
+    },
+    {
+      "trendId": "simple-care-essence_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Convert to whole life by 70",
+      "whatProductOffers": "Can be taken as a stand-alone basic plan or as an add-on to specified basic plans, and includes a conversion privilege to a whole life or whole life with critical illness plan on or before the anniversary following the insured's 70th birthday.",
+      "keyFigures": [
+        {
+          "label": "Plan form",
+          "value": "Basic plan or add-on plan",
+          "condition": "add-on attaches to specified basic plans"
+        },
+        {
+          "label": "Conversion deadline",
+          "value": "On or before the anniversary following age 70",
+          "condition": "subject to additional premium and available products"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Conversion is subject to additional premium.",
+        "Only products then made available for the conversion privilege can be chosen.",
+        "Conversion is not guaranteed to be at the original premium rate."
+      ],
+      "clientSignalPhrases": [
+        "wants to start small",
+        "already has a basic plan",
+        "wants to upgrade later",
+        "asked about converting to whole life",
+        "not ready for whole life premiums",
+        "wants cover that grows with him",
+        "planning to convert at 60",
+        "wants an add-on rider"
+      ],
+      "negativeSignalPhrases": [
+        "wants whole life from day one",
+        "needs a guaranteed conversion product",
+        "wants no future underwriting"
+      ],
+      "clientProfileFit": [
+        "Clients who want to start with term and upgrade later",
+        "Existing policyholders adding a CI rider",
+        "Younger buyers with rising income"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail} who is not ready for whole life premiums, this starts as a renewable plan and can be converted to whole life or whole life with CI up to the anniversary after age 70.",
+      "verificationPrompts": [
+        "Confirm which basic plans accept Simple Care Essence as an add-on.",
+        "Confirm the conversion terms and any new underwriting at conversion."
+      ],
+      "comparisonRows": [
+        "renewability",
+        "add_ons",
+        "premium"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "the option to convert your term plan to a whole life or whole life with critical illness protection plan",
+        "The conversion privilege is available on or before the anniversary of cover immediately following the insured's 70th birthday"
+      ],
+      "notesForReviewer": "Conversion wording partly from the product webpage notes."
+    },
+    {
+      "trendId": "simple-care-essence_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Severe child diseases and life cover",
+      "whatProductOffers": "Includes severe child diseases within the 115 covered illnesses and provides life protection alongside the critical illness lump sum.",
+      "keyFigures": [
+        {
+          "label": "Child disease cover",
+          "value": "Included in 115 illnesses",
+          "condition": "severe child diseases named in the policy"
+        },
+        {
+          "label": "Life protection",
+          "value": "Included",
+          "condition": "death benefit terms per policy"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Child disease cover applies only to the named severe child conditions.",
+        "The death benefit amount and its interaction with CI payouts are not stated in the excerpt.",
+        "Cover ends at age 80."
+      ],
+      "clientSignalPhrases": [
+        "just had a baby",
+        "worried about child illnesses",
+        "wants cover for the kids",
+        "young family",
+        "single parent",
+        "needs life cover too",
+        "asked about child diseases",
+        "planning a second child"
+      ],
+      "negativeSignalPhrases": [
+        "no dependants",
+        "wants adult CI only",
+        "needs education savings"
+      ],
+      "clientProfileFit": [
+        "New parents",
+        "Single parents",
+        "Families wanting CI and life cover in one plan"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail} with a young child, the 115 illnesses include severe child diseases and the plan also carries life protection.",
+      "verificationPrompts": [
+        "Confirm the list of severe child diseases covered.",
+        "Confirm the death benefit amount relative to the sum assured."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "lifetime_limit"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "This plan also offers life protection as well as the option to convert your term plan",
+        "covers as many as 115 major and minor illnesses, including early and late-stage critical illnesses and severe child diseases"
+      ],
+      "notesForReviewer": "Life protection details are thin in the excerpt; no death benefit amount given."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "simple-care-essence_budget_friendly_entry",
+    "bestForOneLiner": "A budget-friendly 5-year renewable critical illness plan covering 115 illnesses up to age 80, with conversion to whole life by age 70.",
+    "notSuitedWhen": [
+      "The client wants premiums fixed for life",
+      "The client needs cover beyond age 80",
+      "The client wants a savings or investment element"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table and discount threshold",
+      "Waiting period and full exclusions",
+      "Illness list and payout percentages",
+      "Renewal premium schedule"
+    ]
+  }
+}

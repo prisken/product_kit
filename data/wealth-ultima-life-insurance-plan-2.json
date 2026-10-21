@@ -1,0 +1,214 @@
+{
+  "productId": "wealth-ultima-life-insurance-plan-2",
+  "productName": "Wealth Ultima Life Insurance Plan 2",
+  "productType": "universal life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "wealth-ultima-life-insurance-plan-2_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "UHNW legacy structuring",
+      "whatProductOffers": "A universal life plan written for ultra-high net worth individuals, requiring a minimum Current Sum Assured of US$10,000,000 and designed to be structured around estate planning arrangements.",
+      "keyFigures": [
+        {
+          "label": "Minimum Current Sum Assured",
+          "value": "US$10,000,000",
+          "condition": "at policy issue"
+        },
+        {
+          "label": "Plan type",
+          "value": "Universal life",
+          "condition": "whole-life insurance protection"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The US$10,000,000 minimum is a Current Sum Assured floor, not a premium figure; the corresponding minimum premium is not in the excerpt.",
+        "Estate duty, probate and trust interaction are not addressed in the supplied text.",
+        "Amounts owed to the company are deducted before the death benefit is paid (standard terms, detail not supplied)."
+      ],
+      "clientSignalPhrases": [
+        "ultra high net worth family",
+        "needs a US$10m+ death benefit",
+        "succession for a family business",
+        "estate is mostly property and shares",
+        "wants liquidity for estate taxes abroad",
+        "three generations to fund",
+        "policy inside a trust",
+        "needs a big cover without medicals",
+        "considers HK a base, assets global",
+        "single premium capacity"
+      ],
+      "negativeSignalPhrases": [
+        "needs cover under US$1m",
+        "wants a simple savings plan",
+        "premium budget under US$100k"
+      ],
+      "clientProfileFit": [
+        "UHNW individuals and families",
+        "Business owners with concentrated shareholdings",
+        "Families funding multi-generational trusts"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan starts at a US$10,000,000 Current Sum Assured and is built to fit the family's estate structure rather than a retail template.",
+      "verificationPrompts": [
+        "Confirm minimum premium corresponding to the US$10,000,000 Current Sum Assured.",
+        "Confirm underwriting and financial-evidence requirements for UHNW cases.",
+        "Confirm trust or beneficiary nomination mechanics."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"a universal life insurance plan specifically designed for ultra-high net worth individuals\"",
+        "\"With a minimum Current Sum Assured of US$10,000,000\""
+      ],
+      "notesForReviewer": "Brochure excerpt stops at 4,834 characters; charges and full exclusions not included."
+    },
+    {
+      "trendId": "wealth-ultima-life-insurance-plan-2_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed 2.00% crediting floor",
+      "whatProductOffers": "Wealth accumulated in the policy earns a guaranteed minimum crediting interest rate of 2.00% per annum for the duration of the policy, with any higher declared rate adding to that floor.",
+      "keyFigures": [
+        {
+          "label": "Minimum crediting interest rate",
+          "value": "2.00% per annum",
+          "condition": "guaranteed for the duration of the policy"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The 2.00% figure is a minimum crediting rate, not a total return; charges are deducted separately.",
+        "Declared rates above the floor are not guaranteed and are not quantified in the excerpt.",
+        "Early surrender can return less than premiums paid; the surrender schedule is not in the supplied text."
+      ],
+      "clientSignalPhrases": [
+        "needs a guaranteed rate on large cash",
+        "parking US$10m for the next generation",
+        "doesn't want market risk",
+        "family office wants a floor",
+        "wants bond-like certainty",
+        "comparing with treasuries",
+        "capital preservation first",
+        "long-dated USD placement",
+        "no appetite for drawdown",
+        "wants a known minimum"
+      ],
+      "negativeSignalPhrases": [
+        "wants equity-like returns",
+        "needs annual income now",
+        "may need the capital in 5 years"
+      ],
+      "clientProfileFit": [
+        "Family offices",
+        "UHNW clients with a long horizon",
+        "Clients replacing low-yield deposits"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the guaranteed 2.00% per annum minimum crediting rate puts a floor under the legacy regardless of the declared rate cycle.",
+      "verificationPrompts": [
+        "Confirm declared crediting rate history against the 2.00% floor.",
+        "Obtain the cost-of-insurance and charge schedule for the target sum assured.",
+        "Confirm surrender values in years 1-10."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"guaranteeing a minimum crediting interest rate of 2.00% per annum for the duration of your policy\""
+      ],
+      "notesForReviewer": "Guarantee covers the crediting rate only."
+    },
+    {
+      "trendId": "wealth-ultima-life-insurance-plan-2_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Guaranteed cost of insurance",
+      "whatProductOffers": "The monthly cost of insurance is charged at a guaranteed rate, so the charge for the protection element does not increase unexpectedly over the life of the policy.",
+      "keyFigures": [
+        {
+          "label": "Cost of insurance",
+          "value": "Guaranteed rate",
+          "condition": "payable monthly, fixed for the duration of the policy"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "A guaranteed COI rate fixes the rate basis; it does not fix the total monthly charge if the sum assured or account value changes.",
+        "The actual COI rate table is not included in the supplied excerpt.",
+        "Other policy charges may still apply and are not itemised in the text."
+      ],
+      "clientSignalPhrases": [
+        "worried charges go up with age",
+        "wants a fixed cost of insurance",
+        "hates surprise deductions",
+        "needs predictable policy costs",
+        "family office budgeting",
+        "long-term cost certainty",
+        "compare with other UL plans that reprice",
+        "wants the death benefit cost locked",
+        "reviewing an existing policy with rising COI"
+      ],
+      "negativeSignalPhrases": [
+        "wants a fully fixed total premium",
+        "expects no charges at all",
+        "needs a short-term policy"
+      ],
+      "clientProfileFit": [
+        "Clients comparing universal life cost structures",
+        "Long-horizon estate policies",
+        "Clients previously hit by COI increases"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the cost of insurance is locked at a guaranteed rate, so the protection charge does not creep up as the insured ages.",
+      "verificationPrompts": [
+        "Request the guaranteed COI rate table for the proposed sum assured.",
+        "Confirm how the monthly COI is calculated against the net amount at risk.",
+        "Confirm whether other charges are also guaranteed."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "\"you enjoy a guaranteed rate on your cost of insurance, meaning it will never increase unexpectedly throughout the duration of your policy\""
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "wealth-ultima-life-insurance-plan-2_legacy_and_estate",
+    "bestForOneLiner": "A US$10,000,000-minimum universal life policy for ultra-high net worth estate transfer, with a guaranteed 2.00% crediting floor and guaranteed cost of insurance.",
+    "notSuitedWhen": [
+      "The client needs less than US$10,000,000 of cover",
+      "The client wants an equity-linked return",
+      "The client needs income rather than a death benefit"
+    ],
+    "gapsInSourceMaterial": [
+      "Minimum premium for the US$10,000,000 sum assured",
+      "Full COI and charge tables",
+      "Surrender schedule",
+      "Complete exclusions and policy loan terms"
+    ]
+  }
+}

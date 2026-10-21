@@ -1,0 +1,346 @@
+{
+  "productId": "cancer-guardian-3",
+  "productName": "Cancer Guardian 3",
+  "productType": "medical insurance (cancer reimbursement)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "cancer-guardian-3_hospital_cost_protection",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "No itemised sublimits for cancer care",
+      "whatProductOffers": "Covers diagnostic tests, cancer treatments, medication, reconstructive surgery and monitoring with no itemised benefit sublimit under those four benefit categories.",
+      "keyFigures": [
+        {
+          "label": "Itemised sublimits",
+          "value": "none",
+          "condition": "Diagnostic, Cancer Treatment, Reconstructive Surgery and Monitoring Benefits"
+        },
+        {
+          "label": "Covered cancer",
+          "value": "all stages of malignant cancer and carcinoma-in-situ",
+          "condition": "occurring more than 90 days after policy issue or commencement"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Covered cancer must have occurred more than 90 days after the policy is issued or commences, whichever is later.",
+        "No itemised sublimit applies only within the four named benefit categories; other benefits may still have limits.",
+        "Benefit amounts and the annual or lifetime limit are not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "worried about cancer drug costs",
+        "wants full cover not sublimits",
+        "private hospital cancer treatment",
+        "targeted therapy expensive",
+        "reconstructive surgery after mastectomy",
+        "wants scans and monitoring covered",
+        "cancer recurrence fear",
+        "needs chemo and radiotherapy cover",
+        "hospital bill shocked them"
+      ],
+      "negativeSignalPhrases": [
+        "needs a cash lump sum on diagnosis",
+        "wants cover from day one of policy"
+      ],
+      "clientProfileFit": [
+        "Clients facing private cancer treatment costs",
+        "People with family history of cancer wanting treatment cover",
+        "Buyers who dislike itemised sublimits"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, diagnostic tests, treatment, reconstructive surgery and monitoring carry no itemised sublimits.",
+      "verificationPrompts": [
+        "Confirm the benefit amounts and any annual limit in the benefit schedule.",
+        "Confirm the 90-day covered cancer condition wording.",
+        "Confirm whether reconstructive surgery requires pre-approval."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "outpatient",
+        "waiting_period",
+        "network_access"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Diagnostic tests, cancer treatments, medication, reconstructive surgery and monitoring are fully covered^ to ease your financial burden",
+        "^ Fully covered shall mean no itemised benefit sublimit under Diagnostic Benefit, Cancer Treatment Benefits, Reconstructive Surgery Benefit and Monitoring Benefit."
+      ],
+      "notesForReviewer": "Dollar limits per benefit are not in the extracted text."
+    },
+    {
+      "trendId": "cancer-guardian-3_hospital_cost_protection_experimental_drugs",
+      "trendCategory": "hospital_cost_protection",
+      "isNewCategory": false,
+      "trendName": "Experimental drug benefit",
+      "whatProductOffers": "Provides a benefit for experimental drugs used in cancer treatment, described as a first-in-market benefit among similar cancer protection products from major Hong Kong insurers as of 1 September 2022.",
+      "keyFigures": [
+        {
+          "label": "Experimental drug cover",
+          "value": "covered",
+          "condition": "first-in-market claim as of 1 September 2022"
+        },
+        {
+          "label": "Market comparison",
+          "value": "major Hong Kong insurers",
+          "condition": "similar cancer protection products"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The first-in-market claim is a point-in-time comparison as of 1 September 2022, not a current guarantee.",
+        "The benefit amount, eligible drug list and approval process are not in the extracted text.",
+        "Experimental drugs are generally not covered by other medical products, including high-end medical plans, so this is a gap-filler rather than an alternative to a full medical plan."
+      ],
+      "clientSignalPhrases": [
+        "late stage cancer options",
+        "experimental drug not covered elsewhere",
+        "wants access to new treatments",
+        "immunotherapy costs",
+        "other plan excludes experimental drugs",
+        "wants cover beyond standard drugs",
+        "hospital bill shocked them",
+        "wants scans covered",
+        "needs surgery cover"
+      ],
+      "negativeSignalPhrases": [
+        "wants guaranteed access to any drug",
+        "needs cover for unapproved treatments abroad"
+      ],
+      "clientProfileFit": [
+        "Clients with late-stage cancer concerns in the family",
+        "Buyers who already hold a high-end medical plan but lack drug cover"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "{client_detail} gets a benefit for experimental drugs that most medical plans exclude.",
+      "verificationPrompts": [
+        "Confirm the experimental drug benefit limit and eligible drug definition.",
+        "Confirm whether pre-approval is required.",
+        "Confirm the benefit is still described as first-in-market in current materials."
+      ],
+      "comparisonRows": [
+        "annual_limit",
+        "add_ons",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Cancer Guardian 3 offers the first-in-market benefit for experimental drug in comparison against similar cancer protection insurance products provided by major Hong Kong insurance companies as of 1 September 2022."
+      ],
+      "notesForReviewer": "No benefit limit or drug list in the extracted text."
+    },
+    {
+      "trendId": "cancer-guardian-3_outpatient_and_followup",
+      "trendCategory": "outpatient_and_followup",
+      "isNewCategory": false,
+      "trendName": "Prevention, screening and family checks",
+      "whatProductOffers": "Reimburses HPV vaccination and cancer screening for the insured, and provides preventive cancer check-ups for up to 2 immediate family members if the insured is diagnosed with a covered cancer.",
+      "keyFigures": [
+        {
+          "label": "Family check-ups",
+          "value": "up to 2 immediate family members",
+          "condition": "if the insured is diagnosed with a covered cancer"
+        },
+        {
+          "label": "Prevention cover",
+          "value": "HPV vaccination and cancer screening",
+          "condition": "reimbursed"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Predictive expenses are limited to pap smear under the Prevention and Early Detection Benefits; other predictive tests are not covered.",
+        "Family member check-ups are triggered only by the insured's covered cancer diagnosis.",
+        "Amounts for vaccination and screening are not in the extracted text."
+      ],
+      "clientSignalPhrases": [
+        "wants screening covered",
+        "HPV vaccine for daughter",
+        "family history, wants early detection",
+        "prevention not just treatment",
+        "pap smear covered?",
+        "wants spouse checked too",
+        "wants follow-up visits covered",
+        "asks about dental",
+        "wants outpatient cover"
+      ],
+      "negativeSignalPhrases": [
+        "wants full body check-up annually",
+        "expects genetic testing covered"
+      ],
+      "clientProfileFit": [
+        "Families with cancer history",
+        "Parents wanting HPV vaccination and screening covered",
+        "Prevention-minded clients"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "access"
+      ],
+      "talkingPointTemplate": "{client_detail} gets screening and HPV vaccination reimbursed, and two family members can be checked if cancer is diagnosed.",
+      "verificationPrompts": [
+        "Confirm the reimbursement limit for HPV vaccination and screening.",
+        "Confirm the definition of immediate family member for the check-up benefit.",
+        "Confirm that only pap smear is covered for predictive purposes."
+      ],
+      "comparisonRows": [
+        "outpatient",
+        "annual_limit",
+        "network_access"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "HPV vaccination and cancer screening to lower cancer risks and screen early-stage cancer proactively, with such expenses can be reimbursed",
+        "Preventive cancer check-ups for up to 2 immediate family members if the insured is diagnosed with a covered cancer"
+      ],
+      "notesForReviewer": "Reimbursement amounts not stated."
+    },
+    {
+      "trendId": "cancer-guardian-3_pre_existing_or_chronic_support",
+      "trendCategory": "pre_existing_or_chronic_support",
+      "isNewCategory": false,
+      "trendName": "Limit replenishes every 3 years",
+      "whatProductOffers": "Provides continuous protection for cancer as a chronic disease by replenishing the covered cancer limit every 3 years, addressing recurrence and long treatment periods.",
+      "keyFigures": [
+        {
+          "label": "Limit replenishment",
+          "value": "every 3 years",
+          "condition": "covered cancer limit"
+        },
+        {
+          "label": "Recurrence context",
+          "value": "ovarian 85%, prostate 48%",
+          "condition": "cited recurrence rates"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Replenishment applies to the covered cancer limit only; the replenished amount is not stated in the extracted text.",
+        "Covered cancer must satisfy the 90-day condition after policy issue or commencement.",
+        "The plan is a cancer plan; non-cancer chronic conditions are not covered."
+      ],
+      "clientSignalPhrases": [
+        "worried cancer comes back",
+        "long treatment, limit runs out",
+        "wants cover for recurrence",
+        "cancer as chronic disease",
+        "treatment over many years",
+        "needs limit that resets",
+        "worried about exclusions",
+        "condition runs in the family",
+        "long treatment over years"
+      ],
+      "negativeSignalPhrases": [
+        "wants one large lifetime limit",
+        "needs cover for non-cancer illness"
+      ],
+      "clientProfileFit": [
+        "Clients with strong cancer recurrence concerns",
+        "Survivors wanting ongoing monitoring cover",
+        "Families with multiple cancer histories"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "Because cancer can recur, {client_detail}'s covered cancer limit replenishes every 3 years instead of being used up once.",
+      "verificationPrompts": [
+        "Confirm the replenished amount and whether it applies after a claim or after 3 policy years.",
+        "Confirm whether recurrence is covered within the replenished limit."
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "annual_limit",
+        "ci_coverage"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Continuous protection with covered cancer limit replenishes every 3 years",
+        "Cancer is now a chronic disease with prolonged treatment and recovery periods. It also carries recurrence risk"
+      ],
+      "notesForReviewer": "Replenished amount and mechanics not detailed in the extracted text."
+    },
+    {
+      "trendId": "cancer-guardian-3_fast_access_and_convenience",
+      "trendCategory": "fast_access_and_convenience",
+      "isNewCategory": false,
+      "trendName": "Cashless hospital and case management",
+      "whatProductOffers": "Offers local cashless hospitalisation, personal medical case management with rehabilitation management, and the Health Pilot service to support the insured through diagnosis, treatment and recovery.",
+      "keyFigures": [
+        {
+          "label": "Cashless hospitalisation",
+          "value": "local",
+          "condition": "removes upfront payment of medical bills"
+        },
+        {
+          "label": "Case management",
+          "value": "personal medical case management",
+          "condition": "with rehabilitation management"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Value-added services are not contractual, are non-guaranteed and are offered at the insurer's discretion.",
+        "Cashless service is local; overseas treatment is not cashless.",
+        "Service scope and provider list may change without notice."
+      ],
+      "clientSignalPhrases": [
+        "worried about paying upfront",
+        "wants cashless hospital",
+        "needs someone to guide treatment",
+        "diagnosis overwhelming",
+        "wants rehab support",
+        "single person household",
+        "wants claim paid quickly",
+        "hates paperwork",
+        "needs cash fast"
+      ],
+      "negativeSignalPhrases": [
+        "wants overseas cashless cover",
+        "expects services guaranteed in contract"
+      ],
+      "clientProfileFit": [
+        "Clients without cash buffer for hospital deposits",
+        "Patients needing navigation support after diagnosis"
+      ],
+      "priorityAlignment": [
+        "access"
+      ],
+      "talkingPointTemplate": "For {client_detail}, local hospital bills are settled cashless and a case manager coordinates treatment and rehab.",
+      "verificationPrompts": [
+        "Confirm the current cashless hospital network.",
+        "Confirm that value-added services are non-contractual."
+      ],
+      "comparisonRows": [
+        "network_access",
+        "outpatient"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "Local cashless hospitalisation to remove the hassles of paying your medical bills",
+        "Personal medical case management services with rehabilitation management to get you medical support",
+        "Value-added services are not contractual services and non-guaranteed"
+      ],
+      "notesForReviewer": "Service details sit in a separate service leaflet, not in the extracted text."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "cancer-guardian-3_hospital_cost_protection",
+    "bestForOneLiner": "A cancer reimbursement plan covering all stages with no itemised sublimits, experimental drugs and a limit that replenishes every 3 years.",
+    "notSuitedWhen": [
+      "The client wants a lump sum paid on diagnosis rather than reimbursement.",
+      "The client needs cover for non-cancer conditions.",
+      "The client needs cover within the first 90 days of the policy."
+    ],
+    "gapsInSourceMaterial": [
+      "Benefit limits and annual or lifetime maximum",
+      "Premium table and age limits at application",
+      "Detail of the experimental drug benefit limit"
+    ]
+  }
+}

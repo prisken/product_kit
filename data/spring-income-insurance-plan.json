@@ -1,0 +1,366 @@
+{
+  "productId": "spring-income-insurance-plan",
+  "productName": "Spring Income Insurance Plan",
+  "productType": "savings insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "spring-income-insurance-plan_income_or_lifestyle_support",
+      "trendCategory": "income_or_lifestyle_support",
+      "isNewCategory": false,
+      "trendName": "Level or increasing annual income",
+      "whatProductOffers": "Pays guaranteed annual income throughout the income period, with a choice of level mode (fixed amount each year) or increasing mode (income rises annually to counter inflation).",
+      "keyFigures": [
+        {
+          "label": "Income payment modes",
+          "value": "2",
+          "condition": "Level mode and increasing mode"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to age 80",
+          "condition": "All premium payment terms"
+        },
+        {
+          "label": "Policy currencies",
+          "value": "2",
+          "condition": "US dollars and HK dollars"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The guaranteed cash value eventually decreases when guaranteed annual income begins.",
+        "The extract does not quantify how much the income increases each year under increasing mode.",
+        "Annual Dividends are non-guaranteed."
+      ],
+      "clientSignalPhrases": [
+        "wants annual income, not monthly",
+        "worried about inflation eating the payout",
+        "wants income to grow each year",
+        "retiring soon and needs steady cash",
+        "wants a simple income plan",
+        "asked about level versus increasing payout",
+        "wants income paid yearly",
+        "planning for 15 to 20 years of retirement"
+      ],
+      "negativeSignalPhrases": [
+        "needs monthly income",
+        "wants maximum initial payout with no growth",
+        "needs the capital fully liquid"
+      ],
+      "clientProfileFit": [
+        "Retirees aged 55 to 80 wanting annual income",
+        "Clients worried about inflation",
+        "Savers who prefer yearly over monthly payouts",
+        "Parents buying income for a child"
+      ],
+      "priorityAlignment": [
+        "access",
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan pays guaranteed annual income that can stay level or step up each year.",
+      "verificationPrompts": [
+        "Ask whether the client prefers level or increasing income",
+        "Confirm the income start date needed",
+        "Check the client's inflation concern",
+        "Confirm the currency"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "lifetime_limit",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Spring Income Insurance Plan offers guaranteed annual income throughout the income period.",
+        "Level mode: A fixed guaranteed annual income is paid yearly giving you greater stability during retirement.",
+        "Increasing mode: Guaranteed annual income paid out increases annually, alleviating the effects of inflation over the long term."
+      ],
+      "notesForReviewer": "The income table in the source is partly garbled; income period lengths by premium term could not be reliably read."
+    },
+    {
+      "trendId": "spring-income-insurance-plan_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "One to five year premiums",
+      "whatProductOffers": "Choose a one-time premium payment or spread premiums over 3 or 5 years; premium amounts are guaranteed to be fixed throughout the premium payment term.",
+      "keyFigures": [
+        {
+          "label": "Premium payment terms",
+          "value": "3",
+          "condition": "One-time, 3 years, 5 years"
+        },
+        {
+          "label": "Payment modes",
+          "value": "Single premium, annually, monthly",
+          "condition": "Single premium only for one-time premium policies"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Single premium mode applies only to one-time premium payment policies.",
+        "The extract does not give minimum premium amounts.",
+        "Premiums are fixed but must be paid for the full term to keep the policy in force."
+      ],
+      "clientSignalPhrases": [
+        "wants to pay once and forget it",
+        "can only commit 3 years",
+        "wants premiums done in 5 years",
+        "has a lump sum from a maturing deposit",
+        "doesn't want a long premium term",
+        "wants to pay monthly",
+        "selling a property, wants single premium",
+        "wants a short premium term",
+        "asked if premiums can change"
+      ],
+      "negativeSignalPhrases": [
+        "needs to spread over 10 or more years",
+        "cannot pay a lump sum",
+        "may miss premium payments"
+      ],
+      "clientProfileFit": [
+        "Clients with a maturing deposit or lump sum",
+        "Near-retirees wanting premiums finished quickly",
+        "Savers who dislike long commitments"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, premiums can be paid once, over 3 years or over 5 years, and are fixed for the term.",
+      "verificationPrompts": [
+        "Confirm the client's available lump sum",
+        "Check whether monthly payment is needed",
+        "Confirm the client can complete the term"
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "You can choose a one-time premium payment, or you can spread payments over a 3-year or 5-year period",
+        "Premium amounts are guaranteed to be fixed throughout the premium payment term",
+        "Different premium payment modes are available for this plan, including as a single premium (only applicable for one time premium payment policies), annually and monthly."
+      ],
+      "notesForReviewer": "No premium table in the extract, so affordability cannot be assessed."
+    },
+    {
+      "trendId": "spring-income-insurance-plan_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Adjust income period once",
+      "whatProductOffers": "For 3-year and 5-year premium payment policies, the income period can be extended or shortened once, within 6 months before the income period begins, with policy values adjusted to the new period.",
+      "keyFigures": [
+        {
+          "label": "Adjustment frequency",
+          "value": "Once",
+          "condition": "3-year or 5-year premium payment policy"
+        },
+        {
+          "label": "Adjustment window",
+          "value": "Within 6 months before the income period begins",
+          "condition": "Before income starts"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Not available for one-time premium payment policies.",
+        "Only one extension or shortening is allowed.",
+        "All subsequent guaranteed and non-guaranteed policy values are adjusted according to the new income period.",
+        "No change is possible after the income period begins."
+      ],
+      "clientSignalPhrases": [
+        "not sure when he will retire",
+        "may retire later than planned",
+        "wants to shorten the payout period",
+        "asked if can change the income period",
+        "retirement date depends on the property sale",
+        "wants to keep options open until income starts",
+        "retirement date not fixed",
+        "may extend the payout",
+        "wants to decide the period later"
+      ],
+      "negativeSignalPhrases": [
+        "wants to change the income period every year",
+        "chose a one-time premium",
+        "needs certainty on the exact payout period now"
+      ],
+      "clientProfileFit": [
+        "Clients with an uncertain retirement date",
+        "Savers who may need a longer or shorter income stream",
+        "Planners building in a decision point before income starts"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the income period can be extended or shortened once in the 6 months before income starts.",
+      "verificationPrompts": [
+        "Confirm the premium payment term",
+        "Note the 6-month window in the diary before income start",
+        "Explain that policy values change with the period"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "On a one-time basis, you can extend or shorten your income period (for a 3-year or 5-year premium payment policy) within 6 months before the income period begins.",
+        "All subsequent guaranteed and non-guaranteed policy values will be adjusted according to your choice of income period."
+      ],
+      "notesForReviewer": "The extract does not state any fee for the adjustment."
+    },
+    {
+      "trendId": "spring-income-insurance-plan_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Death benefit plus accident cover",
+      "whatProductOffers": "Pays a death benefit to the named beneficiary and, for death due to a covered accident within the first 3 policy years (one-time premium) or within the premium payment term (3-year or 5-year policies), an additional benefit equal to total annual premiums paid for the basic plan.",
+      "keyFigures": [
+        {
+          "label": "Accidental death benefit",
+          "value": "Total annual premiums paid for the basic plan",
+          "condition": "No extra premium loading"
+        },
+        {
+          "label": "Accident cover period",
+          "value": "First 3 policy years",
+          "condition": "One-time premium payment policy"
+        },
+        {
+          "label": "Accident cover period",
+          "value": "Premium payment term",
+          "condition": "3-year or 5-year premium payment policy"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The accidental death benefit is subject to an aggregate per-life limit set by AIA.",
+        "Only death due to a covered accident qualifies for the additional benefit.",
+        "Outstanding debt is deducted before payment.",
+        "The death benefit amount differs depending on when death occurs."
+      ],
+      "clientSignalPhrases": [
+        "wants something for the family if he dies",
+        "worried about accidents",
+        "main breadwinner",
+        "asked if premiums are returned on death",
+        "wants a small protection layer",
+        "has young children",
+        "asked about accidental death",
+        "wants premiums back if he dies",
+        "worried about leaving family"
+      ],
+      "negativeSignalPhrases": [
+        "no dependants",
+        "wants a large death benefit",
+        "needs comprehensive accident cover"
+      ],
+      "clientProfileFit": [
+        "Breadwinners with dependants",
+        "Clients wanting premium protection on early death",
+        "Savers who want a modest protection layer"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan returns total annual premiums as an extra benefit on accidental death during the early policy years.",
+      "verificationPrompts": [
+        "Confirm the beneficiary",
+        "Check the aggregate per-life limit",
+        "Ask whether the client needs larger death cover"
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "waiting_period",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "If the insured passes away due to a covered accident within the first 3 policy years ... the Spring Income Insurance Plan also pays a benefit equal to the total annual premiums paid for the basic plan with no extra premium loading",
+        "subject to the aggregate per life limit set by us"
+      ],
+      "notesForReviewer": "The death benefit tables are only partly captured; the extract shows formulas rather than amounts."
+    },
+    {
+      "trendId": "spring-income-insurance-plan_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Terminal dividend after five years",
+      "whatProductOffers": "A one-off non-guaranteed Terminal Dividend is payable once the policy has been in force for 5 years, if the policy is surrendered or the insured dies before maturity and the death benefit is paid in a lump sum.",
+      "keyFigures": [
+        {
+          "label": "Terminal Dividend eligibility",
+          "value": "After 5 years in force",
+          "condition": "On surrender or death before maturity"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The Terminal Dividend is non-guaranteed.",
+        "It is not payable on every exit event; only on surrender or on death before maturity where the death benefit is paid in a lump sum.",
+        "The extract does not give the Terminal Dividend amount or calculation."
+      ],
+      "clientSignalPhrases": [
+        "wants some upside beyond the guaranteed income",
+        "asked about terminal bonus",
+        "wants to surrender after 5 years",
+        "wants a savings plan with income",
+        "doesn't want pure fixed income",
+        "asked about terminal dividend",
+        "wants more than fixed income",
+        "wants some upside",
+        "planning to surrender at maturity"
+      ],
+      "negativeSignalPhrases": [
+        "wants guaranteed values only",
+        "may surrender in the first 3 years",
+        "needs a defined maturity amount"
+      ],
+      "clientProfileFit": [
+        "Clients wanting income plus some upside",
+        "Savers with a 5+ year horizon",
+        "Clients comparing income plans with bonuses"
+      ],
+      "priorityAlignment": [
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, a non-guaranteed Terminal Dividend can add to the return after the policy has been in force for 5 years.",
+      "verificationPrompts": [
+        "Confirm the client understands the dividend is non-guaranteed",
+        "Check the surrender timing",
+        "Ask whether the client needs a defined maturity value"
+      ],
+      "comparisonRows": [
+        "premium",
+        "annual_limit",
+        "renewability"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "once the policy has been in force for 5 years, we will provide you with a one-off non-guaranteed cash amount, called a Terminal Dividend"
+      ],
+      "notesForReviewer": "No Terminal Dividend scale or past declaration data in the extract."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "spring-income-insurance-plan_income_or_lifestyle_support",
+    "bestForOneLiner": "A short-premium savings plan that pays guaranteed annual income in level or increasing mode, with a one-time option to adjust the income period before it starts.",
+    "notSuitedWhen": [
+      "The client needs monthly income",
+      "The client chose a one-time premium and wants to change the income period later",
+      "The client needs the capital fully liquid",
+      "The client requires guaranteed dividends"
+    ],
+    "gapsInSourceMaterial": [
+      "No premium rates or minimum premium",
+      "Income period lengths by premium term are garbled in the extract",
+      "Accidental death aggregate limit not stated",
+      "No surrender value illustration"
+    ]
+  }
+}

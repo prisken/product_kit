@@ -1,0 +1,382 @@
+{
+  "productId": "admire-life-insurance-plan-2",
+  "productName": "Admire Life Insurance Plan 2",
+  "productType": "life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "admire-life-insurance-plan-2_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed cash value plus dividends",
+      "whatProductOffers": "A participating whole-life plan providing guaranteed cash value plus a non-guaranteed Annual Dividend each year and a non-guaranteed Terminal Dividend on surrender or death after 5 years (single premium) or 10 years (other terms).",
+      "keyFigures": [
+        {
+          "label": "Guaranteed cash value",
+          "value": "Provided",
+          "condition": "Throughout the policy"
+        },
+        {
+          "label": "Annual Dividend",
+          "value": "Yearly, non-guaranteed",
+          "condition": "Cash, offset premium, or accumulate with interest"
+        },
+        {
+          "label": "Terminal Dividend eligibility",
+          "value": "5 years / 10 years",
+          "condition": "Single premium / other premium terms"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Whole life",
+          "condition": "All premium terms"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Annual Dividends and the Terminal Dividend are not guaranteed.",
+        "The Terminal Dividend is payable only on surrender or death, and only after 5 years for a single-premium policy or 10 years for other policies.",
+        "Interest credited on accumulated dividends is at a non-guaranteed rate.",
+        "No illustrated values or dividend scales appear in the captured text."
+      ],
+      "clientSignalPhrases": [
+        "wants savings plus protection",
+        "asked about dividends",
+        "long-term education fund",
+        "wants guaranteed cash value",
+        "has a 20-year horizon",
+        "wants to accumulate for retirement",
+        "ok with non-guaranteed returns",
+        "asked about terminal dividend"
+      ],
+      "negativeSignalPhrases": [
+        "needs money back in 3 to 5 years",
+        "wants fully guaranteed growth"
+      ],
+      "clientProfileFit": [
+        "Parents saving for children's education",
+        "Professionals building long-term savings",
+        "Clients wanting protection with an accumulation component"
+      ],
+      "priorityAlignment": [
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan builds a guaranteed cash value and adds yearly dividends, with a terminal dividend if it is held at least 5 or 10 years depending on the payment term.",
+      "verificationPrompts": [
+        "Confirm the client's time horizon is at least 10 years",
+        "Ask how they want dividends treated — cash, premium offset, or accumulation",
+        "Set expectations that dividends are not guaranteed"
+      ],
+      "comparisonRows": [
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "provides you with both guaranteed cash value and non-guaranteed dividends",
+        "we will provide you with a non-guaranteed cash amount called an Annual Dividend on a yearly basis",
+        "once the policy has been in force for 5 years (for a one-time premium payment policy) or 10 years ... we will provide you with the non-guaranteed Terminal Dividend"
+      ],
+      "notesForReviewer": "No projected values, dividend history or IRR in the captured text."
+    },
+    {
+      "trendId": "admire-life-insurance-plan-2_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Lifetime death benefit for beneficiaries",
+      "whatProductOffers": "Pays a whole-life death benefit to the chosen beneficiary equal to the sum assured plus accumulated Annual Dividends with interest plus any Terminal Dividend, after deducting outstanding policy debt.",
+      "keyFigures": [
+        {
+          "label": "Benefit term",
+          "value": "Whole life",
+          "condition": "Cover to death"
+        },
+        {
+          "label": "Death benefit components",
+          "value": "Sum assured + accumulated Annual Dividends + Terminal Dividend",
+          "condition": "Terminal Dividend subject to 5/10-year rule"
+        },
+        {
+          "label": "Beneficiary",
+          "value": "Client-selected",
+          "condition": "Policy nomination"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The Terminal Dividend component is non-guaranteed and requires 5 years (single premium) or 10 years (other terms).",
+        "All outstanding debt under the policy is deducted before payment.",
+        "Dividend amounts are declared at AIA's discretion."
+      ],
+      "clientSignalPhrases": [
+        "wants to leave something for the kids",
+        "estate planning",
+        "worried about inheritance",
+        "wants a clean death benefit",
+        "single, no dependants but wants legacy",
+        "wants to nominate a beneficiary",
+        "planning for grandchildren",
+        "wants policy to pass to son"
+      ],
+      "negativeSignalPhrases": [
+        "needs income now rather than a death benefit",
+        "wants a pure term policy"
+      ],
+      "clientProfileFit": [
+        "Parents and grandparents planning a legacy",
+        "High-net-worth clients wanting simple succession",
+        "Clients wanting protection plus a death benefit that grows with dividends"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "growth"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the death benefit is not just the sum assured — it includes accumulated dividends and any terminal dividend, so the amount passed on can grow over time.",
+      "verificationPrompts": [
+        "Confirm the intended beneficiary and any trust arrangement",
+        "Ask whether the client needs liquidity before death",
+        "Check the policy term needed for the terminal dividend"
+      ],
+      "comparisonRows": [
+        "lifetime_limit",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "If the insured ... passes away, we will pay the death benefit to the person whom you select in your policy as beneficiary",
+        "the sum assured of the policy; any non-guaranteed cash amounts distributed on a yearly basis, called Annual Dividends, which have accumulated with interest under this policy; plus a one-off non-guaranteed cash amount, called a Terminal Dividend"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "admire-life-insurance-plan-2_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Fixed premiums across payment term",
+      "whatProductOffers": "Premiums are guaranteed to stay fixed throughout the chosen premium payment term, with five terms available: one-time, 5, 10, 18 and 25 years.",
+      "keyFigures": [
+        {
+          "label": "Premium payment terms",
+          "value": "5",
+          "condition": "One-time, 5, 10, 18 and 25 years"
+        },
+        {
+          "label": "Premium level",
+          "value": "Guaranteed fixed",
+          "condition": "Throughout the premium payment term"
+        },
+        {
+          "label": "Issue age",
+          "value": "15 days to 75 / 65 / 60 / 60 / 55",
+          "condition": "Varies by premium term"
+        },
+        {
+          "label": "Benefit term",
+          "value": "Whole life",
+          "condition": "All terms"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The premium is fixed only during the premium payment term; the policy remains in force after payments end.",
+        "Issue age limits differ by payment term, from 15 days–75 for single premium down to 15 days–55 for 25-year terms.",
+        "Add-on plan premiums are separate and not fixed by the basic plan."
+      ],
+      "clientSignalPhrases": [
+        "wants fixed premium",
+        "budgeting for 10 years",
+        "hates premium increases",
+        "needs predictable payments",
+        "retiring in 10 years",
+        "wants to finish paying early",
+        "asked about 5-year pay",
+        "single premium lump sum"
+      ],
+      "negativeSignalPhrases": [
+        "wants the lowest possible premium",
+        "needs flexible premium holidays"
+      ],
+      "clientProfileFit": [
+        "Clients who want to lock in cost",
+        "Pre-retirees wanting a short payment period",
+        "Parents budgeting a fixed annual amount"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, once the payment term is chosen the premium is fixed for that whole term — no increases while they are paying.",
+      "verificationPrompts": [
+        "Confirm the client's preferred payment period and cash flow",
+        "Check the issue-age limit for the chosen term",
+        "Ask whether they want to be paid up before retirement"
+      ],
+      "comparisonRows": [
+        "premium",
+        "renewability"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "Premium amounts are guaranteed to be fixed throughout the premium payment term, making it easy for you to budget",
+        "you can select from five premium payment terms",
+        "One-time premium payment / 5 years / 10 years / 18 years / 25 years"
+      ],
+      "notesForReviewer": ""
+    },
+    {
+      "trendId": "admire-life-insurance-plan-2_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Premium waiver on disability",
+      "whatProductOffers": "Waives future premiums if the insured becomes totally and permanently disabled before age 60, and offers a Payor Benefit Rider that waives premiums until the insured reaches age 25 if the payor dies or suffers TPD before age 60.",
+      "keyFigures": [
+        {
+          "label": "Waiver trigger",
+          "value": "TPD before age 60",
+          "condition": "Insured"
+        },
+        {
+          "label": "Payor Benefit Rider",
+          "value": "Premiums waived until insured age 25",
+          "condition": "If payor dies or suffers TPD before 60"
+        },
+        {
+          "label": "Underwriting",
+          "value": "Required",
+          "condition": "Offer subject to AIA's decision"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Both waivers are subject to underwriting and exclusions.",
+        "The Payor Benefit Rider is optional and may carry an additional premium (not stated in the captured text).",
+        "The waiver applies to the basic plan's future premiums, not to add-on premiums."
+      ],
+      "clientSignalPhrases": [
+        "parent paying for child",
+        "worried who pays if I'm disabled",
+        "single parent",
+        "wants child cover protected",
+        "family history of disability",
+        "wants policy to stay in force",
+        "main payor in the household",
+        "wants premiums covered if I am gone"
+      ],
+      "negativeSignalPhrases": [
+        "does not want underwriting",
+        "needs waiver after age 60"
+      ],
+      "clientProfileFit": [
+        "Parents insuring a child",
+        "Single-income households",
+        "Clients wanting the policy to survive disability"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, if the payor dies or becomes totally and permanently disabled before 60, the Payor Benefit Rider keeps the child's policy in force until age 25 without further premiums.",
+      "verificationPrompts": [
+        "Confirm who will pay the premiums",
+        "Ask whether the payor has existing disability cover",
+        "Check underwriting requirements and health history"
+      ],
+      "comparisonRows": [
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "we will waive the future premiums for Admire Life Insurance Plan 2 if the insured becomes totally and permanently disabled before the age of 60",
+        "you may select the Payor Benefit Rider under which we will waive the future premiums for the basic plan until the insured reaches the age of 25 should you pass away or suffer total and permanent disability before the age of 60"
+      ],
+      "notesForReviewer": "The captured text does not state whether the Payor Benefit Rider has an extra premium."
+    },
+    {
+      "trendId": "admire-life-insurance-plan-2_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Five terms and dividend choices",
+      "whatProductOffers": "Offers five premium payment terms, a choice of taking Annual Dividends in cash, using them to reduce premium, or leaving them to accumulate, plus optional accident, medical, critical illness and disability add-ons.",
+      "keyFigures": [
+        {
+          "label": "Premium terms",
+          "value": "5",
+          "condition": "One-time, 5, 10, 18, 25 years"
+        },
+        {
+          "label": "Dividend options",
+          "value": "3",
+          "condition": "Cash, reduce premium, accumulate with interest"
+        },
+        {
+          "label": "Currencies",
+          "value": "USD and HKD",
+          "condition": "MOP if issued in Macau"
+        },
+        {
+          "label": "Add-on types",
+          "value": "4",
+          "condition": "Accident, medical, critical illness, disability"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Single premium is available only for one-time premium payment policies.",
+        "Macau pataca is available only for policies issued in Macau.",
+        "Add-ons carry additional premiums, underwriting and exclusions, and terminate when the basic plan terminates.",
+        "Add-ons can be renewed after the basic plan is paid up only until their own expiry."
+      ],
+      "clientSignalPhrases": [
+        "wants short pay",
+        "prefers monthly payment",
+        "wants to add medical cover",
+        "asked about dividend options",
+        "wants USD policy",
+        "needs to reduce premium later",
+        "wants a rider for critical illness",
+        "plans to pay up early"
+      ],
+      "negativeSignalPhrases": [
+        "wants a single all-in product with no add-ons",
+        "needs a term policy"
+      ],
+      "clientProfileFit": [
+        "Clients with uneven cash flow",
+        "Buyers wanting to tailor protection with riders",
+        "Clients with a currency preference"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, we can match the payment term to their cash flow and decide later whether dividends are taken in cash or left to accumulate.",
+      "verificationPrompts": [
+        "Confirm the client's preferred payment frequency and currency",
+        "Ask which add-on protections they need",
+        "Explain that add-ons are separately underwritten and priced"
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "you can select from five premium payment terms according to your personal financial needs",
+        "You may choose to receive the Annual Dividends in cash, or use them to reduce any premium due under this policy",
+        "you can also choose from a range of optional add-on plans offering accident, medical, critical illness and disability protection"
+      ],
+      "notesForReviewer": ""
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "admire-life-insurance-plan-2_savings_and_wealth_growth",
+    "bestForOneLiner": "A participating whole-life plan with guaranteed cash value, annual and terminal dividends, and fixed premiums over five payment terms.",
+    "notSuitedWhen": [
+      "Client needs pure protection at the lowest premium",
+      "Client needs the money back within a few years",
+      "Client wants guaranteed dividend amounts"
+    ],
+    "gapsInSourceMaterial": [
+      "No illustrated surrender values, dividend scales or IRR in the captured text",
+      "Premium table by age and term is not captured",
+      "Full exclusions, waiting periods and surrender charges are not captured"
+    ]
+  }
+}

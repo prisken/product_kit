@@ -1,0 +1,14 @@
+.secrets.env
+data/pdfs/
+node_modules/
+.vercel/
+*.py
+*.mjs
+*.sh
+*.log
+DOCS.md
+EXTRACTION_BRIEF.md
+FOLLOWUP_SPEC.md
+REVIEW.md
+batches.json
+product-sources.json

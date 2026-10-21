@@ -1,0 +1,343 @@
+{
+  "productId": "easyguard-care-essence",
+  "productName": "EasyGuard Care Essence",
+  "productType": "critical illness insurance (lump sum, yearly renewable)",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "easyguard-care-essence_critical_illness_readiness",
+      "trendCategory": "critical_illness_readiness",
+      "isNewCategory": false,
+      "trendName": "Cancer, heart attack, stroke cover",
+      "whatProductOffers": "Pays a lump-sum Major Urban Critical Illness Benefit for cancer, heart attack and stroke, with cover to the insured's age 85.",
+      "keyFigures": [
+        {
+          "label": "Covered conditions",
+          "value": "3",
+          "condition": "cancer, heart attack, stroke"
+        },
+        {
+          "label": "Age at application",
+          "value": "18 to 65",
+          "condition": "basic plan"
+        },
+        {
+          "label": "Benefit term",
+          "value": "to age 85",
+          "condition": "yearly renewable"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Only the three named critical illnesses are covered; other major illnesses and early-stage conditions are not.",
+        "The sum assured is not stated in the extracted text.",
+        "The full critical illness definitions and any survival period are in the policy contract."
+      ],
+      "clientSignalPhrases": [
+        "wants basic CI cover",
+        "family history of heart attack",
+        "stroke scare in the family",
+        "only worried about the big three",
+        "wants lump sum not hospital bills",
+        "young and healthy, wants cheap protection",
+        "self-employed, no company cover",
+        "wants lump sum on diagnosis",
+        "family history of cancer"
+      ],
+      "negativeSignalPhrases": [
+        "wants cover for all critical illnesses",
+        "needs early stage illness cover",
+        "wants savings or cash value"
+      ],
+      "clientProfileFit": [
+        "Young adults wanting core CI protection",
+        "Self-employed clients without group cover",
+        "Budget buyers focused on the three most common conditions"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "cost"
+      ],
+      "talkingPointTemplate": "{client_detail} gets a lump sum if cancer, heart attack or stroke strikes before age 85.",
+      "verificationPrompts": [
+        "Confirm the sum assured options and premium for the client's age.",
+        "Confirm the critical illness definitions and any survival period.",
+        "Confirm whether early-stage conditions are excluded."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "waiting_period",
+        "renewability",
+        "premium"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "EasyGuard Care Essence ... covers cancer, heart attack and stroke, with affordable premiums and guaranteed renewal up to the insured's age 85.",
+        "Major Urban Critical Illness Benefit covers: Cancer; Heart Attack; Stroke"
+      ],
+      "notesForReviewer": "No sum assured or benefit amount is given in the extracted text."
+    },
+    {
+      "trendId": "easyguard-care-essence_budget_friendly_entry",
+      "trendCategory": "budget_friendly_entry",
+      "isNewCategory": false,
+      "trendName": "Affordable three-condition entry plan",
+      "whatProductOffers": "A yearly renewable plan with affordable premiums covering only the three most common critical illnesses, keeping the entry cost low.",
+      "keyFigures": [
+        {
+          "label": "Renewal period",
+          "value": "yearly",
+          "condition": "premium recalculated at each renewal"
+        },
+        {
+          "label": "Payment mode",
+          "value": "annually / monthly",
+          "condition": "basic plan"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The extracted text gives no premium figure, so affordability cannot be quantified.",
+        "Premium is based on the prevailing rate for attained age at renewal and rises with age.",
+        "A narrow three-condition scope is what keeps the premium low."
+      ],
+      "clientSignalPhrases": [
+        "cheapest CI plan",
+        "just graduated, small budget",
+        "wants something simple",
+        "premium under a few hundred a month",
+        "doesn't need comprehensive cover",
+        "first insurance policy",
+        "premium too high",
+        "student budget",
+        "first job small salary"
+      ],
+      "negativeSignalPhrases": [
+        "needs broad illness cover",
+        "wants premium fixed for life"
+      ],
+      "clientProfileFit": [
+        "Graduates and early-career clients",
+        "Clients adding a low-cost CI layer",
+        "Price-first buyers"
+      ],
+      "priorityAlignment": [
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan keeps cost down by covering only the three conditions that matter most.",
+      "verificationPrompts": [
+        "Quote the actual annual and monthly premium for the client's age.",
+        "Confirm how much the premium increases at renewal."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage",
+        "renewability"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "EasyGuard Care Essence offers budget-friendly cover for cancer, heart attack and stroke.",
+        "Affordable premiums for budget friendly protection"
+      ],
+      "notesForReviewer": "No premium figures in the extracted text; affordability is a positioning claim only."
+    },
+    {
+      "trendId": "easyguard-care-essence_premium_stability",
+      "trendCategory": "premium_stability",
+      "isNewCategory": false,
+      "trendName": "Renewal to 85, no health loading",
+      "whatProductOffers": "Guarantees renewal every year up to the insured's age 85 and states the premium will not be raised for any changes in the insured's health condition.",
+      "keyFigures": [
+        {
+          "label": "Guaranteed renewal",
+          "value": "to age 85",
+          "condition": "yearly renewal"
+        },
+        {
+          "label": "Health-based loading",
+          "value": "none",
+          "condition": "premium not raised for health changes"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Renewal premium is based on the prevailing premium rates for the insured's age, so it still increases with age.",
+        "The guarantee covers health-condition changes, not general rate revisions.",
+        "Cover ends at age 85."
+      ],
+      "clientSignalPhrases": [
+        "worried premium rises after diagnosis",
+        "wants guaranteed renewal",
+        "planning to keep it till retirement",
+        "had a health scare last year",
+        "doesn't want re-underwriting",
+        "worried premium jumps",
+        "wants no loading after claim",
+        "plans to keep long term",
+        "hates repricing"
+      ],
+      "negativeSignalPhrases": [
+        "needs lifetime renewal",
+        "expects flat premium forever"
+      ],
+      "clientProfileFit": [
+        "Clients wanting renewal certainty into retirement",
+        "People with changing health status"
+      ],
+      "priorityAlignment": [
+        "cost",
+        "coverage"
+      ],
+      "talkingPointTemplate": "{client_detail} can renew every year to age 85, and a change in health will not load the premium.",
+      "verificationPrompts": [
+        "Confirm the renewal premium basis and rate revision clause.",
+        "Confirm the guarantee extends to age 85 only."
+      ],
+      "comparisonRows": [
+        "renewability",
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "EasyGuard Care Essence guarantees that your premium will not be raised for any changes in insured's health condition. You can renew the cover every year until the insured's age 85."
+      ],
+      "notesForReviewer": "Unlike some plans, the wording covers health changes only, not claims specifically."
+    },
+    {
+      "trendId": "easyguard-care-essence_family_protection",
+      "trendCategory": "family_protection",
+      "isNewCategory": false,
+      "trendName": "Compassionate death benefit",
+      "whatProductOffers": "Pays a Compassionate Death Benefit of US$650 or HK$/MOP5,000 to the nominated beneficiary if the insured passes away.",
+      "keyFigures": [
+        {
+          "label": "Death benefit",
+          "value": "US$650",
+          "condition": "USD policy"
+        },
+        {
+          "label": "Death benefit",
+          "value": "HK$/MOP5,000",
+          "condition": "HKD or MOP policy"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The amount is a fixed compassionate benefit, not a life sum assured.",
+        "Outstanding amounts owed under the policy are deducted before payment.",
+        "This does not replace a separate life insurance plan."
+      ],
+      "clientSignalPhrases": [
+        "wants something for funeral costs",
+        "single, no dependants",
+        "just wants a small death benefit",
+        "parents want to be beneficiary",
+        "wants something for the family",
+        "young children at home",
+        "main breadwinner",
+        "single income household",
+        "parents depend on me"
+      ],
+      "negativeSignalPhrases": [
+        "needs proper life cover",
+        "wants mortgage protection"
+      ],
+      "clientProfileFit": [
+        "Young singles wanting a token death benefit",
+        "Clients who already hold separate life cover"
+      ],
+      "priorityAlignment": [
+        "coverage"
+      ],
+      "talkingPointTemplate": "If the worst happens, {client_detail}'s beneficiary receives a fixed HK$5,000 compassionate benefit.",
+      "verificationPrompts": [
+        "Confirm the death benefit amount for the chosen currency.",
+        "Confirm any deduction of outstanding policy debt."
+      ],
+      "comparisonRows": [
+        "ci_coverage",
+        "premium"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "If the insured passes away, we will pay Compassionate Death Benefit of US$650 or HK$/MOP5,000, to the person whom you select in your policy as beneficiary."
+      ],
+      "notesForReviewer": "Fixed token amount, not a life sum assured."
+    },
+    {
+      "trendId": "easyguard-care-essence_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "USD, HKD or MOP currency",
+      "whatProductOffers": "Issues the policy in US dollars or Hong Kong dollars, with Macau pataca also available for policies issued in Macau.",
+      "keyFigures": [
+        {
+          "label": "Currency options",
+          "value": "US$ / HK$",
+          "condition": "standard issue"
+        },
+        {
+          "label": "Additional currency",
+          "value": "MOP",
+          "condition": "policy issued in Macau"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Macau pataca is available only for policies issued in Macau.",
+        "Currency choice is fixed at issue and affects the benefit amounts paid."
+      ],
+      "clientSignalPhrases": [
+        "wants USD policy",
+        "works in Macau",
+        "wants to match income currency",
+        "concerned about HKD depreciation",
+        "paid in US dollars",
+        "wants to choose currency",
+        "income unstable",
+        "wants options later",
+        "job loss risk"
+      ],
+      "negativeSignalPhrases": [
+        "wants multi-currency switching",
+        "needs RMB policy"
+      ],
+      "clientProfileFit": [
+        "Clients with USD income",
+        "Macau-based clients"
+      ],
+      "priorityAlignment": [
+        "flexibility"
+      ],
+      "talkingPointTemplate": "{client_detail} can hold the policy in USD or HKD, with MOP available for Macau-issued policies.",
+      "verificationPrompts": [
+        "Confirm which currencies are available for the client's residency.",
+        "Confirm whether currency can be changed after issue."
+      ],
+      "comparisonRows": [
+        "premium",
+        "ci_coverage"
+      ],
+      "trendStrength": "minor",
+      "evidenceStrength": "strong",
+      "sourceEvidence": [
+        "For your convenience, we offer this policy in US dollars and HK dollars. If the policy is issued in Macau, you can also choose Macau pataca as the currency."
+      ],
+      "notesForReviewer": "Currency switching after issue is not mentioned."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "easyguard-care-essence_critical_illness_readiness",
+    "bestForOneLiner": "A low-cost yearly renewable plan paying a lump sum for cancer, heart attack and stroke up to age 85.",
+    "notSuitedWhen": [
+      "The client wants cover for more than three critical illnesses.",
+      "The client needs cover beyond age 85.",
+      "The client wants savings, cash value or a meaningful death benefit."
+    ],
+    "gapsInSourceMaterial": [
+      "Sum assured options",
+      "Premium table by age",
+      "Critical illness definitions and survival period"
+    ]
+  }
+}

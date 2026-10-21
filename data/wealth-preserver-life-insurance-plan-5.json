@@ -1,0 +1,218 @@
+{
+  "productId": "wealth-preserver-life-insurance-plan-5",
+  "productName": "Wealth Preserver Life Insurance Plan 5",
+  "productType": "universal life insurance",
+  "market": "Hong Kong",
+  "trends": [
+    {
+      "trendId": "wealth-preserver-life-insurance-plan-5_legacy_and_estate",
+      "trendCategory": "legacy_and_estate",
+      "isNewCategory": false,
+      "trendName": "Flexible legacy control",
+      "whatProductOffers": "A universal life plan designed so the policy can be structured around a client's estate planning arrangements, passing wealth to future generations with control over how it is distributed.",
+      "keyFigures": [
+        {
+          "label": "Plan type",
+          "value": "Universal life",
+          "condition": "whole-life insurance protection"
+        },
+        {
+          "label": "Control",
+          "value": "Policy design aligned to estate planning arrangements",
+          "condition": "per brochure wording"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "The excerpt does not state probate, trust or beneficiary-designation mechanics; those sections are outside the supplied text.",
+        "Death benefit is subject to deduction of amounts owed to the company (standard policy terms, not detailed in the excerpt)."
+      ],
+      "clientSignalPhrases": [
+        "wants to pass wealth to the next generation",
+        "estate planning case",
+        "three children, needs to split fairly",
+        "doesn't want a probate delay",
+        "wants control over who gets what",
+        "grandchildren's education fund",
+        "family succession planning",
+        "UHNW estate case",
+        "wants a policy that fits the will",
+        "needs to move wealth offshore later"
+      ],
+      "negativeSignalPhrases": [
+        "needs the money back in 2-3 years",
+        "wants pure investment fund exposure",
+        "only needs a small death benefit"
+      ],
+      "clientProfileFit": [
+        "Business owners planning succession",
+        "Parents and grandparents transferring wealth",
+        "Clients with an existing will or trust structure"
+      ],
+      "priorityAlignment": [
+        "coverage",
+        "flexibility"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the policy can be built around the estate plan, so the transfer of wealth follows the client's wishes rather than a default distribution.",
+      "verificationPrompts": [
+        "Confirm beneficiary and contingent-owner mechanics in the policy contract.",
+        "Confirm whether policy values count toward the estate for probate in the client's case.",
+        "Confirm death benefit calculation and any outstanding-amount deductions."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"Your policy can be designed to suit your estate planning arrangements\"",
+        "\"a universal life insurance plan that offers whole-life insurance protection as well as flexible control of your financial legacy\"",
+        "\"avoiding extra cost and delay\""
+      ],
+      "notesForReviewer": "Only 4,214 characters of brochure text supplied, ending mid-brochure; later sections (charges, surrender, exclusions) missing."
+    },
+    {
+      "trendId": "wealth-preserver-life-insurance-plan-5_savings_and_wealth_growth",
+      "trendCategory": "savings_and_wealth_growth",
+      "isNewCategory": false,
+      "trendName": "Guaranteed 2.00% crediting floor",
+      "whatProductOffers": "The policy credits a guaranteed minimum crediting interest rate of 2.00% per annum for the full duration of the policy, while the account value can also grow through declared crediting rates above that floor.",
+      "keyFigures": [
+        {
+          "label": "Minimum crediting interest rate",
+          "value": "2.00% per annum",
+          "condition": "guaranteed for the duration of the policy"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "2.00% is a floor, not a projection; declared crediting rates above it are not guaranteed and are not shown in the supplied text.",
+        "Policy charges are deducted from the account value; the charge schedule is not included in the excerpt.",
+        "Surrender before the intended horizon may return less than premiums paid (standard for universal life; specific schedule not in source)."
+      ],
+      "clientSignalPhrases": [
+        "wants a guaranteed floor, not projections",
+        "worried about 0% years",
+        "doesn't trust illustrated returns",
+        "needs something stable for the long run",
+        "legacy money that must not lose value",
+        "compare against fixed deposit",
+        "wants upside but a safety net",
+        "USD/HKD stability",
+        "wants to lock in a rate",
+        "conservative but wants some growth"
+      ],
+      "negativeSignalPhrases": [
+        "wants maximum equity upside",
+        "needs a high current yield",
+        "plans to surrender in year 3"
+      ],
+      "clientProfileFit": [
+        "Conservative long-horizon savers",
+        "Clients holding legacy money for 15+ years",
+        "Clients who dislike pure illustration-based projections"
+      ],
+      "priorityAlignment": [
+        "growth",
+        "coverage"
+      ],
+      "talkingPointTemplate": "For {client_detail}, the plan guarantees a 2.00% per annum minimum crediting rate for the whole policy duration, so the legacy is not exposed to a zero-rate year.",
+      "verificationPrompts": [
+        "Confirm the current declared crediting rate versus the 2.00% floor.",
+        "Obtain the policy charge and cost-of-insurance schedule.",
+        "Confirm surrender value behaviour in early years."
+      ],
+      "comparisonRows": [
+        "premium",
+        "lifetime_limit",
+        "add_ons"
+      ],
+      "trendStrength": "core",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"guaranteeing a minimum crediting interest rate of 2.00% per annum for the duration of your policy\""
+      ],
+      "notesForReviewer": "Guarantee is on the crediting rate, not on the total account value or surrender value."
+    },
+    {
+      "trendId": "wealth-preserver-life-insurance-plan-5_flexibility_and_customisation",
+      "trendCategory": "flexibility_and_customisation",
+      "isNewCategory": false,
+      "trendName": "Flexible premium scheduling",
+      "whatProductOffers": "The client chooses both the amount of premium paid and how often it is paid, rather than committing to a fixed premium table.",
+      "keyFigures": [
+        {
+          "label": "Premium amount",
+          "value": "Chosen by the client",
+          "condition": "per brochure wording"
+        },
+        {
+          "label": "Payment frequency",
+          "value": "Chosen by the client",
+          "condition": "per brochure wording"
+        }
+      ],
+      "exclusionsOrConditions": [
+        "Minimum premium levels and any maximum are not stated in the supplied excerpt.",
+        "Flexibility applies to premium scheduling; it does not remove policy charges, which continue to be deducted.",
+        "Underfunding the policy may reduce the duration of cover; the minimum funding test is not in the text."
+      ],
+      "clientSignalPhrases": [
+        "lumpy income, needs to pay when cash comes in",
+        "bonus-driven income",
+        "freelancer cash flow",
+        "doesn't want a fixed annual commitment",
+        "wants to top up later",
+        "business owner with uneven profits",
+        "wants to decide the premium size",
+        "prefers monthly but may switch",
+        "needs to keep other plans running"
+      ],
+      "negativeSignalPhrases": [
+        "wants a fixed guaranteed premium table",
+        "needs a defined savings schedule for goal planning",
+        "is a small-ticket saver"
+      ],
+      "clientProfileFit": [
+        "Business owners with irregular cash flow",
+        "Freelancers and commission earners",
+        "Clients funding a legacy alongside other goals"
+      ],
+      "priorityAlignment": [
+        "flexibility",
+        "cost"
+      ],
+      "talkingPointTemplate": "For {client_detail}, premium amount and frequency are chosen by the client, so the legacy funding can flex with the client's cash flow.",
+      "verificationPrompts": [
+        "Confirm minimum premium and any minimum account value requirement.",
+        "Confirm whether changing frequency later triggers charges.",
+        "Confirm the effect of underfunding on policy duration."
+      ],
+      "comparisonRows": [
+        "premium",
+        "add_ons"
+      ],
+      "trendStrength": "secondary",
+      "evidenceStrength": "medium",
+      "sourceEvidence": [
+        "\"you can choose the amount of premium you wish to pay and how often you pay it\""
+      ],
+      "notesForReviewer": "No premium table or minimum premium figure in the supplied excerpt."
+    }
+  ],
+  "productLevelSummary": {
+    "primaryTrend": "wealth-preserver-life-insurance-plan-5_legacy_and_estate",
+    "bestForOneLiner": "A universal life policy for estate transfer, with client-set premiums and a guaranteed 2.00% per annum minimum crediting rate.",
+    "notSuitedWhen": [
+      "The client needs liquidity within a few years",
+      "The client wants equity-linked investment upside",
+      "The client only needs cheap term cover"
+    ],
+    "gapsInSourceMaterial": [
+      "Premium table and minimum premium",
+      "Cost-of-insurance and policy charges",
+      "Surrender charge schedule",
+      "Full exclusions and policy loan terms"
+    ]
+  }
+}
