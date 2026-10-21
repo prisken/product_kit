@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Create account — AIA Product Kit</title>
+<link rel="stylesheet" href="styles.css?v=1">
+<style>
+.auth-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;background:
+  radial-gradient(900px 400px at 80% -10%, #fdf1f4 0%, transparent 60%), var(--bg)}
+.auth{width:100%;max-width:400px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 24px;
+  box-shadow:0 18px 50px rgba(23,26,33,.08)}
+.auth .brand{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:800}
+.auth h1{margin:8px 0 4px;font-size:24px;letter-spacing:-.02em}
+.auth p.sub{margin:0 0 18px;color:var(--muted);font-size:13.5px}
+.auth label{display:block;font-size:12px;font-weight:750;letter-spacing:.04em;text-transform:uppercase;color:var(--faint);margin:12px 0 6px}
+.auth input{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;font:inherit;font-size:16px;background:#fff}
+.auth input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.auth .btn{width:100%;justify-content:center;margin-top:18px;padding:11px;font-size:14px;min-height:44px}
+.auth .err{display:none;margin-top:12px;background:var(--red-bg);border:1px solid #fecdca;color:var(--red);
+  border-radius:9px;padding:9px 11px;font-size:13px}
+.auth .err.on{display:block}
+.auth .alt{margin-top:16px;font-size:13.5px;color:var(--muted);text-align:center}
+.auth .alt a{color:var(--accent);font-weight:700;text-decoration:none}
+.auth .fine{margin-top:18px;font-size:11.5px;color:var(--faint);line-height:1.5;text-align:center}
+</style></head><body>
+<div class="auth-wrap">
+  <div class="auth">
+    <div class="brand">AIA Product Kit</div>
+    <h1>Create account 註冊</h1>
+    <p class="sub">One account per agent. Takes a few seconds.<br>每位代理一個帳戶，幾秒完成。</p>
+    <form id="f" novalidate>
+      <label for="name">Name 姓名</label>
+      <input id="name" type="text" autocomplete="name">
+      <label for="email">Email 電郵</label>
+      <input id="email" type="email" autocomplete="email" required>
+      <label for="password">Password 密碼 <span style="text-transform:none;font-weight:600">(8+ characters)</span></label>
+      <input id="password" type="password" autocomplete="new-password" minlength="8" required>
+      <button class="btn" type="submit" id="go">Create account 註冊</button>
+      <div class="err" id="err"></div>
+    </form>
+    <div class="alt">Already have an account? <a href="signin.html">Sign in 登入</a></div>
+    <div class="fine">By creating an account you agree to keep client data confidential.</div>
+  </div>
+</div>
+<script>
+const f=document.getElementById("f"), err=document.getElementById("err"), go=document.getElementById("go");
+f.onsubmit=async e=>{
+  e.preventDefault(); err.classList.remove("on"); go.disabled=true; go.textContent="Creating… 建立中…";
+  try{
+    const r=await fetch("/api/auth/signup",{method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({name:document.getElementById("name").value,email:document.getElementById("email").value,password:document.getElementById("password").value})});
+    const d=await r.json();
+    if(!r.ok||!d.ok) throw new Error(d.error||"Could not create the account.");
+    location.replace("/wizard.html");
+  }catch(x){ err.textContent=x.message; err.classList.add("on"); go.disabled=false; go.textContent="Create account 註冊"; }
+};
+</script></body></html>
