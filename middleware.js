@@ -3,9 +3,11 @@ import { jwtVerify } from "jose";
 const COOKIE = "pk_session";
 const secret = () => new TextEncoder().encode(process.env.AUTH_SECRET || "");
 
-export default async function middleware(req) {
-  const { pathname, search } = req.nextUrl;
-  const raw = req.headers.get("cookie") || "";
+export default async function middleware(request) {
+  const url = new URL(request.url);
+  const { pathname, search } = url;
+
+  const raw = request.headers.get("cookie") || "";
   const m = raw.match(new RegExp("(?:^|; )" + COOKIE + "=([^;]*)"));
   const token = m ? decodeURIComponent(m[1]) : "";
   let ok = false;
@@ -20,9 +22,10 @@ export default async function middleware(req) {
       headers: { "Content-Type": "application/json" },
     });
   }
-  const url = new URL("/signin.html", req.url);
-  url.searchParams.set("next", pathname + search);
-  return new Response(null, { status: 302, headers: { Location: url.toString() } });
+
+  const to = new URL("/signin.html", url.origin);
+  to.searchParams.set("next", pathname + search);
+  return new Response(null, { status: 302, headers: { Location: to.toString() } });
 }
 
 export const config = {
